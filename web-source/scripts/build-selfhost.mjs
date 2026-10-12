@@ -1,0 +1,13 @@
+import {build} from 'vite';
+import react from '@vitejs/plugin-react';
+import {fileURLToPath} from 'node:url';
+import path from 'node:path';
+import {readFile,writeFile} from 'node:fs/promises';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const outDir=process.argv[2];
+if(!outDir||!path.isAbsolute(outDir))throw new Error('Pass an absolute output directory.');
+await build({configFile:false,root,publicDir:path.join(root,'public'),plugins:[react()],define:{'process.env.NODE_ENV':JSON.stringify('production')},resolve:{alias:{'@':root}},build:{outDir,emptyOutDir:false,lib:{entry:path.join(root,'app/selfhost.tsx'),formats:['es'],fileName:()=> 'app.js',cssFileName:'battle-ui'},minify:true,sourcemap:false}});
+const release=(await readFile(path.join(root,'lib/app-version.ts'),'utf8')).match(/APP_VERSION\s*=\s*['"](\d+\.\d+\.\d+)['"]/);
+if(!release)throw new Error('Missing shared release version.');
+const shell=await readFile(path.join(root,'scripts/selfhost-shell.html'),'utf8');
+await writeFile(path.join(outDir,'index.html'),shell.replaceAll('__APP_VERSION__',release[1]));

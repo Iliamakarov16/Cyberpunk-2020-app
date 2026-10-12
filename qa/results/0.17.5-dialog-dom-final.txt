@@ -1,0 +1,1 @@
+Actual React/Radix DOM: no automatic keyboard focus, visible viewport resize/pan/restore, focused input reveal, and unmount passed. No pixel/real IME claim.

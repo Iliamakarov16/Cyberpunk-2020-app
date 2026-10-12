@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#191a1c">
+  <title>Примерочная · Night City 2020</title>
+  <meta name="description" content="Тестовая примерочная персонажа Cyberpunk 2020.">
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/paperdoll-preview.css">
+  <script src="/paperdoll-preview.js" defer></script>
+</head>
+<body>
+<main class="workbench">
+  <header class="masthead"><a href="/" class="wordmark" aria-label="Вернуться в трекер">NC<span>•</span><small>2020</small></a><h1>Примерочная</h1><span class="edition">ПРОБА 02</span></header>
+  <section class="stage" aria-label="Внешность персонажа">
+    <div class="stage-tools"><div class="view-switch" role="group" aria-label="Масштаб персонажа"><button type="button" data-view="body" aria-pressed="true">Весь рост</button><button type="button" data-view="portrait" aria-pressed="false">Портрет</button></div><button type="button" id="reset" class="reset">Сбросить</button></div>
+    <div class="figure-window" id="figure-window"><div id="doll" class="doll" aria-label="Рисованный персонаж"><canvas id="body-layer" width="1024" height="1536"></canvas><div id="layers"></div></div><div class="loading" id="loading" role="status">Готовлю чувачка…</div></div>
+    <div class="worn" id="worn" aria-label="Надетые вещи"></div>
+  </section>
+  <section class="editor" aria-label="Одежда и внешность">
+    <nav class="main-tabs" aria-label="Настройки персонажа"><button type="button" data-tab="clothes" aria-pressed="true">Одежда</button><button type="button" data-tab="appearance" aria-pressed="false">Внешность</button></nav>
+    <div class="choices" id="choices" tabindex="-1"></div>
+    <p class="test-note">Тестовая примерочная. Лист персонажа не меняется.</p>
+  </section>
+  <p class="sr-only" id="announcement" role="status" aria-live="polite"></p>
+</main>
+</body>
+</html>

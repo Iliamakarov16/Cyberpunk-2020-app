@@ -1,0 +1,11 @@
+{
+  "filename": "NightCity_Crew_0.17.4-mobile.1.apk",
+  "package": "app.nightcity.crew.mobile",
+  "bytes": 62759006,
+  "sha256": "808929774e4e356952f37b6ebe8a40ec231a593a23c92656f8bd2d09c77238d7",
+  "pythonModulesExact": 4,
+  "payloadFilesExact": 201,
+  "newAppearanceFilesExact": 8,
+  "nativeLibrariesByteUnchanged": 16,
+  "publicSourceCertificateMatchesAPK": true
+}

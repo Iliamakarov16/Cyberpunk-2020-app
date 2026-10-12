@@ -1,0 +1,275 @@
+{
+  "version": 2,
+  "generator": "Built-in image_gen__imagegen",
+  "canvas": [
+    1024,
+    1536
+  ],
+  "style": "Original flat hand-ink civilian cartoon; early 1990s graphic novel; clear dark outline and simple two-tone garment shading.",
+  "base": "base-male.png",
+  "finalAssets": [
+    "base-male.png",
+    "tshirt-burgundy.png",
+    "jeans-charcoal-blue.png",
+    "jacket-teal-open.png",
+    "sneakers-gray.png",
+    "hair-short-dark.png",
+    "hair-swept-burgundy.png",
+    "stubble.png",
+    "scar-eyebrow.png",
+    "tattoo-sprig.png"
+  ],
+  "notes": [
+    "Generated files intentionally untouched after copying: no raster repair or art drawing by code.",
+    "Every selected asset is RGBA 1024x1536 with genuine alpha.",
+    "Imagegen repeatedly changed cutout scale despite absolute-coordinate prompts. These require renderer registration against base anatomical landmarks; exact pixel registration is not verified.",
+    "Open jacket center opening verified alpha0 across x512 at y220,300,400,500,700,900.",
+    "T-shirt neck interior remains burgundy rather than alpha opening; renderer should preserve neck over collar or use targeted masking if justified.",
+    "Hair and appearance marks enlarged and need normalization before overlay.",
+    "Base torso was simplified once after initial result looked too muscular; selected base ordinary proportions/no six pack.",
+    "Base has warm skin with ink preserved for runtime palette tint; no alternate whole-body atlas."
+  ],
+  "prompts": {
+    "baseInitial": "Use case: stylized-concept\nAsset type: original modular paper-doll base for civilian Cyberpunk 2020 character wardrobe prototype.\nPrimary request: draw ONE ordinary adult male, age 28, slim-average build, friendly recognizable face, bald head, clean shaven. Full body frontal orthographic relaxed A pose: shoulders level, arms gently angled about 12 degrees away from body, elbows straight, hands relaxed with palms inward, feet parallel shoulder-width apart. Wearing ONLY modest dark charcoal boxer briefs.\nStyle/medium: consistent flat hand-ink 2D cartoon, early 1990s graphic novel character art. Clear dark near-black ink outline, clean legible silhouettes, simple facial lines, two skin shade tones only with small flat shadow shapes. Neutral warm medium-light skin. Crisp illustrative edges, no photographic shading, no blur, no texture or tiny detail.\nScene/backdrop: genuinely transparent background with alpha. No scenery, no props, no floor shadow.\nComposition/framing: exactly 1024x1536 portrait canvas. Figure centered on x=512; bald crown around y=70, soles around y=1460. Full figure visible without cropping, generous transparent margin. Minimal perspective. Pose symmetric enough for modular clothes. No weapon, no armor, no accessories, no tattoos, no hair.\nConstraints: one complete adult male character only. Ordinary civilian body, human anatomical proportions. Underwear remains opaque. NO other clothing. NO grid, NO labels, NO text, NO watermark, NO background. Must be original, not copied from any game or artist. All garment asset edits will use this pose and absolute canvas placement.",
+    "baseFinalCorrection": "Use case: identity-preserve\nAsset type: selected modular paper-doll BASE image correction.\nInput Image 1 is the edit target. Keep the SAME face identity, head location, full frontal relaxed A pose, limb locations, hands, legs, feet, charcoal modest boxer briefs, outline placement and 1024x1536 canvas absolutely unchanged. Keep a genuinely transparent alpha background.\nChange ONLY the body rendering to an ORDINARY slim-average non-athletic civilian man: soften pectoral outline, make abdomen plain with NO six-pack, remove all carved muscle striations and almost all interior anatomy detail. Remove gradients and the many shadow patches. Use ONE flat warm skin base color and ONE flat skin shadow color, with simple very sparse shadow shapes. Arms and legs ordinary and not heavily muscled.\nStyle remains clean original 2D hand-ink cartoon with dark outline and simple readable face, early 1990s graphic novel. Everything crisp, non-photographic. No new clothing, hair, accessories, tattoo, weapon, background, ground shadow, text or watermark. Preserve exact canvas registration.",
+    "shirtInitial": "Use case: precise-object-edit\nAsset type: ONE full-canvas clothing-only layer for a modular 2D paper doll.\nInput image 1 is the edit target and registration template: original bald male base on 1024x1536 portrait canvas.\nPrimary request: draw an ordinary plain burgundy short-sleeve crewneck T-shirt that fits this exact man's torso and pose, then make the ENTIRE MAN and all underwear disappear to full transparency, leaving ONLY THE T-SHIRT. The shirt is an empty cloth shape, no body or mannequin inside. Transparent outside garment and transparent empty crewneck opening.\nAbsolute placement: preserve original 1024x1536 canvas with garment positioned where it would dress the reference man, no crop, recenter or resize. Neck opening around x465–560,y263–310. Shirt shoulder silhouette extends roughly x305–718 at y282; short sleeves follow original upper arms, end around y431 with outer x~285 and~739; lower shirt hem at y689; waist spans x~379–645. T-shirt goes over his boxer waistband.\nStyle: same clean original dark hand-ink outlines and very simple flat cartoon, two burgundy cloth shade tones, minimal broad folds, early 1990s graphic novel. No realistic texture, no blurry rendering.\nConstraints: clothing-only registered cutout, NO skin, NO face, NO arms, NO hands, NO legs, NO feet, NO underwear, NO mannequin. NO pants, jacket or shoes. Genuinely transparent alpha background. No detached thumbnail, no inventory layout, no additional objects, no text, no logo, no watermark. Do not move the shirt to the center of the canvas.",
+    "shirtCorrection": "Use case: precise-object-edit\nAsset type: corrected clothing-only layer, exact registration crucial.\nInput image 1 is the male BASE registration template, input image 2 is the oversized burgundy T-shirt edit target.\nChange ONLY the T-shirt SIZE AND VERTICAL EXTENT so it dresses input image1 correctly when both 1024x1536 canvases are overlaid without scaling. The current shirt image2 is far too big and long. Keep its clean dark outline, burgundy palette and simple cartoon style.\nABSOLUTE required pixel bounds: shirt collar top y263; bottom hem y690, not y936. Shirt leftmost sleeve x275 and rightmost sleeve x749, not x157/867. Shoulder tops y284, sleeve ends y437, torso waist left x378/right646. Crewneck opening x463–561,y264–305. Centerline x512. No resizing the canvas.\nOutput ONLY THE CORRECTLY SIZED SHIRT in its proper upper-body position within a transparent 1024x1536 canvas. Entire rest of canvas empty transparent. No character, no body, no skin, no head, arms, hands, legs, feet, underwear or mannequin. Collar opening truly empty transparent. Do NOT zoom in on shirt or fill canvas. Do NOT center vertically. The shirt must stay at the original man's torso location. No text, logo or watermark.",
+    "jeans": "Use case: precise-object-edit\nAsset type: clothing-only registered lower-body layer for original 2D paper doll.\nInput image 1 is the edit target and exact positional template, 1024x1536 full-body man.\nPrimary request: replace his boxer briefs and bare legs with ordinary straight-leg dark charcoal-blue jeans which cover exactly the reference pelvis and legs; then ERASE THE ENTIRE MAN to full transparency leaving ONLY THE JEANS. Jeans remain in the exact lower-body location, empty invisible mannequin pose.\nComposition: keep original 1024x1536 canvas. Jeans waistband at y645, covers pelvis x356–669, crotch y823. Left pant leg follows left leg downward to cuff around x343–416,y1390. Right pant leg follows right leg downward to cuff around x605–671,y1390. Outer thigh spans x~349–675. Pant legs slightly separated following original parallel stance. Do not recenter, zoom, resize or shift jeans upward. Large top ~640 pixels of image remains EMPTY TRANSPARENT.\nStyle: same clean hand ink dark outlines, early 1990s flat cartoon, two dark denim tones, broad simple few folds, ordinary pockets, belt loops and fly. No camouflage, no cargo pockets, no chains or accessories. No realistic fabric texture.\nConstraints: ONLY JEANS with no skin, no head, torso, hands, feet, mannequin, shoes, underwear or other clothes. Genuinely transparent alpha background with empty gap between legs. No ground shadow, no labels, no text, no logos, no watermark. Original civilian garment.",
+    "jacket": "Use case: precise-object-edit\nAsset type: open-jacket-only transparent modular paper-doll layer.\nInput image1 is the full-body male BASE and absolute registration template.\nPrimary request: dress the exact reference body with a simple civilian TEAL light leather jacket OPEN DOWN THE ENTIRE FRONT, sleeves following his relaxed A-pose; then REMOVE the entire man and all other clothes, leaving ONLY THE OPEN JACKET in his original torso-and-arm locations. The inside opening must be empty alpha all the way from neck to bottom hem, so any separate T-shirt below it is visible. Do not fill the opening with lining, shirt, skin or dark color. Two separate front panels and side sleeves joined at shoulders, clearly open center.\nCanvas registration: keep 1024x1536. Collar near y253, shoulders near y282, jacket hem y710. Full sleeves follow original arms 12 degrees outward, ending at reference wrists around left x~225–270,y746 and right x~752–799,y746. Jacket shoulders x~303–720. Do not change pose, zoom, recenter or resize. Upper head zone remains empty transparent. Bottom half below y760 stays empty transparent. Center of torso from around x465–559,y320 to x449–574,y708 is EMPTY TRANSPARENT.\nStyle: same dark hand-ink clear outlines, simple original early 1990s flat cartoon. Two muted teal shade tones, simple unbranded collar, plain cuffs, two discreet civilian pockets, very few broad flat folds. Thin lightweight leather, no shiny glare. NOT tactical, NO armor, NO spikes, NO military styling.\nConstraints: only jacket empty cutout. No body, head, face, hands, skin, shirt, pants, shoes, mannequin or background. Truly transparent alpha outside garment AND through center opening. No labels, logos, text, watermark, weapon or accessories.",
+    "shoes": "Use case: precise-object-edit\nAsset type: shoes-only registered cutout for original 2D paper doll.\nInput image1 is the complete man BASE and registration template on 1024x1536.\nPrimary request: replace his bare feet with a matching pair of ordinary simple gray low-top lace sneakers, then erase the entire man including feet and all other clothes, leaving ONLY THE PAIR OF SNEAKERS in the exact original foot locations near bottom of canvas. Pair faces forward with slight natural outward angle following reference toes. No fancy sneaker brand.\nComposition: keep full 1024x1536 canvas unchanged. Left sneaker occupies approx x292–425,y1361–1483, right sneaker approx x598–730,y1361–1483. Shoes remain separated across the original stance, center gap x426–597. Uppers fit ankle opening at x354–409 and x614–667. ALL canvas above y1350 remains EMPTY TRANSPARENT. Do not zoom in, crop, recenter or enlarge. Tiny shoes at the bottom of tall transparent canvas are intended.\nStyle: same original flat early 1990s cartoon, clear dark ink outlines, two gray tones, simple white-gray soles, only a few simple lace marks. Crisp not realistic or blurry.\nConstraints: shoes ONLY with no skin, feet, ankles, legs, pants, person, mannequin, body, background, floor, shadow, label, logo, text, watermark or other object. Genuinely transparent alpha outside shoes and empty ankle openings.",
+    "shortHair": "Use case: precise-object-edit\nAsset type: short-hair-only modular paper doll appearance layer.\nInput image1 is the full body original bald man BASE, exact head registration template.\nPrimary request: give this exact man's bald head a ordinary neat short dark charcoal crop haircut, following his existing crown/head silhouette; then erase the ENTIRE MAN including face and skin, leaving ONLY THE HAIR SHAPE in the exact top-of-head location. This is a wig-like flat ink cutout, not a portrait.\nCanvas1024x1536 must remain intact; hair is SMALL near TOP: outer bounds about x438–580,y35–134; crown around x510,y35. Hairline naturally covers forehead top to y101 with short temple extensions ending y135. Hair DOES NOT cover eyebrows at y115–122 or eyes at y130. ALL REST OF CANVAS blank transparent. Do not zoom into hair or reposition to image center.\nStyle: same original early1990s flat hand-ink cartoon, clean dark outline, two dark charcoal hair tones and few simple broad locks, NO realistic hair strands or gradient, friendly ordinary civilian.\nConstraints: ONLY HAIR. No face, eyes, eyebrows, ears, neck, torso, skin, body, pants, background, shadow, wig stand, labels, text, watermark or other objects. Genuinely transparent alpha. Keep native head size/pose/location from base.",
+    "sweptHair": "Use case: precise-object-edit\nAsset type: second hair-only modular paper doll appearance layer.\nInput image1 is original bald full-body male BASE and exact head positional template.\nPrimary request: a short side-swept dark charcoal hairstyle with a simple muted burgundy streak over the front fringe, suitable ordinary 28-year-old civilian. Hair follows this same man's crown, leaving friendly face visible. Then ERASE ALL OF THE MAN including skin and face leaving ONLY THE HAIR.\n1024x1536 full canvas must stay. Hair small at TOP original head location: bounds approximately x439–582,y24–135; crown around x512,y24, fringe sweeps sideways above forehead ending around y109. Short temple hair may extend y134. Base eyebrows y115 must stay uncovered. ALL REST OF CANVAS blank transparent, no recenter, enlarge, zoom or crop.\nStyle: same original flat early1990s hand-ink cartoon, dark clear outline, simple broad solid locks, charcoal hair and burgundy streak each one highlight tone. No photographic hair strands, no gradient, blur or shine.\nConstraints: ONLY HAIR CUTOUT, transparent through face opening. NO face, eyes, eyebrows, ears, skin, neck, torso, body, clothes, wig stand, background, shadow, labels, text or watermark. Match exact base head orientation. No giant mohawk, no spikes.",
+    "stubble": "Use case: precise-object-edit\nAsset type: STUBBLE ONLY modular appearance layer for a 2D paper doll.\nInput image1 is exact bald male BASE identity/position template.\nPrimary request: add a small simple close dark charcoal stubble beard and moustache to the original face, with sparse small ink dashes and transparent space between them. After adding stubble REMOVE ALL of the man and every face/skin pixel; output ONLY THE STUBBLE MARKS, registered in original face location. No face plate or skin background. Upper lip marks follow original mouth at y180; short jaw/beard marks follow x461–560,y165–218. Do not obscure original smiling mouth, nose or eyes.\n1024x1536 full canvas unchanged; tiny stubble cluster in top center around x460–564,y161–219. All other canvas empty transparent. NO zoom, no recenter, no portrait, no huge full beard.\nStyle: same clean dark hand-ink 2D cartoon, sparse broad small dashes, two dark charcoal tones only. No photoreal hair texture, gradient or blur.\nConstraints: only isolated stubble flecks, genuinely transparent background AND spaces between flecks. NO eyes, eyebrows, hair on crown, lips, teeth, nose, ears, head, skin, neck, body, clothing, mannequin, background, shadow, text or watermark. No big solid beard silhouette.",
+    "scar": "Use case: precise-object-edit\nAsset type: tiny healed eyebrow scar ONLY, modular 2D paper doll appearance layer.\nInput image1 is original bald man full body BASE and exact face positional template.\nPrimary request: add ONE small healed slightly diagonal eyebrow scar on his LEFT eyebrow as seen by viewer (viewer-left at x477,y117). Simple pale muted tan line with tiny brown edge, no blood, no fresh wound, no stitches. Then ERASE ALL OF THE MAN INCLUDING FACE AND SKIN leaving ONLY THE SCAR LINE itself on transparent alpha. Scar should lie across eyebrow like a tiny natural break.\nCanvas registration: unchanged 1024x1536 canvas. Tiny scar bounds approx x474–480,y108–128 in original upper-left eyebrow location. Entire rest of canvas blank transparent. NO enlargement, zoom, cropping or centering. Mark is intentionally very tiny in tall full-body canvas.\nStyle: same simple original flat hand-ink cartoon. Scar one pale warm color and one darker tan thin edge, subtle. No photoreal texture.\nConstraints: ONLY ONE tiny scar. NO skin patch or face fragment, no eyebrow, no eyes, nose, head, neck, body, hair, clothing, background, shadows, text, logo, watermark or other objects. Genuinely transparent alpha outside scar. No jewelry, no cybernetic object.",
+    "tattoo": "Use case: precise-object-edit\nAsset type: small ink TATTOO ONLY modular paper doll upper-arm appearance layer.\nInput image1 is the original full-body ordinary bald man BASE and positional template.\nPrimary request: add a tiny simple faded dark charcoal tattoo of an original abstract three-line branching sprig on the man's viewer-left outer upper arm, then erase the entire man and all skin/body/clothes leaving ONLY THE TATTOO INK MARKS in the original upper-arm position. Small understated civilian ink, not military or gang symbol, no letters, no circuits, no technology graphic.\n1024x1536 full canvas unchanged. Tattoo occupies approx x308–336,y449–498, follows reference upper-arm angle very slightly. All rest of canvas blank genuinely transparent. Do not zoom, center or enlarge tiny tattoo. Tiny ink layer is intended on the full-body canvas.\nStyle: SAME simple hand-ink early1990s flat cartoon as reference; three/four dark charcoal lines, no realism, no pasted glossy sharp design, no gradients, no detailed skin, no decorative frame, no metallic shine. Modest worn ink color around charcoal #35323b.\nConstraints: ONLY small TATTOO MARKS. Transparent between lines. NO skin patch, arm, person, head, torso, underwear, clothes, shadow, background, text, logo, label or watermark. No symbols associated with hate or extremist groups, no weapons. Preserve base pose/location for upper-arm overlay."
+  },
+  "suggestedRegistrationTargets": {
+    "tshirt": [
+      275,
+      263,
+      750,
+      695
+    ],
+    "jeans": "waist y645; pelvis x356–669; cuffs y1390; position separately by pelvis and ankles",
+    "jacket": [
+      207,
+      253,
+      817,
+      755
+    ],
+    "shoes": "individual shoes aligned to base feet, bbox approx [292,1361,730,1483]",
+    "shortHair": [
+      445,
+      33,
+      579,
+      132
+    ],
+    "sweptHair": [
+      435,
+      24,
+      586,
+      135
+    ],
+    "stubble": [
+      462,
+      163,
+      561,
+      218
+    ],
+    "scar": [
+      475,
+      108,
+      480,
+      128
+    ],
+    "tattoo": [
+      310,
+      449,
+      337,
+      499
+    ]
+  },
+  "formatStats": {
+    "base-male.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1166254,
+      "bboxAlphaAbove128": [
+        203,
+        40,
+        820,
+        1481
+      ]
+    },
+    "tshirt-burgundy.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1319834,
+      "bboxAlphaAbove128": [
+        191,
+        260,
+        834,
+        862
+      ]
+    },
+    "jeans-charcoal-blue.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1338784,
+      "bboxAlphaAbove128": [
+        314,
+        609,
+        714,
+        1446
+      ]
+    },
+    "jacket-teal-open.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1204174,
+      "bboxAlphaAbove128": [
+        24,
+        192,
+        1000,
+        1002
+      ]
+    },
+    "sneakers-gray.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1536066,
+      "bboxAlphaAbove128": [
+        272,
+        1330,
+        752,
+        1491
+      ]
+    },
+    "hair-short-dark.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1557242,
+      "bboxAlphaAbove128": [
+        415,
+        48,
+        608,
+        199
+      ]
+    },
+    "hair-swept-burgundy.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        254
+      ],
+      "alphaZeroPixels": 1547578,
+      "bboxAlphaAbove128": [
+        393,
+        46,
+        639,
+        235
+      ]
+    },
+    "stubble.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        242
+      ],
+      "alphaZeroPixels": 1559101,
+      "bboxAlphaAbove128": [
+        406,
+        183,
+        619,
+        323
+      ]
+    },
+    "scar-eyebrow.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        247
+      ],
+      "alphaZeroPixels": 1572254,
+      "bboxAlphaAbove128": [
+        458,
+        146,
+        500,
+        168
+      ]
+    },
+    "tattoo-sprig.png": {
+      "mode": "RGBA",
+      "size": [
+        1024,
+        1536
+      ],
+      "alphaExtrema": [
+        0,
+        252
+      ],
+      "alphaZeroPixels": 1570602,
+      "bboxAlphaAbove128": [
+        331,
+        390,
+        382,
+        490
+      ]
+    }
+  },
+  "runtimeAssetManifest": "public/art/paperdoll-v2/manifest.json"
+}

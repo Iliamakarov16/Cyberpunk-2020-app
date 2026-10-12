@@ -1,0 +1,1 @@
+ALTER TABLE `campaign_portable_owners` ADD `member` integer DEFAULT 0 NOT NULL;

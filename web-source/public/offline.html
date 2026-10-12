@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="ru"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="night-city-offline-shell" content="0.17.7"><meta name="theme-color" content="#080406">
+<title>Night City Crew — нет связи</title>
+<link rel="icon" href="/icons/icon-192.png"><link rel="manifest" href="/manifest.webmanifest">
+<style>
+:root{color-scheme:dark}*{box-sizing:border-box}body{margin:0;min-height:100vh;min-height:100dvh;background:#080406;color:#d1e7df;font:16px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Arial,sans-serif;display:grid;place-items:center;padding:max(24px,env(safe-area-inset-top)) max(20px,env(safe-area-inset-right)) max(24px,env(safe-area-inset-bottom)) max(20px,env(safe-area-inset-left))}main{width:100%;max-width:600px;border:1px solid #29393c;border-top:4px solid #ee124b;padding:28px;background:#0a1418}.brand{color:#ee124b;font-size:14px;font-weight:800;letter-spacing:.12em}h1{font-size:30px;line-height:1.15;margin:20px 0}p{margin:0 0 16px}.muted{color:#a3b8ae}a{color:#d1e7df}button{font:inherit;min-height:48px;border:1px solid #ee124b;padding:12px 18px;background:#ee124b;color:#080406;font-weight:700;cursor:pointer}button:focus-visible,a:focus-visible{outline:3px solid #d1e7df;outline-offset:4px}.status{min-height:24px;margin-top:16px;color:#a3b8ae}.footer{margin-top:24px;border-top:1px solid #29393c;padding-top:16px;font-size:14px;color:#a3b8ae}
+</style></head><body><main>
+<div class="brand">NIGHT CITY / CREW</div><h1>Нет связи с сервером</h1>
+<p>Кампания хранится на вашем сервере. Подключись к той же Wi‑Fi сети или восстанови интернет, если играете через общий сервер.</p>
+<p class="muted">Если сервер запущен в локальной сети, интернет не требуется. Проверь, что устройство с сервером включено и адрес не изменился.</p>
+<p class="muted">Этот экран не хранит листы, переписки и секреты ведущего. Оставь уже открытый редактор в другой вкладке, если там есть несохранённые изменения.</p>
+<button id="retry" type="button">Проверить и открыть приложение</button>
+<p id="status" class="status" role="status" aria-live="polite"></p>
+<div class="footer">NC Crew v0.17.7 · Новые игровые действия без связи не подтверждаются и не отправляются автоматически.</div>
+</main><script>
+'use strict';
+const button=document.getElementById('retry'),status=document.getElementById('status');
+button.addEventListener('click',async()=>{
+ button.disabled=true;status.textContent='Проверяем связь…';
+ try {const response=await fetch('/api/version',{cache:'no-store',credentials:'same-origin',signal:AbortSignal.timeout(8000)});if(!response.ok)throw new Error();window.location.replace('/');}
+ catch {status.textContent='Сервер пока недоступен. Проверь сеть и повтори.';button.disabled=false;}
+});
+</script></body></html>

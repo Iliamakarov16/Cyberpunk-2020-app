@@ -1,0 +1,37 @@
+/* Device controls remain reachable before authentication. */
+.masthead .device-settings-button {min-width:44px;min-height:44px;gap:8px}
+.device-settings-button svg {width:18px;height:18px}
+.nc-access-form h2 {font-family:Dossier,"Arial Narrow",sans-serif;font-size:2.5rem;line-height:1.1;margin:10px 0 18px}
+.nc-access-form .nc-forgot-password {color:var(--nc-signal);gap:10px}
+.nc-forgot-password svg {width:17px;height:17px}
+.nc-device-record {display:flex;justify-content:space-between;gap:16px;border-bottom:1px solid var(--nc-register);padding:10px 0 16px;font:.75rem/1.5 var(--nc-mono);color:var(--nc-muted)}
+.nc-device-record>span:last-child {color:var(--nc-signal);white-space:nowrap}
+.interface-appearance .appearance-startup {margin:16px 0 28px;padding:20px;border:1px solid var(--nc-signal);border-left:4px solid var(--nc-red);background:var(--nc-deep);display:flex;flex-direction:row;align-items:center;justify-content:space-between;gap:20px}
+.appearance-startup>span {min-width:0}
+.appearance-startup strong {display:block;font:700 1.75rem/1.1 Dossier,"Arial Narrow",sans-serif;margin-bottom:8px}
+.appearance-startup small {display:block;line-height:1.6;max-width:45ch}
+.appearance-startup input {flex:0 0 24px}
+.nc-recovery>section {padding:20px 0;border-bottom:1px solid var(--nc-register)}
+.nc-recovery>section:first-child {padding-top:4px}
+.nc-recovery h3 {font:700 2rem/1.1 Dossier,"Arial Narrow",sans-serif;margin:12px 0}
+.nc-recovery p {color:var(--nc-muted);font-size:1rem;line-height:1.7;margin:12px 0 20px}
+.nc-recovery button {width:100%;min-height:48px;white-space:normal}
+@media(max-width:760px) {
+  .masthead .device-settings-button {padding:10px;width:44px}
+  .device-settings-button>span {display:none}
+  .device-settings-button[data-guest="true"] {width:auto;padding:10px 12px}
+  .device-settings-button[data-guest="true"]>span {display:inline}
+  .nc-device-record {flex-wrap:wrap}
+}
+@media(max-width:420px) {
+  .masthead .home-menu-button {width:44px;max-width:44px;padding:10px;flex:none}
+  .home-menu-button>span {display:none}
+}
+
+.nc-notes-state {padding:12px 0;border-bottom:1px solid var(--nc-register);font:.75rem/1.6 var(--nc-mono);color:var(--nc-signal)}
+.nc-editor-register {display:flex;justify-content:space-between;gap:12px;margin-bottom:14px;color:var(--nc-signal);font:.75rem/1.5 var(--nc-mono);letter-spacing:.05em}
+.tracker-sheet .editor-heading h2 {font-size:2.5rem!important;line-height:1.05!important}
+.editor-body form>.form-section-title {display:flex;align-items:center;gap:14px;border-top:1px solid var(--nc-register);padding-top:22px;margin-top:24px;font:700 1.6rem/1.2 Dossier,"Arial Narrow",sans-serif;color:var(--nc-text)}
+.editor-body form>.form-section-title::before {content:"/";color:var(--nc-red);font:700 1.8rem var(--nc-mono)}
+.editor-body fieldset {border-color:var(--nc-register)}
+@media(max-width:760px) {.tracker-sheet .editor-heading h2 {font-size:2.2rem!important}.nc-editor-register {font-size:.6875rem}}

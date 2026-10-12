@@ -1,0 +1,20 @@
+{
+  "checkpoint": "combat-foundation",
+  "pythonTests": 397,
+  "frontendScripts": 70,
+  "apkBuilt": false,
+  "hashes": {
+    "android/app/src/main/python/shared_battle.py": "222a619b4a98d26b63993ff77232cf5120618a5d1b263aceb68a37d55ca8f665",
+    "android/app/src/main/python/battle_vision.py": "353ee8fc59a5200fea8a479c8cac6752fdc8c583c8d9ed1a86e80e92a8c7190b",
+    "android/app/src/main/python/battle_loadout.py": "95daa40dad384af8035fa9ae156b8cef8395b9ab395767ab2ff334b3464dab97",
+    "android/app/src/main/python/battle_ranged.py": "2b47d0984e89947b667235a42eab8f2c339f13e5817cb356c34e6aae1ef0a008",
+    "android/app/src/main/python/cp2020_melee.py": "33a99a11d48b518aed897d98bf052216044d8119b6667931ea0ea63a9f7b88c2",
+    "web-source/components/battle/BattleApp.jsx": "56d0863e8d98108d0f7e6881b7a931f45436b8d8fe6f00ba05d068264b77bc30",
+    "web-source/components/battle/CombatAdjudication.jsx": "5a709009576ee7a1d5dc0c407011894047be5a193677232de6fe86c31c37ca37",
+    "web-source/components/battle/LoadoutEditor.tsx": "140e42e47ee7cf21f5197089154d3d8ae8a38240c8e8b28b3ce41f4ababf8009",
+    "web-source/components/battle/battle.css": "b9c33a6d1ea755bd78e32245bb3413d10b74ef454e0118e261b2705acc6a1324",
+    "web-source/lib/firefight/heading.mjs": "f8e276eb60789ccda4538a1e20bed157ef8678aa04d4da3f20dca1d45a083b70",
+    "web-source/lib/firefight/renderer.mjs": "f522048f39b9421641444d32b9507bd58ad2854c51c7068bf47cf36a9a3a205d",
+    "web-source/lib/firefight/event-queue.mjs": "a602d38b37e639ca9bea4fd988d21baa60be91c3885e3c76fca73c42d8b3d68e"
+  }
+}

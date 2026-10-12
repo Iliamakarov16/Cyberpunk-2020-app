@@ -1,0 +1,7 @@
+{
+  "status": "released-source-0.17.7",
+  "releaseInfo": "RELEASE_INFO.json",
+  "apkSHA256": "208f6f05034947c9db0f582a7490f438afff02fbce350ff2fa16cb73f14e8737",
+  "unreleasedLocalizationExcluded": true,
+  "experimentalAimExcluded": true
+}

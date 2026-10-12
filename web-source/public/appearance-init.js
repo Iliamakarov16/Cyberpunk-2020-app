@@ -1,0 +1,2 @@
+// Apply device appearance before the first paint; never render stored HTML.
+(()=>{try{const saved=localStorage.getItem('nc20.interface.v1');const raw=JSON.parse(saved||localStorage.getItem('nc20.dossier.appearance.v1')||'{}')||{};const root=document.documentElement;root.dataset.palette=['carmine','ultraviolet','amber','maelstrom','original'].includes(raw.palette)?raw.palette:'carmine';root.dataset.treatment=['clean','printed','raw'].includes(raw.treatment)?raw.treatment:'printed';root.dataset.digital=raw.digital===false?'off':'on';}catch{}})();

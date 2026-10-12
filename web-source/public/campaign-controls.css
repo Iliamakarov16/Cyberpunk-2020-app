@@ -1,0 +1,87 @@
+/* Campaign controls: short routes from a campaign to the work at the table. */
+.campaign-control-shortcuts{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0;border:1px solid var(--nc-register);border-top:3px solid var(--nc-red);margin:18px 0}
+.nc-campaign-record .campaign-control-shortcuts>button{display:grid;grid-template-columns:24px minmax(0,1fr) 20px;align-items:center;gap:14px;border:0;border-right:1px solid var(--nc-register);border-bottom:1px solid var(--nc-register);min-height:98px;padding:18px;text-align:left;background:var(--nc-deep);white-space:normal}
+.nc-campaign-record .campaign-control-shortcuts>button:nth-child(2n){border-right:0}
+.nc-campaign-record .campaign-control-shortcuts>button:hover{background:var(--nc-raised)}
+.nc-campaign-record .campaign-control-shortcuts>button>span{display:grid;gap:7px;min-width:0}
+.nc-campaign-record .campaign-control-shortcuts strong{font:800 1.5rem/1.15 Dossier,"Arial Narrow",sans-serif}
+.nc-campaign-record .campaign-control-shortcuts small{font:.875rem/1.45 Arial,sans-serif;color:var(--nc-muted)}
+.nc-campaign-record .campaign-control-shortcuts>button>svg{width:20px;height:20px;color:var(--nc-signal)}
+.nc-campaign-record .campaign-control-shortcuts>.campaign-control-primary{box-shadow:inset 3px 0 var(--nc-red);background:var(--nc-raised)}
+.campaign-control-count,.terminal-queue-shortcut b{display:inline-flex;justify-content:center;align-items:center;min-width:24px;min-height:24px;padding:3px 5px;background:var(--nc-red);color:var(--nc-ink);font:800 .875rem/1 var(--nc-mono)}
+.nc-campaign-record .campaign-control-shortcuts>.campaign-control-character{grid-template-columns:44px minmax(0,1fr) 20px}
+.campaign-control-character .avatar{width:44px;height:55px;min-width:44px;background:var(--nc-deep)}
+.campaign-control-secondary{display:flex;gap:10px;flex-wrap:wrap;margin:12px 0 20px}
+.campaign-control-secondary>button{white-space:normal;text-align:left;min-height:44px}
+.campaign-roster-filters,.terminal-queue-filters{display:flex;gap:0;flex-wrap:wrap;border:1px solid var(--nc-register);background:var(--nc-deep);margin:16px 0}
+.campaign-roster-filters>button,.terminal-queue-filters>button{flex:1;justify-content:center;gap:7px;min-height:46px;padding:10px 12px;border:0;border-right:1px solid var(--nc-register);white-space:normal}
+.campaign-roster-filters>button:last-child,.terminal-queue-filters>button:last-child{border-right:0}
+.campaign-roster-filters>button[aria-pressed=true],.terminal-queue-filters>button[aria-pressed=true]{background:var(--nc-raised);box-shadow:inset 0 -3px var(--nc-red);color:var(--nc-signal)}
+.campaign-roster-filters b,.terminal-queue-filters b{font:.75rem/1 var(--nc-mono);color:var(--nc-muted)}
+.campaign-empty-copy,.terminal-queue-summary{font:.875rem/1.5 Arial,sans-serif;color:var(--nc-muted)}
+.terminal-scene-toolbar{display:flex;align-items:center;flex-wrap:wrap;gap:10px;margin:0 0 20px;border-bottom:1px solid var(--nc-register);padding:0 0 16px}
+.terminal-scene-toolbar>button{min-height:44px;white-space:normal;text-align:left}
+.terminal-scene-badge{font:.75rem/1.5 var(--nc-mono);color:var(--nc-muted);border-left:3px solid var(--nc-register);padding:5px 9px}
+.terminal-scene-badge.active{border-left-color:var(--nc-red);color:var(--nc-signal)}
+.terminal-queue-shortcut{margin-left:auto;gap:9px}
+.terminal-action-queue{scroll-margin-top:18px}
+.terminal-action-queue:focus-visible{outline:2px solid var(--nc-signal);outline-offset:5px}
+.terminal-current-character{display:flex;align-items:center;gap:9px;padding:8px 0 16px;font:.875rem/1.5 Arial,sans-serif;color:var(--nc-muted)}
+.terminal-current-character strong{color:var(--nc-text)}
+.terminal-current-character svg{width:16px;height:16px;color:var(--nc-signal)}
+.terminal-current-character small{margin-left:10px}
+.campaign-terminal[data-embedded] .nc-terminal-workspace{border:0;border-top:1px solid var(--nc-register);background:transparent;margin:0}
+.campaign-terminal[data-embedded] .nc-terminal-workspace-body{padding:14px 0 0}
+.campaign-terminal[data-embedded] .terminal-topbar{margin-bottom:12px;padding-bottom:12px;gap:10px}
+.campaign-terminal[data-embedded] .terminal-topbar>div:first-child{gap:6px}
+.campaign-terminal[data-embedded] .terminal-topbar>div:first-child>span{font-size:.6875rem}
+.campaign-terminal[data-embedded] .terminal-topbar .terminal-record-code{display:none}
+.campaign-terminal[data-embedded] .terminal-topbar>div:first-child>small{font-size:.75rem}
+.campaign-terminal[data-embedded] .terminal-identity{margin-bottom:12px}
+.campaign-terminal[data-embedded] .nc-record-footer{display:none}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-heading{padding-top:12px;margin-bottom:10px}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-heading h1{font-size:clamp(1.7rem,6vw,2.6rem)}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-heading .eyebrow,.nc-campaign-record[data-campaign-view=terminal] .campaign-file-meta{display:none}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-heading p{margin-top:5px;font-size:.875rem}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-sections{display:flex;overflow-x:auto;overscroll-behavior-inline:contain;gap:0;margin-bottom:10px;scrollbar-width:thin}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-sections>button{flex:0 0 auto;min-height:44px;padding:10px 12px;flex-direction:row;flex-wrap:nowrap;white-space:nowrap}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-sections>button::before{display:none}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-role-banner{display:flex;align-items:center;justify-content:space-between;background:var(--nc-raised);margin:0 0 14px;border:1px solid var(--nc-register)}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-role-banner>div{padding:9px 12px;gap:7px}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-role-banner strong{font:700 .9375rem/1.4 Arial,sans-serif;color:var(--nc-text)}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-role-code{display:none}
+.nc-campaign-record[data-campaign-view=terminal] .campaign-role-banner>div>svg{width:17px;height:17px}
+.nc-campaign-record[data-campaign-view=terminal] .nc-campaign-party-stats{display:flex;background:transparent;border:0;gap:14px;padding:9px 12px}
+.nc-campaign-record[data-campaign-view=terminal] .nc-campaign-party-stats>div{display:flex;align-items:baseline;gap:5px;border:0;padding:0}
+.nc-campaign-record[data-campaign-view=terminal] .nc-campaign-party-stats dt{font:.6875rem/1.4 Arial,sans-serif;color:var(--nc-muted)}
+.nc-campaign-record[data-campaign-view=terminal] .nc-campaign-party-stats dd{margin:0;font:700 .875rem/1.4 var(--nc-mono);color:var(--nc-signal)}
+@media(max-width:760px){
+ .campaign-control-shortcuts{grid-template-columns:minmax(0,1fr)}
+ .nc-campaign-record .campaign-control-shortcuts>button{border-right:0;min-height:82px;padding:14px;gap:11px}
+ .nc-campaign-record .campaign-control-shortcuts strong{font-size:1.4rem}
+ .campaign-control-secondary{display:grid;grid-template-columns:minmax(0,1fr)}
+ .campaign-roster-filters>button,.terminal-queue-filters>button{padding:10px 7px;font-size:.875rem;min-width:0}
+ .nc-campaign-record[data-campaign-view=terminal] .campaign-role-banner{flex-wrap:wrap}
+ .nc-campaign-record[data-campaign-view=terminal] .nc-campaign-party-stats{padding-top:0;padding-bottom:10px}
+ .campaign-terminal[data-embedded] .terminal-tabs{grid-template-columns:repeat(2,minmax(0,1fr));margin-bottom:16px}
+ .campaign-terminal[data-embedded] .terminal-tabs>button{min-height:48px;padding:10px;font-size:.875rem}
+ .campaign-terminal[data-embedded] .terminal-tabs>button::before{display:none}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:last-child{gap:7px}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:first-child{min-width:0}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:last-child{width:auto}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:last-child>button{min-width:44px;min-height:44px;padding:10px}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:last-child>button{flex:none}
+ .campaign-terminal[data-embedded] .terminal-topbar>div:last-child>button>span{display:none}
+ .terminal-scene-toolbar{gap:8px}
+ .terminal-scene-toolbar>button:last-child:not(.terminal-queue-shortcut){flex-basis:100%;justify-content:center}
+}
+@media print{.campaign-control-shortcuts,.campaign-control-secondary,.campaign-roster-filters,.terminal-scene-toolbar,.terminal-queue-filters{display:none!important}}
+
+/* Connected-player invitation: explicit entry without changing the underlying draft. */
+.nc-battle-invitation{position:fixed;z-index:720;inset:auto max(12px,env(safe-area-inset-right)) max(12px,env(safe-area-inset-bottom)) max(12px,env(safe-area-inset-left));max-width:640px;margin-inline:auto;padding:16px;background:var(--nc-raised);color:var(--nc-text);border:2px solid var(--nc-action);border-radius:12px;box-shadow:0 8px 40px #0005;display:flex;align-items:center;gap:16px}.nc-battle-invitation strong{font-size:1.1rem}.nc-battle-invitation p{margin:4px 0}.nc-battle-invitation small{display:block;opacity:.75}.nc-battle-invitation>div:last-child{display:flex;gap:8px;flex-shrink:0}.nc-battle-invitation button{min-height:44px}@media(max-width:520px){.nc-battle-invitation{align-items:stretch;flex-direction:column;gap:12px}.nc-battle-invitation>div:last-child{flex-wrap:wrap}.nc-battle-invitation .primary{flex:1}}
+
+.nc-city-atlas{position:fixed;inset:0;z-index:600;overflow:hidden;background:var(--nc-ink);color:var(--nc-text)}.nc-city-atlas>iframe{display:block;width:100%;height:100%;border:0;background:var(--nc-ink)}.nc-atlas-loading{position:absolute;inset:0;display:grid;place-content:center;justify-items:center;gap:16px;padding:24px;text-align:center;background:var(--nc-ink);color:var(--nc-text)}.nc-atlas-loading h2,.nc-atlas-leave h2{font-size:24px;margin:0}.nc-atlas-loading p,.nc-atlas-leave p{max-width:540px;line-height:1.5}.nc-city-atlas button{min-height:44px;padding:10px 16px}.nc-atlas-leave{position:absolute;inset:0;z-index:2;display:grid;place-items:center;padding:20px;background:#0009}.nc-atlas-leave>div{max-width:520px;padding:24px;border:1px solid var(--nc-register);background:var(--nc-surface);color:var(--nc-text)}.nc-atlas-leave button{margin:8px 8px 0 0}
+
+.nc-city-atlas[hidden]{display:none}
+
+.nc-atlas-download-error{position:absolute;z-index:4;bottom:calc(1rem + env(safe-area-inset-bottom));left:1rem;right:1rem;max-width:38rem;margin:auto;padding:1rem;background:var(--nc-surface);color:var(--nc-text);border:2px solid var(--nc-action);display:flex;gap:1rem;align-items:center}.nc-atlas-download-error button{min-height:44px}

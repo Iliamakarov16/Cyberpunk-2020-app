@@ -1,0 +1,8 @@
+vite v8.0.13 building client environment for production...
+[2Ktransforming...✓ 1973 modules transformed.
+rendering chunks...
+computing gzip size...
+../payload/static/battle-ui.css     70.20 kB │ gzip:  11.51 kB
+../payload/static/app.js         1,603.78 kB │ gzip: 389.30 kB
+
+✓ built in 549ms

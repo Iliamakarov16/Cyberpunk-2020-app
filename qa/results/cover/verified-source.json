@@ -1,0 +1,40 @@
+{
+  "sourceVersion": "0.17.5-mobile.1",
+  "pythonTests": 528,
+  "frontendScripts": 73,
+  "checks": "528 Python aggregate on byte-identical backend; 73 frontend scripts and selfhost TypeScript rerun after portrait fix; refreshed runtime HTTP; Android Gradle/DEX/identity;42 authenticated HTTP tests from exact signed APK modules/assets. Cloud browser cover flow verified; native device QA remains unavailable.",
+  "files": {
+    "android/app/src/main/python/shared_battle.py": "88bea4b533af5d301e9d4070d0d06474ced21ef93fcf0a265ec454d79b4032d2",
+    "android/app/src/main/python/battle_vision.py": "005a35c0fca19c9473ea97994feff04cd9c5533a0757f0f95ab3f48ea9739cae",
+    "android/app/src/main/python/battle_cover.py": "62eb87c2c1dff5f87ff84180735b8183d597e981d115346284e4bee4edcdb41c",
+    "android/app/src/main/python/battle_cover_scene.py": "50015ab20f4d0c5cb5357f6e451350c3ea9a782d53f907f21a772e66e782887a",
+    "android/app/src/main/python/battle_ballistics.py": "11e10947ab112df0c17e4f843086067e719be82a107628de6a0edff346cec5c5",
+    "web-source/components/battle/BattleApp.jsx": "0380ef152b70cf2ce8df2ce2bdab0a6dfedabcbe23837b650d973b7d54c570ac",
+    "web-source/components/battle/CoverProfileEditor.jsx": "c64088a533914479b8f4d76f5d14284d27d929704cec64a66ba0a580e5a1e97f",
+    "web-source/components/battle/CombatAdjudication.jsx": "063ccc52ba3b7dd9d8fda52c926aa378cef3fbdca4191d98adfb7e5c99662231",
+    "web-source/components/battle/battle.css": "4417a52a09b7576b3e853d910c698bd43d65123d66615fbe01855b7138350899",
+    "payload/static/app.js": "f699a2138949a173794b733aec6e833f00e0c5f1da5ff3bbcfe221ad4f9d8fea",
+    "payload/static/battle-ui.css": "ffc0fe3b37e82f0a92fa1749b81bcdf920dc441720fb40972625f35bee97487d"
+  },
+  "apk": {
+    "package": "app.nightcity.crew.mobile",
+    "versionName": "0.17.5-mobile.1",
+    "versionCode": 170501,
+    "certificateSHA256": "a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117",
+    "apkSHA256": "59dd160abce1a8cceeb3c3806c51ba639ee97074f6224dbf10df79073908a056",
+    "bytes": 66570332
+  },
+  "browser": {
+    "url": "https://night-city-mobile-test.adamantispolaris.chatgpt.site",
+    "commit": "de5837a669cf077cfc7a99eb83f5b55d64f9cd66",
+    "verified": [
+      "explicit cover profile and dirty Back/Stay",
+      "table flip changes footprint, actions and personal vision",
+      "through-fire choices required; ammo and action consumed once",
+      "no private protection review in personal preview",
+      "portrait queue46..90, preview98, width374 at390x844, no overflow",
+      "844x390 and667x375 confirmation44px and reachable"
+    ],
+    "limits": "Private browser-local training adapter; does not replace server authentication tests or native phone QA."
+  }
+}

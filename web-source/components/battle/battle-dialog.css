@@ -1,0 +1,39 @@
+/* Battle forms are sized to the visible viewport, not the area behind the keyboard. */
+.nc-battle-dialog-content.nc-battle-dialog-content {
+  top:calc(var(--nc-dialog-top, 0px) + var(--nc-dialog-height, 100dvh) / 2);
+  left:calc(var(--nc-dialog-left, 0px) + var(--nc-dialog-width, 100vw) / 2);
+  max-height:calc(var(--nc-dialog-height, 100dvh) - 16px);
+  max-width:calc(var(--nc-dialog-width, 100vw) - 16px);
+}
+.nc-battle-dialog-content.nc-battle-setup-dialog.nc-battle-tools-dialog,
+.nc-battle-dialog-content.nc-battle-setup-dialog.nc-battle-roster-dialog {
+  width:var(--nc-dialog-width, 100vw);
+  height:var(--nc-dialog-height, 100dvh);
+  max-width:var(--nc-dialog-width, 100vw);
+  max-height:var(--nc-dialog-height, 100dvh);
+  padding:max(8px, env(safe-area-inset-top)) max(12px, env(safe-area-inset-right)) max(8px, env(safe-area-inset-bottom)) max(12px, env(safe-area-inset-left));
+  gap:4px;
+  overflow:hidden;
+  border:0;
+  box-sizing:border-box;
+}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-battle-dialog-header {min-height:44px;justify-content:center;padding-right:52px;gap:0;}
+.nc-battle-roster-dialog [data-slot=dialog-title] {font-size:18px;line-height:1.2;}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-battle-dialog-close {top:max(8px, env(safe-area-inset-top));right:max(8px, env(safe-area-inset-right));width:44px;height:44px;min-width:44px;min-height:44px;}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-shared-setup {flex:1 1 0;min-height:0;overflow-y:auto;overflow-x:hidden;padding:4px 4px 20px 0;scroll-padding-block:12px;}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-roster-summary {margin:0 0 12px;font-size:13px;line-height:1.35;}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-roster-add {display:flex;align-items:center;flex-wrap:wrap;gap:8px;margin:12px 0;}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-roster-add span {font-size:12px;color:var(--nc-muted);}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-roster-help {margin:12px 0;border-block:1px solid var(--nc-register);}
+.nc-battle-dialog-content.nc-battle-roster-dialog .nc-shared-actions {padding-top:12px;border-top:1px solid var(--nc-register);}
+@media (max-height:500px) {
+  .nc-battle-dialog-content.nc-battle-roster-dialog .nc-battle-dialog-header {min-height:36px;}
+  .nc-battle-dialog-content.nc-battle-roster-dialog .nc-battle-dialog-close {height:36px;min-height:36px;}
+  .nc-battle-dialog-content.nc-battle-roster-dialog .nc-shared-form-grid {gap:8px 12px;}
+}
+
+.nc-battle-dialog-content.nc-battle-tools-dialog .nc-battle-dialog-header {min-height:44px;justify-content:center;padding-right:52px;gap:0;}
+.nc-battle-dialog-content.nc-battle-tools-dialog [data-slot=dialog-title] {font-size:18px;line-height:1.2;}
+.nc-battle-dialog-content.nc-battle-tools-dialog .nc-battle-tools-body {flex:1 1 0;min-height:0;overflow-y:auto;scroll-padding-block:12px;}
+.nc-battle-dialog-content.nc-battle-tools-dialog .nc-shared-actions {flex-shrink:0;gap:8px;}
+@media (max-height:300px) {.nc-battle-dialog-content.nc-battle-tools-dialog .nc-battle-dialog-header {min-height:36px;} .nc-battle-dialog-content.nc-battle-tools-dialog .nc-shared-actions button {min-height:36px;}}

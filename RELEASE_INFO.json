@@ -1,0 +1,35 @@
+{
+  "file": "/workspace/scratch/09867514bb2e/qa177/refinement-release/NightCity_Crew_0.17.7-mobile.1.apk",
+  "package": "app.nightcity.crew.mobile",
+  "versionName": "0.17.7-mobile.1",
+  "versionCode": 170701,
+  "certificateSHA256": "a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117",
+  "apkSHA256": "208f6f05034947c9db0f582a7490f438afff02fbce350ff2fa16cb73f14e8737",
+  "status": "signed-release",
+  "apkBytes": 72618078,
+  "source": "Clean0.17.6 plus approved source-image refinement and narrow six-tier polish",
+  "translationIncluded": false,
+  "experimental3DIncluded": false,
+  "newSigningIdentity": false,
+  "userDataIncluded": false,
+  "deviceExecutionVerified": false,
+  "webPreviewCommit": "53be7024c4884bc7b35f2bb631704a6c5633cfb7",
+  "checks": {
+    "frontendScripts": 75,
+    "typescriptSelfhost": "passed",
+    "transitionPixelAndDOM": "passed including independent six-tier review",
+    "browserTransition": "passed four layouts",
+    "packagedSessionTests": 61,
+    "packagedBattleTests": 42,
+    "servedAPKAssets": 213,
+    "javaExtractorChecks": 782,
+    "actualPayloadVersionUpgrade": "0.17.6\u21920.17.7 preserved SQLite/preferences and prior assets",
+    "fullPython": 528,
+    "independentFinalAPK": "passed certificate,package,ABIs,DEX payload marker,116 Atlas files and unchanged geography"
+  },
+  "limits": [
+    "Physical Android upgrade and Safari/Wi-Fi require owner smoke test",
+    "Update between play sessions; do not uninstall or clear app data",
+    "No automatic battlefield loot transfer; previous supported persistence unchanged"
+  ]
+}

@@ -1,0 +1,33 @@
+import assert from 'node:assert/strict';
+import {existsSync} from 'node:fs';
+import {createTestModuleLoader} from './test-ts-loader.mjs';
+const modules=createTestModuleLoader();
+const tracker=await modules.load('lib/tracker.ts');
+const wardrobe=await modules.load('lib/wardrobe.ts');
+const {newItem,blank,equipment,zeroArmor,ICONS,SLOTS}=tracker;
+const {dressLayers,wornInSlot,DOLL_SLOTS,EXTRA_SLOTS,iconAsset}=wardrobe;
+const jacket={...newItem('armor'),id:'jacket',name:'Jacket',slot:'outer',icon:'jacket',equipped:true,armor:{type:'soft',coverage:{...zeroArmor(),torso:14},ev:1,order:20}};
+const vest={...jacket,id:'vest',icon:'armor',armor:{...jacket.armor,order:10}};
+const inactive={...jacket,id:'inactive',equipped:false};
+const absent={...jacket,id:'absent',quantity:0};
+const glasses={...newItem('clothing'),id:'eyes',slot:'eyes',equipped:true};
+const helmet={...jacket,id:'head',slot:'head',icon:'helmet'};
+const implant={...newItem('cyber'),id:'implant',equipped:true};
+const items=[jacket,vest,inactive,absent,glasses,helmet,implant];
+const before=structuredClone(items);const layers=dressLayers(items);
+assert.deepEqual(items,before,'Rendering must not mutate game data');
+assert.deepEqual(wornInSlot(items,'outer').map(i=>i.id),['vest','jacket']);
+assert.deepEqual(layers.map(l=>l.key),['vest','jacket','eyes','head']);
+assert.ok(layers.find(l=>l.key==='jacket').style,'Jacket must be registered to the body');
+assert.equal(layers.find(l=>l.key==='vest').asset,'/art/layers/vest.webp');
+assert.deepEqual(new Set([...DOLL_SLOTS,...EXTRA_SLOTS]),new Set(Object.keys(SLOTS)),'Every equipment slot should be reachable');
+const data={...blank(),armorMode:'equipment',items};const protectedBefore=equipment(data);
+dressLayers(data.items);assert.deepEqual(equipment(data),protectedBefore,'Appearance must not change armor calculations');
+if(process.argv.includes('--assets')){
+ for(const icon of Object.keys(ICONS))assert.ok(existsSync(new URL('../public'+iconAsset(icon),import.meta.url)),`Missing icon ${icon}`);
+ const visualSlots=['head','eyes','inner','outer','legs','feet','hands','body'];
+ const all=visualSlots.map((slot,i)=>({...newItem('clothing'),id:String(i),slot,equipped:true}));
+ const required=new Set(['/art/mannequin.webp',...dressLayers(all).map(l=>l.asset),'/art/layers/vest.webp']);
+ for(const path of required)assert.ok(existsSync(new URL('../public'+path,import.meta.url)),`Missing layer ${path}`);
+}
+console.log('Wardrobe: active quantities, layering order, slot coverage, CSS registration, data preservation and asset manifest passed.');

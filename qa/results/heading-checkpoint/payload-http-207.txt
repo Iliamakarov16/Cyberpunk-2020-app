@@ -1,0 +1,9 @@
+test_actual_archive_serves_every_html_css_js_and_manifest_dependency (test_packaged_payload.PackagedPayloadIntegration.test_actual_archive_serves_every_html_css_js_and_manifest_dependency) ... ok
+test_public_assets_cannot_publish_private_json_traversal_or_symlinks (test_packaged_payload.PackagedPayloadIntegration.test_public_assets_cannot_publish_private_json_traversal_or_symlinks) ... ok
+test_root_layout_is_rejected_before_creating_database (test_packaged_payload.PackagedPayloadIntegration.test_root_layout_is_rejected_before_creating_database) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 2.644s
+
+OK
+Packaged HTTP: 58 entry dependencies and 207 exact public assets passed.

@@ -1,0 +1,38 @@
+.nc-cyberoptic{min-width:0;margin:18px 0;border:1px solid var(--nc-line,#3b4c48);border-left:3px solid var(--nc-accent,#ee124b);background:var(--nc-surface,#0b1315);color:var(--nc-text,#d1e7df)}
+.nc-cyberoptic-summary{display:flex;align-items:center;gap:12px;min-height:64px;padding:12px 14px;cursor:pointer;list-style:none}
+.nc-cyberoptic-summary::-webkit-details-marker{display:none}
+.nc-cyberoptic-summary>svg{flex:none;width:22px;height:22px;color:var(--nc-accent,#ee124b)}
+.nc-cyberoptic-summary>span:nth-child(2){flex:1;min-width:0;overflow-wrap:anywhere}
+.nc-cyberoptic-summary strong{display:block;font-size:1rem;font-weight:600}
+.nc-cyberoptic-summary small{display:block;margin-top:3px;color:var(--nc-muted,#a1b1aa);font-size:.875rem}
+.nc-cyberoptic-classification{flex:none;font: .75rem var(--nc-mono,monospace);letter-spacing:.08em;color:var(--nc-muted,#a1b1aa)}
+.nc-cyberoptic-summary:after{content:'+';flex:none;color:var(--nc-signal,#d1e7df);font:1.5rem/1 monospace}
+.nc-cyberoptic[open]>.nc-cyberoptic-summary:after{content:'−'}
+.nc-cyberoptic-summary:focus-visible{outline:2px solid var(--nc-signal,#d1e7df);outline-offset:3px}
+.nc-cyberoptic[open]>.nc-cyberoptic-summary{border-bottom:1px solid var(--nc-soft-line,#263732)}
+.nc-cyberoptic-body{min-width:0}
+.nc-cyberoptic-device{margin:0;position:relative;overflow:hidden;background:radial-gradient(ellipse at 45% 50%,var(--nc-raised,#142020),var(--nc-deep,#050b0e) 75%)}
+.nc-cyberoptic-art{display:block;width:100%;height:auto;max-height:270px;filter:drop-shadow(0 12px 14px #000a)}
+.nc-cyberoptic-device figcaption{padding:0 14px 14px;color:var(--nc-muted,#a1b1aa);font:.75rem/1.5 var(--nc-mono,monospace);letter-spacing:.07em;overflow-wrap:anywhere}
+.nc-cyberoptic-controls{padding:0 14px 14px}
+.nc-cyberoptic-replay{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;min-height:44px;border:1px solid var(--nc-line,#3b4c48);background:var(--nc-raised,#142020);color:var(--nc-text,#d1e7df);padding:10px 12px;font-size:.9375rem;cursor:pointer}
+.nc-cyberoptic-replay>svg{width:18px;height:18px;flex:none}
+.nc-cyberoptic-replay:disabled{opacity:.6;cursor:default}
+.nc-cyberoptic-replay:focus-visible{outline:2px solid var(--nc-signal,#d1e7df);outline-offset:3px}
+.nc-cyberoptic-note{margin:10px 0 0;color:var(--nc-muted,#a1b1aa);font-size:.875rem;line-height:1.5}
+.nc-cyberoptic .nc-optic-iris{transform-box:view-box;transform-origin:181px 123px}
+.nc-cyberoptic .nc-optic-glow{opacity:.14}
+.nc-cyberoptic .nc-optic-contour,.nc-cyberoptic .nc-optic-sweep{opacity:0;pointer-events:none}
+.nc-cyberoptic .nc-optic-led{opacity:.65}
+.nc-cyberoptic-running .nc-optic-iris{animation:nc-optic-focus 1350ms cubic-bezier(.3,.1,.2,1) both}
+.nc-cyberoptic-running .nc-optic-glow{animation:nc-optic-light 1350ms ease-out both}
+.nc-cyberoptic-running .nc-optic-sweep{animation:nc-optic-sweep 1350ms cubic-bezier(.3,0,.2,1) both}
+.nc-cyberoptic-running .nc-optic-contour{animation:nc-optic-contour 1350ms ease-out both}
+.nc-cyberoptic-running .nc-optic-led{animation:nc-optic-led 1350ms ease-out both}
+@keyframes nc-optic-focus{0%,13%{transform:scale(1)}25%{transform:scale(.82)}44%{transform:scale(1.03)}62%,100%{transform:scale(1)}}
+@keyframes nc-optic-light{0%{opacity:.14}15%{opacity:.55}65%{opacity:.4}100%{opacity:.14}}
+@keyframes nc-optic-sweep{0%,18%{opacity:0;transform:translateY(0)}25%{opacity:.7}72%{opacity:.7}80%,100%{opacity:0;transform:translateY(175px)}}
+@keyframes nc-optic-contour{0%,20%{opacity:0;stroke-dashoffset:560}65%{opacity:.65;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}
+@keyframes nc-optic-led{0%{opacity:.65}20%,70%{opacity:1}100%{opacity:.65}}
+@media(max-width:360px){.nc-cyberoptic-summary{gap:9px;padding-left:10px;padding-right:10px}.nc-cyberoptic-classification{display:none}.nc-cyberoptic-controls{padding-left:10px;padding-right:10px}}
+@media(prefers-reduced-motion:reduce){.nc-cyberoptic-running .nc-optic-iris,.nc-cyberoptic-running .nc-optic-glow,.nc-cyberoptic-running .nc-optic-sweep,.nc-cyberoptic-running .nc-optic-contour,.nc-cyberoptic-running .nc-optic-led{animation:none!important}}

@@ -1,0 +1,11 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+/workspace/scratch/09867514bb2e/source174/NightCity_Crew_0.17.3-mobile.1_Source/web-source/components/shared-battle.tsx
+  70:725  warning  The ref value 'generation.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'generation.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+  91:191  warning  React Hook useEffect has missing dependencies: 'battle', 'data', 'retry', and 'send'. Either include them or remove the dependency array                                                                                                                             react-hooks/exhaustive-deps
+  91:201  warning  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                             react-hooks/exhaustive-deps
+  91:208  warning  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                             react-hooks/exhaustive-deps
+  91:217  warning  React Hook useEffect has a complex expression in the dependency array. Extract it to a separate variable so it can be statically checked                                                                                                                             react-hooks/exhaustive-deps
+
+✖ 5 problems (0 errors, 5 warnings)
+

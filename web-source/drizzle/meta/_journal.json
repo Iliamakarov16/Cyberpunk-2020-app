@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1791343944579,
+      "tag": "0000_fearless_virginia_dare",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1791414784063,
+      "tag": "0001_shallow_selene",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1791418717025,
+      "tag": "0002_spicy_marten_broadcloak",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1791424632972,
+      "tag": "0003_tired_elektra",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791424924577,
+      "tag": "0004_rare_silvermane",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791525854892,
+      "tag": "0005_lively_sasquatch",
+      "breakpoints": true
+    }
+  ]
+}

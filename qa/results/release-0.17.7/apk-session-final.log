@@ -1,0 +1,281 @@
+127.0.0.1 "GET /window.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /access-settings.css HTTP/1.1" 200 -
+127.0.0.1 "GET /campaign-dossier.css HTTP/1.1" 200 -
+127.0.0.1 "GET /style.css HTTP/1.1" 200 -
+127.0.0.1 "GET /shared-battle.css HTTP/1.1" 200 -
+127.0.0.1 "GET /cyberoptic-preview.css HTTP/1.1" 200 -
+127.0.0.1 "GET /favicon.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /appearance-preview.html HTTP/1.1" 200 -
+127.0.0.1 "GET /offline.html HTTP/1.1" 200 -
+127.0.0.1 "GET /campaign-controls.css HTTP/1.1" 200 -
+127.0.0.1 "GET / HTTP/1.1" 200 -
+127.0.0.1 "GET /style-preview-v2.html HTTP/1.1" 200 -
+127.0.0.1 "GET /portrait-editor.css HTTP/1.1" 200 -
+127.0.0.1 "GET /deck-connection.css HTTP/1.1" 200 -
+127.0.0.1 "GET /paperdoll-preview.js HTTP/1.1" 200 -
+127.0.0.1 "GET /style-preview.html HTTP/1.1" 200 -
+127.0.0.1 "GET /manifest.webmanifest HTTP/1.1" 200 -
+127.0.0.1 "GET /appearance-init.js HTTP/1.1" 200 -
+127.0.0.1 "GET /record-controls.css HTTP/1.1" 200 -
+127.0.0.1 "GET /sw.js HTTP/1.1" 200 -
+127.0.0.1 "GET /paperdoll-preview.css HTTP/1.1" 200 -
+127.0.0.1 "GET /globe.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /dossier-theme.css HTTP/1.1" 200 -
+127.0.0.1 "GET /app.js HTTP/1.1" 200 -
+127.0.0.1 "GET /file.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /battle-ui.css HTTP/1.1" 200 -
+127.0.0.1 "GET /city-atlas-transition.css HTTP/1.1" 200 -
+127.0.0.1 "GET /fonts/NimbusSansNarrow-BoldOblique.otf HTTP/1.1" 200 -
+127.0.0.1 "GET /fonts/NimbusSansNarrow-Bold.otf HTTP/1.1" 200 -
+127.0.0.1 "GET /fonts/LICENSE.txt HTTP/1.1" 200 -
+127.0.0.1 "GET /fonts/Dossier-BoldItalic.woff HTTP/1.1" 200 -
+127.0.0.1 "GET /fonts/Dossier-Bold.woff HTTP/1.1" 200 -
+127.0.0.1 "GET /art/inventory-atlas-v2.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/mannequin.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/combat-atlas.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/grid-aligned-props.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/item-atlas-ink-v1.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/concrete-floor.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/silhouette-mask.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /style-textures/dry-ink-v1.png HTTP/1.1" 200 -
+127.0.0.1 "GET /style-textures/photocopy-grain-v1.png HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/crew-bridge.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/world-data.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/transit-data.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/style.css HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/world-data.json HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/transit-data.json HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/atlas-data.json HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/theme.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/cyberdeck.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/cartography.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/crew-campaign.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/streets-data.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/cyberdeck.css HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/index.html HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/data.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/raster-refinement.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/atlas-palette.css HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/transit.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/streets-data.json HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/app.js HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/dossier.css HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/map-graphics.css HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/city-atlas-transition.css HTTP/1.1" 200 -
+127.0.0.1 "GET /catalog/equipment-v1.json HTTP/1.1" 200 -
+127.0.0.1 "GET /icons/icon-192.png HTTP/1.1" 200 -
+127.0.0.1 "GET /icons/icon-maskable-512.png HTTP/1.1" 200 -
+127.0.0.1 "GET /icons/apple-touch-icon.png HTTP/1.1" 200 -
+127.0.0.1 "GET /icons/icon-512.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/vest.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/helmet.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/jacket.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/shirt.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/gloves.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/suit.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/boots.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/pants.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/layers/glasses.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/09-corporate-operative.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/10-salvage-heavy.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/05-glam-pistolier.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/07-dock-shotgunner.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/06-riot-security.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/11-security-carbine.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/08-razor-runner.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/enemies-v1/04-gang-enforcer.png HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/manifest.json HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/jacket-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/jeans.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/scar-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/tattoo-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/tshirt.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/base.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/scar.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/stubble-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/swept.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/jacket.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/tattoo.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/jeans-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/crop.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/stubble.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/sneakers.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/sneakers-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/swept-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/crop-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/paperdoll-v2/tshirt-icon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/armor.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/weapon.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/helmet.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/jacket.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/shirt.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/gloves.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/ammo.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/gear.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/cyber.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/radio.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/boots.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/pants.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/glasses.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /art/icons/medical.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/fonts/LICENSE.txt HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/fonts/Dossier-Bold.woff HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/style-textures/dry-ink-v1.png HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/style-textures/photocopy-grain-v1.png HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/official-2045.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/core-2020.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sourcebook-city.jpg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/geometry-provenance.json HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings-2048.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/coast.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/roads.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/I1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/G1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/region.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/J1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/H1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/E1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B2-plaza.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/F1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/A3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/C6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/sectors/B1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/draken-cleaning-v7.png HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/clean-basemap-v7.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/blocks.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/local-roads.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/print-basemap-v8.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/clean-basemap-v7.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/coast.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/draken-original-v7.jpg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/print-basemap-v7.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/roads.svg HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/print-basemap-v7.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/transit/region-2020.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/transit/central-2020.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/7-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/1-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/5-2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/1-0.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-0.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/1-7.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/5-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/1-6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/6-2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/7-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-7.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-2.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/6-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-6.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/5-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-1.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/1-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/5-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-0.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/6-3.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/0-5.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-0.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/4-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/2-4.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/world/buildings/3-7.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/dossier-v8/maelstrom.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/dossier-v8/carmine.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/dossier-v8/amber.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/dossier-v8/original.webp HTTP/1.1" 200 -
+127.0.0.1 "GET /atlas/assets/geography-2020/dossier-v8/ultraviolet.webp HTTP/1.1" 200 -
+test_actual_campaign_owner_permissions_and_membership_rechecked (test_crew_atlas.CrewAtlasStorage.test_actual_campaign_owner_permissions_and_membership_rechecked) ... ok
+test_archive_failure_is_atomic_and_null_extension_rejected (test_crew_atlas.CrewAtlasStorage.test_archive_failure_is_atomic_and_null_extension_rejected) ... ok
+test_archive_preserves_every_field_ids_precision_and_scopes_copies (test_crew_atlas.CrewAtlasStorage.test_archive_preserves_every_field_ids_precision_and_scopes_copies) ... ok
+test_campaign_and_byte_bounds_do_not_change_state (test_crew_atlas.CrewAtlasStorage.test_campaign_and_byte_bounds_do_not_change_state) ... ok
+test_delete_idempotency_and_stale_cas (test_crew_atlas.CrewAtlasStorage.test_delete_idempotency_and_stale_cas) ... ok
+test_empty_read_does_not_create_state_or_touch_other_tables (test_crew_atlas.CrewAtlasStorage.test_empty_read_does_not_create_state_or_touch_other_tables) ... ok
+test_exact_coordinates_source_linkage_hidden_notes_and_player_projection (test_crew_atlas.CrewAtlasStorage.test_exact_coordinates_source_linkage_hidden_notes_and_player_projection) ... ok
+test_full_sqlite_backup_contains_atlas_and_is_independent (test_crew_atlas.CrewAtlasStorage.test_full_sqlite_backup_contains_atlas_and_is_independent) ... ok
+test_retry_once_even_after_later_updates_and_no_secret_in_receipt (test_crew_atlas.CrewAtlasStorage.test_retry_once_even_after_later_updates_and_no_secret_in_receipt) ... ok
+test_two_concurrent_creates_use_single_winning_revision (test_crew_atlas.CrewAtlasStorage.test_two_concurrent_creates_use_single_winning_revision) ... ok
+test_validation_rejects_spoofed_fields_bad_coordinates_and_types (test_crew_atlas.CrewAtlasStorage.test_validation_rejects_spoofed_fields_bad_coordinates_and_types) ... ok
+test_write_failure_rolls_back_marker_receipt_revision_and_campaign (test_crew_atlas.CrewAtlasStorage.test_write_failure_rolls_back_marker_receipt_revision_and_campaign) ... ok
+test_export_import_and_old_format_compatibility_preserve_marker_content (test_crew_atlas_http.CrewAtlasHTTP.test_export_import_and_old_format_compatibility_preserve_marker_content) ... ok
+test_legacy_full_backup_missing_atlas_tables_restores_and_initializes (test_crew_atlas_http.CrewAtlasHTTP.test_legacy_full_backup_missing_atlas_tables_restores_and_initializes) ... ok
+test_real_edit_move_delete_conflict_retry_and_restart (test_crew_atlas_http.CrewAtlasHTTP.test_real_edit_move_delete_conflict_retry_and_restart) ... ok
+test_real_sessions_no_spoofing_csrf_origin_private_notes_and_reveal (test_crew_atlas_http.CrewAtlasHTTP.test_real_sessions_no_spoofing_csrf_origin_private_notes_and_reveal) ... ok
+test_restore_preflight_rejects_bad_atlas_columns_and_missing_unique_targets (test_crew_atlas_http.CrewAtlasHTTP.test_restore_preflight_rejects_bad_atlas_columns_and_missing_unique_targets) ... ok
+test_acknowledged_save_survives_abrupt_host_process_death (test_session_readiness_integrity.SessionReadinessIntegrity.test_acknowledged_save_survives_abrupt_host_process_death) ... ok
+test_graceful_stop_drains_an_inflight_character_save (test_session_readiness_integrity.SessionReadinessIntegrity.test_graceful_stop_drains_an_inflight_character_save) ... ok
+test_join_approval_duplicate_and_stale_roster_survive_restart (test_session_readiness_integrity.SessionReadinessIntegrity.test_join_approval_duplicate_and_stale_roster_survive_restart) ... ok
+test_simultaneous_owner_and_gm_save_one_revision_without_lost_update (test_session_readiness_integrity.SessionReadinessIntegrity.test_simultaneous_owner_and_gm_save_one_revision_without_lost_update) ... ok
+test_six_simultaneous_actions_conflict_safely_and_retry_exactly_once (test_session_readiness_multiplayer.MultiplayerReadiness.test_six_simultaneous_actions_conflict_safely_and_retry_exactly_once) ... ok
+test_unread_response_then_restart_and_replay_does_not_duplicate_message (test_session_readiness_multiplayer.MultiplayerReadiness.test_unread_response_then_restart_and_replay_does_not_duplicate_message) ... ok
+test_equivalent_unique_index_is_accepted_and_restart_succeeds (test_session_readiness_restore.RestoreReadiness.test_equivalent_unique_index_is_accepted_and_restart_succeeds) ... ok
+test_exact_copied_snapshot_is_rechecked_before_host_files_change (test_session_readiness_restore.RestoreReadiness.test_exact_copied_snapshot_is_rechecked_before_host_files_change) ... ok
+test_existing_optional_table_with_missing_columns_does_not_replace_host (test_session_readiness_restore.RestoreReadiness.test_existing_optional_table_with_missing_columns_does_not_replace_host) ... ok
+test_invalid_owner_or_foreign_keys_do_not_replace_host (test_session_readiness_restore.RestoreReadiness.test_invalid_owner_or_foreign_keys_do_not_replace_host) ... ok
+test_legacy_011_marker_and_missing_additive_tables_restore_without_data_loss (test_session_readiness_restore.RestoreReadiness.test_legacy_011_marker_and_missing_additive_tables_restore_without_data_loss) ... ok
+test_missing_or_partial_upsert_constraints_do_not_replace_host (test_session_readiness_restore.RestoreReadiness.test_missing_or_partial_upsert_constraints_do_not_replace_host) ... ok
+test_right_table_names_with_wrong_core_columns_do_not_replace_host (test_session_readiness_restore.RestoreReadiness.test_right_table_names_with_wrong_core_columns_do_not_replace_host) ... ok
+test_busy_port_does_not_create_or_migrate_private_data (test_mobile_host.MobileHostIntegration.test_busy_port_does_not_create_or_migrate_private_data) ... ok
+test_busy_port_does_not_modify_existing_database_or_initialize_again (test_mobile_host.MobileHostIntegration.test_busy_port_does_not_modify_existing_database_or_initialize_again) ... ok
+test_consistent_live_backup_restore_keeps_original_and_previous_state (test_mobile_host.MobileHostIntegration.test_consistent_live_backup_restore_keeps_original_and_previous_state) ... ok
+test_initial_owner_handoff_is_invalidated_by_recovery_without_new_grant (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_is_invalidated_by_recovery_without_new_grant) ... ok
+test_initial_owner_handoff_is_not_issued_after_restoring_existing_owner (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_is_not_issued_after_restoring_existing_owner) ... ok
+test_initial_owner_handoff_is_real_verified_http_session_without_status_leak (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_is_real_verified_http_session_without_status_leak) ... ok
+test_initial_owner_handoff_login_failure_preserves_host_and_safe_manual_login (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_login_failure_preserves_host_and_safe_manual_login) ... ok
+test_initial_owner_handoff_never_repeats_or_grants_existing_owner_access (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_never_repeats_or_grants_existing_owner_access) ... ok
+test_initial_owner_handoff_requires_identity_true_opt_in (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_requires_identity_true_opt_in) ... ok
+test_initial_owner_handoff_requires_verified_owner_response (test_mobile_host.MobileHostIntegration.test_initial_owner_handoff_requires_verified_owner_response) ... ok
+test_initial_owner_setup_rejects_unusable_password_before_creating_database (test_mobile_host.MobileHostIntegration.test_initial_owner_setup_rejects_unusable_password_before_creating_database) ... ok
+test_invalid_restore_does_not_replace_host_database (test_mobile_host.MobileHostIntegration.test_invalid_restore_does_not_replace_host_database) ... ok
+test_iphone_installation_serves_only_removable_webclip_for_current_lan (test_mobile_host.MobileHostIntegration.test_iphone_installation_serves_only_removable_webclip_for_current_lan) ... ok
+test_lan_player_cannot_gain_campaign_secrets_or_manage_other_sheets (test_mobile_host.MobileHostIntegration.test_lan_player_cannot_gain_campaign_secrets_or_manage_other_sheets) ... ok
+test_local_only_host_does_not_offer_nonfunctional_iphone_profile (test_mobile_host.MobileHostIntegration.test_local_only_host_does_not_offer_nonfunctional_iphone_profile) ... ok
+test_loopback_lan_and_missing_origin_keep_host_and_csrf_protection (test_mobile_host.MobileHostIntegration.test_loopback_lan_and_missing_origin_keep_host_and_csrf_protection) ... ok
+test_native_owner_recovery_accepts_exact_minimum_and_maximum_password_lengths (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_accepts_exact_minimum_and_maximum_password_lengths) ... ok
+test_native_owner_recovery_backup_failure_keeps_credentials_and_sessions (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_backup_failure_keeps_credentials_and_sessions) ... ok
+test_native_owner_recovery_can_run_stopped_without_starting_a_listener (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_can_run_stopped_without_starting_a_listener) ... ok
+test_native_owner_recovery_drains_previously_verified_old_password_login (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_drains_previously_verified_old_password_login) ... ok
+test_native_owner_recovery_preserves_all_game_data_and_peer_access (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_preserves_all_game_data_and_peer_access) ... ok
+test_native_owner_recovery_rejects_invalid_passwords_before_mutations (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_rejects_invalid_passwords_before_mutations) ... ok
+test_native_owner_recovery_rejects_invalid_saved_owner_before_mutations (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_rejects_invalid_saved_owner_before_mutations) ... ok
+test_native_owner_recovery_rejects_missing_corrupt_or_incomplete_database (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_rejects_missing_corrupt_or_incomplete_database) ... ok
+test_native_owner_recovery_rejects_missing_owner_without_creating_account (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_rejects_missing_owner_without_creating_account) ... ok
+test_native_owner_recovery_rejects_running_server_directory_mismatch (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_rejects_running_server_directory_mismatch) ... ok
+test_native_owner_recovery_reports_listener_restart_failure_after_safe_reset (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_reports_listener_restart_failure_after_safe_reset) ... ok
+test_native_owner_recovery_requires_exact_device_authentication_before_work (test_mobile_host.MobileHostIntegration.test_native_owner_recovery_requires_exact_device_authentication_before_work) ... ok
+test_no_http_recovery_bypass_even_for_loopback_or_authenticated_owner (test_mobile_host.MobileHostIntegration.test_no_http_recovery_bypass_even_for_loopback_or_authenticated_owner) ... ok
+test_other_socket_errors_are_not_misidentified_as_password_or_port_conflict (test_mobile_host.MobileHostIntegration.test_other_socket_errors_are_not_misidentified_as_password_or_port_conflict) ... ok
+test_restart_preserves_accounts_characters_and_hashed_passwords (test_mobile_host.MobileHostIntegration.test_restart_preserves_accounts_characters_and_hashed_passwords) ... ok
+
+----------------------------------------------------------------------
+Ran 61 tests in 54.278s
+
+OK
+213 actual APK assets served byte-for-byte through the LAN browser-client HTTP route.
+Packaged Atlas/session, persistence/restart and backup/restore tests passed. Physical Safari/Wi-Fi/device execution is not claimed.

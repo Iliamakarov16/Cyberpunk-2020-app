@@ -1,0 +1,113 @@
+/* Everyday sheet actions share the record's controls and leave room for its content. */
+@media screen {
+ .record-quick-actions {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin:0}
+ .record-quick-actions>button {min-height:44px;min-width:0;padding:9px 10px;gap:8px;font-size:.875rem;background:var(--nc-deep);border-color:var(--nc-register)}
+ .record-quick-actions>button>svg {width:18px;height:18px;flex:none;color:var(--nc-signal)}
+ .record-quick-actions>button>span {min-width:0;overflow-wrap:anywhere}
+ .nc-dossier-heading[data-custom-frame="true"]>.nc-dossier-portrait,
+ .nc-dossier-heading[data-custom-frame="true"]>.nc-dossier-portrait>.avatar.large {min-height:var(--nc-custom-portrait-height);height:var(--nc-custom-portrait-height)}
+ .nc-dossier-heading[data-custom-frame="true"] .nc-dossier-stat-rail dd {font-size:clamp(1.75rem,calc(var(--nc-custom-portrait-height) * .12),3.5rem)}
+ .nc-dossier-heading[data-compact-frame="true"] .nc-dossier-stat-rail>div {padding:5px 0;display:flex;flex-direction:column;justify-content:center;gap:1px}
+ .nc-dossier-heading[data-compact-frame="true"] .nc-dossier-stat-rail dt {font-size:.75rem;line-height:1.1}
+ .nc-dossier-heading[data-compact-frame="true"] .nc-dossier-stat-rail dt small {display:none}
+ .nc-dossier-heading[data-compact-frame="true"] .nc-dossier-stat-rail dd {font-size:1.75rem;line-height:1;margin:0}
+ .main-content.has-character[data-record-dirty] {padding-bottom:32px}
+ .main-content.has-character[data-record-dirty="true"] {padding-bottom:calc(76px + env(safe-area-inset-bottom))}
+ .nc-character-record+.savebar.nc-savebar-compact {bottom:0;padding:6px 16px calc(6px + env(safe-area-inset-bottom));height:auto;min-height:0;border-top:2px solid var(--nc-red);background:var(--nc-deep)}
+ .nc-character-record+.nc-savebar-compact .savebar-inner {display:flex;flex-wrap:nowrap;gap:8px;align-items:center}
+ .nc-character-record+.nc-savebar-compact .save-status {flex:1;min-width:0;margin:0;overflow:hidden}
+ .nc-savebar-compact .save-status>span {font:.875rem/1.4 var(--nc-mono);white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+ .nc-character-record+.nc-savebar-compact .save-button {min-width:0;min-height:44px;padding:9px 12px;gap:8px;font-size:.875rem;white-space:nowrap}
+ .nc-character-record+.nc-savebar-compact .save-button>span {font-size:inherit;display:inline}
+ .nc-savebar-compact .save-button>svg {width:18px;height:18px}
+ .nc-savebar-compact .save-comment {position:relative;flex:none;min-width:0}
+ .nc-savebar-compact .save-comment>summary {display:flex;align-items:center;justify-content:center;gap:7px;min-height:44px;min-width:44px;padding:9px;cursor:pointer;list-style:none;border:1px solid var(--nc-register);background:var(--nc-deep);font-size:.8125rem}
+ .nc-savebar-compact .save-comment>summary::-webkit-details-marker {display:none}
+ .nc-savebar-compact .save-comment>summary>svg {width:18px;height:18px;color:var(--nc-muted)}
+ .nc-savebar-compact .save-comment>summary:focus-visible {outline:2px solid var(--nc-signal);outline-offset:2px}
+ .nc-savebar-compact .save-comment[open]>summary {color:var(--nc-signal);border-color:var(--nc-signal)}
+ .nc-savebar-compact .save-comment>label {position:fixed;bottom:calc(60px + env(safe-area-inset-bottom));left:max(16px,calc((100vw - 1100px)/2));right:max(16px,calc((100vw - 1100px)/2));display:block;padding:14px;background:var(--nc-raised);border:1px solid var(--nc-register);max-width:1100px;max-height:calc(100dvh - 80px - env(safe-area-inset-bottom));overflow:auto}
+ .nc-savebar-compact .save-comment>label>span {display:block;font-size:.8125rem;color:var(--nc-muted);margin-bottom:8px}
+ .nc-savebar-compact .save-comment>label>input {display:block;width:100%;max-width:none;min-height:44px;margin:0;font-size:1rem}
+ .nc-character-record+.nc-savebar-compact .export-button {width:44px;min-width:44px;min-height:44px;padding:9px;flex:none}
+ .nc-savebar-compact .export-button>svg {width:20px;height:20px}
+}
+@media screen and (max-width:760px) {
+ .nc-character-record+.savebar.nc-savebar-compact {padding-left:12px;padding-right:12px}
+ .nc-character-record+.nc-savebar-compact .savebar-inner {gap:6px}
+ .nc-character-record+.nc-savebar-compact .save-button {padding:9px 10px}
+ .nc-savebar-compact .save-comment>summary>span {display:none}
+ .record-quick-actions>button {padding:8px 5px;gap:5px}
+}
+@media print {.record-quick-actions {display:none!important}}
+
+/* Focused record pages keep their portrait and full stat rail on the profile. */
+@media screen {
+ .nc-character-record .nc-record-workspace,.nc-readonly-record .nc-record-workspace {display:block}
+ .nc-character-context {min-width:0;padding:0 0 18px;border-bottom:1px solid var(--nc-register)}
+ .nc-character-back {display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 16px;margin-bottom:16px}
+ .nc-character-back>.back-button {min-height:44px;padding:8px 0;flex:1;justify-content:flex-start}
+ .nc-character-back>.text-button {min-height:44px;font-size:.875rem}
+ .nc-character-route {display:flex;align-items:flex-end;justify-content:space-between;gap:16px;min-width:0}
+ .nc-character-route>div {min-width:0;display:grid;gap:4px}
+ .nc-character-route .file-number {font:.6875rem/1.5 var(--nc-mono);color:var(--nc-muted);overflow-wrap:anywhere}
+ .nc-character-route strong {font:800 italic 1.6rem/1.15 Dossier,'Arial Narrow',sans-serif;color:var(--nc-text);overflow-wrap:anywhere}
+ .nc-character-route>div>span:last-child {font-size:.8125rem;line-height:1.4;color:var(--nc-muted);overflow-wrap:anywhere}
+ .nc-character-route h2 {font:800 italic 2rem/1.1 Dossier,'Arial Narrow',sans-serif;color:var(--nc-signal);margin:0;overflow-wrap:anywhere;text-align:right}
+ .nc-character-record .character-tabs,.nc-readonly-record .character-tabs {display:block;border:0!important;margin:0;padding:0}
+ .nc-character-record .nc-record-tab-index,.nc-readonly-record .nc-record-tab-index {padding:16px 0 20px;margin:0}
+ .nc-character-record .nc-record-navigation.section-tabs,.nc-readonly-record .nc-record-navigation.section-tabs {display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:0;width:100%;min-width:0}
+ .nc-readonly-record .nc-record-navigation.section-tabs {grid-template-columns:repeat(6,minmax(0,1fr))}
+ .nc-character-record .nc-record-navigation.section-tabs>button,.nc-readonly-record .nc-record-navigation.section-tabs>button {min-width:0;min-height:56px;padding:8px!important;font-size:.8125rem!important;gap:3px}
+ .nc-record-mobile-select {display:none}
+ .nc-profile-overview {display:grid;grid-template-columns:minmax(0,1.1fr) minmax(0,.9fr);align-items:start;gap:28px}
+ .nc-profile-overview>.nc-dossier-heading {margin:0;min-width:0;align-self:start}
+ .nc-profile-bank {min-width:0}
+ .nc-profile-bank>.record-quick-actions {grid-template-columns:repeat(2,minmax(0,1fr));margin:0 0 20px}
+ .nc-profile-sections {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:0 0 24px}
+ .nc-profile-sections>button {min-width:0;min-height:68px;display:flex;align-items:center;gap:8px;padding:10px;text-align:left;background:var(--nc-deep);border:1px solid var(--nc-register);color:var(--nc-text)}
+ .nc-profile-sections>button>svg {width:18px;height:18px;flex:none;color:var(--nc-signal)}
+ .nc-profile-sections>button>span:first-of-type {flex:1;min-width:0;display:grid;gap:4px}
+ .nc-profile-sections strong {font-size:.9375rem;line-height:1.3;overflow-wrap:anywhere}
+ .nc-profile-sections small {font-size:.75rem;line-height:1.4;font-weight:400;color:var(--nc-muted);overflow-wrap:anywhere}
+ .nc-profile-sections b {font:.875rem var(--nc-mono);color:var(--nc-signal);flex:none}
+ .nc-profile-sections>button>span:last-child {font-size:.875rem;color:var(--nc-muted);flex:none}
+ .nc-profile-sections>button:focus-visible {outline:3px solid var(--nc-signal);outline-offset:2px}
+ .nc-implants-page>.nc-device-facts {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+ .nc-implants-page>.nc-device-facts>div {display:grid;align-content:start;gap:6px}
+ .nc-implants-page>.nc-device-facts dd {text-align:left;font:1.25rem var(--nc-mono)}
+ .nc-implants-page>.text-button {margin:0 0 18px;min-height:44px}
+ .nc-skill-ip-help {margin:12px 0 20px;border:1px solid var(--nc-register);background:var(--nc-deep)}
+ .nc-skill-ip-help>summary {display:flex;align-items:center;gap:8px;min-height:48px;padding:12px 14px;cursor:pointer;font-size:.9375rem;color:var(--nc-signal);list-style:none}
+ .nc-skill-ip-help>summary::-webkit-details-marker {display:none}
+ .nc-skill-ip-help>summary>svg {width:18px;height:18px;flex:none}
+ .nc-skill-ip-help>p {margin:0;padding:0 14px 14px;font-size:.9375rem;line-height:1.6}
+ .nc-readonly-items {min-width:0}
+ .nc-readonly-record .nc-readonly-access {margin:16px 0 0;font-size:.8125rem;line-height:1.6}
+ .nc-scene-context {margin:14px 0 0;border:1px solid var(--nc-register);background:var(--nc-deep)}
+ .nc-scene-context>summary {min-height:44px;padding:10px 12px;cursor:pointer;font-size:.875rem;color:var(--nc-signal)}
+ .nc-scene-context>.scene-aftermath {margin:0;border:0;padding:12px}
+ .nc-readonly-badge {font:.6875rem var(--nc-mono);color:var(--nc-muted);margin:12px 0 0}
+}
+@media screen and (max-width:760px) {
+ .nc-character-record .nc-record-navigation.section-tabs,.nc-readonly-record .nc-record-navigation.section-tabs {display:none!important}
+ .nc-record-mobile-select {display:grid;grid-template-columns:minmax(0,1fr);gap:8px;min-width:0;font-size:.875rem;color:var(--nc-muted)}
+ .nc-record-mobile-select>select {display:block;width:100%;min-width:0;min-height:48px;font-size:1rem;line-height:1.4;padding:10px 12px;border:1px solid var(--nc-control);background:var(--nc-deep);color:var(--nc-text)}
+ .nc-record-mobile-select>select:focus-visible {outline:3px solid var(--nc-signal);outline-offset:2px}
+ .nc-character-record .nc-record-tab-index>.nc-bank-label,.nc-readonly-record .nc-record-tab-index>.nc-bank-label {display:none}
+ .nc-character-record .nc-record-tab-index,.nc-readonly-record .nc-record-tab-index {padding:16px 0 20px}
+ .nc-character-context {padding-bottom:14px}
+ .nc-character-route {align-items:flex-start;gap:12px}
+ .nc-character-route strong {font-size:1.45rem}
+ .nc-character-route h2 {font-size:1.7rem;max-width:45%}
+ .nc-profile-overview {grid-template-columns:minmax(0,1fr);gap:22px}
+ .nc-profile-sections>button {padding:10px 8px;gap:6px}
+ .nc-profile-sections small {font-size:.6875rem}
+ .nc-profile-sections>button>svg {display:none}
+ .nc-implants-page>.nc-device-facts {gap:8px}
+ .nc-implants-page>.nc-device-facts dd {font-size:1rem;overflow-wrap:anywhere}
+}
+@media print {
+ .nc-character-context,.nc-record-tab-index,.nc-profile-sections,.record-quick-actions {display:none!important}
+ .nc-profile-overview,.nc-profile-bank {display:block}
+}

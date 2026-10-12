@@ -1,0 +1,13 @@
+{
+  "apk": "/workspace/scratch/09867514bb2e/qa177/refinement-release/NightCity_Crew_0.17.7-mobile.1.apk",
+  "primaryDex": "classes.dex",
+  "dexCount": 1,
+  "dexFiles": [
+    {
+      "name": "classes.dex",
+      "size": 2798624,
+      "version": "037",
+      "sha256": "c9c107a75f796a3ea7585fb96a60fa420b7da379ef7f28e3fa488805b16eb97f"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {battleViewport,observeBattleViewport} from '../lib/battle-viewport.mjs';
+
+const viewport=new EventTarget();
+Object.assign(viewport,{width:900,height:412,offsetTop:0,offsetLeft:0});
+const win=new EventTarget();Object.assign(win,{innerWidth:900,innerHeight:412,visualViewport:viewport});
+const values=[];const stop=observeBattleViewport(win,value=>values.push(value));
+assert.deepEqual(values.at(-1),{width:900,height:412,top:0,left:0});
+viewport.height=222;viewport.offsetTop=18;viewport.dispatchEvent(new Event('resize'));
+assert.deepEqual(values.at(-1),{width:900,height:222,top:18,left:0});
+viewport.offsetTop=36;viewport.dispatchEvent(new Event('scroll'));
+assert.equal(values.at(-1).top,36);
+viewport.height=412;viewport.offsetTop=0;viewport.dispatchEvent(new Event('resize'));
+assert.equal(values.at(-1).height,412);
+const count=values.length;stop();viewport.dispatchEvent(new Event('resize'));win.dispatchEvent(new Event('resize'));assert.equal(values.length,count);
+assert.deepEqual(battleViewport({innerWidth:412,innerHeight:900}),{width:412,height:900,top:0,left:0});
+assert.deepEqual(battleViewport({innerWidth:412,innerHeight:900,visualViewport:{height:0,width:NaN,offsetTop:-10,offsetLeft:Infinity}}),{width:412,height:900,top:0,left:0});
+
+const root=new URL('../',import.meta.url);
+const dialog=await readFile(new URL('components/battle/Dialog.jsx',root),'utf8');
+const css=await readFile(new URL('components/battle/battle-dialog.css',root),'utf8');
+const roster=await readFile(new URL('components/shared-battle.tsx',root),'utf8');
+const tools=await readFile(new URL('components/battle/SceneTools.tsx',root),'utf8');
+assert(dialog.includes('event.preventDefault();event.target?.focus?.({preventScroll:true})'),'Opening must focus the dialog, not automatically summon the keyboard on the scene-name input.');
+assert(css.includes('height:var(--nc-dialog-height, 100dvh)'));
+assert(css.includes('flex:1 1 0;min-height:0;overflow-y:auto'),'One flexible form scroll surface must fit above the keyboard.');
+assert(roster.includes('<DialogTitle>Участники и карта</DialogTitle></DialogHeader><form'),'No fixed long description above the shrinking form.');
+assert(roster.indexOf('className="nc-roster-add"')<roster.indexOf('<DeviceForm devices='),'Add participant is before the large device/actor sections.');
+assert(roster.includes('className="nc-roster-help"'),'Long guidance is expandable inside the scroll surface.');
+assert(tools.indexOf('<div className="nc-battle-tools-body">')<tools.indexOf('<DialogDescription>'),'NPC/import/export explanation scrolls with content instead of consuming fixed keyboard space.');
+console.log('Battle keyboard: visual viewport resize/pan/restore/cleanup, fallback, intentional input focus and single full-height scrolling roster passed. Browser pixel/real IME behavior still requires device verification.');

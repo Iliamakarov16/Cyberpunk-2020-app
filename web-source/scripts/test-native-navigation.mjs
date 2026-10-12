@@ -1,0 +1,51 @@
+import assert from 'node:assert/strict';
+import {readFile} from 'node:fs/promises';
+import {existsSync} from 'node:fs';
+import {fileURLToPath} from 'node:url';
+import {createHarness,installEnvironment,loadModules} from './ux-hook-harness.mjs';
+const env=installEnvironment(),h=createHarness();
+const {Tracker,blank,BattleInvitations}=await loadModules(h,undefined,{actualInvitations:true});
+const me={id:2,username:'Tester',role:'player',csrf:'test'};
+const character={id:21,owner_id:2,owner:'Tester',version:1,updated:100,can_edit:true,data:blank('Рэй','Соло')};
+const campaign={id:10,name:'Бар',description:'',gm_id:2,gm:'Tester',version:1,updated:100,is_gm:true,is_member:true,transfer_to:null};
+const invitations=[{campaignId:10,campaignName:'Бар',battleId:'battle-a',battleName:'Первый бой',phase:'combat',actorIds:['ray']}];
+let active=[];
+const reply=value=>new Response(JSON.stringify(value),{status:200,headers:{'Content-Type':'application/json'}});
+globalThis.fetch=async(path,options={})=>{
+ assert.equal(options.method||'GET','GET','Back and invitations do not mutate user data');
+ if(path==='/api/me')return reply(me);if(path==='/api/settings')return reply({hints:false,tutorial:false,animations:false});
+ if(path==='/api/characters')return reply([character]);if(path==='/api/campaigns')return reply([campaign]);
+ if(path==='/api/campaigns/10')return reply({...campaign,members:[],roster:[]});
+ if(path==='/api/campaigns/10/workspace')return reply({version:1,is_gm:true,characters:[],data:{schemaVersion:1,contacts:[],messages:[],places:[],assets:[],scene:null}});
+ if(path==='/api/battles/active')return reply({battles:active});throw new Error(path);
+};
+async function back(){const event=new Event('nightcity-native-back',{cancelable:true});env.window.dispatchEvent(event);h.render();await h.flush();return event.defaultPrevented;}
+const select=()=>h.find(n=>n.type==='select'&&n.props['aria-label']==='Раздел листа персонажа');
+async function section(value){select().props.onChange({target:{value}});h.render();await h.flush();}
+await h.mount(Tracker,{platformAuth:false});await h.flush();assert.equal(await back(),false,'True root delegates only to explicit native exit confirmation');
+await h.click(h.find(n=>n.props['data-tour']==='nav-personal'));
+await h.click(h.find(n=>n.props.className?.split(' ').includes('character-card')));
+await section('notes');const note=h.find(n=>n.type==='textarea');note.props.onChange({target:{value:'Draft survives Back'}});h.render();await h.flush();
+await section('items');assert(await back());assert.equal(select().props.value,'notes');assert(h.find(n=>n.type==='textarea'&&n.props.value==='Draft survives Back'));
+assert(await back());assert.equal(select().props.value,'sheet');assert(!h.find(n=>n.type==='harness-AlertDialog'));
+assert(await back());assert(h.text().includes('Выйти без сохранения?'));assert(select());
+assert(await back());assert(!h.find(n=>n.type==='harness-AlertDialog'));assert(select(),'Back dismisses confirmation before navigation');
+await h.click('Аккаунт');await h.click('Сменить пароль');assert(h.find(n=>n.type==='harness-Dialog'));assert(await back());assert(h.find(n=>n.props.className==='account-panel'));assert(await back());
+await h.click('Настройки');assert(h.find(n=>n.type==='harness-Sheet'));assert(await back());assert(!h.find(n=>n.type==='harness-Sheet'));assert(select());
+await h.click('Настройки');const input=new Event('input',{bubbles:true});Object.defineProperty(input,'target',{value:{closest:()=>true}});env.document.dispatchEvent(input);
+assert(await back());assert(h.text().includes('Закрыть несохранённый ввод?'));assert(h.find(n=>n.type==='harness-Sheet'));await h.click('Закрыть форму');assert(!h.find(n=>n.type==='harness-Sheet'));
+assert(await back());await h.click('Продолжить');assert(!select());assert(await back());assert.equal(await back(),false,'History pop does not produce a Back loop');
+await h.click(h.find(n=>n.props['data-tour']==='nav-campaigns'));await h.click(h.find(n=>n.type==='button'&&n.props.className?.includes('campaign-folder')));
+const campaignTabs=h.find(n=>n.props['aria-label']==='Разделы кампании');
+assert(campaignTabs);const tabs=h.nodes(campaignTabs).filter(n=>n.type==='button');await h.click(tabs.find(n=>h.text(n).includes('Партия')));await h.click(h.nodes(campaignTabs).find(n=>n.type==='button'&&h.text(n).includes('Записи')));
+assert(await back());assert(h.find(n=>n.type==='button'&&n.props['aria-pressed']&&h.text(n).includes('Партия')),'Campaign tabs keep their own history');assert(await back());assert(await back());assert(h.text().includes('Мои кампании'));
+h.dispose();
+// Actual invitation poll and account isolation, no synthetic campaign creation.
+let joins=[],calls=0;const api=async()=>{calls++;return {battles:active};};active=invitations;
+h.mount(BattleInvitations,{accountId:2,api,onJoin:value=>joins.push(value)});await h.flush();assert(h.text().includes('ГМ объявил бой'));await h.click('Войти в бой');assert.deepEqual(joins,[{campaignId:10,campaignName:'Бар'}]);assert(!h.button('Войти в бой'));h.dispose();
+h.mount(BattleInvitations,{accountId:2,api,onJoin(){}});await h.flush();assert(!h.button('Войти в бой'),'Dismissed invitation remains dismissed when returning from battle');h.dispose();
+h.mount(BattleInvitations,{accountId:3,api,onJoin(){}});await h.flush();assert(h.button('Войти в бой'),'A different account has independent notices');await h.click('Позже');h.dispose();
+const packagedNative=fileURLToPath(new URL('../../android/app/src/main/java/app/nightcity/crew/MainActivity.java',import.meta.url));
+const native=await readFile(existsSync(packagedNative)?packagedNative:'../nightcity_next/NightCity_Crew_0.17.3-mobile.1_Source/android/app/src/main/java/app/nightcity/crew/MainActivity.java','utf8');
+assert.match(native,/if \(page.equals\("web"\)\) \{\s*dispatchAppBack\(\)/);assert.match(native,/nativePage\(String backLabel\) \{\s*nativeBackPending = false; nativeBackGeneration\+\+/);assert.match(native,/SCREEN_ORIENTATION_SENSOR_LANDSCAPE/);assert.match(native,/SCREEN_ORIENTATION_PORTRAIT/);assert.match(native,/setTitle\("Закрыть приложение\?"\)/);
+console.log('Native event to real Tracker: previous tabs, exact draft retention, unsaved guard, modal first, campaign hierarchy, true root; connected invitations/account isolation passed. Device rotation itself remains untested.');

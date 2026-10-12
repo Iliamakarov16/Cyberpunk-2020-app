@@ -1,0 +1,48 @@
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import ts from 'typescript';
+
+const file = process.argv[2] ?? new URL('../lib/dice.ts', import.meta.url);
+const source = ts.transpileModule(readFileSync(file, 'utf8'), {compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022}}).outputText;
+const {rollD10, resolveSkillCheck, rollSkillCheck} = await import('data:text/javascript;base64,' + Buffer.from(source).toString('base64'));
+
+const input = {stat: 7, rank: 5, modifier: 0, difficulty: 20};
+assert.equal(resolveSkillCheck(input, 8).outcome, 'success', 'Equality reaches the difficulty.');
+assert.equal(resolveSkillCheck(input, 7).outcome, 'failure');
+assert.equal(resolveSkillCheck({...input, modifier: -3}, 8).total, 17);
+assert.equal(resolveSkillCheck({...input, difficulty: null}, 8).outcome, 'pending');
+assert.equal(resolveSkillCheck({...input, difficulty: undefined}, 8).difficulty, null);
+const fumble = resolveSkillCheck({...input, stat: 50, rank: 50, difficulty: 1}, 1, 10);
+assert.equal(fumble.outcome, 'fumble', 'Natural 1 always fails.');
+assert.equal(fumble.fumble, 10);
+assert.equal(fumble.bonus, null);
+assert.equal(fumble.total, 101, 'Fumble-table roll is neither added nor subtracted.');
+const critical = resolveSkillCheck(input, 10, 10);
+assert.equal(critical.total, 32);
+assert.equal(critical.bonus, 10);
+assert.equal(critical.fumble, null);
+assert.equal(resolveSkillCheck({...input, difficulty: 40}, 10, 10).outcome, 'failure', 'Natural 10 does not guarantee success.');
+for (const value of [0, 11, 1.5, NaN, Infinity]) assert.throws(() => resolveSkillCheck(input, value), RangeError);
+assert.throws(() => resolveSkillCheck(input, 1), RangeError);
+assert.throws(() => resolveSkillCheck(input, 10), RangeError);
+assert.throws(() => resolveSkillCheck(input, 5, 5), RangeError);
+assert.throws(() => resolveSkillCheck({...input, modifier: 1.5}, 5), RangeError);
+assert.throws(() => resolveSkillCheck({...input, rank: -1}, 5), RangeError);
+assert.throws(() => resolveSkillCheck({...input, difficulty: 0}, 5), RangeError);
+let draws = 0;
+assert.equal(rollSkillCheck(input, () => { draws++; return 10; }).total, 32);
+assert.equal(draws, 2, 'A bonus 10 does not cause a third roll.');
+draws = 0;
+assert.equal(rollSkillCheck(input, () => { draws++; return 1; }).outcome, 'fumble');
+assert.equal(draws, 2, 'Natural 1 consumes exactly one fumble-table roll.');
+draws = 0;
+assert.equal(rollSkillCheck(input, () => { draws++; return 5; }).total, 17);
+assert.equal(draws, 1);
+
+for (let value = 0; value < 100; value++) assert.equal(rollD10(() => value), value % 10 + 1);
+assert.equal(rollD10(() => 4_294_967_289), 10, 'The highest accepted uint32 maps to 10.');
+const rejectionValues = [4_294_967_290,4_294_967_295,9];
+assert.equal(rollD10(() => rejectionValues.shift()), 10);
+assert.equal(rejectionValues.length, 0, 'The six excess uint32 values are rejected, preventing modulo bias.');
+for (const value of [-1, 4_294_967_296, NaN, 0.5]) assert.throws(() => rollD10(() => value), RangeError);
+console.log('Skill checks: tied difficulty, signed modifiers, missing difficulty, natural 1, one bonus d10, physical dice validation, and unbiased random sampling passed.');

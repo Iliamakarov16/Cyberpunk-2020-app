@@ -1,0 +1,350 @@
+
+=== scripts/test-atlas-battle-navigation.mjs ===
+Actual Tracker/CampaignHub/Atlas/invitation path: notes draft → map → connected battle invitation → battle Back → same dirty map → exact notes tab/draft. No network mutation or runtime pixel claim.
+
+=== scripts/test-auth-form.mjs ===
+Account forms: all 5 modes, independent password visibility, no accidental submit, field attributes, focus/selection preservation and pending-state stability passed. Samsung IME is not emulated.
+
+=== scripts/test-battle-armor-ui.mjs ===
+Armor UI: private projected wear only, unresolved layer warning, separate prepare/import acknowledgement, reopening resets acknowledgement, preserved wounded NPC IDs and persisted single-source feedback passed. Renderer mocked.
+
+=== scripts/test-battle-context-layout.mjs ===
+Contextual battle: empty preparation has no HUD; one menu/actor/camera panel; actor→tool→target→server preview→confirmation; Back layers; GM permissions/redacted player details; constructor footprint/orientation; 44px controls and safe-area contracts passed. Renderer mocked; phone pixels remain unverified.
+
+=== scripts/test-battle-event-delivery.mjs ===
+Actual BattleApp event delivery: [shoot,end], ordered effects, observer reset, same-ID redaction, and interface reduced motion passed. Renderer mocked; queue timers deterministic.
+
+=== scripts/test-battle-event-queue.mjs ===
+✔ server ID revisions and renderer-compatible default lifetimes (1.342595ms)
+✔ initial projected history establishes a baseline and never replays on duplicate polling (1.216635ms)
+✔ two-second poll with [shoot,end] emits the shot instead of losing it to end (0.575388ms)
+✔ several events in one version preserve server log order and ID deduplication (0.461977ms)
+✔ incrementally observed events in the same revision are delivered once (0.529319ms)
+✔ newer polls append without interrupting the current effect or duplicating earlier events (0.399593ms)
+✔ stale versions and newly exposed older IDs cannot replay past events (0.224909ms)
+✔ normal trimmed history retains overlap and new sparse projected revisions animate (1.061181ms)
+✔ UUID IDs remain distinct for several events in one version at the server 150-event cap (0.716641ms)
+✔ missing retained-log overlap rebases to a static projected outcome (0.394946ms)
+✔ observer or battle scope invalidation cancels timers and clears old coordinates immediately (0.317719ms)
+✔ offline cancels in-flight effects; reconnect consumes accumulated history statically (0.344861ms)
+✔ inactive/reopen and motion toggles leave no delayed animation backlog (0.312472ms)
+✔ reduced motion shows the latest new confirmed outcome without timers or repeated callbacks (0.20545ms)
+✔ a long receipt gap and a throttled callback never animate delayed history (0.236567ms)
+✔ count and time overflow discard bounded animation backlog and use one static result (0.248324ms)
+✔ seen-ID storage is bounded and evicted IDs at the same revision cannot replay (0.57683ms)
+✔ undo/import/prepare invalidate prior outcomes, while explicit reset starts a clean baseline (0.203968ms)
+✔ projection-only payloads stay unchanged; no hidden coordinates or synthetic outcomes are added (0.710241ms)
+✔ custom supported effects and opaque actual IDs preserve ordering without character-name identity (0.19252ms)
+✔ malformed records and future-ID revisions are not delivered (0.376749ms)
+✔ dispose is idempotent and prevents all later callbacks; synchronous disposal leaves no timer (0.200853ms)
+✔ stale lifecycle invalidation still cancels animation without lowering the revision fence (0.106411ms)
+✔ same-observer current removal at the same or newer revision immediately revokes its timer (0.24537ms)
+✔ same-observer queued removal at the same or newer revision cannot be restored after current completes (0.189065ms)
+✔ same/new-version current redaction emits only its latest static copy and cancels old coordinates (0.255455ms)
+✔ same/new-version pending redaction replaces queued payload before its eventual callback (0.214413ms)
+✔ revoking all live effects while retaining an unrelated log anchor clears current and pending work (0.111108ms)
+✔ temporarily empty same-scope projections do not replay consumed IDs when they reappear (0.122665ms)
+✔ foundation events deliver per-target traces without replaying aggregate damage (0.167973ms)
+ℹ tests 30
+ℹ suites 0
+ℹ pass 30
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19.949056
+
+=== scripts/test-battle-facing-ui.mjs ===
+Facing UI: legacy/eight headings, GM preparation preview, no local reveal, explicit per-action fire ruling, player intent, stale adjudication ignored, and closed legacy attacks passed.
+
+=== scripts/test-battle-first-tools.mjs ===
+Initial campaign tools: direct Import/NPC save only empty preparation, open after confirmed success, never mutate sheets or auto-import, reject conflicts safely.
+
+=== scripts/test-battle-hotbar.mjs ===
+Hotbar: direct actions, pending-preview/Space guard, duplicate End, player ownership/stun semantics, and explicit import arrival passed.
+
+=== scripts/test-battle-keyboard.mjs ===
+Battle keyboard: visual viewport resize/pan/restore/cleanup, fallback, intentional input focus and single full-height scrolling roster passed. Browser pixel/real IME behavior still requires device verification.
+
+=== scripts/test-battle-overlay-rail.mjs ===
+Overlay rail: no reserved strip, transparent map gaps, 44px controls, panels below rail, optional test menu without commands. Hook/CSS contract, not browser pixels.
+
+=== scripts/test-battle-theme.mjs ===
+Battle appearance: no private chrome colors, all theme tokens defined; five palettes, texture/digital/boot settings retained across battle enter/exit/re-entry, native-ready event and page remount; no campaign writes. Pixel/device QA not emulated.
+
+=== scripts/test-battle-training.mjs ===
+Original training: four-actor bar, initiative, move preview, shot result, reload, NET connect/scan/control, isolated real draft, explicit reset, legacy preservation, exact retry and native enter/exit passed. Renderer mocked; no device claim.
+
+=== scripts/test-battle-transfer.mjs ===
+Scene transfer: bounded JSON reads, server-only export, preview/explicit replace, stale validation, rejected import, draft-preserving Back, private player UI and server NPC template commands passed. Renderer mocked.
+
+=== scripts/test-battle-ui.mjs ===
+PASS: scoped LOS; callbacks; editor steps; pending placement retained/recoverable; explicit discard; auto-selection; template preservation and concurrent draft guard.
+
+=== scripts/test-battle.mjs ===
+Battle validation, LOS, privacy, actor authorization, movement resolve/undo, history and portable remapping tests passed.
+
+=== scripts/test-campaign-battle-entry.mjs ===
+PASS: one canonical Battle entry for GM, player and reserve; no competing scene front door; secondary legacy history, messages, places and assets; same-action aftermath return; manual/message draft retention; denied pending access; shared tutorial routes and hosted/demo fallback. Hook harness only, no browser rendering claim.
+
+=== scripts/test-campaign-controls.mjs ===
+PASS: actual campaign shortcuts, GM accepted/pending roster, compact embedded table, current/history queue with retained drafts and result return, confirmed/busy scene control, player/pending roles and standalone context.
+
+=== scripts/test-campaign-role-context.mjs ===
+PASS: visible GM/player/reserve/pending/member campaign banners, real notes/invite/table navigation and per-campaign rights remain stable; presentation never writes roles.
+
+=== scripts/test-campaigns.mjs ===
+Tracker request failed test accept blocked
+Tracker request failed test final delete blocked
+Campaign API: registration, persistent GM/player modes without admin escalation, private personal sheets, scoped campaigns and secrets, invitations, pending/active/reserve participation, CAS conflicts, transactional rollback, withdrawal, GM handover, deletion cleanup and one-time legacy migration passed.
+
+=== scripts/test-catalog-scope.mjs ===
+PASS: actual scoped implant catalogue/counts/search/reset/custom creation, eye/hand/head component inclusion and unaltered imports; existing general and body-slot catalogues remain unchanged.
+
+=== scripts/test-catalog.mjs ===
+Catalog: 1489 valid imports; ten core armor templates; manual WA/SDP/HL; source, slot, price and normalization checks passed.
+
+=== scripts/test-character-access-ui.mjs ===
+PASS: actual CharacterAccess loads per-campaign policy; exact selected payload; shared save lock and failed-save recovery; focused readonly notes refresh stays clean; revocation closes full sheet; older pending 200 cannot reopen revoked sheet; asynchronous direct portrait decode preserves newer card edits.
+
+=== scripts/test-character-access.mjs ===
+Tracker request failed test access rollback
+Character sharing API regression: 291 meaningful assertions passed.
+
+=== scripts/test-character-creation.mjs ===
+Character creation: valid six-step flow; all 73 budgets; finite/range checks; strict Career/Pickup allocation; ownership; native languages; Solo/Techie choices; verified IP multipliers; immutable build; empty transfer passed.
+
+=== scripts/test-city-atlas.mjs ===
+Atlas host: strict origin/source/version boundary, campaign context, themed ready handoff, native Back draft delegation, suspended iframe retention and failed-frame exit confirmation passed. No pixel claim.
+
+=== scripts/test-claim-recovery.mjs ===
+Tracker request failed intentional code rotation rollback
+Lost import response recovery: GM-only code rotation, CAS, rollback, old-code invalidation, claimed-owner preservation, and handover tests passed.
+
+=== scripts/test-combat-adjudication.mjs ===
+Combat adjudication: explicit melee defenses/style bonuses, exact backend conventions, bounded GM fumble effects, visible receipts, disabled/repeated/stale/error flows passed. Hook harness; no browser rendering claimed.
+
+=== scripts/test-combat-foundation-ui.mjs ===
+PASS grouped single fire requires explicit GM decision and one authoritative command
+PASS burst selection fixes three rounds and never exposes unsupported suppression
+PASS auto target changes reset facing and ignore delayed obsolete previews
+PASS player fire declaration carries intent only
+PASS player melee declaration carries intent only
+PASS opposed melee needs chosen defense despite saved punch convention
+PASS selected martial style requires explicit zero bonus before opposed preview
+PASS weapon switching is previewed, cancellable, and preserves magazines
+PASS jammed weapon has an explicit one-turn clearing intent
+PASS scene conventions persist only after explicit save and feed later punches
+PASS GM fire declaration requires separate facing and resolved scene conventions
+PASS GM melee declaration is separately adjudicated against its actual target
+PASS pending fumble gates actions until an explicit visible GM resolution
+PASS player projected fumble gate needs no private receipt
+PASS gm Space cannot bypass unresolved-fumble End gate
+PASS player Space cannot bypass unresolved-fumble End gate
+PASS burst-only profile opens with exactly three rounds
+PASS unsupported suppression-only profile cannot target a fictitious single mode
+PASS remaining ROF and single-action cap gate targeting before the server
+Combat foundation UI: confirmed loadouts, grouped fire modes, player intent boundary, explicit opposed defense, switch/unjam, saved conventions, declaration review, and pending-fumble gates passed. Actual components; HTTP/renderer mocked, no dice or browser-rendering claim.
+
+=== scripts/test-demo-flow.mjs ===
+PASS: actual demo/terminal/board GM-player roundtrip, target action, dice, result, approved movement, draft switch guard and network isolation.
+
+=== scripts/test-demo-table.mjs ===
+Учебный стол: роли, скрытые данные, полный маршрут заявки, движение после решения, откат и повтор запроса — пройдены.
+
+=== scripts/test-dice.mjs ===
+Skill checks: tied difficulty, signed modifiers, missing difficulty, natural 1, one bonus d10, physical dice validation, and unbiased random sampling passed.
+
+=== scripts/test-editor-validation.mjs ===
+Editors: hidden SP/EV fields reject invalid values in both armor modes; valid bounds passed.
+
+=== scripts/test-enemy-appearances.mjs ===
+✔ static crops reference unchanged RGBA PNGs and preserve original IDs (19.836326ms)
+✔ invalid cosmetic identifiers cannot supply a URL or crop (0.257178ms)
+✔ new images load lazily once, fallback safely, retain crop, scale and mirroring (1.580184ms)
+✔ wide figure edge picks the visible actor and not only a narrow center (0.373253ms)
+✔ disposing clears every image handler and queued render becomes a no-op (0.348756ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 27.298565
+
+=== scripts/test-equipment.mjs ===
+Equipment: 11 table boundaries; coverage, EV, layering order, invalid sets, skinweave, quantity, effects, legacy normalization passed.
+
+=== scripts/test-firefight-renderer.mjs ===
+✔ same-ID effect redaction replaces geometry and ordinary renders never restart it (1.286581ms)
+✔ short tap selects a cell without changing scene state (1.740396ms)
+✔ drag, pointer cancellation and pinch never become a cell tap (0.481476ms)
+✔ phone starts at a readable zoom; fit button can still show the whole map (0.272982ms)
+✔ rotation retains the same point in the center of the camera (1.158778ms)
+✔ switching views clears a previous shot effect with hidden actor positions (0.301895ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10.627414
+
+=== scripts/test-grid-props.mjs ===
+✔ catalog uses exact integer-cell footprints and schema-preserving quarter turns (1.368365ms)
+✔ all scenery is grid-contained without atlas stretch in both orientations (20.898458ms)
+✔ renderer anchors every prop at full footprint bottom and preserves human perspective (0.565724ms)
+✔ texture cache is reused across positions, bounded and has a no-canvas fallback (8.293312ms)
+✔ walls and either door state never occlude the neighboring grid cell (0.557982ms)
+✔ connected wall caps have no internal front seam and doors follow either wall axis (0.637923ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 37.723431
+
+=== scripts/test-guest-settings.mjs ===
+Guest access: reachable persistent skip setting, guest preview, real login without startup, local-only native recovery request and remote-player boundary passed. Android device confirmation is tested in native code.
+
+=== scripts/test-heading-marker.mjs ===
+Heading marker: 10px minimum arrow at phone zoom in all eight directions; fixed world heading unchanged.
+
+=== scripts/test-interface-entry.mjs ===
+Interface entry: prepaint/storage validation and migration; actual data/error/retry gate; no hidden menu access; local theme persistence; preview returns to settings without API writes or losing draft passed.
+Real Tracker + MotionSurface: one normal entrance, immediate skip/reduced/off startup, preview draft retention, aria-hidden ambient gating and no return replay passed.
+CSS contracts: portrait-heavy dossier, 300px narrow fallback, contain artwork, 44px edits, decorative-only restrained ambient/arrival validated; pixels are not emulated.
+
+=== scripts/test-interface-motion.mjs ===
+Motion boundary: navigation-only transitions, active input preservation, hidden-route cancellation, settings/reduced-motion changes and page visibility passed. Single background ownership, approved B geometry, post-navigation tab and selector focus, direct input cancellation, stationary content and stale/fallback timers passed. CSS rendering and Radix DOM dispatch are not emulated.
+
+=== scripts/test-ip-lesson.mjs ===
+IP lesson: Core costs; three-step flow; award/spend; replay; available with tutorials off; no real writes passed.
+
+=== scripts/test-launch-flow.mjs ===
+Actual Tracker + account form + DeckConnection + MotionSurface: one login POST, pending data gate,360ms automatic handoff, one20-tile entrance, stable native/web palette, session restoration, failed-data retry and pending skip passed.
+
+=== scripts/test-loading-rhythm.mjs ===
+Loading: 256 procedural curves; actual API/error/retry gate; hidden clock pause; manual preview; one automatic normal handoff after360ms visible success; immediate pending skip/reduced/off; stale timer and back cancellation passed.
+
+=== scripts/test-loadout-editor.mjs ===
+Loadout editor passed: explicit blank profiles/GM source, REF families, bounded capabilities, single shared reserve, duplicate and over-allocation guards, saved-magazine reset protection, melee, cancel/reopen and disabled states. Hook harness only; no browser/device claim.
+
+=== scripts/test-native-navigation.mjs ===
+Native event to real Tracker: previous tabs, exact draft retention, unsaved guard, modal first, campaign hierarchy, true root; connected invitations/account isolation passed. Device rotation itself remains untested.
+
+=== scripts/test-network-status.mjs ===
+PASS: actual NetworkStatus quiet startup, equal/older/newer versions, shared API release, dirty/in-flight sync, API incompatibility, first-install worker, explicit update/controller guards, connection retry, native server access and cleanup. Hook behavior is exercised; CSS layout and phone rendering are not emulated.
+
+=== scripts/test-network.mjs ===
+Tracker request failed intentional workspace test rollback
+Network workspace privacy, idempotency, CAS, manual action flow, and handover tests passed.
+
+=== scripts/test-portrait-api.mjs ===
+Portrait API: 273 assertions passed for exact framing, strict POST/PUT rejection without writes, legacy omission, exterior privacy and full campaign/history/fingerprint transfer.
+
+=== scripts/test-portrait-editor.mjs ===
+Portrait editor: matched vertical-phone preview/saved crop, Center preserving style, fitted-axis autozoom, pointer cancellation, viewport updates; legacy-safe framing, Apply/Cancel/upload isolation, readonly and motion gates passed. CSS source contracts verified; no browser pixels emulated.
+
+=== scripts/test-portrait-frame.mjs ===
+Portrait framing: legacy geometry, aspect ratio, anchored edges, ordinary drag, fitted-axis autozoom, sticky zoom, center compensation, scaled preview equivalence and finite degenerate geometry passed.
+
+=== scripts/test-portrait-workflow.mjs ===
+Portrait workflow: direct blank/image editing, local cancel/apply, real full-image picker, single-row draft footer, explicit guarded save and refresh, everyday actions, preserved private data and readonly framing passed.
+
+=== scripts/test-private-battle-vision.mjs ===
+PASS filtered A → B at the same version clears mounted A, pending preview, selection, and ignores delayed A responses
+PASS a delayed denied A preview cannot clear an already authorized B projection
+PASS visible enemy and visible unselected own character remain read-only
+PASS 403 revocation removes the projected battle and delayed previews cannot bring it back
+PASS 403 from an action preview immediately clears the previous private projection
+PASS 403 from a declaration clears the map and its persisted request
+PASS no accepted scene actor yields only unknown geometry and no controls
+PASS uncertain declaration from B restores B on remount and retries the exact original request
+Private battle frontend regression: 8 passed, 0 failed. Actual SharedBattle and BattleApp; renderer and filtered server transport mocked. No browser/device claim.
+
+=== scripts/test-record-navigation.mjs ===
+PASS: actual seven-section character navigation; sheet-only portrait/stat rail; top reset from phone, desktop and profile links; notes/items/portrait/comment draft retention and global save footer; real wardrobe/cyber split and category catalogue; history permission downgrade cancels pending disclosure; resolved-scene items/resources links and same-action return; six shared readonly pages, focused permission refresh and revocation; no API writes. Logical harness only, no browser or device rendering claim.
+
+=== scripts/test-scene-consequences.mjs ===
+PASS: actual root/hub/terminal resolved action → fresh sheet GET → Resources Apply draft → explicit versioned Save → same-scene return; outgoing target damage is not actor wounds; items open without automatic ammo changes; dirty terminal refuses sheet; long save reason fits API; late consequence GET cannot override later navigation.
+
+=== scripts/test-scene-flow.mjs ===
+PASS: scene preparation/opening, visibility and readiness; consistent target selection; closed-scene drafts survive; dice wait for approval; stale dice require explicit discard.
+
+=== scripts/test-scene-loadout-ui.mjs ===
+PASS new character preparation sends an explicit empty loadout and no guessed weapon
+PASS GM training actor opens equipment; source hints require explicit capabilities before save
+PASS NPC dirty committed draft prompts on native Back; Stay and discard preserve server state
+PASS native Back prompts for a child-only profile draft without relying on a parent rerender
+PASS Stay after an internal-profile leave prompt keeps every uncommitted field
+PASS scene version change keeps the draft but prevents stale configuration writes
+PASS actor removal from the current projection cannot save an old equipment context
+PASS account change cannot submit the previous account equipment draft
+PASS a revoked GM projection cannot submit the previous equipment draft as a declaration
+PASS combat phase blocks an equipment context opened during preparation
+PASS a replaced battle identity cannot receive the prior scene equipment draft
+PASS scene readiness reset is an explicit separate opt-in and does not refill magazines
+PASS switching NPC contexts cannot carry a previous profile draft into another actor
+Scene loadout UI passed. Actual React hook integration; canvas and transport mocked, no browser/device claim.
+
+=== scripts/test-service-worker.mjs ===
+PASS: worker public precache, auth-wall rejection, API/private boundary, live navigation, offline fallback, cache cleanup and explicit activation.
+
+=== scripts/test-shared-battle.mjs ===
+Real NET preparation: no inferred deck/programs, explicit existing inventory + Interface rank, original devices and projected scene roundtrip passed.
+Original shared battle: server preview/declaration, no local authority, ownership, magazine mapping, GM confirmation, stale reads, conflict, native Back and interrupted retry passed. Renderer mocked; no browser/device claim.
+Actual Tracker → campaign → shared battle → same message draft integration passed.
+
+=== scripts/test-signal-type.mjs ===
+PASS: actual SignalType DOM stays readable once without CSS; enabled digital cuts remain clipped/noninteractive, off/print hide clones, and reduced motion is static.
+
+=== scripts/test-start-menu.mjs ===
+Start menu: two primary destinations and a separate explicit training section; both courses with tutorials disabled; no role writes; dirty-sheet home guard and discard passed.
+
+=== scripts/test-tracker.mjs ===
+Tracker request failed delete blocked
+Tracker API: seed, save, history, version conflict, CSRF, player access, owner login and isolated persistent player settings, versioned deletion, atomic rollback and player-created multiple sheets passed.
+
+=== scripts/test-training.mjs ===
+PASS: sequential combat (success, failure, 1, 10), NET Controller (1 and 10), target/program matching, Demon choice, replay/topic reset, no network or persistence.
+
+=== scripts/test-transfer-mobile.mjs ===
+Actual campaign import UI: format guidance, replacement/cancel, single submission, claim codes, account interruption and guarded prominent entry passed. Native picker pixels are not simulated.
+Late hub import completion is account/navigation-bound.
+
+=== scripts/test-transfer.mjs ===
+Tracker request failed intentional import test rollback
+Transfer new-server recovery, privacy, full history, same-server return, backups, lineage, and branch conflict tests passed.
+Twenty-sheet import guards remain within D1 query limits.
+
+=== scripts/test-ts-loader.mjs ===
+
+=== scripts/test-tutorial-model.mjs ===
+Tutorial model: scopes, malformed progress, honest missing targets and responsive spotlight layout passed.
+
+=== scripts/test-ux-integration.mjs ===
+PASS: actual root/hub/terminal transitions; no role toggle; personal/campaign/learn; join-origin creation preserves code and selects hero; fresh campaign GET opens root sheet; dirty draft denies tutorial navigation; terminal mutation blocks global navigation; terminal section requests preserve message/identity; late previous-account read is ignored.
+
+=== scripts/test-vehicle-mesh.mjs ===
+✔ one vehicle mesh has normalized face normals and shared cabin edges (3.69204ms)
+✔ all four views are contained and centered without an empty collision row (8.076965ms)
+✔ front and rear lamp faces survive projection after body faces (2.874486ms)
+ℹ tests 3
+ℹ suites 0
+ℹ pass 3
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 19.388922
+
+=== scripts/test-wardrobe.mjs ===
+Wardrobe: active quantities, layering order, slot coverage, CSS registration, data preservation and asset manifest passed.
+
+Scripts: 70; failures: 0
+

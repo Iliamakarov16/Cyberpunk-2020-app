@@ -1,0 +1,3441 @@
+{
+  "format": "nightcity-scene",
+  "schemaVersion": 1,
+  "name": "Автомастерская · машины и фургон",
+  "width": 32,
+  "height": 26,
+  "tileMeters": 1,
+  "tiles": [
+    [
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Задний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Задний выход через склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Ремонтный зал — склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "floor",
+        "zone": "Склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Офис — склад"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Офис — ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "floor",
+        "zone": "Ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "floor",
+        "zone": "Офис"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Въезд в ремонтный зал"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Въезд в ремонтный зал"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Въезд в ремонтный зал"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Въезд в ремонтный зал"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Вход в офис"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "floor",
+        "zone": "Двор"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Ворота"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Ворота"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Ворота"
+      },
+      {
+        "type": "door",
+        "open": true,
+        "zone": "Ворота"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "wall",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      },
+      {
+        "type": "floor",
+        "zone": "Внешний проход"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      }
+    ],
+    [
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      },
+      {
+        "type": "floor",
+        "zone": "Улица"
+      }
+    ]
+  ],
+  "props": [
+    {
+      "id": "garage-car-1",
+      "type": "car",
+      "x": 5,
+      "y": 16,
+      "w": 2,
+      "h": 4,
+      "cover": true,
+      "label": "Машина 1"
+    },
+    {
+      "id": "garage-car-2",
+      "type": "car",
+      "x": 14,
+      "y": 16,
+      "w": 2,
+      "h": 4,
+      "cover": true,
+      "label": "Машина 2"
+    },
+    {
+      "id": "garage-van",
+      "type": "van",
+      "x": 9,
+      "y": 5,
+      "w": 2,
+      "h": 5,
+      "cover": true,
+      "label": "Фургон"
+    }
+  ],
+  "devices": [],
+  "settings": {
+    "stagedPenetration": false
+  },
+  "characters": [],
+  "npcs": []
+}

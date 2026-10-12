@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="ru" data-palette="carmine" data-treatment="printed" data-digital="on">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#080406">
+  <meta name="description" content="Цвета и фактуры пробного досье персонажа Night City Crew.">
+  <meta name="robots" content="noindex,nofollow">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; img-src 'self' data:; font-src 'self'; style-src 'unsafe-inline'; script-src 'unsafe-inline'; connect-src 'none'; object-src 'none'; base-uri 'none'; form-action 'none'">
+  <title>Night City Crew · досье</title>
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <style>
+    @font-face{font-family:Dossier;src:url('/fonts/Dossier-Bold.woff') format('woff');font-weight:700 900;font-display:swap}
+    @font-face{font-family:Dossier;src:url('/fonts/Dossier-BoldItalic.woff') format('woff');font-weight:700 900;font-style:italic;font-display:swap}
+    :root{color-scheme:dark;--base:#03080c;--surface:#081017;--raised:#17242a;--deep:#02070b;--ink:#d7e8e1;--muted:#9cafac;--accent:#f2154e;--signal:#c6ddd2;--line:#61706f;--soft-line:#34464a;--error:#ff829f;--identity-bg:#142127;--identity-ink:#d7e8e1;--identity-muted:#b6ccc3;--rail-bg:#132028;--rail-ink:#d7e8e1;--rail-muted:#9cafac;--rail-line:#61706f;--emp:#ff5079;--progress:#c6ddd2;--implant-bg:#211522;--tag:#e8a0b3;--texture:#d7e8e105;--portrait-inner:#122026;--mono:ui-monospace,SFMono-Regular,Consolas,monospace}
+    :root[data-palette="carmine"]{--base:#080406;--surface:#130a0e;--raised:#211117;--deep:#050305;--ink:#f3e4cc;--muted:#b9a79d;--accent:#ff285c;--signal:#edc88c;--line:#795d66;--soft-line:#463039;--error:#ff91ad;--identity-bg:#ff285c;--identity-ink:#18070d;--identity-muted:#18070d;--rail-bg:#211117;--rail-ink:#f3e4cc;--rail-muted:#b9a79d;--rail-line:#795d66;--emp:#ff285c;--progress:#edc88c;--implant-bg:#211117;--tag:#edc88c;--texture:#f3e4cc05;--portrait-inner:#1d0c13}
+    :root[data-palette="ultraviolet"]{--base:#07060a;--surface:#121016;--raised:#1d1725;--deep:#040307;--ink:#f2ebf7;--muted:#b6adbe;--accent:#c86bf0;--signal:#d8ff45;--line:#716278;--soft-line:#382d40;--error:#ff9cb9;--identity-bg:#09080c;--identity-ink:#d8ff45;--identity-muted:#f2ebf7;--rail-bg:#c86bf0;--rail-ink:#14091c;--rail-muted:#14091c;--rail-line:#4b285e;--emp:#14091c;--progress:#d8ff45;--implant-bg:#1d1725;--tag:#d8ff45;--texture:#f2ebf705;--portrait-inner:#181020}
+    :root[data-palette="amber"]{--base:#080a08;--surface:#111510;--raised:#1e2119;--deep:#040604;--ink:#eeead5;--muted:#b4b7a4;--accent:#ffc663;--signal:#b9d2b3;--line:#6c7060;--soft-line:#373d2f;--error:#ffa793;--identity-bg:#eeead5;--identity-ink:#111510;--identity-muted:#343d30;--rail-bg:#1e2119;--rail-ink:#ffc663;--rail-muted:#b4b7a4;--rail-line:#6c7060;--emp:#ffc663;--progress:#b9d2b3;--implant-bg:#1e2119;--tag:#ffc663;--texture:#eeead505;--portrait-inner:#1b2116}
+    :root[data-palette="maelstrom"]{--base:#080909;--surface:#141515;--raised:#222323;--deep:#030404;--ink:#eeefe9;--muted:#b0b2ad;--accent:#ff3948;--signal:#e4e6df;--line:#72756f;--soft-line:#393d39;--error:#ff9b9f;--identity-bg:#b5b8b0;--identity-ink:#101210;--identity-muted:#292e28;--rail-bg:#171918;--rail-ink:#eeefe9;--rail-muted:#b0b2ad;--rail-line:#72756f;--emp:#ff3948;--progress:#c5c8bf;--implant-bg:#1d201e;--tag:#e4e6df;--texture:#eeefe905;--portrait-inner:#262925}
+    *{box-sizing:border-box}
+    [hidden]{display:none!important}
+    body{margin:0;background:var(--base);color:var(--ink);font-family:Arial,Helvetica,sans-serif;font-size:1rem;line-height:1.5}
+    button,input{font:inherit}
+    button,a,summary{-webkit-tap-highlight-color:transparent;touch-action:manipulation}
+    button{color:inherit;cursor:pointer;min-height:44px}
+    button:focus-visible,a:focus-visible,summary:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+    button:disabled{cursor:default;opacity:.6}
+    svg{display:block;flex:none}
+    a{color:var(--ink);text-underline-offset:4px}
+    .preview-context{max-width:1040px;margin:auto;padding:12px 20px;display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:4px 16px;color:var(--muted);font-size:.875rem}
+    .preview-context a{display:inline-flex;align-items:center;min-height:44px}
+    .terminal{max-width:1040px;margin:0 auto 36px;position:relative;isolation:isolate;background:var(--surface);box-shadow:0 20px 80px #0008}
+    .terminal:before{content:'';position:absolute;inset:0;z-index:-1;background:var(--ink);-webkit-mask:url('/style-textures/photocopy-grain-v1.png') repeat 0 0/620px 620px;mask:url('/style-textures/photocopy-grain-v1.png') repeat 0 0/620px 620px;opacity:var(--grain-strength);pointer-events:none}
+    .terminal-top{display:flex;align-items:center;justify-content:space-between;gap:18px;padding:14px 22px 12px;border-top:2px solid var(--accent);border-bottom:1px solid var(--line);background:var(--raised)}
+    .brand{color:var(--accent);font-family:Dossier,'Arial Narrow',sans-serif;font-size:2rem;line-height:1;display:flex;align-items:baseline;gap:4px}
+    .brand span{font:700 .875rem var(--mono);color:var(--ink)}
+    .terminal-title{font-size:.875rem;letter-spacing:.075em;text-align:right;min-width:0;overflow-wrap:anywhere}
+    .terminal-title small{display:block;color:var(--muted);font: .75rem var(--mono);letter-spacing:.06em;margin-top:4px}
+    .record{padding:24px;position:relative}
+    .record:before{content:'';position:absolute;top:24px;bottom:24px;left:8px;width:3px;background:linear-gradient(var(--accent) 0 90px,var(--soft-line) 90px 100%);pointer-events:none}
+    .record-index{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:8px 12px;font:.75rem var(--mono);color:var(--muted);letter-spacing:.06em;margin-bottom:16px}
+    .record-index .index-mark{display:flex;align-items:center;gap:9px}
+    .index-mark:before{content:'';height:8px;width:22px;background:var(--accent);clip-path:polygon(0 0,100% 0,75% 100%,0 100%)}
+    .dossier-grid{display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);gap:32px}
+    .identity-plate{min-width:0;position:relative}
+    .stage{display:grid;grid-template-columns:minmax(0,1fr) 5.7rem;background:var(--deep);border:1px solid var(--line);border-bottom:0}
+    .portrait-bay{position:relative;display:flex;min-height:360px;min-width:0;background:radial-gradient(ellipse at 45% 45%,var(--portrait-inner),var(--deep) 80%);box-shadow:inset 0 0 25px #0009;border-right:1px solid var(--line);overflow:hidden}
+    .portrait-bay:before,.portrait-bay:after{content:'';position:absolute;width:22px;height:22px;pointer-events:none;z-index:2}
+    .portrait-bay:before{top:10px;left:10px;border-top:1px solid var(--signal);border-left:1px solid var(--signal)}
+    .portrait-bay:after{bottom:10px;right:10px;border-bottom:1px solid var(--signal);border-right:1px solid var(--signal)}
+    .portrait-bay img{position:absolute;inset:0;display:block;width:100%;height:100%;object-fit:contain}
+    .portrait-empty{position:relative;width:100%;min-height:360px;padding:64px 24px 24px;border:0;background:none;display:flex;flex-direction:column;align-items:flex-start;justify-content:flex-end;text-align:left;gap:8px}
+    .portrait-empty svg{width:32px;height:32px;color:var(--signal);margin-bottom:12px}
+    .portrait-empty strong{font-family:Dossier,'Arial Narrow',sans-serif;font-size:1.65rem;line-height:1.15;font-weight:800;max-width:190px;overflow-wrap:anywhere}
+    .portrait-empty span{font-size:.875rem;color:var(--muted);max-width:210px;line-height:1.5}
+    .portrait-empty:before{content:'NO IMAGE / 01';position:absolute;top:26px;left:24px;font:.75rem var(--mono);color:var(--muted);letter-spacing:.06em}
+    .stat-rail{margin:0;padding:0 12px;background:var(--rail-bg);color:var(--rail-ink);display:grid;grid-template-rows:repeat(4,auto)}
+    .stat-rail div{display:flex;flex-direction:column;justify-content:center;border-bottom:1px solid var(--rail-line);padding:8px 0}
+    .stat-rail div:last-child{border-bottom:0}
+    .stat-rail dt{font:.875rem var(--mono);color:var(--rail-muted)}
+    .stat-rail dt small{display:block;font:.75rem Arial,Helvetica,sans-serif;color:var(--rail-muted);margin-top:2px;overflow-wrap:anywhere}
+    .stat-rail dd{margin:1px 0 0;font:700 2.65rem/1 Dossier,'Arial Narrow',sans-serif;font-variant-numeric:tabular-nums}
+    .stat-rail div:last-child dd{color:var(--emp)}
+    .identity{padding:19px 18px 16px;background:var(--identity-bg);color:var(--identity-ink);border:1px solid var(--line);position:relative}
+    .identity:after{content:'';position:absolute;left:18px;bottom:-1px;width:45px;height:3px;background:var(--accent)}
+    .identity-label{font:.75rem var(--mono);letter-spacing:.07em;color:var(--identity-muted);margin-bottom:8px}
+    h1{font:900 italic 5.25rem/.92 Dossier,'Arial Narrow',sans-serif;letter-spacing:-.015em;margin:0 0 8px;overflow-wrap:anywhere}
+    .identity p{margin:0;font-size:1rem;color:var(--identity-muted)}
+    .portrait-actions{display:flex;align-items:center;flex-wrap:wrap;gap:8px;border-bottom:1px solid var(--soft-line);padding:8px 0}
+    .portrait-actions button{border:0;background:none;padding:8px;font-size:.875rem;text-align:left}
+    .portrait-actions button:first-child{color:var(--ink);display:flex;gap:8px;align-items:center}
+    .portrait-actions button:last-child{margin-left:auto;color:var(--muted)}
+    .portrait-help{margin:8px 0 0;color:var(--muted);font-size:.8125rem;line-height:1.5}
+    .photo-error{color:var(--error);font-size:.875rem;margin:8px 0 0;line-height:1.5}
+    .photo-error:empty{margin:0}
+    .details-bank{min-width:0;border-top:3px solid var(--accent);padding-top:16px;align-self:start}
+    .humanity{margin-bottom:22px}
+    .humanity-label{display:flex;flex-wrap:wrap;align-items:baseline;justify-content:space-between;gap:8px 16px;margin-bottom:11px}
+    .humanity-label span{font-size:1rem}
+    .humanity-label b{font:1.25rem var(--mono);white-space:nowrap;color:var(--signal)}
+    .humanity-label b small{font-size:.875rem;color:var(--muted)}
+    .segments{height:8px;display:grid;grid-template-columns:repeat(20,minmax(0,1fr));gap:3px}
+    .segments span{background:var(--soft-line)}
+    .segments span:nth-child(-n+14){background:var(--progress)}
+    .humanity p{font-size:.875rem;color:var(--muted);margin:10px 0 0}
+    .data-fold{border-top:1px solid var(--line)}
+    .data-fold summary{list-style:none;cursor:pointer;min-height:64px;display:flex;align-items:center;gap:12px;padding:14px 0;font-size:1.0625rem;overflow-wrap:anywhere}
+    .data-fold summary::-webkit-details-marker{display:none}
+    .data-fold summary .section-number{font:.75rem var(--mono);color:var(--accent);align-self:baseline;margin-top:5px;flex:none}
+    .data-fold summary .fold-mark{margin-left:auto;position:relative;width:16px;height:16px;flex:none}
+    .fold-mark:before,.fold-mark:after{content:'';position:absolute;top:7px;left:0;width:16px;height:1px;background:var(--ink)}
+    .fold-mark:after{transform:rotate(90deg)}
+    .data-fold[open] .fold-mark:after{display:none}
+    .data-fold[open] summary{color:var(--ink)}
+    .fold-content{padding:0 0 18px}
+    .data-fold[open] .fold-content{animation:ink-arrives 280ms ease-out both}
+    @keyframes ink-arrives{from{opacity:.45;transform:translateY(3px)}to{opacity:1;transform:translateY(0)}}
+    .stat-list{margin:0}
+    .stat-list div{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px;padding:9px 0;border-top:1px solid var(--soft-line);align-items:baseline}
+    .stat-list dt{font-size:.9375rem;display:flex;flex-wrap:wrap;gap:0 8px;min-width:0;overflow-wrap:anywhere}
+    .stat-list dt span{font:.8125rem var(--mono);color:var(--muted);white-space:nowrap}
+    .stat-list dd{margin:0;font:1.25rem var(--mono)}
+    .fold-hint{margin:10px 0 0;font-size:.875rem;color:var(--muted);line-height:1.5}
+    .gear-row{display:flex;gap:12px;align-items:center;padding:10px 0;border-top:1px solid var(--soft-line);font-size:.9375rem}
+    .gear-row svg{color:var(--muted)}
+    .gear-row span{flex:1;min-width:0}
+    .gear-row small{font:.75rem var(--mono);color:var(--muted)}
+    .implant-entry{display:flex;width:100%;align-items:center;gap:14px;padding:17px 14px;margin:4px 0 16px;border:1px solid var(--line);border-left:3px solid var(--accent);background:var(--implant-bg);text-align:left}
+    .implant-entry svg{color:var(--accent)}
+    .implant-entry strong{font-size:1rem;font-weight:400}
+    .implant-entry small{display:block;font-size:.875rem;color:var(--muted);margin-top:2px}
+    .implant-entry>span:not(.entry-tag){flex:1;min-width:0;overflow-wrap:anywhere}
+    .implant-entry .entry-tag{margin-left:auto;font:.75rem var(--mono);color:var(--tag)}
+    .record-bottom{display:flex;align-items:center;justify-content:space-between;gap:12px;padding:17px 22px;background:var(--deep);border-top:1px solid var(--soft-line);font:.75rem var(--mono);color:var(--muted);letter-spacing:.06em}
+    .barcode{width:74px;height:16px;flex:none;background:repeating-linear-gradient(90deg,var(--muted) 0 2px,transparent 2px 5px,var(--muted) 5px 6px,transparent 6px 10px,var(--muted) 10px 14px,transparent 14px 17px);opacity:.6}
+    dialog{padding:0;max-width:600px;width:calc(100% - 32px);max-height:calc(100dvh - 40px);overflow:auto;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-top:3px solid var(--accent);box-shadow:0 30px 120px #000c}
+    dialog::backdrop{background:#020609e8}
+    dialog[open]{display:flex;flex-direction:column}
+    .inspector-head{flex:none;display:flex;align-items:flex-start;justify-content:space-between;gap:16px;padding:18px 20px 14px;border-bottom:1px solid var(--line);background:var(--raised)}
+    .inspector-head p{font:.75rem var(--mono);color:var(--muted);margin:0 0 8px;letter-spacing:.06em}
+    .inspector-head h2{font:800 2.25rem/1.05 Dossier,'Arial Narrow',sans-serif;margin:0;overflow-wrap:anywhere}
+    .inspector-close{border:1px solid var(--line);background:var(--surface);padding:6px 11px;font-size:.875rem;flex:none;min-height:44px}
+    .inspector-body{position:relative;overflow-y:auto;overscroll-behavior:contain;padding-bottom:20px;min-height:8rem}
+    .device{margin:0;position:relative;background:radial-gradient(ellipse at 45% 50%,var(--raised),var(--deep) 75%);overflow:hidden}
+    .device-art{display:block;width:100%;height:auto;max-height:300px;filter:drop-shadow(0 12px 14px #000a)}
+    .device figcaption{font:.75rem var(--mono);color:var(--muted);padding:0 20px 16px;letter-spacing:.07em}
+    .optic-iris{transform-box:view-box;transform-origin:181px 123px}
+    .optic-glow{opacity:.14}
+    .optic-contour,.optic-sweep{opacity:0;pointer-events:none}
+    .optic-led{opacity:.65}
+    .optics-running .optic-iris{animation:optic-focus 1350ms cubic-bezier(.3,.1,.2,1) both}
+    .optics-running .optic-glow{animation:lens-light 1350ms ease-out both}
+    .optics-running .optic-sweep{animation:contour-sweep 1350ms cubic-bezier(.3,0,.2,1) both}
+    .optics-running .optic-contour{animation:contour-light 1350ms ease-out both}
+    .optics-running .optic-led{animation:led-light 1350ms ease-out both}
+    @keyframes optic-focus{0%,13%{transform:scale(1)}25%{transform:scale(.82)}44%{transform:scale(1.03)}62%,100%{transform:scale(1)}}
+    @keyframes lens-light{0%{opacity:.14}15%{opacity:.55}65%{opacity:.4}100%{opacity:.14}}
+    @keyframes contour-sweep{0%,18%{opacity:0;transform:translateY(0)}25%{opacity:.7}72%{opacity:.7}80%,100%{opacity:0;transform:translateY(175px)}}
+    @keyframes contour-light{0%,20%{opacity:0;stroke-dashoffset:560}65%{opacity:.65;stroke-dashoffset:0}100%{opacity:0;stroke-dashoffset:0}}
+    @keyframes led-light{0%{opacity:.65}20%,70%{opacity:1}100%{opacity:.65}}
+    .inspector-controls{padding:0 20px}
+    .replay{display:flex;align-items:center;justify-content:center;gap:9px;width:100%;border:1px solid var(--line);background:var(--raised);padding:10px 12px;font-size:.9375rem}
+    .optics-note{font-size:.8125rem;color:var(--muted);margin:10px 0 18px;line-height:1.5}
+    .device-facts{margin:0}
+    .device-facts div{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;padding:10px 0;border-top:1px solid var(--soft-line);font-size:.9375rem}
+    .device-facts dt{color:var(--muted);max-width:100%;overflow-wrap:anywhere}
+    .device-facts dd{margin:0;text-align:right;max-width:100%;overflow-wrap:anywhere}
+    .tile-transition{position:absolute;left:0;right:0;top:0;height:280px;pointer-events:none;z-index:2;display:grid;grid-template-columns:repeat(5,1fr);grid-template-rows:repeat(4,1fr);overflow:hidden}
+    .tile-transition span{background:var(--raised);box-shadow:inset 0 1px 0 var(--soft-line);animation:tile-opens 550ms cubic-bezier(.25,.6,.25,1) var(--delay) both}
+    @keyframes tile-opens{0%,20%{opacity:1;transform:translateY(0)}100%{opacity:0;transform:translateY(-3px)}}
+    @media(max-width:760px){.dossier-grid{grid-template-columns:minmax(0,1fr);gap:24px}.terminal{max-width:480px}.record{padding:18px 20px 24px}.record:before{left:6px;top:18px;bottom:24px}.portrait-bay,.portrait-empty{min-height:340px}.details-bank{padding-top:17px}.record-index{margin-bottom:14px}.preview-context{max-width:480px}.humanity{margin-bottom:19px}h1{font-size:4.9rem}.terminal-top{padding-left:20px;padding-right:20px}}
+    @media(max-width:23em){.record{padding-left:16px;padding-right:16px}.stage{grid-template-columns:minmax(0,1fr)}.portrait-bay{min-height:300px;border-right:0;border-bottom:1px solid var(--line)}.portrait-empty{min-height:300px}.stat-rail{grid-template-columns:repeat(4,minmax(0,1fr));grid-template-rows:auto;padding:0 9px;gap:9px}.stat-rail div{border-bottom:0;padding:12px 0}.stat-rail dd{font-size:2.2rem}.stat-rail dt small{display:none}h1{font-size:4.35rem}.terminal-title{letter-spacing:0}.terminal-top{padding-left:16px;padding-right:16px}.inspector-head{gap:10px;padding-left:16px;padding-right:16px}.inspector-head h2{font-size:1.875rem}.inspector-close{padding:6px 8px}.record-index{letter-spacing:0}.identity{padding-left:14px;padding-right:14px}.entry-tag{display:none}}
+    @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;scroll-behavior:auto!important}.tile-transition{display:none!important}}
+    .palette-picker{max-width:1040px;margin:0 auto 20px;padding:0 20px;border:0;min-width:0}
+    .palette-picker legend{font-size:.875rem;padding:0;margin-bottom:9px;color:var(--ink)}
+    .palette-options{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+    .palette-option{position:relative;min-width:0;cursor:pointer}
+    .palette-option input{position:absolute;width:1px;height:1px;margin:0;opacity:0;overflow:hidden}
+    .palette-card{display:grid;grid-template-columns:minmax(0,1fr) auto;align-content:center;gap:6px 8px;min-height:76px;height:100%;border:1px solid var(--line);padding:10px 12px;background:var(--surface);font-size:.875rem;line-height:1.4}
+    .palette-card>span:nth-child(2){grid-column:1/-1;grid-row:2;overflow-wrap:anywhere}
+    .palette-swatches{display:flex;flex:none;gap:2px}
+    .palette-swatches i{display:block;width:8px;height:22px;background:var(--swatch-main)}
+    .palette-swatches i:nth-child(2){background:var(--swatch-light)}
+    .palette-swatches i:nth-child(3){background:var(--swatch-dark);outline:1px solid #ffffff30;outline-offset:-1px}
+    .palette-check{grid-column:2;grid-row:1;visibility:hidden;color:var(--signal)}
+    .palette-option input:checked+.palette-card{border-color:var(--signal);box-shadow:inset 0 -3px 0 var(--signal)}
+    .palette-option input:checked+.palette-card .palette-check{visibility:visible}
+    .palette-option input:focus-visible+.palette-card{outline:2px solid var(--ink);outline-offset:3px}
+    .palette-picker p{margin:10px 0 0;color:var(--muted);font-size:.875rem;line-height:1.5;min-height:1.5em}
+    .optic-contour{stroke:var(--accent)}
+    @media(max-width:760px){.palette-picker{max-width:480px}.palette-options{grid-template-columns:repeat(2,minmax(0,1fr))}.palette-picker p{min-height:4.5em}}
+    :root{--grain-strength:.10;--wear-strength:.35;--raster-strength:.55;--edge-strength:.32}
+    :root[data-treatment="clean"]{--grain-strength:0;--wear-strength:0;--raster-strength:0;--edge-strength:0}
+    :root[data-treatment="raw"]{--grain-strength:.22;--wear-strength:.8;--raster-strength:.65;--edge-strength:.4}
+    .study-settings{max-width:1040px;margin:0 auto 20px;padding:0 20px;color:var(--ink)}
+    .study-settings>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;align-items:center;gap:3px 12px;padding:8px 0;list-style:none;min-height:52px;cursor:pointer;border-bottom:1px solid var(--line);font-size:1rem}
+    .study-settings>summary::-webkit-details-marker{display:none}
+    .study-settings>summary .fold-mark{position:relative;width:16px;height:16px;grid-column:2;grid-row:1/span 2}
+    .study-settings[open]>summary .fold-mark:after{display:none}
+    .study-current{font-size:.875rem;color:var(--muted);grid-column:1;grid-row:2;overflow-wrap:anywhere;min-width:0}
+    .study-settings .palette-picker{padding:0;margin:18px 0 16px}
+    .treatment-picker{border:0;margin:0;padding:0;min-width:0}
+    .treatment-picker legend{font-size:.875rem;margin-bottom:9px;padding:0}
+    .treatment-options{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+    .treatment-card{display:flex;align-items:center;justify-content:space-between;gap:8px;min-height:48px;height:100%;padding:9px 10px;font-size:.875rem;line-height:1.4;border:1px solid var(--line);background:var(--surface);overflow-wrap:anywhere}
+    .treatment-card .palette-check{flex:none;margin-left:auto}
+    .palette-option input:checked+.treatment-card{border-color:var(--signal);box-shadow:inset 0 -3px 0 var(--signal)}
+    .palette-option input:checked+.treatment-card .palette-check{visibility:visible}
+    .palette-option input:focus-visible+.treatment-card{outline:2px solid var(--ink);outline-offset:3px}
+    .treatment-picker p,.appearance-note{font-size:.875rem;color:var(--muted);line-height:1.5;margin:10px 0 0}
+    .appearance-note{margin-bottom:16px}
+    .terminal-top,.identity,.stat-rail,.record-bottom,.device{position:relative;isolation:isolate}
+    .identity:before,.stat-rail:before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:var(--identity-ink);-webkit-mask:url('/style-textures/dry-ink-v1.png') repeat 14px 9px/520px 520px;mask:url('/style-textures/dry-ink-v1.png') repeat 14px 9px/520px 520px;opacity:var(--wear-strength)}
+    .stat-rail:before{background:var(--rail-ink);-webkit-mask-position:66px 130px;mask-position:66px 130px;-webkit-mask-size:390px 390px;mask-size:390px 390px}
+    .identity>*{position:relative;z-index:1;max-width:100%;width:fit-content;background:var(--identity-bg)}
+    .stat-rail div{position:relative;z-index:1}
+    .stat-rail dt,.stat-rail dd{width:fit-content;max-width:100%;background:var(--rail-bg)}
+    .terminal-top:before,.record-bottom:before{content:'';position:absolute;inset:0;z-index:0;pointer-events:none;background:var(--ink);-webkit-mask:url('/style-textures/dry-ink-v1.png') repeat 74px 18px/440px 440px;mask:url('/style-textures/dry-ink-v1.png') repeat 74px 18px/440px 440px;opacity:var(--wear-strength)}
+    .terminal-top>*{position:relative;z-index:1;background:var(--raised)}
+    .record-bottom>*{position:relative;z-index:1}
+    .record-bottom>span:first-child{background:var(--deep)}
+    .record-bottom:after{content:'';position:absolute;left:22px;right:22px;bottom:4px;height:7px;background:repeating-linear-gradient(0deg,var(--accent) 0 1px,transparent 1px 3px);opacity:var(--edge-strength);pointer-events:none}
+    .identity:after{width:58px;height:5px;background:repeating-linear-gradient(90deg,var(--accent) 0 7px,transparent 7px 10px);opacity:var(--edge-strength)}
+    .portrait-bay .raster-patch{position:absolute;top:62px;right:24px;width:112px;height:108px;pointer-events:none;z-index:0;background:radial-gradient(circle,var(--signal) 0 1px,transparent 1.15px) 0 0/4px 4px;-webkit-mask:linear-gradient(135deg,#000,transparent 88%);mask:linear-gradient(135deg,#000,transparent 88%);opacity:var(--raster-strength)}
+    .portrait-bay .raster-patch:after{content:'';position:absolute;inset:20px 0 0 16px;background:radial-gradient(circle,var(--signal) 0 .7px,transparent .9px) 2px 2px/4px 4px;opacity:.55}
+    .portrait-bay .surface-grain{position:absolute;inset:0;background:var(--ink);-webkit-mask:url('/style-textures/photocopy-grain-v1.png') repeat 110px 25px/620px 620px;mask:url('/style-textures/photocopy-grain-v1.png') repeat 110px 25px/620px 620px;opacity:var(--grain-strength);pointer-events:none;z-index:0}
+    .portrait-bay img{z-index:1}
+    .portrait-empty{z-index:1}
+    .portrait-empty strong,.portrait-empty>span{position:relative;background:var(--deep);z-index:1}
+    .portrait-empty:before{background:var(--deep)}
+    .portrait-empty:focus-visible{outline-offset:-4px}
+    .portrait-bay:has(img:not([hidden])) .raster-patch,.portrait-bay:has(img:not([hidden])) .surface-grain{display:none}
+    .record-index>span,.details-bank,.portrait-actions,.portrait-help,.photo-error{background:var(--surface)}
+    .index-perforation{width:68px;height:9px;display:inline-block;vertical-align:middle;margin-left:10px;background:repeating-linear-gradient(90deg,var(--accent) 0 2px,transparent 2px 5px,var(--accent) 5px 9px,transparent 9px 13px);opacity:var(--edge-strength)}
+    :root[data-treatment="raw"] .record:before{background:repeating-linear-gradient(180deg,var(--accent) 0 11px,transparent 11px 15px,var(--soft-line) 15px 43px,transparent 43px 48px)}
+    :root[data-treatment="clean"] .terminal:before,:root[data-treatment="clean"] .identity:before,:root[data-treatment="clean"] .stat-rail:before,:root[data-treatment="clean"] .terminal-top:before,:root[data-treatment="clean"] .record-bottom:before,:root[data-treatment="clean"] .record-bottom:after,:root[data-treatment="clean"] .raster-patch,:root[data-treatment="clean"] .surface-grain,:root[data-treatment="clean"] .index-perforation{display:none}
+    @supports not ((mask-image:linear-gradient(#000,#000)) or (-webkit-mask-image:linear-gradient(#000,#000))){.terminal:before,.identity:before,.stat-rail:before,.terminal-top:before,.record-bottom:before,.raster-patch,.surface-grain{display:none}}
+    @media(max-width:760px){.study-settings{max-width:480px}}
+    @media(max-width:23em){.study-current{font-size:.8125rem}.treatment-card{gap:4px;padding:9px 7px}.treatment-card .palette-check{font-size:.75rem}.index-perforation{width:40px;margin-left:6px}.portrait-bay .raster-patch{width:88px;right:16px}}
+    /* Signal damage belongs to lettering and frame edges, independently of print wear. */
+    .digital-option{display:flex;align-items:center;gap:12px;min-height:48px;margin-top:16px;cursor:pointer;font-size:.9375rem}
+    .digital-option input{width:20px;height:20px;flex:none;margin:0;accent-color:var(--signal)}
+    .digital-option input:focus-visible{outline:2px solid var(--ink);outline-offset:4px}
+    .digital-hint{font-size:.875rem;line-height:1.5;color:var(--muted);margin:2px 0 0}
+    .signal-type{position:relative;display:block;isolation:isolate}
+    .signal-type>.type-source{display:block;padding-inline:.05em;margin-inline:-.05em}
+    .signal-type>.type-fragment{display:none;position:absolute;top:0;bottom:0;left:-.05em;right:-.05em;padding-inline:.05em;pointer-events:none;user-select:none;font:inherit;color:inherit;background:none}
+    .brand .signal-type{font:inherit;color:inherit;display:block}
+    .brand .signal-type>span{font:inherit;color:inherit}
+    :root[data-digital="on"] .signal-type>.type-source{-webkit-mask-image:linear-gradient(#000 0 .37em,transparent .37em calc(.37em + 1px),#000 calc(.37em + 1px) .65em,transparent .65em calc(.65em + 1px),#000 calc(.65em + 1px));mask-image:linear-gradient(#000 0 .37em,transparent .37em calc(.37em + 1px),#000 calc(.37em + 1px) .65em,transparent .65em calc(.65em + 1px),#000 calc(.65em + 1px))}
+    :root[data-digital="on"] .signal-type>.type-fragment{display:block;clip-path:polygon(0 .37em,100% .37em,100% calc(.37em + 2px),0 calc(.37em + 2px));transform:translateX(3px)}
+    :root[data-digital="on"] .signal-type--small>.type-source{-webkit-mask-image:linear-gradient(#000 0 .39em,transparent .39em calc(.39em + 1px),#000 calc(.39em + 1px));mask-image:linear-gradient(#000 0 .39em,transparent .39em calc(.39em + 1px),#000 calc(.39em + 1px))}
+    :root[data-digital="on"] .signal-type--small>.type-fragment{clip-path:polygon(0 .39em,100% .39em,100% calc(.39em + 1px),0 calc(.39em + 1px));transform:translateX(2px)}
+    .signal-packets{display:none;pointer-events:none;width:78px;height:16px;flex:none;position:relative;background:linear-gradient(var(--accent),var(--accent)) 0 1px/5px 3px no-repeat,linear-gradient(var(--signal),var(--signal)) 9px 4px/2px 2px no-repeat,linear-gradient(var(--accent),var(--accent)) 17px 0/9px 2px no-repeat,linear-gradient(var(--muted),var(--muted)) 17px 5px/3px 4px no-repeat,linear-gradient(var(--accent),var(--accent)) 36px 9px/4px 2px no-repeat,linear-gradient(var(--signal),var(--signal)) 47px 4px/11px 1px no-repeat,linear-gradient(var(--accent),var(--accent)) 66px 0/2px 6px no-repeat,linear-gradient(var(--muted),var(--muted)) 73px 9px/5px 3px no-repeat}
+    .record-signal{display:flex;align-items:center;gap:10px;font-size:.75rem;letter-spacing:.06em}
+    .record-index .record-signal>span:first-child{background:var(--surface)}
+    :root[data-digital="on"] .signal-packets{display:inline-block}
+    :root[data-digital="on"] .index-perforation{display:none}
+    :root[data-digital="on"] .record:before{background:linear-gradient(var(--accent) 0 48px,transparent 48px 51px,var(--accent) 51px 76px,transparent 76px 83px,var(--accent) 83px 90px,var(--soft-line) 90px)}
+    :root[data-digital="on"] .details-bank{border-top:0;padding-top:19px;position:relative}
+    :root[data-digital="on"] .details-bank:before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--accent) 0 54%,transparent 54% 55%,var(--accent) 55% 73%,transparent 73% 76%,var(--accent) 76% 92%,transparent 92% 94%,var(--accent) 94%);pointer-events:none}
+    :root[data-digital="on"] .details-bank:after{content:'';position:absolute;right:14px;top:7px;width:5px;height:3px;background:var(--accent);box-shadow:-10px -1px 0 -1px var(--accent),11px -2px 0 -1px var(--signal);pointer-events:none}
+    :root[data-digital="on"] .barcode:before{content:'';position:absolute;left:0;right:0;top:6px;height:2px;background:var(--deep);pointer-events:none}
+    :root[data-digital="on"] .barcode:after{content:'';position:absolute;left:22px;top:6px;width:28px;height:2px;background:repeating-linear-gradient(90deg,var(--muted) 0 2px,transparent 2px 5px,var(--muted) 5px 9px,transparent 9px 13px);transform:translateX(4px);pointer-events:none}
+    :root[data-palette="maelstrom"] .identity{border-left:3px solid var(--accent)}
+    @supports not ((mask-image:linear-gradient(#000,#000)) or (-webkit-mask-image:linear-gradient(#000,#000))){.signal-type>.type-fragment{display:none!important}}
+    @media(max-width:23em){.signal-packets{width:40px}.record-signal{letter-spacing:0;gap:6px}}
+  </style>
+</head>
+<body>
+  <div class="preview-context"><span>Проба досье · пример данных</span><a href="/style-preview.html">Предыдущая проба</a></div>
+  <details class="study-settings">
+    <summary><span>Оформление</span><span id="appearance-summary" class="study-current">Кармин · С фактурой</span><span class="fold-mark" aria-hidden="true"></span></summary>
+  <fieldset class="palette-picker" aria-describedby="palette-description">
+    <legend>Палитра</legend>
+    <div class="palette-options">
+      <label class="palette-option" style="--swatch-main:#ff285c;--swatch-light:#f3e4cc;--swatch-dark:#080406"><input type="radio" name="palette" value="carmine" checked><span class="palette-card"><span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>Кармин</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option" style="--swatch-main:#c86bf0;--swatch-light:#d8ff45;--swatch-dark:#07060a"><input type="radio" name="palette" value="ultraviolet"><span class="palette-card"><span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>Ультрафиолет</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option" style="--swatch-main:#ffc663;--swatch-light:#eeead5;--swatch-dark:#080a08"><input type="radio" name="palette" value="amber"><span class="palette-card"><span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>Янтарь</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option" style="--swatch-main:#ff3948;--swatch-light:#b5b8b0;--swatch-dark:#080909"><input type="radio" name="palette" value="maelstrom"><span class="palette-card"><span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>Мальстрём</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option" style="--swatch-main:#f2154e;--swatch-light:#d7e8e1;--swatch-dark:#03080c"><input type="radio" name="palette" value="original"><span class="palette-card"><span class="palette-swatches" aria-hidden="true"><i></i><i></i><i></i></span><span>Прежняя</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+    </div>
+    <p id="palette-description" aria-live="polite">Кармин: красная плашка имени, тёплый светлый текст и чёрный фон.</p>
+  </fieldset>
+  <fieldset class="treatment-picker" aria-describedby="treatment-description">
+    <legend>Фактура</legend>
+    <div class="treatment-options">
+      <label class="palette-option"><input type="radio" name="treatment" value="clean"><span class="treatment-card"><span>Чисто</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option"><input type="radio" name="treatment" value="printed" checked><span class="treatment-card"><span>С фактурой</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+      <label class="palette-option"><input type="radio" name="treatment" value="raw"><span class="treatment-card"><span>Грязнее</span><span class="palette-check" aria-hidden="true">✓</span></span></label>
+    </div>
+    <p id="treatment-description" aria-live="polite">Зерно, стёртая краска и точечный растр на отдельных участках.</p>
+  </fieldset>
+  <label class="digital-option"><input id="digital-enabled" type="checkbox" checked aria-describedby="digital-description"><span>Цифровые разрывы</span></label>
+  <p id="digital-description" class="digital-hint">Срезы и смещённые фрагменты букв, битые полосы и пиксельные метки. Статичный эффект; фактура настраивается отдельно.</p>
+  <p id="appearance-note" class="appearance-note">Выбор сохраняется в этом браузере.</p>
+  </details>
+  <main class="terminal" aria-label="Пробный экран досье персонажа">
+    <header class="terminal-top"><div class="brand" aria-label="Night City 2020"><span class="signal-type signal-type--small" aria-hidden="true"><span class="type-source">NC</span><span class="type-fragment" aria-hidden="true">NC</span></span><span aria-hidden="true">20</span></div><div class="terminal-title">ЛИЧНОЕ ДОСЬЕ<small>NIGHT CITY / 2020</small></div></header>
+    <div class="record">
+      <div class="record-index"><span class="index-mark">ПЕРСОНАЖ / 01</span><span class="record-signal" aria-hidden="true"><span>NC—020 / VEGA<span class="index-perforation"></span></span><span class="signal-packets"></span></span></div>
+      <div class="dossier-grid">
+        <section class="identity-plate" aria-label="Портрет и имя персонажа">
+          <div class="stage">
+            <div id="portrait-bay" class="portrait-bay">
+              <span class="surface-grain" aria-hidden="true"></span>
+              <span class="raster-patch" aria-hidden="true"></span>
+              <img id="portrait-image" alt="Твой портрет в пробном досье" hidden>
+              <button type="button" id="portrait-empty" class="portrait-empty" aria-describedby="portrait-help">
+                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M16 5h6M19 2v6M21 11.5V19a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h7.5M21 15l-3.086-3.086a2 2 0 0 0-2.828 0L6 21"/><circle cx="9" cy="9" r="2"/></svg>
+                <strong>ДОБАВЬ СВОЙ ПОРТРЕТ</strong><span>Фото или рисунок твоего персонажа</span>
+              </button>
+            </div>
+            <dl class="stat-rail" aria-label="Основные характеристики примера">
+              <div><dt><abbr title="Интеллект">INT</abbr><small>Интеллект</small></dt><dd>8</dd></div>
+              <div><dt><abbr title="Рефлексы">REF</abbr><small>Рефлексы</small></dt><dd>7</dd></div>
+              <div><dt><abbr title="Самообладание">COOL</abbr><small>Самообладание</small></dt><dd>8</dd></div>
+              <div><dt><abbr title="Эмпатия">EMP</abbr><small>Эмпатия</small></dt><dd>5</dd></div>
+            </dl>
+          </div>
+          <div class="identity"><div class="identity-label">ПСЕВДОНИМ</div><h1><span class="signal-type"><span class="type-source">ВЕГА</span><span class="type-fragment" aria-hidden="true">ВЕГА</span></span></h1><p>Фиксер · Найт-Сити</p></div>
+          <input id="portrait-file" type="file" accept="image/jpeg,image/png,image/webp" hidden>
+          <div class="portrait-actions">
+            <button type="button" id="portrait-upload">Загрузить портрет</button>
+            <button type="button" id="portrait-remove" hidden>Убрать портрет</button>
+          </div>
+          <p id="portrait-help" class="portrait-help">PNG, JPG или WebP до 10 МБ. В этой пробе картинка не сохраняется после перезагрузки.</p>
+          <p id="portrait-message" class="photo-error" role="status" aria-live="polite"></p>
+        </section>
+        <section class="details-bank" aria-label="Данные персонажа">
+          <div class="humanity">
+            <div class="humanity-label"><span>Человечность</span><b>56 <small>/ 80</small></b></div>
+            <div class="segments" aria-hidden="true"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
+            <p>Связана с эмпатией. Установка киберимплантов может снижать человечность.</p>
+          </div>
+          <details class="data-fold">
+            <summary><span class="section-number" aria-hidden="true">01</span>Характеристики<span class="fold-mark" aria-hidden="true"></span></summary>
+            <div class="fold-content">
+              <dl class="stat-list">
+                <div><dt>Интеллект<span>INT</span></dt><dd>8</dd></div>
+                <div><dt>Рефлексы<span>REF</span></dt><dd>7</dd></div>
+                <div><dt>Самообладание<span>COOL</span></dt><dd>8</dd></div>
+                <div><dt>Эмпатия<span>EMP</span></dt><dd>5</dd></div>
+              </dl>
+              <p class="fold-hint">Это четыре характеристики учебного примера. В полном листе Cyberpunk 2020 их девять.</p>
+            </div>
+          </details>
+          <details class="data-fold">
+            <summary><span class="section-number" aria-hidden="true">02</span>На персонаже<span class="fold-mark" aria-hidden="true"></span></summary>
+            <div class="fold-content" id="equipment-list"><div class="gear-row"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-shirt" aria-hidden="true"><path d="M20.38 3.46 16 2a4 4 0 0 1-8 0L3.62 3.46a2 2 0 0 0-1.34 2.23l.58 3.47a1 1 0 0 0 .99.84H6v10c0 1.1.9 2 2 2h8a2 2 0 0 0 2-2V10h2.15a1 1 0 0 0 .99-.84l.58-3.47a2 2 0 0 0-1.34-2.23z"></path></svg><span>Кожаная куртка</span><small>ТОРС</small></div>
+<div class="gear-row"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-tag" aria-hidden="true"><path d="M12.586 2.586A2 2 0 0 0 11.172 2H4a2 2 0 0 0-2 2v7.172a2 2 0 0 0 .586 1.414l8.704 8.704a2.426 2.426 0 0 0 3.42 0l6.58-6.58a2.426 2.426 0 0 0 0-3.42z"></path><circle cx="7.5" cy="7.5" r=".5" fill="currentColor"></circle></svg><span>Джинсы</span><small>НОГИ</small></div>
+<div class="gear-row"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-footprints" aria-hidden="true"><path d="M4 16v-2.38C4 11.5 2.97 10.5 3 8c.03-2.72 1.49-6 4.5-6C9.37 2 10 3.8 10 5.5c0 3.11-2 5.66-2 8.68V16a2 2 0 1 1-4 0Z"></path><path d="M20 20v-2.38c0-2.12 1.03-3.12 1-5.62-.03-2.72-1.49-6-4.5-6C14.63 6 14 7.8 14 9.5c0 3.11 2 5.66 2 8.68V20a2 2 0 1 0 4 0Z"></path><path d="M16 17h4"></path><path d="M4 13h4"></path></svg><span>Высокие ботинки</span><small>СТОПЫ</small></div></div>
+          </details>
+          <details class="data-fold" open>
+            <summary><span class="section-number" aria-hidden="true">03</span>Импланты<span class="fold-mark" aria-hidden="true"></span></summary>
+            <div class="fold-content">
+              <button type="button" id="open-optics" class="implant-entry" aria-haspopup="dialog" aria-controls="optics-dialog"><svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-scan-eye" aria-hidden="true"><path d="M3 7V5a2 2 0 0 1 2-2h2M17 3h2a2 2 0 0 1 2 2v2M21 17v2a2 2 0 0 1-2 2h-2M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="1"/><path d="M18.944 12.33a1 1 0 0 0 0-.66 7.5 7.5 0 0 0-13.888 0 1 1 0 0 0 0 .66 7.5 7.5 0 0 0 13.888 0"/></svg><span><strong>Кибероптика</strong><small>Левый глаз · открыть карточку</small></span><span class="entry-tag" aria-hidden="true">OPT</span></button>
+            </div>
+          </details>
+        </section>
+      </div>
+    </div>
+    <footer class="record-bottom"><span>STYLE OVER SUBSTANCE</span><span class="barcode" aria-hidden="true"></span></footer>
+  </main>
+  <dialog id="optics-dialog" aria-labelledby="optics-title" aria-describedby="optics-location">
+    <header class="inspector-head"><div><p id="optics-location">ВЕГА / ЛЕВЫЙ ГЛАЗ</p><h2 id="optics-title"><span class="signal-type signal-type--small"><span class="type-source">КИБЕРОПТИКА</span><span class="type-fragment" aria-hidden="true">КИБЕРОПТИКА</span></span></h2></div><button type="button" id="close-optics" class="inspector-close">Закрыть</button></header>
+    <div class="inspector-body">
+      <figure class="device" id="optics-device"><svg class="device-art" viewBox="0 0 420 270" role="img" aria-label="Техническая иллюстрация глазного импланта: металлический корпус, оптическая линза и кабель">
+            <defs>
+              <linearGradient id="nc20-metal" x1="0" y1="0" x2=".8" y2="1"><stop stop-color="#d1e7df"/><stop offset=".15" stop-color="#536b64"/><stop offset=".38" stop-color="#a9c6bc"/><stop offset=".6" stop-color="#31443e"/><stop offset=".78" stop-color="#bacfc6"/><stop offset="1" stop-color="#50635c"/></linearGradient>
+              <linearGradient id="nc20-rim" x1="0" x2="1"><stop stop-color="#50675f"/><stop offset=".35" stop-color="#bdd3c8"/><stop offset=".75" stop-color="#718a80"/><stop offset="1" stop-color="#293e36"/></linearGradient>
+              <radialGradient id="nc20-glass" cx=".34" cy=".3"><stop stop-color="#a8c9bb"/><stop offset=".14" stop-color="#496f65"/><stop offset=".53" stop-color="#1c3937"/><stop offset=".88" stop-color="#091819"/><stop offset="1" stop-color="#405d53"/></radialGradient>
+              <radialGradient id="nc20-lens-light"><stop stop-color="#ee124b" stop-opacity=".8"/><stop offset=".65" stop-color="#ee124b" stop-opacity=".18"/><stop offset="1" stop-color="#ee124b" stop-opacity="0"/></radialGradient>
+              <linearGradient id="nc20-scan-light" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#d1e7df" stop-opacity="0"/><stop offset=".7" stop-color="#d1e7df" stop-opacity=".05"/><stop offset="1" stop-color="#d1e7df" stop-opacity=".65"/></linearGradient>
+              <clipPath id="nc20-optic-clip"><ellipse cx="194" cy="126" rx="72" ry="80"/><path d="M196 67 L261 82 Q294 104 288 143 Q282 181 252 189 L191 185Z"/></clipPath>
+            </defs>
+            <path d="M269 150 Q294 163 289 190 Q283 213 319 215 L350 210" fill="none" stroke="#526b60" stroke-width="9"/>
+            <path d="M269 148 Q294 161 289 188 Q284 212 319 213 L350 208" fill="none" stroke="#a1b9ac" stroke-width="2"/>
+            <path d="M343 199 L363 198 L375 205 L374 219 L347 221Z" fill="url(#nc20-metal)" stroke="#293f35" stroke-width="2"/>
+            <path d="M361 204 L370 207 M357 210 L370 212 M357 215 L368 216" stroke="#132923" stroke-width="2"/>
+            <path d="M196 67 L261 82 Q294 104 288 143 Q282 181 252 189 L191 185Z" fill="url(#nc20-metal)" stroke="#729486" stroke-width="1"/>
+            <path d="M251 87 Q277 105 279 129 M262 158 L270 159 M259 169 L264 171" fill="none" stroke="#d1e7df" stroke-width="1" opacity=".7"/>
+            <path d="M223 72 L221 184 M240 78 L237 184 M255 83 L250 181" stroke="#0c2520" stroke-width="3" opacity=".6"/>
+            <ellipse cx="194" cy="126" rx="72" ry="80" fill="url(#nc20-rim)" stroke="#d1e7df" stroke-width="1"/>
+            <ellipse cx="184" cy="123" rx="62" ry="72" fill="#18302a" stroke="#afc9bd" stroke-width="3"/>
+            <ellipse cx="181" cy="123" rx="51" ry="61" fill="url(#nc20-glass)" stroke="#586f60" stroke-width="5"/>
+            <ellipse class="optic-glow" cx="181" cy="123" rx="49" ry="59" fill="url(#nc20-lens-light)" aria-hidden="true"/>
+            <ellipse cx="181" cy="123" rx="33" ry="41" fill="none" stroke="#799e90" stroke-width=".8" opacity=".8"/>
+            <g class="optic-iris"><ellipse cx="181" cy="123" rx="17" ry="24" fill="#050b0e" stroke="#a9c6b7" stroke-width="1"/><path d="M166 106 L174 100 M189 102 L196 113 M198 133 L191 143 M172 144 L165 133" stroke="#a9c6b7" stroke-width=".7" fill="none" opacity=".65"/></g>
+            <path d="M148 95 Q153 74 174 73 L165 89 Q152 94 150 107Z" fill="#d1e7df" opacity=".53"/>
+            <path d="M151 168 Q169 182 187 175" fill="none" stroke="#9abaac" stroke-width="2" opacity=".5"/>
+            <path d="M152 68 L159 76 M141 83 L151 90 M131 104 L142 106 M128 128 L140 128 M134 153 L143 149 M146 176 L155 166 M168 192 L172 180 M195 194 L194 181 M217 184 L210 173 M235 163 L223 157 M244 140 L231 137 M244 114 L231 115 M236 92 L224 99 M218 71 L210 83 M196 60 L195 73 M173 59 L176 73" stroke="#d1e7df" stroke-width="2" opacity=".8"/>
+            <circle cx="256" cy="119" r="5" fill="#142620" stroke="#819e91"/><path d="M253 117 L259 121" stroke="#c1d4c8"/>
+            <circle cx="254" cy="151" r="5" fill="#142620" stroke="#819e91"/><path d="M251 149 L257 153" stroke="#c1d4c8"/>
+            <rect class="optic-led" x="256" y="133" width="18" height="5" fill="#ee124b"/>
+            <g aria-hidden="true" clip-path="url(#nc20-optic-clip)"><g class="optic-sweep"><rect x="116" y="30" width="184" height="12" fill="url(#nc20-scan-light)"/><path d="M116 42 H300" stroke="#d1e7df" stroke-width=".7"/></g></g>
+            <ellipse class="optic-contour" cx="194" cy="126" rx="73" ry="81" fill="none" stroke="#ee124b" stroke-width="1.2" stroke-dasharray="560" stroke-dashoffset="560" aria-hidden="true"/>
+            <path d="M130 149 L89 166 L66 166 M184 185 L161 226 L114 226" fill="none" stroke="#a0b9ac" stroke-width="1"/>
+            <circle cx="130" cy="149" r="2.5" fill="#d1e7df"/><circle cx="184" cy="185" r="2.5" fill="#d1e7df"/>
+            <path d="M87 89 L96 89 L96 80 M288 183 L288 192 L279 192" stroke="#ee124b" stroke-width="1" fill="none"/>
+          </svg><figcaption>ОПТИЧЕСКИЙ УЗЕЛ / 020—L</figcaption></figure>
+      <div class="inspector-controls">
+        <button type="button" id="optics-replay" class="replay" aria-describedby="optics-note"><svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 12a9 9 0 1 0 9-9 9.75 9.75 0 0 0-6.74 2.74L3 8M3 3v5h5"/></svg><span>Повторить включение</span></button>
+        <p id="optics-note" class="optics-note">Короткая анимация осмотра. Характеристики персонажа не меняются.</p>
+        <dl class="device-facts"><div><dt>Расположение</dt><dd>Левый глаз</dd></div><div><dt>Состояние</dt><dd>Установлен</dd></div><div><dt>Индикатор</dt><dd>Малиновый</dd></div></dl>
+      </div>
+      <div class="tile-transition" id="optics-tiles" aria-hidden="true" hidden></div>
+    </div>
+  </dialog>
+  <script>
+    (()=>{
+      const find=id=>document.getElementById(id);
+      const palettes={
+        carmine:{label:'Кармин',base:'#080406',description:'Кармин: красная плашка имени, тёплый светлый текст и чёрный фон.'},
+        ultraviolet:{label:'Ультрафиолет',base:'#07060a',description:'Ультрафиолет: фиолетовая полоса характеристик и кислотный лайм для имени и шкалы.'},
+        amber:{label:'Янтарь',base:'#080a08',description:'Янтарь: светлая плашка имени, янтарные цифры и угольный фон.'},
+        maelstrom:{label:'Мальстрём',base:'#080909',description:'Мальстрём: уголь, пепельно-серая плашка имени и редкие ярко-красные акценты.'},
+        original:{label:'Прежняя',base:'#03080c',description:'Прежняя палитра: холодный светлый текст, малиновый акцент и тёмный синий фон.'}
+      };
+      const treatments={
+        clean:{label:'Чисто',description:'Без зерна и следов печати. Цвета и содержимое досье те же.'},
+        printed:{label:'С фактурой',description:'Зерно, стёртая краска и точечный растр на отдельных участках.'},
+        raw:{label:'Грязнее',description:'Чуть плотнее зерно и растр, больше следов печати. Загрязнение приглушено.'}
+      };
+      const paletteInputs=[...document.querySelectorAll('input[name="palette"]')];
+      const treatmentInputs=[...document.querySelectorAll('input[name="treatment"]')];
+      const digitalInput=find('digital-enabled');
+      const preferenceKey='nc20.dossier.appearance.v1';
+      let currentPalette='carmine',currentTreatment='printed',currentDigital=true,saved={};
+      try{const value=JSON.parse(window.localStorage.getItem(preferenceKey));if(value&&typeof value==='object'&&!Array.isArray(value))saved=value;}
+      catch{find('appearance-note').textContent='Если сохранение в браузере недоступно, выбор останется в ссылке.';}
+      function syncAppearance(updateURL=false){
+        find('appearance-summary').textContent=palettes[currentPalette].label+' · '+treatments[currentTreatment].label+(currentDigital?' · Разрывы':'');
+        if(!updateURL)return;
+        try{window.localStorage.setItem(preferenceKey,JSON.stringify({palette:currentPalette,treatment:currentTreatment,digital:currentDigital}));find('appearance-note').textContent='Выбор сохраняется в этом браузере.';}
+        catch{find('appearance-note').textContent='Сохранение в браузере недоступно. Выбор остаётся в ссылке.';}
+        const url=new URL(window.location.href);url.searchParams.set('palette',currentPalette);url.searchParams.set('treatment',currentTreatment);url.searchParams.set('digital',currentDigital?'1':'0');
+        window.history.replaceState(window.history.state,'',url);
+      }
+      function applyPalette(name,updateURL=false){
+        const key=Object.hasOwn(palettes,name)?name:'carmine';
+        currentPalette=key;
+        document.documentElement.dataset.palette=key;
+        paletteInputs.forEach(input=>{input.checked=input.value===key;});
+        find('palette-description').textContent=palettes[key].description;
+        document.querySelector('meta[name="theme-color"]').setAttribute('content',palettes[key].base);
+        syncAppearance(updateURL);
+      }
+      function applyTreatment(name,updateURL=false){
+        const key=Object.hasOwn(treatments,name)?name:'printed';currentTreatment=key;
+        document.documentElement.dataset.treatment=key;
+        treatmentInputs.forEach(input=>{input.checked=input.value===key;});
+        find('treatment-description').textContent=treatments[key].description;syncAppearance(updateURL);
+      }
+      function applyDigital(enabled,updateURL=false){
+        currentDigital=enabled;digitalInput.checked=enabled;
+        document.documentElement.dataset.digital=enabled?'on':'off';syncAppearance(updateURL);
+      }
+      const query=new URL(window.location.href).searchParams;
+      applyPalette(query.has('palette')?query.get('palette'):saved.palette);
+      applyTreatment(query.has('treatment')?query.get('treatment'):saved.treatment);
+      applyDigital(query.has('digital')?query.get('digital')!=='0':saved.digital!==false);
+      paletteInputs.forEach(input=>input.addEventListener('change',()=>{if(input.checked)applyPalette(input.value,true);}));
+      treatmentInputs.forEach(input=>input.addEventListener('change',()=>{if(input.checked)applyTreatment(input.value,true);}));
+      digitalInput.addEventListener('change',()=>applyDigital(digitalInput.checked,true));
+      const reduced=window.matchMedia('(prefers-reduced-motion: reduce)');
+      const dialog=find('optics-dialog'),device=find('optics-device'),tiles=find('optics-tiles');
+      const replay=find('optics-replay'),note=find('optics-note');
+      let tileTimer,startTimer,endTimer;
+      for(let row=0;row<4;row++)for(let col=0;col<5;col++){
+        const tile=document.createElement('span');tile.style.setProperty('--delay',((3-row)+col)*36+'ms');tiles.appendChild(tile);
+      }
+      function stopTiles(){clearTimeout(tileTimer);tiles.hidden=true;}
+      function stopOptics(){clearTimeout(startTimer);clearTimeout(endTimer);device.classList.remove('optics-running');}
+      function playOptics(){
+        stopOptics();
+        if(!dialog.open||reduced.matches||document.hidden)return;
+        void device.offsetWidth;device.classList.add('optics-running');
+        endTimer=setTimeout(()=>device.classList.remove('optics-running'),1350);
+      }
+      function motionPreference(){
+        stopTiles();stopOptics();replay.disabled=reduced.matches;
+        replay.querySelector('span').textContent=reduced.matches?'Анимация отключена':'Повторить включение';
+        note.textContent=reduced.matches?'Движение отключено в настройках твоего устройства. Карточка доступна полностью.':'Короткая анимация осмотра. Характеристики персонажа не меняются.';
+      }
+      motionPreference();reduced.addEventListener('change',motionPreference);
+      find('open-optics').addEventListener('click',()=>{
+        if(dialog.open)return;
+        stopTiles();stopOptics();dialog.showModal();dialog.querySelector('.inspector-body').scrollTop=0;dialog.scrollTop=0;
+        if(!reduced.matches){tiles.hidden=false;tileTimer=setTimeout(stopTiles,850);startTimer=setTimeout(playOptics,850);}
+      });
+      find('close-optics').addEventListener('click',()=>dialog.close());
+      dialog.addEventListener('cancel',()=>{stopTiles();stopOptics();});
+      dialog.addEventListener('close',()=>{stopTiles();stopOptics();find('open-optics').focus({preventScroll:true});});
+      replay.addEventListener('click',playOptics);
+      dialog.addEventListener('pointerdown',stopTiles);
+      dialog.querySelector('.inspector-body').addEventListener('scroll',stopTiles,{passive:true});
+      document.addEventListener('visibilitychange',()=>{if(document.hidden){stopTiles();stopOptics();}});
+
+      const portrait=find('portrait-bay'),photo=find('portrait-image'),empty=find('portrait-empty');
+      const fileInput=find('portrait-file'),upload=find('portrait-upload'),remove=find('portrait-remove'),message=find('portrait-message');
+      let photoJob=0,reader;
+      function photoError(text){message.textContent=text;}
+      function cancelPhotoRead(){photoJob++;if(reader&&reader.readyState===1)reader.abort();portrait.removeAttribute('aria-busy');}
+      upload.addEventListener('click',()=>fileInput.click());empty.addEventListener('click',()=>fileInput.click());
+      remove.addEventListener('click',()=>{
+        cancelPhotoRead();photo.removeAttribute('src');photo.hidden=true;empty.hidden=false;
+        remove.hidden=true;upload.textContent='Загрузить портрет';fileInput.value='';photoError('');upload.focus({preventScroll:true});
+      });
+      fileInput.addEventListener('change',async()=>{
+        const file=fileInput.files&&fileInput.files[0];fileInput.value='';if(!file)return;
+        cancelPhotoRead();const job=photoJob;photoError('');
+        if(file.size>10*1024*1024){photoError('Картинка больше 10 МБ. Выбери файл поменьше.');return;}
+        portrait.setAttribute('aria-busy','true');
+        try{
+          const bytes=new Uint8Array(await file.slice(0,12).arrayBuffer());if(job!==photoJob)return;
+          let format='';
+          if([137,80,78,71,13,10,26,10].every((value,index)=>bytes[index]===value))format='image/png';
+          else if(bytes[0]===255&&bytes[1]===216&&bytes[2]===255)format='image/jpeg';
+          else if(String.fromCharCode(...bytes.slice(0,4))==='RIFF'&&String.fromCharCode(...bytes.slice(8,12))==='WEBP')format='image/webp';
+          if(!format)throw new Error('format');
+          const data=await new Promise((resolve,reject)=>{
+            const reading=new FileReader();reader=reading;reading.onload=()=>resolve(reading.result);
+            reading.onerror=()=>reject(new Error('read'));reading.onabort=()=>reject(new Error('cancel'));reading.readAsDataURL(file);
+          });
+          if(job!==photoJob)return;
+          const source='data:'+format+';base64,'+String(data).split(',')[1],decoded=new Image();
+          await new Promise((resolve,reject)=>{decoded.onload=resolve;decoded.onerror=()=>reject(new Error('decode'));decoded.src=source;});
+          if(job!==photoJob)return;
+          const fromEmpty=document.activeElement===empty;
+          photo.src=source;photo.hidden=false;empty.hidden=true;remove.hidden=false;upload.textContent='Заменить портрет';
+          if(fromEmpty)upload.focus({preventScroll:true});
+        }catch(error){
+          if(job!==photoJob)return;
+          photoError(error.message==='format'?'Нужен PNG, JPG или WebP. Если фото в HEIC, сначала сохрани его как JPG.':'Не удалось открыть картинку. Попробуй другой PNG, JPG или WebP.');
+        }finally{if(job===photoJob)portrait.removeAttribute('aria-busy');}
+      });
+    })();
+  </script>
+</body>
+</html>

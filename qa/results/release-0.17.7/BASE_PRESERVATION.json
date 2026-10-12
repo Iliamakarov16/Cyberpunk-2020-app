@@ -1,0 +1,12 @@
+{
+  "pythonChangedFiles": [
+    "server.py"
+  ],
+  "serverDelta": "APP_VERSION only",
+  "atlasAssetFilesByteIdentical": 91,
+  "ABIs": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "runtimeSHA256": "01db78313b64d13b4fefbf2f37a8e565f7fe1201bb35848280798edb3889e616"
+}
