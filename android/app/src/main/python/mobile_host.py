@@ -129,7 +129,7 @@ def _initial_owner_cookie(username, password, port):
                "Content-Type": "application/json"}
     connection = http.client.HTTPConnection("127.0.0.1", port, timeout=5)
     try:
-        body = json.dumps({"username": username, "password": password, "mode": "gm"}).encode("utf-8")
+        body = json.dumps({"username": username, "mode": "gm"}).encode("utf-8")
         connection.request("POST", "/api/login", body=body, headers=headers)
         response = connection.getresponse()
         cookie_header = response.getheader("Set-Cookie", "")
@@ -171,14 +171,8 @@ def start(data_dir, payload_dir, lan_host, admin_user, admin_password, port=8080
             first = needs_setup(data)
             user = str(admin_user)
             password = str(admin_password)
-            if first:
-                if (backend.re.fullmatch(r"[A-Za-z0-9_.-]{2,40}", user) is None
-                        or not 12 <= len(password) <= 256):
-                    raise ValueError("Для первого запуска задайте логин ведущего и пароль от 12 до 256 символов.")
-                try:
-                    password.encode("utf-8")
-                except UnicodeEncodeError as error:
-                    raise ValueError("Проверьте символы пароля ведущего.") from error
+            if first and backend.re.fullmatch(r"[A-Za-z0-9_.-]{2,40}", user) is None:
+                raise ValueError("Для первого запуска задайте логин ведущего: 2–40 латинских букв, цифр, _, -, .")
             data.mkdir(parents=True, exist_ok=True, mode=0o700)
             local_url = f"http://127.0.0.1:{port}"
             lan_url = f"http://{lan}:{port}" if lan else ""
@@ -464,7 +458,8 @@ def _validate_restore_database(db):
         raise ValueError("В копии нет аккаунта владельца сервера.")
     username, password, role = owner
     if (not isinstance(username, str) or backend.re.fullmatch(r"[A-Za-z0-9_.-]{2,40}", username) is None
-            or not isinstance(password, str) or backend.re.fullmatch(r"[a-f0-9]{32}:[a-f0-9]{128}", password) is None
+            or not isinstance(password, str) or (password != backend.NO_PASSWORD
+                                                 and backend.re.fullmatch(r"[a-f0-9]{32}:[a-f0-9]{128}", password) is None)
             or role not in ("gm", "player")):
         raise ValueError("Аккаунт владельца в резервной копии повреждён. Текущая база не заменена.")
     if db.execute("PRAGMA foreign_key_check").fetchone() is not None:

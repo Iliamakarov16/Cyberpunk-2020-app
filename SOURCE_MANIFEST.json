@@ -188,13 +188,13 @@
     },
     {
       "path": "android/app/src/main/python/mobile_host.py",
-      "bytes": 31427,
-      "sha256": "1acf83463387aaecc8b5965d0de6fe8c55d81710e2af4548892f956a07802ed1"
+      "bytes": 31182,
+      "sha256": "81202aa7adc5897db5902e14ff23accb86e8e5efb728267bec8153a88ca661e3"
     },
     {
       "path": "android/app/src/main/python/server.py",
-      "bytes": 155728,
-      "sha256": "b48d32dac0e1a00b4acb70e1ded479dac7958ffaf9859b6ffb24794b0ed3f42b"
+      "bytes": 153446,
+      "sha256": "15bbbc115b6d2df36934d81295bca47a5bf1731afb79055e6bfa10c02c916540"
     },
     {
       "path": "android/app/src/main/python/shared_battle.py",
@@ -2133,8 +2133,8 @@
     },
     {
       "path": "web-source/app/tracker.tsx",
-      "bytes": 108976,
-      "sha256": "61244a171999cbf1152842d418b85d5a586faf49fad8a866c691cbb2d5bd8667"
+      "bytes": 105069,
+      "sha256": "226c2f8891b76c5bc8e9c1c3fbc4480ca60058b1fad35165e5986f9b7c638a3c"
     },
     {
       "path": "web-source/cloudflare-env.d.ts",
@@ -2293,8 +2293,8 @@
     },
     {
       "path": "web-source/components/learning-center.tsx",
-      "bytes": 9655,
-      "sha256": "d3c0569adea248908bbd8b3e533eda94aca0a2634705415b2f6bf4e4b06ccbdd"
+      "bytes": 9704,
+      "sha256": "f68731981f9ec10dd7a2201896145d4081489a8e5cbbea91ae1eec841c2a68b3"
     },
     {
       "path": "web-source/components/network-status.tsx",
@@ -2968,8 +2968,8 @@
     },
     {
       "path": "web-source/lib/player-help.ts",
-      "bytes": 19026,
-      "sha256": "6cced5dae7e0efdb7986c8936564d8e2307b17129862d6bb3d6244031efb96c6"
+      "bytes": 19038,
+      "sha256": "0a4cd6cb0df05b00bf858d1782bcd0dddf87eb1e095434182a46e5cd5b9015fa"
     },
     {
       "path": "web-source/lib/player-settings.ts",

@@ -33,6 +33,8 @@ ITEM_ICONS = ['shirt', 'jacket', 'helmet', 'glasses', 'pants', 'boots', 'gloves'
               'revolver', 'smg', 'rifle', 'shotgun', 'sniper', 'heavyweapon', 'knife', 'katana',
               'baton', 'grenade', 'cybereye', 'cyberarm', 'cyberleg', 'tools', 'chip']
 SESSION_SECONDS = 7 * 86400
+# Accounts are identified by their unique login alone; the legacy column keeps this marker.
+NO_PASSWORD = '!'
 DEFAULT_PLAYER_SETTINGS = {'hints': True, 'tutorial': True, 'animations': True, 'ambient': 'quiet'}
 APP_VERSION = '0.17.7'
 API_VERSION = 1
@@ -980,11 +982,10 @@ def initialize():
         db.executescript(crew_atlas.SCHEMA)
         if not db.execute('SELECT 1 FROM users WHERE id=1').fetchone():
             username = os.getenv('ADMIN_USER', 'gm')
-            password = os.getenv('ADMIN_PASSWORD', '')
-            if not re.fullmatch(r'[A-Za-z0-9_.-]{2,40}', username) or len(password) < 12:
-                raise SystemExit('Для первого запуска задай ADMIN_USER и ADMIN_PASSWORD (от 12 символов). См. README.')
+            if not re.fullmatch(r'[A-Za-z0-9_.-]{2,40}', username):
+                raise SystemExit('Для первого запуска задай ADMIN_USER (2–40 латинских букв, цифр, _, -, .).')
             db.execute('INSERT INTO users(id,username,password,role) VALUES(1,?,?,?)',
-                       (username, password_hash(password), 'gm'))
+                       (username, NO_PASSWORD, 'gm'))
         # Never publish new private sheets on a later application restart.
         if not db.execute("SELECT 1 FROM tracker_meta WHERE key='campaigns_migrated'").fetchone():
             if db.execute('SELECT 1 FROM characters LIMIT 1').fetchone():
@@ -2086,7 +2087,6 @@ class Handler(BaseHTTPRequestHandler):
                     return self.respond(200, {'version':APP_VERSION,'apiVersion':API_VERSION})
                 if path in ['/api/login', '/api/register'] and method == 'POST':
                     username = text(payload.get('username', ''), 'Логин', 40, True)
-                    password = password_value(payload.get('password'))
                     selected_mode = mode_value(payload['mode']) if 'mode' in payload else 'player'
                     registration = path == '/api/register'
                     # An IP-only registration bucket cannot be evaded by rotating usernames.
@@ -2094,20 +2094,19 @@ class Handler(BaseHTTPRequestHandler):
                     key = hashlib.sha256(bucket.encode()).hexdigest()
                     now = self.authentication_attempt(db, key)
                     if registration:
-                        if not re.fullmatch(r'[A-Za-z0-9_.-]{3,40}', username) or len(password) < 12:
-                            raise APIError(400, 'Логин: 3–40 латинских букв, цифр, _, -, .; пароль: от 12 символов.')
+                        if not re.fullmatch(r'[A-Za-z0-9_.-]{3,40}', username):
+                            raise APIError(400, 'Логин: 3–40 латинских букв, цифр, _, -, .')
                         try:
                             cur = db.execute('INSERT INTO users(username,password,role) VALUES(?,?,?)',
-                                             (username, password_hash(password), 'player'))
+                                             (username, NO_PASSWORD, 'player'))
                         except sqlite3.IntegrityError:
                             raise APIError(409, 'Такой логин уже существует.')
                         account_id = cur.lastrowid
                         db.execute('INSERT INTO user_modes VALUES(?,?)', (account_id, selected_mode))
                     else:
                         account = db.execute('SELECT * FROM users WHERE username=?', (username,)).fetchone()
-                        encoded = account['password'] if account else self.server.dummy_hash
-                        if not check_password(password, encoded) or not account:
-                            raise APIError(401, 'Неверный логин или пароль.')
+                        if not account:
+                            raise APIError(401, 'Аккаунт с таким логином не найден.')
                         account_id = account['id']
                         db.execute('DELETE FROM attempts WHERE key=?', (key,))
                         if 'mode' in payload:
@@ -2149,16 +2148,6 @@ class Handler(BaseHTTPRequestHandler):
                     db.execute('DELETE FROM sessions WHERE token=?', (user['token'],))
                     db.commit()
                     return self.respond(200, {'ok': True}, cookie=self.cookie(age=0))
-                if path == '/api/password' and method == 'POST':
-                    old = password_value(payload.get('old'))
-                    new = password_value(payload.get('new'))
-                    account = db.execute('SELECT password FROM users WHERE id=?', (user['id'],)).fetchone()
-                    if not check_password(old, account['password']) or len(new) < 12:
-                        raise APIError(400, 'Проверь текущий пароль. Новый пароль — от 12 символов.')
-                    db.execute('UPDATE users SET password=? WHERE id=?', (password_hash(new), user['id']))
-                    db.execute('DELETE FROM sessions WHERE user_id=? AND token!=?', (user['id'], user['token']))
-                    db.commit()
-                    return self.respond(200, {'ok': True})
                 if path == '/api/users':
                     if user['id'] != 1:
                         raise APIError(403, 'Доступ только для администратора сервера.')
@@ -2166,30 +2155,15 @@ class Handler(BaseHTTPRequestHandler):
                         return self.respond(200, [dict(r) for r in db.execute("SELECT u.id,u.username,COALESCE(m.mode,u.role) AS role FROM users u LEFT JOIN user_modes m ON m.user_id=u.id ORDER BY u.id")])
                     if method == 'POST':
                         username = text(payload.get('username', ''), 'Логин', 40, True)
-                        password = password_value(payload.get('password'))
-                        if not re.fullmatch(r'[A-Za-z0-9_.-]{3,40}', username) or len(password) < 12:
-                            raise APIError(400, 'Логин: 3–40 латинских букв, цифр, _, -, .; пароль: от 12 символов.')
+                        if not re.fullmatch(r'[A-Za-z0-9_.-]{3,40}', username):
+                            raise APIError(400, 'Логин: 3–40 латинских букв, цифр, _, -, .')
                         try:
                             db.execute('INSERT INTO users(username,password,role) VALUES(?,?,?)',
-                                       (username, password_hash(password), 'player'))
+                                       (username, NO_PASSWORD, 'player'))
                         except sqlite3.IntegrityError:
                             raise APIError(409, 'Такой логин уже существует.')
                         db.commit()
                         return self.respond(201, {'ok': True})
-                match = re.fullmatch(r'/api/users/(\d+)/password', path)
-                if match and method == 'POST':
-                    if user['id'] != 1:
-                        raise APIError(403, 'Доступ только для администратора сервера.')
-                    target = int(match[1])
-                    new = password_value(payload.get('password'))
-                    if target == user['id'] or len(new) < 12:
-                        raise APIError(400, 'Для своего аккаунта используй смену пароля; новый пароль — от 12 символов.')
-                    changed = db.execute('UPDATE users SET password=? WHERE id=?', (password_hash(new), target))
-                    if changed.rowcount != 1:
-                        raise APIError(404, 'Игрок не найден.')
-                    db.execute('DELETE FROM sessions WHERE user_id=?', (target,))
-                    db.commit()
-                    return self.respond(200, {'ok': True})
                 if path == '/api/characters':
                     if method == 'GET':
                         rows = db.execute('SELECT c.*,u.username FROM characters c JOIN users u ON u.id=c.owner_id ORDER BY c.id')
