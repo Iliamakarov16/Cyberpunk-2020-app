@@ -1,0 +1,9 @@
+{
+  "driveBackupSHA256": "43f78c973ca936ce577712957f5ebc700432aca4e6940cdbe71a73b2d445b1fc",
+  "driveBackupBytes": 9023,
+  "actualDriveBackupColdRestorePassed": true,
+  "signedAPKByteIdentical": true,
+  "package": "app.nightcity.crew.mobile",
+  "certificateSHA256": "a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117",
+  "apkSHA256": "808929774e4e356952f37b6ebe8a40ec231a593a23c92656f8bd2d09c77238d7"
+}

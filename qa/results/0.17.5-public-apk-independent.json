@@ -1,0 +1,291 @@
+{
+  "scope": "Independent read-only verification of the final public APK against public source; no private signing material, configuration, or credential files accessed.",
+  "checkedAt": "2026-10-11T01:49:55.724142+00:00",
+  "apk": "/workspace/scratch/09867514bb2e/deliverables175/NightCity_Crew_0.17.5-mobile.1.apk",
+  "fileSize": 62771294,
+  "sha256": "6a62ff917afe16900685a5c10591234a2b3d997cb4eb055530fcf5f7c80e5918",
+  "checks": {
+    "signature": {
+      "pass": true,
+      "v2": true,
+      "v3": true,
+      "signers": 1,
+      "certificateSha256": "a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117",
+      "matchesProvided0174Certificate": true
+    },
+    "zipAlignment": {
+      "pass": true,
+      "alignmentBytes": 4,
+      "uncompressedSharedObjectPageAlignmentKiB": 16
+    },
+    "manifest": {
+      "pass": true,
+      "package": "app.nightcity.crew.mobile",
+      "versionCode": 170501,
+      "versionName": "0.17.5-mobile.1",
+      "minimumSdk": 24,
+      "targetSdk": 35,
+      "debuggable": false,
+      "allowBackup": false,
+      "launcher": "app.nightcity.crew.MainActivity",
+      "hostServiceExported": false,
+      "usesCleartextTraffic": true
+    },
+    "pythonModules": {
+      "pass": true,
+      "moduleCount": 5,
+      "files": [
+        {
+          "name": "battle_vision.py",
+          "bytes": 4732,
+          "sha256": "9171cfbc27456860c057f643049fd5ddd5bb1f275e593d4b32a8768573ace44a",
+          "exactSourceMatch": true,
+          "pythonSyntaxValid": true
+        },
+        {
+          "name": "crew_atlas.py",
+          "bytes": 16961,
+          "sha256": "d151b38edbaa3c1baa728323d072578c75c92dc36cff12bd980760f97ccd43e7",
+          "exactSourceMatch": true,
+          "pythonSyntaxValid": true
+        },
+        {
+          "name": "mobile_host.py",
+          "bytes": 31427,
+          "sha256": "1acf83463387aaecc8b5965d0de6fe8c55d81710e2af4548892f956a07802ed1",
+          "exactSourceMatch": true,
+          "pythonSyntaxValid": true
+        },
+        {
+          "name": "server.py",
+          "bytes": 155728,
+          "sha256": "5cc97e6631ac6d33e3957c35368a3964deee31c73f9434ca069aac74f3e893da",
+          "exactSourceMatch": true,
+          "pythonSyntaxValid": true
+        },
+        {
+          "name": "shared_battle.py",
+          "bytes": 115926,
+          "sha256": "420ab01f9963a91a75fcedd9661d9a861bd1b4bce478a9b07b017de4ca9dc2f8",
+          "exactSourceMatch": true,
+          "pythonSyntaxValid": true
+        }
+      ],
+      "unexpectedFiles": []
+    },
+    "staticPayload": {
+      "pass": true,
+      "packagedFileCount": 201,
+      "sourceFileCount": 201,
+      "allFileBytesExact": true,
+      "missingOrExtra": [],
+      "mismatches": [],
+      "serverZipMatchesSourceEmbeddedArchive": true
+    },
+    "dex": {
+      "pass": true,
+      "rootSequence": [
+        "classes.dex"
+      ],
+      "dexVersion": "037",
+      "size": 2798332,
+      "sha256": "a598200704592c44f259538333293943edd7e74980b2e4a930011c850809578b",
+      "headerValid": true,
+      "sha1Valid": true,
+      "adler32Valid": true,
+      "androidDexdumpChecksumVerified": true,
+      "androidDexdumpExitCode": 0
+    },
+    "nativeABIs": {
+      "pass": true,
+      "retained": [
+        "arm64-v8a",
+        "x86_64"
+      ],
+      "libraries": {
+        "arm64-v8a": [
+          {
+            "name": "lib/arm64-v8a/libchaquopy_java.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libcrypto_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libcrypto_python.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libpython3.11.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libsqlite3_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libsqlite3_python.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libssl_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          },
+          {
+            "name": "lib/arm64-v8a/libssl_python.so",
+            "elfBits": 64,
+            "elfMachine": 183
+          }
+        ],
+        "x86_64": [
+          {
+            "name": "lib/x86_64/libchaquopy_java.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libcrypto_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libcrypto_python.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libpython3.11.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libsqlite3_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libsqlite3_python.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libssl_chaquopy.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          },
+          {
+            "name": "lib/x86_64/libssl_python.so",
+            "elfBits": 64,
+            "elfMachine": 62
+          }
+        ]
+      }
+    },
+    "archiveIntegrity": {
+      "pass": true,
+      "archives": [
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk",
+          "entries": 103,
+          "files": 103,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/app.imy",
+          "entries": 6,
+          "files": 5,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/bootstrap.imy",
+          "entries": 129,
+          "files": 109,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/requirements-arm64-v8a.imy",
+          "entries": 0,
+          "files": 0,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/requirements-common.imy",
+          "entries": 0,
+          "files": 0,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/requirements-x86_64.imy",
+          "entries": 0,
+          "files": 0,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/stdlib-arm64-v8a.imy",
+          "entries": 48,
+          "files": 48,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/stdlib-common.imy",
+          "entries": 630,
+          "files": 630,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/chaquopy/stdlib-x86_64.imy",
+          "entries": 48,
+          "files": 48,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        },
+        {
+          "archive": "NightCity_Crew_0.17.5-mobile.1.apk!/assets/server.zip",
+          "entries": 201,
+          "files": 201,
+          "crcValid": true,
+          "duplicateEntries": [],
+          "unsafePaths": []
+        }
+      ],
+      "inspectedFileCountIncludingNested": 1144
+    },
+    "packagingHygiene": {
+      "pass": true,
+      "sensitiveFileNameFindings": [],
+      "privateKeySignatureFindings": [],
+      "knownCredentialTokenFindings": [],
+      "sqliteFileFindings": [],
+      "publicTrustBundleAllowed": "assets/chaquopy/cacert.pem"
+    }
+  },
+  "limitations": [
+    "No Android device installation, native runtime launch, UI rendering, or persistence/upgrade test is performed by this report. Packaged HTTP testing is performed separately. Secret checks inspect archive names, private-key/known-token signatures, and SQLite file headers; they cannot prove absence of every possible undisclosed secret."
+  ],
+  "result": "PASS"
+}

@@ -1,0 +1,32 @@
+import assert from 'node:assert/strict';
+import {readFile,writeFile,unlink} from 'node:fs/promises';
+import {pathToFileURL} from 'node:url';
+import {createRequire} from 'node:module';
+import {resolve} from 'node:path';
+import {JSDOM} from 'jsdom';
+if(!process.argv[2])throw Error('Pass web-source root');
+const source=resolve(process.argv[2]);
+const require=createRequire(source+'/package.json');const ts=require('typescript');
+const dom=new JSDOM('<!doctype html><body><div id="root"></div></body>',{url:'http://localhost',pretendToBeVisual:true});
+const win=dom.window;
+for(const k of ['window','document','HTMLElement','Element','Node','CustomEvent','Event','MutationObserver','HTMLInputElement','SVGElement','NodeFilter'])Object.defineProperty(globalThis,k,{configurable:true,value:k==='window'?win:k==='document'?win.document:win[k]});
+Object.defineProperty(globalThis,'navigator',{configurable:true,value:win.navigator});
+globalThis.getComputedStyle=win.getComputedStyle.bind(win);globalThis.requestAnimationFrame=win.requestAnimationFrame.bind(win);globalThis.cancelAnimationFrame=win.cancelAnimationFrame.bind(win);globalThis.IS_REACT_ACT_ENVIRONMENT=true;
+const viewport=new win.EventTarget();Object.assign(viewport,{width:900,height:412,offsetTop:0,offsetLeft:0});Object.defineProperty(win,'visualViewport',{value:viewport});
+let scrolled=[];win.HTMLElement.prototype.scrollIntoView=function(options){scrolled.push({node:this,options});};
+const React=require('react');const {act}=React;const {createRoot}=require('react-dom/client');
+let code=await readFile(source+'/components/battle/Dialog.jsx','utf8');code=code.replace("'@/lib/battle-viewport.mjs'","'./lib/battle-viewport.mjs'").replace("import './battle-dialog.css';",'');
+const generated=source+'/.qa-dialog-generated.mjs';await writeFile(generated,ts.transpileModule(code,{compilerOptions:{module:ts.ModuleKind.ESNext,target:ts.ScriptTarget.ES2022,jsx:ts.JsxEmit.React}}).outputText);
+try{
+ const {Dialog,DialogContent,DialogHeader,DialogTitle,DialogDescription}=await import(pathToFileURL(generated));
+ const e=React.createElement;const root=createRoot(win.document.getElementById('root'));
+ await act(async()=>{root.render(e(Dialog,{open:true},e(DialogContent,{className:'nc-battle-setup-dialog nc-battle-roster-dialog'},e(DialogHeader,null,e(DialogTitle,null,'Участники и карта')),e('form',null,e(DialogDescription,null,'Описание внутри прокрутки'),e('label',null,'Название',e('input',{id:'scene-name'})),e('button',{type:'submit'},'Сохранить')))));await new Promise(resolve=>setTimeout(resolve,30));});
+ const dialog=win.document.querySelector('[role=dialog]');assert(dialog);assert.equal(dialog.style.getPropertyValue('--nc-dialog-height'),'412px');
+ assert.equal(win.document.activeElement,dialog,'Opening focuses the dialog without focusing the name input/triggering the keyboard');
+ const input=win.document.getElementById('scene-name');input.focus();assert.equal(win.document.activeElement,input);
+ await act(async()=>{viewport.height=222;viewport.offsetTop=18;viewport.dispatchEvent(new win.Event('resize'));await new Promise(resolve=>setTimeout(resolve,40));});
+ assert.equal(dialog.style.getPropertyValue('--nc-dialog-height'),'222px');assert.equal(dialog.style.getPropertyValue('--nc-dialog-top'),'18px');assert.equal(win.document.activeElement,input);assert(scrolled.some(row=>row.node===input),'Focus is revealed after visible viewport changes');
+ await act(async()=>{viewport.height=412;viewport.offsetTop=0;viewport.dispatchEvent(new win.Event('resize'));await new Promise(resolve=>setTimeout(resolve,40));});assert.equal(dialog.style.getPropertyValue('--nc-dialog-height'),'412px');
+ await act(async()=>{root.unmount();});viewport.dispatchEvent(new win.Event('resize'));assert.equal(win.document.querySelector('[role=dialog]'),null);
+ console.log('Actual React/Radix DOM: no automatic keyboard focus, visible viewport resize/pan/restore, focused input reveal, and unmount passed. No pixel/real IME claim.');
+}finally{await unlink(generated);win.close();}

@@ -1,0 +1,1 @@
+These are offscreen renders from the actual production canvas drawing code using @napi-rs/canvas, not screenshots of Android or a browser. They verify visible prop footprints and the twelve appearance crops at game scale. They do not validate mobile HUD, keyboard, touch target layout or orientation transitions.

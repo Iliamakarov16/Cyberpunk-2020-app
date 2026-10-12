@@ -1,0 +1,57 @@
+{
+  "package": "app.nightcity.crew.next",
+  "versionName": "0.17.3-mobile.1",
+  "versionCode": 170301,
+  "appLabel": "Night City Crew 0.17",
+  "apkBytes": 55550245,
+  "apkSHA256": "2586a5764faf73cfa10e71c0f81f1cfced24dd6b73e4284981631adcf463a082",
+  "certificateSHA256": "43b4907d6fa1c2e4b3d836e2dc5ba0128d73cf0a087a7497640210cde88f15f0",
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "minSdk": 24,
+  "targetSdk": 35,
+  "signature": "v2/v3 SDK verified; v2 complete content digest independently verified",
+  "nativePackaging": "compressed; extractNativeLibs=true",
+  "nativeELFLoadAlignment": "16KiB all16 libraries",
+  "relroCaveat": "Native libraries unchanged from prior APK; inherited12 GNU_RELRO end-alignment exceptions, runtime on16KiB device untested",
+  "payloadFiles": 193,
+  "checks": {
+    "pythonTests": 155,
+    "frontendTestScripts": 52,
+    "typescript": "passed",
+    "originalModuleTests": 38,
+    "nativeTestGroups": 6,
+    "nativeExtractorAssertions": 668,
+    "packagedHttpEntryDependencies": 50,
+    "packagedHttpAssets": 193,
+    "atlasRuntimeFiles": 105,
+    "atlasFullSourceAndLiveHTTP": "passed",
+    "featureLint": {
+      "errors": 0,
+      "warnings": 5
+    },
+    "baselineBroaderLint": {
+      "errors": 54,
+      "warnings": 24,
+      "scope": "Tracker, CampaignHub, TransferPanel; counts and rule sets confirmed unchanged versus0.17.2; full-project lint is not clean"
+    },
+    "independentReview": "original battle experience and Atlas privacy/navigation reviewed; identified blockers corrected",
+    "realDeviceInstallOrRotation": false,
+    "interactiveBrowserLayout": false,
+    "cartographicOffscreenRendering": "five palette static cartographic exports generated and rendered overview inspected; not browser/mobile layout QA; geometry/raster preserved with recorded metadata correction"
+  },
+  "actualDeviceQA": false,
+  "browserPixelQA": false,
+  "cartographyOffscreenRendered": true,
+  "visualLimitation": "Chromium blocked by execution infrastructure; DOM/hook and source/CSS review are not mobile visual approval",
+  "newSigningIdentity": false,
+  "updatesVersions": [
+    "0.17.0-mobile.1",
+    "0.17.1-mobile.1",
+    "0.17.2-mobile.1"
+  ],
+  "signingKeyIncluded": false,
+  "userDataIncluded": false
+}

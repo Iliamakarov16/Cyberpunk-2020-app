@@ -1,0 +1,142 @@
+{
+  "app": "Night City Crew",
+  "package": "app.nightcity.crew",
+  "minAndroid": 24,
+  "targetAndroid": 35,
+  "abis": [
+    "arm64-v8a",
+    "x86_64"
+  ],
+  "dataBundled": false,
+  "privateSigningKeyBundled": false,
+  "iosDistribution": "Safari Home Screen web app; connects to updated GM server; no IPA",
+  "remoteServerUpdate": "Connected clients receive the interface from their selected GM server; that Android GM must also update and restart hosting",
+  "offlinePlayerLibrary": "not implemented; opening player sheets requires a reachable GM server",
+  "mobileVersion": "0.16.4-mobile.1",
+  "webVersion": "0.16.4",
+  "versionCode": 160401,
+  "builtAt": "2026-10-10T05:44:33.492109+00:00",
+  "apkSHA256": "f69574b191f3fbe44e0653d5eb59b53aa1864994313a1ce787e58ebf4f58c525",
+  "certificateSHA256": "9f0996a9a0dc61be2d1b5a5015abb3208bba4f6c01617e017b7c284b26b37855",
+  "frontendSourceCommit": "1de0c71e0586bb3ba5a0d70f0190d7d1eed5a652",
+  "apkBytes": 43635922,
+  "validation": {
+    "apkSignature": "v2 verified",
+    "previousAPKSignatureMatches": true,
+    "zipAlignment": "16KiB verified",
+    "nativeLibraryLoadAlignment": "16KiB or greater verified",
+    "nativeRuntimeMatchesPreviousAPK": true,
+    "embeddedPythonSourcesMatch": true,
+    "embeddedPayloadMatches": true,
+    "webMobileVersionMatch": true,
+    "nativeDossierAssetsMatch": true,
+    "nativeRecoveryAndBootCommandsBundled": true,
+    "nativePaletteCommandsAndFirstSessionBundled": true,
+    "portraitFrameFrontendAndBackendBundled": true,
+    "nativeRootInsetZeroingBundled": true,
+    "primaryAndContiguousDex": true,
+    "dexHeaderAndChecksumIntegrity": true,
+    "sdkDexRuntimeLoader": "SDK 35 dexdump -c passed on the whole signed APK",
+    "portraitFrameContract": "Optional complete closed six-key frame; contain/cover, integer x/y 0..100, zoom 100..300 percent, height 220..520 px, effect off/foil/scan/pulse/tilt; finite integral JSON floats normalize to ints; invalid values rejected before mutation",
+    "nativeRootInsets": "Root handles system bars, display cutout and IME once, then forwards zero handled dimensions with updates continuing; API 30+ typed clone, API 29 legacy builder, API 24..28 public legacy replacement with stable/cutout metadata cleared; modern gesture types preserved",
+    "nativeInsetReview": "Independent source review and real SDK compilation passed; physical viewport, gesture/navigation bar and keyboard show/hide behavior not tested",
+    "nativeInitialPageLoading": "Source/compile and independent review verified guarded readiness, single-use expiring cookie handoff, cached-view completion and no replaced-view navigation; phone runtime not tested",
+    "nativeCredentialUI": "Keyguard confirmation; single-use two-minute in-memory grant; source and compile verified; physical credential flow not tested",
+    "nativeLoadingPreference": "Explicit pending native choice only; document-start script removed after apply; newer web choice sync via current-origin boot-enabled/boot-disabled; stale checkbox read guarded",
+    "nativePalettePreference": "Validated five-command current-origin main-frame bridge; web choice authoritative; native cache persists across process restart; 12 exact CSS tokens verified per palette",
+    "physicalDeviceRuntime": "Not tested; no attached Android device or emulator/system image available",
+    "browserVisualRuntime": "Pixel inspection not performed; physical phone rendering, keyboard and animation testing pending",
+    "cleanGradleBuild": ":app:clean :app:assembleDebug --no-build-cache --rerun-tasks successful offline in21s; all45tasks executed; final read-only DEX gate passed",
+    "finalAssembleGates": "Subsequent assemble with --no-build-cache passed in14s,44tasks/3executed; DEX and SDK AAPT binary-manifest identity gates passed; output SHA256 unchanged",
+    "nativeJavaCompilation": "All app Java recompiled successfully during the no-cache clean build against real Android35 SDK",
+    "binaryManifestIdentity": "SDK AAPT actual signed APK package app.nightcity.crew/versionCode160401/versionName0.16.4-mobile.1 verified; output-metadata is not used as identity evidence",
+    "cachedManifestCandidateRejected": "First clean build with task cache retained a stale0.16.3-mobile.2 binary manifest and was rejected; no-cache/rerun clean rebuild produced correct0.16.4 identity",
+    "gradleApkIdentityGate": "Every assembled APK is read-only verified via SDK build-tools AAPT against configured package/version; Windows aapt.exe supported; no signed bytes modified",
+    "gradleApkIdentityFixtureChecks": {
+      "acceptedCurrent": 1,
+      "rejectedStaleMissingMalformed": 5
+    },
+    "dexRegressionTests": 10,
+    "gradleDexGate": "Every variant assemble output is inspected read-only for primary/canonical contiguous DEX, duplicate names, supported headers, size/endian, SHA1 and Adler32",
+    "dexSequence": [
+      "classes.dex",
+      "classes2.dex",
+      "classes3.dex"
+    ],
+    "zipArchiveIntegrity": "All ZIP CRCs and entry uniqueness passed; resources.arsc stored and4-byte aligned",
+    "apkEmbeddedBackendAndPayloadHTTP": "3 current tests passed in2.11s using actual0.16.4 APK app.imy Python and server.zip, including malformed-payload database denial",
+    "entryDependencyHTTPChecks": 29,
+    "publicAssetHTTPChecks": 83,
+    "publicAssetBytesAndMIME": "All83 exact archive public assets with correct browser MIME and unauthenticated HTTP200",
+    "privateAssetBoundary": "Current authenticated/unauthenticated private JSON, traversal, symlink and host-data denial passed",
+    "portraitContentSecurityPolicy": "img-src self/data/blob; script/API policies remain self-only",
+    "gradlePayloadGuard": "preBuild verifyGamePayload passed for16 nonempty critical assets",
+    "payloadContractTests": 10,
+    "focusedVersionAndSettingsTests": 6,
+    "productionJavaPayloadInstallerChecks": 385,
+    "pythonTestSuite": {
+      "currentRelease": "0.16.4-mobile.1",
+      "dexRegressionTests": 10,
+      "payloadContractTests": 10,
+      "focusedVersionAndSettingsTests": 6,
+      "actualAPKHTTPTests": 3,
+      "total": 29
+    },
+    "previousReleaseRegressionEvidence": {
+      "release": "0.16.2-mobile.1",
+      "fullPythonTests": 67,
+      "httpAndSQLiteTests": 57,
+      "portraitFrameHTTPAndPortabilityTests": 10,
+      "javaServerAddressAssertions": 104,
+      "nativeGameCommandChecks": 87,
+      "nativePaletteParityChecks": 62,
+      "nativePasswordPolicyChecks": 14,
+      "scope": "Historical broad regression results; not rerun for0.16.4; current embedded server.py differs from delivered0.16.3-mobile.2 only by APP_VERSION and mobile_host.py is byte-identical"
+    },
+    "priorDexGateFixtureEvidence": {
+      "release": "0.16.3-mobile.2",
+      "checks": 33,
+      "scope": "Historical Groovy DEX fixtures; unchanged DEX gate; current10 portable DEX tests and actualAPK SDK checks passed"
+    },
+    "embeddedBackendCompatibility": "server.py identical to delivered0.16.3-mobile.2 except APP_VERSION; mobile_host.py byte-identical; no data/schema/API contract change",
+    "payloadLayout": "83 entries inside static/; every embedded file byte-identical to frozen payload/static; frontend/API0.16.4",
+    "frontendPayloadSHA256": "27234f0e4a6818d17feaddeb0faca406d4a6cb9d9ba5f6d8cd1c58338579be64",
+    "frontendSectionLabelsBundled": "All seven Russian section labels verified in exact signed APK app.js",
+    "frontendTypecheck": "Current0.16.4 root TypeScript check passed",
+    "frontendProductionBuild": "Current0.16.4 Sites production and selfhost builds passed; exact frontendSourceCommit deployed by root",
+    "frontendRegressions": "Current root checks passed: actual7-page record navigation/shared draft/no APIwrite/cyber catalog scope/realwear/scenereturn/readonly6/refresh/revoke/pendinghistorydowngrade; UX; portrait workflow/frame/editor; accessUI; entry+motion; catalog scope; campaign controls; networkprivacy; serviceworker",
+    "physicalInstall": "Not tested; canonical primary DEX, SDK whole-APK loader, actual binary manifest, certificate and alignment verified"
+  },
+  "dex": {
+    "apk": "/workspace/scratch/28be73740e11/output/NightCity_Crew_0.16.4-mobile.1-preview.apk",
+    "primaryDex": "classes.dex",
+    "dexCount": 3,
+    "dexFiles": [
+      {
+        "name": "classes.dex",
+        "size": 3133804,
+        "version": "037",
+        "sha256": "c4e848cacc96de63b6f83f5458761b1b85bdc154d903da0ca982f2e1e71a25a5"
+      },
+      {
+        "name": "classes2.dex",
+        "size": 12240,
+        "version": "037",
+        "sha256": "a5397c9e0b033dba9e3428de9a3f1d2094e4845aa9cca455ccb13cc6fc48a451"
+      },
+      {
+        "name": "classes3.dex",
+        "size": 125916,
+        "version": "037",
+        "sha256": "3ce9a6699913615305715d8810d9fb572eec58fce9f921a8463544ca114bc35b"
+      }
+    ]
+  },
+  "changes": [
+    "Seven focused character sections: Персонаж/Вещи/Экипировка/Импланты/Навыки/Заметки/История; portrait and stats confined to profile",
+    "Compact persistent header, phone section selector and desktop navigation; shared draft and save footer across sections",
+    "Scoped cyberware catalog, inline improvement-point help, section transition focus fix; read-only sheets cannot edit or open history",
+    "Fresh no-cache clean APK assembly restores primary/contiguous DEX and actual0.16.4 binary manifest; final read-only SDK-AAPT identity guard rejects stale version resources",
+    "Same Android package and original update certificate; gameplay database/API/portrait contract unchanged"
+  ]
+}

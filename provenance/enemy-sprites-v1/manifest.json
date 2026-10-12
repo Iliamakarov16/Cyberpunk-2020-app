@@ -1,0 +1,380 @@
+{
+  "schemaVersion": 1,
+  "name": "NightCityCrew enemy appearance batch 1",
+  "count": 8,
+  "generation": "Built-in imagegen; eight distinct new designs, existing project atlas used as perspective/style reference only. No 2077 artwork extracted. No separate third-party sprite license was acquired or asserted.",
+  "rendering": {
+    "anchor": "bottom center of provided sourceRect",
+    "sourceRectFormat": "[x,y,width,height]",
+    "sourcePixelsAreUnmodified": true,
+    "footAnchorCell": [
+      0.5,
+      0.86
+    ],
+    "heightLogicalPixels": 108,
+    "tileLogicalPixels": 64,
+    "imageSmoothingEnabled": false,
+    "flipForFacingLeft": true,
+    "appearanceDoesNotGrantStats": true
+  },
+  "qualityNotes": [
+    "All source PNGs are RGBA and have true fully transparent pixels. Imagegen leaves faint low-alpha edge noise/halo; supplied source rectangles avoid most distant noise.",
+    "Character foot centers were reviewed from visible boots; source rectangles include asymmetric transparent padding to keep the visible stance centered.",
+    "No animations: one right-facing standing pose per appearance, suitable for renderer mirroring.",
+    "Source PNG dimensions differ. Always use the manifest sourceRect, not full-image dimensions."
+  ],
+  "sprites": [
+    {
+      "appearanceId": 4,
+      "id": "gang-enforcer",
+      "file": "04-gang-enforcer.png",
+      "relativePublicPath": "/art/enemies-v1/04-gang-enforcer.png",
+      "dimensions": [
+        1184,
+        1328
+      ],
+      "sourceRect": [
+        308,
+        41,
+        558,
+        1236
+      ],
+      "contentBoundsAlphaAbove32": [
+        342,
+        43,
+        522,
+        1234
+      ],
+      "anchorSourcePixels": [
+        587,
+        1277
+      ],
+      "anchorInSourceRect": [
+        279,
+        1236
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "b39017cfe31f82889cd245676d2cbbca24db72e6a562846408ab8f16fa865fa4",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 5,
+      "id": "glam-pistolier",
+      "file": "05-glam-pistolier.png",
+      "relativePublicPath": "/art/enemies-v1/05-glam-pistolier.png",
+      "dimensions": [
+        1225,
+        1284
+      ],
+      "sourceRect": [
+        320,
+        84,
+        614,
+        1125
+      ],
+      "contentBoundsAlphaAbove32": [
+        396,
+        86,
+        536,
+        1123
+      ],
+      "anchorSourcePixels": [
+        627,
+        1209
+      ],
+      "anchorInSourceRect": [
+        307,
+        1125
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "35cd874b2bf314d76837948fdacb97f0d6c1507863a7131271a01db494526904",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 6,
+      "id": "riot-security",
+      "file": "06-riot-security.png",
+      "relativePublicPath": "/art/enemies-v1/06-riot-security.png",
+      "dimensions": [
+        1136,
+        1385
+      ],
+      "sourceRect": [
+        184,
+        95,
+        756,
+        1200
+      ],
+      "contentBoundsAlphaAbove32": [
+        255,
+        97,
+        683,
+        1198
+      ],
+      "anchorSourcePixels": [
+        562,
+        1295
+      ],
+      "anchorInSourceRect": [
+        378,
+        1200
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "2af05a005383b998943779cd48b20364ec8b90bab62dea91ade6d89d47381b39",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 7,
+      "id": "dock-shotgunner",
+      "file": "07-dock-shotgunner.png",
+      "relativePublicPath": "/art/enemies-v1/07-dock-shotgunner.png",
+      "dimensions": [
+        1101,
+        1429
+      ],
+      "sourceRect": [
+        118,
+        114,
+        836,
+        1223
+      ],
+      "contentBoundsAlphaAbove32": [
+        268,
+        116,
+        684,
+        1221
+      ],
+      "anchorSourcePixels": [
+        536,
+        1337
+      ],
+      "anchorInSourceRect": [
+        418,
+        1223
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "ee2395cfdcdc0ab38a880feb116515be66781e542bde5a282ca4cb09e54ae638",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 8,
+      "id": "razor-runner",
+      "file": "08-razor-runner.png",
+      "relativePublicPath": "/art/enemies-v1/08-razor-runner.png",
+      "dimensions": [
+        1141,
+        1379
+      ],
+      "sourceRect": [
+        251,
+        85,
+        642,
+        1203
+      ],
+      "contentBoundsAlphaAbove32": [
+        291,
+        87,
+        600,
+        1201
+      ],
+      "anchorSourcePixels": [
+        572,
+        1288
+      ],
+      "anchorInSourceRect": [
+        321,
+        1203
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "2863bd382be96844abe831aeca247e9b2791207fc2f58a703abe48cf7eaf307d",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 9,
+      "id": "corporate-operative",
+      "file": "09-corporate-operative.png",
+      "relativePublicPath": "/art/enemies-v1/09-corporate-operative.png",
+      "dimensions": [
+        1024,
+        1536
+      ],
+      "sourceRect": [
+        204,
+        100,
+        648,
+        1346
+      ],
+      "contentBoundsAlphaAbove32": [
+        206,
+        102,
+        627,
+        1344
+      ],
+      "anchorSourcePixels": [
+        528,
+        1446
+      ],
+      "anchorInSourceRect": [
+        324,
+        1346
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "85c8c2c90205620a79f247aa9c4ab04ebabd9a27ba5c7e8f3f50fd1b71b84844",
+      "alphaRange": [
+        0,
+        254
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 10,
+      "id": "salvage-heavy",
+      "file": "10-salvage-heavy.png",
+      "relativePublicPath": "/art/enemies-v1/10-salvage-heavy.png",
+      "dimensions": [
+        1216,
+        1294
+      ],
+      "sourceRect": [
+        132,
+        105,
+        898,
+        1107
+      ],
+      "contentBoundsAlphaAbove32": [
+        296,
+        107,
+        732,
+        1105
+      ],
+      "anchorSourcePixels": [
+        581,
+        1212
+      ],
+      "anchorInSourceRect": [
+        449,
+        1107
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "a1cba7910643f04ab9dc0a71b052181454f046e54fbaa854e55eb0ddc299b6da",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    },
+    {
+      "appearanceId": 11,
+      "id": "security-carbine",
+      "file": "11-security-carbine.png",
+      "relativePublicPath": "/art/enemies-v1/11-security-carbine.png",
+      "dimensions": [
+        1145,
+        1374
+      ],
+      "sourceRect": [
+        275,
+        92,
+        584,
+        1201
+      ],
+      "contentBoundsAlphaAbove32": [
+        325,
+        94,
+        532,
+        1199
+      ],
+      "anchorSourcePixels": [
+        567,
+        1293
+      ],
+      "anchorInSourceRect": [
+        292,
+        1201
+      ],
+      "anchorNormalized": [
+        0.5,
+        1
+      ],
+      "renderHeight": 108,
+      "recommendedGridSize": 64,
+      "view": "elevated-three-quarter",
+      "facing": "screen-right",
+      "sourceSha256": "88642581f1e430066d7694d4308ed055b82392ac20a1ac8f48ccbf78a94861d5",
+      "alphaRange": [
+        0,
+        255
+      ],
+      "variantKind": "appearance-only"
+    }
+  ]
+}

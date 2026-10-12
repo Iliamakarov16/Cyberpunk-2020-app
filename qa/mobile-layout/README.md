@@ -1,0 +1,1 @@
+Run `npm ci --ignore-scripts` in this QA directory, then `node check-dialog.mjs ../../web-source`. This mounts the actual React/Radix dialog in JSDOM. It checks focus, visible-viewport resize and cleanup. It does not measure browser pixels or emulate a real software keyboard.

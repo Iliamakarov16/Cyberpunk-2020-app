@@ -1,0 +1,212 @@
+plugins {
+    id 'com.android.application'
+    id 'com.chaquo.python'
+}
+
+android {
+    namespace 'app.nightcity.crew'
+    compileSdk 35
+
+    defaultConfig {
+        applicationId 'app.nightcity.crew.mobile'
+        minSdk 24
+        targetSdk 35
+        versionCode 170701
+        versionName '0.17.7-mobile.1'
+        ndk {
+            abiFilters 'arm64-v8a'
+            // Default remains universal; use -PncArm64Only=true for ARM phones.
+            if (project.findProperty('ncArm64Only') != 'true') abiFilters 'x86_64'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    // Set these only when rebuilding an update with the existing test key.
+    // The keystore and its credentials are kept outside the source archive.
+    signingConfigs {
+        debug {
+            if (System.getenv('NC_TEST_KEYSTORE_PATH')) {
+                storeFile file(System.getenv('NC_TEST_KEYSTORE_PATH'))
+                storePassword System.getenv('NC_TEST_STORE_PASSWORD')
+                keyAlias System.getenv('NC_TEST_KEY_ALIAS')
+                keyPassword System.getenv('NC_TEST_KEY_PASSWORD')
+            }
+        }
+    }
+
+    packaging {
+        jniLibs { useLegacyPackaging = true }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            // A release key is deliberately not stored in this project.
+        }
+    }
+}
+
+chaquopy {
+    defaultConfig {
+        version = '3.11'
+    }
+}
+
+dependencies {
+    implementation 'androidx.webkit:webkit:1.13.0'
+}
+
+// Refuse an installable APK if its embedded frontend cannot be installed.
+// This also runs when building from a source ZIP without payload/static.
+def gameArchive = file('src/main/assets/server.zip')
+tasks.register('verifyGamePayload') {
+    inputs.file(gameArchive)
+    doLast {
+        if (!gameArchive.isFile()) throw new GradleException('Missing game payload')
+        new java.util.zip.ZipFile(gameArchive).withCloseable { archive ->
+            [
+                'static/index.html',
+                'static/app.js',
+                'static/appearance-init.js',
+                'static/style.css',
+                'static/dossier-theme.css',
+                'static/deck-connection.css',
+                'static/cyberoptic-preview.css',
+                'static/access-settings.css',
+                'static/campaign-dossier.css',
+                'static/portrait-editor.css',
+                'static/campaign-controls.css',
+                'static/record-controls.css',
+                'static/fonts/Dossier-Bold.woff',
+                'static/fonts/Dossier-BoldItalic.woff',
+                'static/style-textures/photocopy-grain-v1.png',
+                'static/style-textures/dry-ink-v1.png'
+            ].each { name ->
+                def entry = archive.getEntry(name)
+                if (entry == null || entry.isDirectory() || entry.size <= 0)
+                    throw new GradleException('Game payload must contain ' + name)
+            }
+            long bytes = 0
+            int count = 0
+            archive.entries().each { entry ->
+                count++
+                bytes += entry.size
+                def name = entry.name
+                if (!name.startsWith('static/') || name.contains('\\') || name.split('/').contains('..'))
+                    throw new GradleException('Unsafe game payload layout')
+            }
+            if (count > 10000 || bytes > 128L * 1024 * 1024)
+                throw new GradleException('Game payload exceeds installer limits')
+        }
+    }
+}
+tasks.named('preBuild').configure { dependsOn('verifyGamePayload') }
+
+// Verify the final packaged bytes after assemble, without rewriting the APK.
+// DEX 041 uses a different container header and needs its own validator.
+def verifyFinalApkDex = { File apk ->
+    if (!apk.isFile()) throw new GradleException('Missing assembled APK: ' + apk)
+    new java.util.zip.ZipFile(apk).withCloseable { archive ->
+        def names = new HashSet<String>()
+        def dexEntries = [:]
+        archive.entries().each { entry ->
+            def name = entry.name
+            if (!names.add(name))
+                throw new GradleException('Duplicate APK entry: ' + name)
+            if (!name.contains('/') && name.toLowerCase(java.util.Locale.ROOT).endsWith('.dex')) {
+                def match = name =~ /^classes(?:([2-9]|[1-9][0-9]+))?\.dex$/
+                if (!match.matches() || entry.isDirectory())
+                    throw new GradleException('Noncanonical root DEX entry: ' + name)
+                int index
+                try {
+                    index = match.group(1) == null ? 1 : Integer.parseInt(match.group(1))
+                } catch (NumberFormatException ignored) {
+                    throw new GradleException('Invalid root DEX index: ' + name)
+                }
+                dexEntries[index] = entry
+            }
+        }
+        if (!dexEntries.containsKey(1))
+            throw new GradleException('APK must contain root classes.dex')
+        def indexes = dexEntries.keySet().sort()
+        indexes.eachWithIndex { index, position ->
+            if (index != position + 1)
+                throw new GradleException('APK root DEX sequence has a gap before classes' + index + '.dex')
+        }
+        def readUnsignedInt = { byte[] bytes, int offset ->
+            (bytes[offset] & 0xffL) |
+                ((bytes[offset + 1] & 0xffL) << 8) |
+                ((bytes[offset + 2] & 0xffL) << 16) |
+                ((bytes[offset + 3] & 0xffL) << 24)
+        }
+        indexes.each { index ->
+            def entry = dexEntries[index]
+            byte[] dex = archive.getInputStream(entry).withCloseable { it.bytes }
+            if (dex.length < 112 || dex[0] != 100 || dex[1] != 101 || dex[2] != 120 ||
+                    dex[3] != 10 || dex[7] != 0)
+                throw new GradleException('Invalid or empty DEX header: ' + entry.name)
+            def version = new String(dex, 4, 3, java.nio.charset.StandardCharsets.US_ASCII)
+            if (!(version in ['035', '037', '038', '039', '040']))
+                throw new GradleException('Unsupported DEX version in ' + entry.name + ': ' + version)
+            if (readUnsignedInt(dex, 32) != dex.length || readUnsignedInt(dex, 36) != 112L ||
+                    readUnsignedInt(dex, 40) != 0x12345678L)
+                throw new GradleException('Invalid DEX file size, header size or endian tag: ' + entry.name)
+            def sha1 = java.security.MessageDigest.getInstance('SHA-1')
+            sha1.update(dex, 32, dex.length - 32)
+            if (!java.security.MessageDigest.isEqual(
+                    java.util.Arrays.copyOfRange(dex, 12, 32), sha1.digest()))
+                throw new GradleException('DEX SHA-1 mismatch: ' + entry.name)
+            def adler32 = new java.util.zip.Adler32()
+            adler32.update(dex, 12, dex.length - 12)
+            if (readUnsignedInt(dex, 8) != adler32.value)
+                throw new GradleException('DEX Adler32 mismatch: ' + entry.name)
+        }
+        logger.lifecycle('Verified final APK DEX headers and checksums: ' + apk.name)
+    }
+}
+
+// Build metadata can be correct while cached binary resources still carry an
+// older version. Read the actual packaged manifest, never only output-metadata.
+def verifyApkIdentityBadging = { String badging, String expectedPackage, int expectedCode, String expectedName ->
+    def identity = badging =~ /(?m)^package: name='([^']+)' versionCode='([^']+)' versionName='([^']+)'/
+    if (!identity.find() || identity.group(1) != expectedPackage ||
+            identity.group(2) != expectedCode.toString() || identity.group(3) != expectedName)
+        throw new GradleException('Packaged APK identity differs from configured package/version: expected ' +
+            expectedPackage + ' ' + expectedCode + ' ' + expectedName)
+}
+
+def verifyFinalApkIdentity = { File apk, String expectedPackage ->
+    def executable = System.getProperty('os.name').toLowerCase(java.util.Locale.ROOT).contains('windows') ? 'aapt.exe' : 'aapt'
+    def aapt = new File(android.sdkDirectory, 'build-tools/' + android.buildToolsVersion + '/' + executable)
+    if (!aapt.isFile()) throw new GradleException('Missing SDK APK manifest verifier: ' + aapt)
+    def process = new ProcessBuilder(aapt.absolutePath, 'dump', 'badging', apk.absolutePath)
+        .redirectErrorStream(true).start()
+    def badging = process.inputStream.getText('UTF-8')
+    if (process.waitFor() != 0) throw new GradleException('SDK could not read packaged APK manifest: ' + apk.name)
+    verifyApkIdentityBadging(badging, expectedPackage, android.defaultConfig.versionCode, android.defaultConfig.versionName)
+    logger.lifecycle('Verified final APK package and version from binary manifest: ' + apk.name)
+}
+
+androidComponents.onVariants(androidComponents.selector().all()) { variant ->
+    def apkDirectory = variant.artifacts.get(com.android.build.api.artifact.SingleArtifact.APK.INSTANCE)
+    def builtArtifactsLoader = variant.artifacts.getBuiltArtifactsLoader()
+    def assembleTaskName = 'assemble' + variant.name.capitalize()
+    tasks.matching { it.name == assembleTaskName }.configureEach {
+        doLast {
+            def outputDirectory = apkDirectory.get()
+            def builtArtifacts = builtArtifactsLoader.load(outputDirectory)
+            if (builtArtifacts == null || builtArtifacts.elements.isEmpty())
+                throw new GradleException('No APK outputs for ' + variant.name)
+            builtArtifacts.elements.each { output ->
+                def apk = new File(output.outputFile)
+                if (!apk.isAbsolute()) apk = new File(outputDirectory.asFile, output.outputFile)
+                verifyFinalApkDex(apk)
+                verifyFinalApkIdentity(apk, variant.applicationId.get())
+            }
+        }
+    }
+}

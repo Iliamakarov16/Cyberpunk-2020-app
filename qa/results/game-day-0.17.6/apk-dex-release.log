@@ -1,0 +1,13 @@
+{
+  "apk": "/workspace/scratch/09867514bb2e/qa176/game-day-atlas/NightCity_Crew_0.17.6-mobile.1.apk",
+  "primaryDex": "classes.dex",
+  "dexCount": 1,
+  "dexFiles": [
+    {
+      "name": "classes.dex",
+      "size": 2798572,
+      "version": "037",
+      "sha256": "dbeb735d063d89663f4a72a713fdcf77c3bc03522680c0da98092031a3060c07"
+    }
+  ]
+}

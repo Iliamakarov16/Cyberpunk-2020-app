@@ -1,0 +1,17 @@
+Verifies
+Verified using v1 scheme (JAR signing): false
+Verified using v2 scheme (APK Signature Scheme v2): true
+Verified using v3 scheme (APK Signature Scheme v3): true
+Verified using v3.1 scheme (APK Signature Scheme v3.1): false
+Verified using v4 scheme (APK Signature Scheme v4): false
+Verified for SourceStamp: false
+Number of signers: 1
+Signer #1 certificate DN: CN=Night City Crew mobile
+Signer #1 certificate SHA-256 digest: a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117
+Signer #1 certificate SHA-1 digest: 1d3c9a21d69c9e111b3cd3a7ec707319bf7bde6c
+Signer #1 certificate MD5 digest: b98781b2c1a21b564ac1c48944c27fe7
+Signer #1 key algorithm: RSA
+Signer #1 key size (bits): 3072
+Signer #1 public key SHA-256 digest: 1c82ce0fa5f21f573287838471b1e84e0cdf01f776f8580f93e17b242aefeaee
+Signer #1 public key SHA-1 digest: 258c46fcde85165b2f5c9ac315fea22497f35b74
+Signer #1 public key MD5 digest: 899ce539dc25599864fb246dd72aa6d9

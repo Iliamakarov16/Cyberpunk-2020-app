@@ -1,0 +1,7 @@
+Tutorial model: scopes, malformed progress, honest missing targets and responsive spotlight layout passed.
+test_all_background_modes_persist_per_account_across_host_restart (test_player_settings.PlayerSettingsHTTP.test_all_background_modes_persist_per_account_across_host_restart) ... ok
+
+----------------------------------------------------------------------
+Ran 1 test in 1.310s
+
+OK

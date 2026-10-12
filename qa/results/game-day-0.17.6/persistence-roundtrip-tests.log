@@ -1,0 +1,14 @@
+test_logout_relogin_restart_backup_restore_keeps_live_loadout (__main__.GameDayRoundTrip.test_logout_relogin_restart_backup_restore_keeps_live_loadout) ... ok
+test_independent_body_wear_narrow_real_persistence_and_undo (test_cover_adverse_http.Review.test_independent_body_wear_narrow_real_persistence_and_undo) ... ok
+test_independent_missing_wear_and_bad_commands_reject_without_rng (test_cover_adverse_http.Review.test_independent_missing_wear_and_bad_commands_reject_without_rng) ... ok
+test_independent_opaque_flip_history_does_not_reveal_hidden_later (test_cover_adverse_http.Review.test_independent_opaque_flip_history_does_not_reveal_hidden_later) ... ok
+test_independent_optional_rule_off_does_not_wear_anything (test_cover_adverse_http.Review.test_independent_optional_rule_off_does_not_wear_anything) ... ok
+test_independent_through_transaction_failure_rolls_back_barrier_and_all_sheets (test_cover_adverse_http.Review.test_independent_through_transaction_failure_rolls_back_barrier_and_all_sheets) ... ok
+test_independent_two_hits_recompute_sp_and_one_sheet_revision (test_cover_adverse_http.Review.test_independent_two_hits_recompute_sp_and_one_sheet_revision) ... ok
+test_independent_unknown_barrier_and_tile_configuration_private_undo (test_cover_adverse_http.Review.test_independent_unknown_barrier_and_tile_configuration_private_undo) ... ok
+test_independent_zero_sp_no_fake_bonus_and_stopped_no_wear (test_cover_adverse_http.Review.test_independent_zero_sp_no_fake_bonus_and_stopped_no_wear) ... ok
+
+----------------------------------------------------------------------
+Ran 9 tests in 7.935s
+
+OK

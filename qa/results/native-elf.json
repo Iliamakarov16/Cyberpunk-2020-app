@@ -1,0 +1,66 @@
+[
+  {
+    "name": "lib/arm64-v8a/libchaquopy_java.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libcrypto_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libcrypto_python.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libpython3.11.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libsqlite3_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libsqlite3_python.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libssl_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/arm64-v8a/libssl_python.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libchaquopy_java.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libcrypto_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libcrypto_python.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libpython3.11.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libsqlite3_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libsqlite3_python.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libssl_chaquopy.so",
+    "minimumLoadAlignment": 16384
+  },
+  {
+    "name": "lib/x86_64/libssl_python.so",
+    "minimumLoadAlignment": 16384
+  }
+]

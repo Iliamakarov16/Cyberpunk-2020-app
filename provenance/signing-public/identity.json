@@ -1,0 +1,14 @@
+{
+  "schemaVersion": 1,
+  "package": "app.nightcity.crew.mobile",
+  "appLabel": "Night City Crew",
+  "firstVersionName": "0.17.4-mobile.1",
+  "firstVersionCode": 170401,
+  "certificateSHA256": "a2fa4bb60a344d90961b5f718301247655a5b15f5965ea6c80cb8c37fbb60117",
+  "keyAlgorithm": "RSA",
+  "keySizeBits": 3072,
+  "createdUTC": "2026-10-11T00:32:03.536153+00:00",
+  "separateFromPackage": "app.nightcity.crew.next",
+  "backupContainsUnencryptedUnlockConfiguration": true,
+  "signingKeyShouldNeverBeRegeneratedForUpdates": true
+}

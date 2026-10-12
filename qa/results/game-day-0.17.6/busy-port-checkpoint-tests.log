@@ -1,0 +1,17 @@
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+test_original_byte_assertion_after_checkpoint (__main__.StabilizedBusyPort.test_original_byte_assertion_after_checkpoint) ... ok
+
+----------------------------------------------------------------------
+Ran 12 tests in 7.012s
+
+OK

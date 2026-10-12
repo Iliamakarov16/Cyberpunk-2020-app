@@ -1,0 +1,6 @@
+ServerAddress: 104 adversarial and normalization checks passed.
+Native owner password policy: 14 checks passed.
+Native game command policy: 97 assertions passed.
+Native Back dispatch: strict cancelable in-app contract passed.
+Native/web palette parity: 62 assertions passed.
+PayloadInstaller: 684 production extraction, archive and data preservation checks passed.

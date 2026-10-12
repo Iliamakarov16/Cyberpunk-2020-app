@@ -1,0 +1,18 @@
+{
+  "status": "signed-test-release",
+  "package": "app.nightcity.crew.next",
+  "version": "0.17.3-mobile.1",
+  "versionCode": 170301,
+  "webVersion": "0.17.3",
+  "signingKeyIncluded": false,
+  "userDataIncluded": false,
+  "newSigningIdentity": false,
+  "installableArtifactProduced": true,
+  "deviceInstallTested": false,
+  "browserPixelTested": false,
+  "releaseMetadata": "RELEASE_INFO.json",
+  "scope": "START_HERE.md",
+  "updatesVersion": "0.17.2-mobile.1",
+  "isolatedTraining": true,
+  "campaignMapEditing": true
+}
