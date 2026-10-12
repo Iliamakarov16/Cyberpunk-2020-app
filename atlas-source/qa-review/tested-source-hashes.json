@@ -1,0 +1,99 @@
+{
+  "recordedAt": "2026-10-11T12:29:01.293886+00:00",
+  "verdict": "PASS; two integration defects fixed and independently retested",
+  "sourceRoot": "/workspace/scratch/09867514bb2e/source174/NightCity_Crew_0.17.3-mobile.1_Source",
+  "hashAlgorithm": "SHA-256",
+  "preservedDataFiles": [
+    "atlas-source/public/data.js",
+    "atlas-source/public/atlas-data.json",
+    "atlas-source/public/streets-data.js",
+    "atlas-source/public/streets-data.json",
+    "atlas-source/public/world-data.js",
+    "atlas-source/public/world-data.json",
+    "atlas-source/public/transit-data.js",
+    "atlas-source/public/transit-data.json"
+  ],
+  "preservationBasis": "Existing preserved-source-hashes fixture, with only the previously documented coverage.geographicBase metadata correction in atlas-data.json/data.js. The fixture and correction assertions passed independently.",
+  "files": {
+    "atlas-source/public/index.html": {
+      "bytes": 15957,
+      "sha256": "82ac95490abd7f5949327001ccc7691ec3655310ff0897d516bfa709a154e3d3"
+    },
+    "atlas-source/public/app.js": {
+      "bytes": 81236,
+      "sha256": "6cedcef69baa885dc555c73c935b19e6fae0c01e594d2240a8afdca024e50f26"
+    },
+    "atlas-source/public/cartography.js": {
+      "bytes": 19259,
+      "sha256": "2c1fd2bec0f53a100591a4273afe7b4854d13e1ec7438d16123095f53f5876d0"
+    },
+    "atlas-source/public/theme.js": {
+      "bytes": 9041,
+      "sha256": "e0e31e5e29a334fa8dffb8a190d03e3dae930beaf6f98fd6f2b84a6b9881301b"
+    },
+    "atlas-source/public/atlas-palette.css": {
+      "bytes": 3196,
+      "sha256": "fa37b4735e3d75e662c42b9e0dfce2255f6b2a6df4dc3756dacc7a7964648a4b"
+    },
+    "atlas-source/public/cyberdeck.js": {
+      "bytes": 4769,
+      "sha256": "11eea2d4ae63af2dd977dc038f74e3e7d23495097e02c401d2077580f0860d25"
+    },
+    "atlas-source/public/cyberdeck.css": {
+      "bytes": 8516,
+      "sha256": "c7e4607dda2cd7b21bf09bda8b74ae778acbb0f8721134c855d6b3c07d922787"
+    },
+    "atlas-source/public/city-atlas-transition.css": {
+      "bytes": 1679,
+      "sha256": "5c359cfb4517485a71ac54db96616324cb515830810efc5de9a43124ceff6ee8"
+    },
+    "atlas-source/public/crew-campaign.js": {
+      "bytes": 35781,
+      "sha256": "2ae6b7080f9ef64d0e5e0d2ca4167eca0d6518a20d4d4971ffc54b7532899a75"
+    },
+    "atlas-source/public/crew-bridge.js": {
+      "bytes": 4632,
+      "sha256": "d78bd2d7ad9a1263752252a2633ef0aff6c4b7c75fcea5b822b4b1d37007a946"
+    },
+    "atlas-source/public/data.js": {
+      "bytes": 277244,
+      "sha256": "fccb2fa094426853e8a992dfc22005b2a0ee00978f3e86eaff45b9f9f7bc889d"
+    },
+    "atlas-source/public/atlas-data.json": {
+      "bytes": 277221,
+      "sha256": "e1ac8c87e8c44d2443ae4a241449a9eacbad68e811bf6251f1a29ad78158bac3"
+    },
+    "atlas-source/public/streets-data.js": {
+      "bytes": 88936,
+      "sha256": "e7aa1e3971c23d4976d38f13890bd17193df0286cb1cd6e74836cce219e8ce5d"
+    },
+    "atlas-source/public/streets-data.json": {
+      "bytes": 88911,
+      "sha256": "38e82da47a24905639e7535f18e8b69b2888a6bccec07381dada9827e5af2965"
+    },
+    "atlas-source/public/world-data.js": {
+      "bytes": 165875,
+      "sha256": "677122c05c901bc6f9207d7bd64265a0a098355be116fcc04918024b8cfe0f20"
+    },
+    "atlas-source/public/world-data.json": {
+      "bytes": 165852,
+      "sha256": "9a4b8d7145a614a68d9f4a279f717cd799b01ca35771796b2838b3c89dceabe5"
+    },
+    "atlas-source/public/transit-data.js": {
+      "bytes": 8677,
+      "sha256": "aa21e0c5b6a3a81cfd468209e48f03401cc64660cba31e0fd98e380135d63200"
+    },
+    "atlas-source/public/transit-data.json": {
+      "bytes": 8652,
+      "sha256": "49c1179276a01e0fccc8c547b8c4b387423db73f2703659a62715ab6b11297a4"
+    },
+    "web-source/components/city-atlas.tsx": {
+      "bytes": 11976,
+      "sha256": "9d421c0ce5799b6b0b920bf82c6fbe0711057b18ea5694e915f417ba82851a03"
+    },
+    "web-source/public/city-atlas-transition.css": {
+      "bytes": 1679,
+      "sha256": "5c359cfb4517485a71ac54db96616324cb515830810efc5de9a43124ceff6ee8"
+    }
+  }
+}

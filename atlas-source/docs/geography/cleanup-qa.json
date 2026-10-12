@@ -1,0 +1,17 @@
+{
+  "coordinateRegistration": "Projection, all POI, districts, macroAreas, default camera and mapId exactly match v6",
+  "runtimeImageSize": [
+    2048,
+    2048
+  ],
+  "originalDrawingRetainedOutsideWindowsPercent": 93.048,
+  "outsideAnnotationWindowsChangedPixels": 0,
+  "outsideAnnotationWindowsMaxChannelDifference": 0,
+  "rasterQaResolution": [
+    1024,
+    1024
+  ],
+  "edgeAllowancePixels": 3,
+  "annotationWindows": 133,
+  "limitations": "Static SVG rasterization and DOM interaction tests; no native-browser or touch verification."
+}

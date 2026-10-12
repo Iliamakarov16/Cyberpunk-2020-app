@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "coordinateSpace": {
+    "width": 1536,
+    "height": 1207,
+    "units": "source pixels",
+    "origin": "top-left"
+  },
+  "source": "Draken RPG Maps — unofficial Night City 2020 regional plan",
+  "notes": [
+    "Restores mainland Heywood collectors removed by the former rectangular central-agent exclusion.",
+    "These are exact continuations of the previously reviewed outer source-plan traces, not new synthetic roads.",
+    "No peninsula or water geometry is introduced.",
+    "Main collector seam and adjacent outer anchors were refined together against the visible paired road borders; replace both JSON files together."
+  ],
+  "roads": [
+    {
+      "id": "outer-heywood-main-collector-seam",
+      "points": [
+        [
+          1257.5,
+          894
+        ],
+        [
+          1250,
+          905
+        ],
+        [
+          1243,
+          915
+        ],
+        [
+          1236.5,
+          925
+        ],
+        [
+          1233.5,
+          930
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "outer-heywood-west-collector-seam",
+      "points": [
+        [
+          1247,
+          849
+        ],
+        [
+          1249,
+          862
+        ],
+        [
+          1241,
+          871
+        ],
+        [
+          1210,
+          914
+        ],
+        [
+          1198.0,
+          930.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "outer-heywood-cross-03-seam",
+      "points": [
+        [
+          1210,
+          914
+        ],
+        [
+          1234,
+          930
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "outer-heywood-cross-01-seam",
+      "points": [
+        [
+          1249,
+          862
+        ],
+        [
+          1250,
+          862.69
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    }
+  ]
+}

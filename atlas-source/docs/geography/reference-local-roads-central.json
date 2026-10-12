@@ -1,0 +1,6935 @@
+{
+  "version": "v6-local-roads-central",
+  "source": {
+    "path": "upload/01-17915869177873961176432688589260.jpg",
+    "name": "Draken RPG Maps Night City2020",
+    "official": false,
+    "width": 1536,
+    "height": 1207
+  },
+  "scope": [
+    560,
+    370,
+    1250,
+    930
+  ],
+  "coordinateSystem": "source-image-pixels",
+  "roads": [
+    {
+      "id": "central-local-001",
+      "points": [
+        [
+          781.0,
+          387.0
+        ],
+        [
+          922.0,
+          387.0
+        ],
+        [
+          936.0,
+          390.0
+        ],
+        [
+          955.0,
+          400.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-001"
+    },
+    {
+      "id": "central-local-002",
+      "points": [
+        [
+          836.0,
+          402.0
+        ],
+        [
+          866.0,
+          402.0
+        ],
+        [
+          892.0,
+          403.0
+        ],
+        [
+          919.0,
+          408.0
+        ],
+        [
+          941.0,
+          414.0
+        ],
+        [
+          961.0,
+          424.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-002"
+    },
+    {
+      "id": "central-local-003",
+      "points": [
+        [
+          762.0,
+          421.0
+        ],
+        [
+          795.0,
+          418.0
+        ],
+        [
+          831.0,
+          417.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-003"
+    },
+    {
+      "id": "central-local-004",
+      "points": [
+        [
+          735.0,
+          442.0
+        ],
+        [
+          763.0,
+          443.0
+        ],
+        [
+          795.0,
+          443.0
+        ],
+        [
+          831.0,
+          444.0
+        ],
+        [
+          868.0,
+          444.0
+        ],
+        [
+          898.0,
+          445.0
+        ],
+        [
+          934.0,
+          446.0
+        ],
+        [
+          947.0,
+          462.0
+        ],
+        [
+          973.0,
+          478.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-004"
+    },
+    {
+      "id": "central-local-005",
+      "points": [
+        [
+          700.0,
+          482.0
+        ],
+        [
+          736.0,
+          482.0
+        ],
+        [
+          764.0,
+          483.0
+        ],
+        [
+          795.0,
+          483.0
+        ],
+        [
+          831.0,
+          483.0
+        ],
+        [
+          867.0,
+          483.0
+        ],
+        [
+          897.0,
+          483.0
+        ],
+        [
+          933.0,
+          484.0
+        ],
+        [
+          967.0,
+          484.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-005"
+    },
+    {
+      "id": "central-local-006",
+      "points": [
+        [
+          670.0,
+          517.0
+        ],
+        [
+          682.0,
+          517.0
+        ],
+        [
+          690.0,
+          521.0
+        ],
+        [
+          700.0,
+          533.0
+        ],
+        [
+          734.0,
+          534.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-006"
+    },
+    {
+      "id": "central-local-007",
+      "points": [
+        [
+          743.58,
+          514.52
+        ],
+        [
+          751.0,
+          516.0
+        ],
+        [
+          766.0,
+          516.0
+        ],
+        [
+          785.0,
+          508.0
+        ],
+        [
+          794.23,
+          504.64
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-007"
+    },
+    {
+      "id": "central-local-008",
+      "points": [
+        [
+          794.23,
+          504.64
+        ],
+        [
+          807.0,
+          500.0
+        ],
+        [
+          819.0,
+          496.0
+        ],
+        [
+          828.0,
+          498.0
+        ],
+        [
+          840.0,
+          507.0
+        ],
+        [
+          850.0,
+          512.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-007"
+    },
+    {
+      "id": "central-local-009",
+      "points": [
+        [
+          700.0,
+          533.0
+        ],
+        [
+          734.0,
+          534.0
+        ],
+        [
+          752.0,
+          534.0
+        ],
+        [
+          765.04,
+          534.32
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-008"
+    },
+    {
+      "id": "central-local-010",
+      "points": [
+        [
+          765.04,
+          534.32
+        ],
+        [
+          792.83,
+          535.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-008"
+    },
+    {
+      "id": "central-local-011",
+      "points": [
+        [
+          792.83,
+          535.0
+        ],
+        [
+          793.0,
+          535.0
+        ],
+        [
+          821.0,
+          535.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-008"
+    },
+    {
+      "id": "central-local-012",
+      "points": [
+        [
+          666.0,
+          550.0
+        ],
+        [
+          700.0,
+          550.0
+        ],
+        [
+          758.0,
+          552.0
+        ],
+        [
+          765.0,
+          552.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-009"
+    },
+    {
+      "id": "central-local-013",
+      "points": [
+        [
+          765.0,
+          552.0
+        ],
+        [
+          792.0,
+          552.0
+        ],
+        [
+          837.0,
+          555.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-009"
+    },
+    {
+      "id": "central-local-014",
+      "points": [
+        [
+          614.0,
+          577.0
+        ],
+        [
+          661.0,
+          577.0
+        ],
+        [
+          663.0,
+          577.11
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-010"
+    },
+    {
+      "id": "central-local-015",
+      "points": [
+        [
+          663.0,
+          577.11
+        ],
+        [
+          699.0,
+          579.0
+        ],
+        [
+          733.0,
+          580.0
+        ],
+        [
+          760.0,
+          582.0
+        ],
+        [
+          790.0,
+          583.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-010"
+    },
+    {
+      "id": "central-local-016",
+      "points": [
+        [
+          614.0,
+          606.0
+        ],
+        [
+          634.0,
+          606.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-011"
+    },
+    {
+      "id": "central-local-017",
+      "points": [
+        [
+          634.0,
+          606.0
+        ],
+        [
+          662.0,
+          606.0
+        ],
+        [
+          699.0,
+          607.0
+        ],
+        [
+          733.0,
+          608.0
+        ],
+        [
+          759.0,
+          609.0
+        ],
+        [
+          790.0,
+          610.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-011"
+    },
+    {
+      "id": "central-local-018",
+      "points": [
+        [
+          614.0,
+          627.0
+        ],
+        [
+          634.0,
+          627.0
+        ],
+        [
+          661.0,
+          627.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-012"
+    },
+    {
+      "id": "central-local-019",
+      "points": [
+        [
+          615.0,
+          647.0
+        ],
+        [
+          633.0,
+          647.0
+        ],
+        [
+          661.0,
+          648.0
+        ],
+        [
+          700.0,
+          648.0
+        ],
+        [
+          733.0,
+          648.0
+        ],
+        [
+          758.0,
+          649.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-013"
+    },
+    {
+      "id": "central-local-020",
+      "points": [
+        [
+          615.0,
+          670.0
+        ],
+        [
+          632.0,
+          670.0
+        ],
+        [
+          659.0,
+          670.0
+        ],
+        [
+          700.0,
+          670.0
+        ],
+        [
+          732.0,
+          671.0
+        ],
+        [
+          758.0,
+          672.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-014"
+    },
+    {
+      "id": "central-local-021",
+      "points": [
+        [
+          618.0,
+          693.0
+        ],
+        [
+          632.0,
+          693.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-015"
+    },
+    {
+      "id": "central-local-022",
+      "points": [
+        [
+          632.0,
+          693.0
+        ],
+        [
+          659.0,
+          693.0
+        ],
+        [
+          700.0,
+          693.0
+        ],
+        [
+          732.0,
+          693.0
+        ],
+        [
+          757.0,
+          693.0
+        ],
+        [
+          786.0,
+          693.0
+        ],
+        [
+          822.0,
+          693.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-015"
+    },
+    {
+      "id": "central-local-023",
+      "points": [
+        [
+          659.0,
+          717.0
+        ],
+        [
+          700.0,
+          717.0
+        ],
+        [
+          731.0,
+          717.0
+        ],
+        [
+          756.0,
+          718.0
+        ],
+        [
+          785.0,
+          718.0
+        ],
+        [
+          806.0,
+          718.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-016"
+    },
+    {
+      "id": "central-local-024",
+      "points": [
+        [
+          806.0,
+          718.0
+        ],
+        [
+          819.0,
+          718.32
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-017"
+    },
+    {
+      "id": "central-local-025",
+      "points": [
+        [
+          819.0,
+          718.32
+        ],
+        [
+          847.0,
+          719.0
+        ],
+        [
+          881.0,
+          719.0
+        ],
+        [
+          904.0,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-017"
+    },
+    {
+      "id": "central-local-026",
+      "points": [
+        [
+          904.0,
+          719.0
+        ],
+        [
+          917.0,
+          719.0
+        ],
+        [
+          942.0,
+          719.0
+        ],
+        [
+          973.04,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-017"
+    },
+    {
+      "id": "central-local-027",
+      "points": [
+        [
+          657.0,
+          754.0
+        ],
+        [
+          701.0,
+          754.0
+        ],
+        [
+          730.0,
+          754.0
+        ],
+        [
+          755.0,
+          754.0
+        ],
+        [
+          784.0,
+          754.0
+        ],
+        [
+          819.0,
+          754.0
+        ],
+        [
+          847.0,
+          755.0
+        ],
+        [
+          882.0,
+          755.0
+        ],
+        [
+          917.0,
+          755.0
+        ],
+        [
+          932.0,
+          755.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-018"
+    },
+    {
+      "id": "central-local-028",
+      "points": [
+        [
+          932.0,
+          755.0
+        ],
+        [
+          934.0,
+          755.0
+        ],
+        [
+          972.0,
+          755.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-018"
+    },
+    {
+      "id": "central-local-029",
+      "points": [
+        [
+          659.0,
+          779.0
+        ],
+        [
+          703.0,
+          779.0
+        ],
+        [
+          729.0,
+          779.0
+        ],
+        [
+          753.0,
+          779.0
+        ],
+        [
+          783.0,
+          779.0
+        ],
+        [
+          819.0,
+          780.0
+        ],
+        [
+          848.0,
+          780.0
+        ],
+        [
+          868.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-019"
+    },
+    {
+      "id": "central-local-030",
+      "points": [
+        [
+          665.0,
+          803.0
+        ],
+        [
+          701.0,
+          803.0
+        ],
+        [
+          729.0,
+          804.0
+        ],
+        [
+          753.0,
+          804.0
+        ],
+        [
+          783.0,
+          804.0
+        ],
+        [
+          820.0,
+          804.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-020"
+    },
+    {
+      "id": "central-local-031",
+      "points": [
+        [
+          670.0,
+          825.0
+        ],
+        [
+          703.0,
+          825.0
+        ],
+        [
+          730.0,
+          825.0
+        ],
+        [
+          752.0,
+          825.0
+        ],
+        [
+          781.0,
+          826.0
+        ],
+        [
+          818.0,
+          826.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-021"
+    },
+    {
+      "id": "central-local-032",
+      "points": [
+        [
+          697.0,
+          854.0
+        ],
+        [
+          703.0,
+          854.0
+        ],
+        [
+          728.0,
+          855.0
+        ],
+        [
+          751.0,
+          855.0
+        ],
+        [
+          780.0,
+          855.0
+        ],
+        [
+          803.0,
+          856.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-022"
+    },
+    {
+      "id": "central-local-033",
+      "points": [
+        [
+          667.0,
+          517.0
+        ],
+        [
+          666.0,
+          550.0
+        ],
+        [
+          663.0,
+          577.0
+        ],
+        [
+          663.0,
+          577.11
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-023"
+    },
+    {
+      "id": "central-local-034",
+      "points": [
+        [
+          663.0,
+          577.11
+        ],
+        [
+          662.0,
+          606.0
+        ],
+        [
+          661.0,
+          627.0
+        ],
+        [
+          661.0,
+          648.0
+        ],
+        [
+          659.0,
+          670.0
+        ],
+        [
+          659.0,
+          693.0
+        ],
+        [
+          659.0,
+          717.0
+        ],
+        [
+          657.0,
+          754.0
+        ],
+        [
+          657.0,
+          779.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-023"
+    },
+    {
+      "id": "central-local-035",
+      "points": [
+        [
+          700.0,
+          517.0
+        ],
+        [
+          700.0,
+          533.0
+        ],
+        [
+          700.0,
+          550.0
+        ],
+        [
+          699.0,
+          579.0
+        ],
+        [
+          699.0,
+          607.0
+        ],
+        [
+          700.0,
+          648.0
+        ],
+        [
+          700.0,
+          670.0
+        ],
+        [
+          700.0,
+          693.0
+        ],
+        [
+          700.0,
+          717.0
+        ],
+        [
+          701.0,
+          754.0
+        ],
+        [
+          703.0,
+          779.0
+        ],
+        [
+          701.0,
+          803.0
+        ],
+        [
+          703.0,
+          825.0
+        ],
+        [
+          703.0,
+          854.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-024"
+    },
+    {
+      "id": "central-local-036",
+      "points": [
+        [
+          735.0,
+          442.0
+        ],
+        [
+          736.0,
+          482.0
+        ],
+        [
+          739.0,
+          500.0
+        ],
+        [
+          743.58,
+          514.52
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-025"
+    },
+    {
+      "id": "central-local-037",
+      "points": [
+        [
+          743.58,
+          514.52
+        ],
+        [
+          745.0,
+          519.0
+        ],
+        [
+          752.0,
+          534.0
+        ],
+        [
+          758.0,
+          552.0
+        ],
+        [
+          760.0,
+          582.0
+        ],
+        [
+          759.0,
+          609.0
+        ],
+        [
+          758.0,
+          649.0
+        ],
+        [
+          758.0,
+          672.0
+        ],
+        [
+          757.0,
+          693.0
+        ],
+        [
+          756.0,
+          718.0
+        ],
+        [
+          755.0,
+          754.0
+        ],
+        [
+          753.0,
+          779.0
+        ],
+        [
+          753.0,
+          804.0
+        ],
+        [
+          752.0,
+          825.0
+        ],
+        [
+          751.0,
+          855.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-025"
+    },
+    {
+      "id": "central-local-038",
+      "points": [
+        [
+          762.0,
+          421.0
+        ],
+        [
+          763.0,
+          443.0
+        ],
+        [
+          764.0,
+          483.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-026"
+    },
+    {
+      "id": "central-local-039",
+      "points": [
+        [
+          766.0,
+          497.0
+        ],
+        [
+          766.0,
+          516.0
+        ],
+        [
+          765.04,
+          534.32
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-027"
+    },
+    {
+      "id": "central-local-040",
+      "points": [
+        [
+          765.04,
+          534.32
+        ],
+        [
+          765.0,
+          535.0
+        ],
+        [
+          765.0,
+          552.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-027"
+    },
+    {
+      "id": "central-local-041",
+      "points": [
+        [
+          795.0,
+          418.0
+        ],
+        [
+          795.0,
+          443.0
+        ],
+        [
+          795.0,
+          483.0
+        ],
+        [
+          794.23,
+          504.64
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-028"
+    },
+    {
+      "id": "central-local-042",
+      "points": [
+        [
+          794.23,
+          504.64
+        ],
+        [
+          794.0,
+          511.0
+        ],
+        [
+          792.83,
+          535.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-028"
+    },
+    {
+      "id": "central-local-043",
+      "points": [
+        [
+          792.83,
+          535.0
+        ],
+        [
+          792.0,
+          552.0
+        ],
+        [
+          790.0,
+          583.0
+        ],
+        [
+          790.0,
+          610.0
+        ],
+        [
+          789.0,
+          647.0
+        ],
+        [
+          787.0,
+          670.0
+        ],
+        [
+          786.0,
+          693.0
+        ],
+        [
+          785.0,
+          718.0
+        ],
+        [
+          784.0,
+          743.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-028"
+    },
+    {
+      "id": "central-local-044",
+      "points": [
+        [
+          831.0,
+          417.0
+        ],
+        [
+          831.0,
+          444.0
+        ],
+        [
+          831.0,
+          483.0
+        ],
+        [
+          831.0,
+          496.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-029"
+    },
+    {
+      "id": "central-local-045",
+      "points": [
+        [
+          868.0,
+          403.0
+        ],
+        [
+          868.0,
+          444.0
+        ],
+        [
+          867.0,
+          483.0
+        ],
+        [
+          866.0,
+          499.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-030"
+    },
+    {
+      "id": "central-local-046",
+      "points": [
+        [
+          899.0,
+          409.0
+        ],
+        [
+          898.0,
+          445.0
+        ],
+        [
+          897.0,
+          483.0
+        ],
+        [
+          897.0,
+          496.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-031"
+    },
+    {
+      "id": "central-local-047",
+      "points": [
+        [
+          935.0,
+          422.0
+        ],
+        [
+          934.0,
+          446.0
+        ],
+        [
+          933.0,
+          484.0
+        ],
+        [
+          934.0,
+          506.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-032"
+    },
+    {
+      "id": "central-local-048",
+      "points": [
+        [
+          733.0,
+          580.0
+        ],
+        [
+          733.0,
+          608.0
+        ],
+        [
+          733.0,
+          648.0
+        ],
+        [
+          732.0,
+          671.0
+        ],
+        [
+          732.0,
+          693.0
+        ],
+        [
+          731.0,
+          717.0
+        ],
+        [
+          730.0,
+          754.0
+        ],
+        [
+          729.0,
+          779.0
+        ],
+        [
+          729.0,
+          804.0
+        ],
+        [
+          730.0,
+          825.0
+        ],
+        [
+          728.0,
+          855.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-033"
+    },
+    {
+      "id": "central-local-049",
+      "points": [
+        [
+          635.0,
+          582.0
+        ],
+        [
+          634.0,
+          606.0
+        ],
+        [
+          634.0,
+          627.0
+        ],
+        [
+          633.0,
+          647.0
+        ],
+        [
+          632.0,
+          670.0
+        ],
+        [
+          632.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-034"
+    },
+    {
+      "id": "central-local-050",
+      "points": [
+        [
+          614.0,
+          577.0
+        ],
+        [
+          614.0,
+          606.0
+        ],
+        [
+          614.0,
+          627.0
+        ],
+        [
+          615.0,
+          647.0
+        ],
+        [
+          615.0,
+          670.0
+        ],
+        [
+          618.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-035"
+    },
+    {
+      "id": "central-local-051",
+      "points": [
+        [
+          792.0,
+          552.0
+        ],
+        [
+          790.0,
+          610.0
+        ],
+        [
+          805.0,
+          620.0
+        ],
+        [
+          828.0,
+          636.0
+        ],
+        [
+          848.0,
+          651.0
+        ],
+        [
+          884.0,
+          652.0
+        ],
+        [
+          919.0,
+          652.0
+        ],
+        [
+          930.0,
+          653.0
+        ],
+        [
+          941.0,
+          661.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-036"
+    },
+    {
+      "id": "central-local-052",
+      "points": [
+        [
+          911.0,
+          609.0
+        ],
+        [
+          925.0,
+          625.0
+        ],
+        [
+          941.0,
+          648.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-037"
+    },
+    {
+      "id": "central-local-053",
+      "points": [
+        [
+          784.0,
+          743.0
+        ],
+        [
+          806.0,
+          718.0
+        ],
+        [
+          822.0,
+          693.0
+        ],
+        [
+          836.0,
+          674.0
+        ],
+        [
+          848.0,
+          651.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-038"
+    },
+    {
+      "id": "central-local-054",
+      "points": [
+        [
+          806.0,
+          718.0
+        ],
+        [
+          826.0,
+          703.0
+        ],
+        [
+          846.0,
+          694.0
+        ],
+        [
+          858.0,
+          690.0
+        ],
+        [
+          877.0,
+          693.0
+        ],
+        [
+          881.0,
+          695.29
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-039"
+    },
+    {
+      "id": "central-local-055",
+      "points": [
+        [
+          881.0,
+          695.29
+        ],
+        [
+          891.0,
+          701.0
+        ],
+        [
+          904.0,
+          719.0
+        ],
+        [
+          913.0,
+          736.0
+        ],
+        [
+          917.0,
+          742.86
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-039"
+    },
+    {
+      "id": "central-local-056",
+      "points": [
+        [
+          917.0,
+          742.86
+        ],
+        [
+          920.0,
+          748.0
+        ],
+        [
+          932.0,
+          755.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-039"
+    },
+    {
+      "id": "central-local-057",
+      "points": [
+        [
+          819.0,
+          718.32
+        ],
+        [
+          819.0,
+          754.0
+        ],
+        [
+          819.0,
+          780.0
+        ],
+        [
+          820.0,
+          804.0
+        ],
+        [
+          818.0,
+          826.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-040"
+    },
+    {
+      "id": "central-local-058",
+      "points": [
+        [
+          847.0,
+          694.0
+        ],
+        [
+          847.0,
+          719.0
+        ],
+        [
+          847.0,
+          755.0
+        ],
+        [
+          848.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-041"
+    },
+    {
+      "id": "central-local-059",
+      "points": [
+        [
+          881.0,
+          695.29
+        ],
+        [
+          881.0,
+          719.0
+        ],
+        [
+          882.0,
+          755.0
+        ],
+        [
+          883.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-042"
+    },
+    {
+      "id": "central-local-060",
+      "points": [
+        [
+          919.0,
+          652.0
+        ],
+        [
+          918.0,
+          693.0
+        ],
+        [
+          917.0,
+          719.0
+        ],
+        [
+          917.0,
+          742.86
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-043"
+    },
+    {
+      "id": "central-local-061",
+      "points": [
+        [
+          917.0,
+          742.86
+        ],
+        [
+          917.0,
+          755.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-043"
+    },
+    {
+      "id": "central-local-062",
+      "points": [
+        [
+          932.0,
+          755.0
+        ],
+        [
+          952.0,
+          754.0
+        ],
+        [
+          971.0,
+          754.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-044"
+    },
+    {
+      "id": "central-local-063",
+      "points": [
+        [
+          961.0,
+          424.0
+        ],
+        [
+          981.0,
+          441.0
+        ],
+        [
+          1005.0,
+          457.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-045"
+    },
+    {
+      "id": "central-local-064",
+      "points": [
+        [
+          973.0,
+          478.0
+        ],
+        [
+          981.0,
+          476.0
+        ],
+        [
+          1005.0,
+          457.0
+        ],
+        [
+          1015.0,
+          442.0
+        ],
+        [
+          1028.0,
+          420.0
+        ],
+        [
+          1035.0,
+          416.0
+        ],
+        [
+          1042.0,
+          414.0
+        ],
+        [
+          1065.0,
+          418.0
+        ],
+        [
+          1091.0,
+          422.0
+        ],
+        [
+          1120.0,
+          423.0
+        ],
+        [
+          1136.0,
+          421.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-046"
+    },
+    {
+      "id": "central-local-065",
+      "points": [
+        [
+          1020.0,
+          438.0
+        ],
+        [
+          1035.0,
+          438.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-047"
+    },
+    {
+      "id": "central-local-066",
+      "points": [
+        [
+          1035.0,
+          438.0
+        ],
+        [
+          1048.0,
+          438.0
+        ],
+        [
+          1074.0,
+          439.0
+        ],
+        [
+          1092.0,
+          438.0
+        ],
+        [
+          1127.0,
+          437.0
+        ],
+        [
+          1138.0,
+          437.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-047"
+    },
+    {
+      "id": "central-local-067",
+      "points": [
+        [
+          1135.0,
+          404.0
+        ],
+        [
+          1137.0,
+          421.0
+        ],
+        [
+          1138.0,
+          437.0
+        ],
+        [
+          1140.0,
+          444.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-048"
+    },
+    {
+      "id": "central-local-068",
+      "points": [
+        [
+          1008.0,
+          459.0
+        ],
+        [
+          1016.0,
+          459.0
+        ],
+        [
+          1035.0,
+          459.0
+        ],
+        [
+          1049.0,
+          459.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-049"
+    },
+    {
+      "id": "central-local-069",
+      "points": [
+        [
+          1049.0,
+          459.0
+        ],
+        [
+          1051.0,
+          459.0
+        ],
+        [
+          1074.0,
+          459.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-049"
+    },
+    {
+      "id": "central-local-070",
+      "points": [
+        [
+          1016.0,
+          489.0
+        ],
+        [
+          1037.0,
+          489.0
+        ],
+        [
+          1040.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-050"
+    },
+    {
+      "id": "central-local-071",
+      "points": [
+        [
+          1054.0,
+          478.0
+        ],
+        [
+          1085.0,
+          478.0
+        ],
+        [
+          1098.0,
+          478.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-051"
+    },
+    {
+      "id": "central-local-072",
+      "points": [
+        [
+          1098.36,
+          479.92
+        ],
+        [
+          1124.0,
+          474.0
+        ],
+        [
+          1141.0,
+          471.0
+        ],
+        [
+          1156.0,
+          472.0
+        ],
+        [
+          1168.0,
+          478.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-052"
+    },
+    {
+      "id": "central-local-073",
+      "points": [
+        [
+          1092.0,
+          438.0
+        ],
+        [
+          1094.0,
+          450.0
+        ],
+        [
+          1098.0,
+          478.0
+        ],
+        [
+          1098.36,
+          479.92
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-053"
+    },
+    {
+      "id": "central-local-074",
+      "points": [
+        [
+          1098.36,
+          479.92
+        ],
+        [
+          1103.0,
+          505.0
+        ],
+        [
+          1121.0,
+          520.0
+        ],
+        [
+          1141.0,
+          533.0
+        ],
+        [
+          1152.0,
+          536.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-053"
+    },
+    {
+      "id": "central-local-075",
+      "points": [
+        [
+          1048.0,
+          421.0
+        ],
+        [
+          1048.0,
+          438.0
+        ],
+        [
+          1049.0,
+          459.0
+        ],
+        [
+          1049.0,
+          481.93
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-054"
+    },
+    {
+      "id": "central-local-076",
+      "points": [
+        [
+          1016.0,
+          442.0
+        ],
+        [
+          1016.0,
+          459.0
+        ],
+        [
+          1016.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-055"
+    },
+    {
+      "id": "central-local-077",
+      "points": [
+        [
+          1035.0,
+          426.0
+        ],
+        [
+          1035.0,
+          438.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-056"
+    },
+    {
+      "id": "central-local-078",
+      "points": [
+        [
+          1035.0,
+          438.0
+        ],
+        [
+          1035.0,
+          459.0
+        ],
+        [
+          1037.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-056"
+    },
+    {
+      "id": "central-local-079",
+      "points": [
+        [
+          1090.0,
+          446.0
+        ],
+        [
+          1074.0,
+          459.0
+        ],
+        [
+          1054.0,
+          478.0
+        ],
+        [
+          1049.0,
+          481.93
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-057"
+    },
+    {
+      "id": "central-local-080",
+      "points": [
+        [
+          1049.0,
+          481.93
+        ],
+        [
+          1040.0,
+          489.0
+        ],
+        [
+          1023.0,
+          504.0
+        ],
+        [
+          1020.21,
+          506.37
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-057"
+    },
+    {
+      "id": "central-local-081",
+      "points": [
+        [
+          1017.99,
+          508.25
+        ],
+        [
+          990.0,
+          532.0
+        ],
+        [
+          966.0,
+          554.0
+        ],
+        [
+          951.0,
+          569.0
+        ],
+        [
+          942.46,
+          576.77
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-057"
+    },
+    {
+      "id": "central-local-082",
+      "points": [
+        [
+          942.46,
+          576.77
+        ],
+        [
+          940.0,
+          579.0
+        ],
+        [
+          930.0,
+          590.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-057"
+    },
+    {
+      "id": "central-local-083",
+      "points": [
+        [
+          981.0,
+          478.0
+        ],
+        [
+          1016.0,
+          503.0
+        ],
+        [
+          1020.21,
+          506.37
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-058"
+    },
+    {
+      "id": "central-local-084",
+      "points": [
+        [
+          1020.21,
+          506.37
+        ],
+        [
+          1041.0,
+          523.0
+        ],
+        [
+          1063.0,
+          539.32
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-058"
+    },
+    {
+      "id": "central-local-085",
+      "points": [
+        [
+          1065.26,
+          541.0
+        ],
+        [
+          1072.0,
+          546.0
+        ],
+        [
+          1103.0,
+          566.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-058"
+    },
+    {
+      "id": "central-local-086",
+      "points": [
+        [
+          934.0,
+          510.0
+        ],
+        [
+          947.0,
+          516.0
+        ],
+        [
+          961.0,
+          516.0
+        ],
+        [
+          982.0,
+          516.0
+        ],
+        [
+          991.0,
+          516.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-059"
+    },
+    {
+      "id": "central-local-087",
+      "points": [
+        [
+          1063.0,
+          480.0
+        ],
+        [
+          1063.0,
+          501.0
+        ],
+        [
+          1063.0,
+          520.0
+        ],
+        [
+          1063.0,
+          539.32
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-060"
+    },
+    {
+      "id": "central-local-088",
+      "points": [
+        [
+          1063.0,
+          539.32
+        ],
+        [
+          1063.0,
+          541.0
+        ],
+        [
+          1062.0,
+          565.0
+        ],
+        [
+          1062.0,
+          596.0
+        ],
+        [
+          1062.0,
+          632.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-060"
+    },
+    {
+      "id": "central-local-089",
+      "points": [
+        [
+          1093.0,
+          520.0
+        ],
+        [
+          1094.0,
+          541.0
+        ],
+        [
+          1094.0,
+          551.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-061"
+    },
+    {
+      "id": "central-local-090",
+      "points": [
+        [
+          974.0,
+          547.0
+        ],
+        [
+          974.0,
+          565.0
+        ],
+        [
+          974.0,
+          596.0
+        ],
+        [
+          974.0,
+          634.0
+        ],
+        [
+          974.0,
+          661.0
+        ],
+        [
+          974.0,
+          692.0
+        ],
+        [
+          973.96,
+          693.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-062"
+    },
+    {
+      "id": "central-local-091",
+      "points": [
+        [
+          973.96,
+          693.0
+        ],
+        [
+          973.04,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-062"
+    },
+    {
+      "id": "central-local-092",
+      "points": [
+        [
+          1017.99,
+          508.25
+        ],
+        [
+          1017.0,
+          532.0
+        ],
+        [
+          1016.0,
+          565.0
+        ],
+        [
+          1016.0,
+          596.0
+        ],
+        [
+          1014.0,
+          634.0
+        ],
+        [
+          1014.0,
+          661.0
+        ],
+        [
+          1013.0,
+          692.0
+        ],
+        [
+          1013.0,
+          693.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-063"
+    },
+    {
+      "id": "central-local-093",
+      "points": [
+        [
+          1013.0,
+          693.0
+        ],
+        [
+          1013.0,
+          700.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-063"
+    },
+    {
+      "id": "central-local-094",
+      "points": [
+        [
+          963.0,
+          565.0
+        ],
+        [
+          974.0,
+          565.0
+        ],
+        [
+          1016.0,
+          565.0
+        ],
+        [
+          1062.0,
+          565.0
+        ],
+        [
+          1103.0,
+          566.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-064"
+    },
+    {
+      "id": "central-local-095",
+      "points": [
+        [
+          1065.26,
+          541.0
+        ],
+        [
+          1094.0,
+          541.0
+        ],
+        [
+          1121.0,
+          541.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-065"
+    },
+    {
+      "id": "central-local-096",
+      "points": [
+        [
+          941.0,
+          596.0
+        ],
+        [
+          974.0,
+          596.0
+        ],
+        [
+          1016.0,
+          596.0
+        ],
+        [
+          1062.0,
+          596.0
+        ],
+        [
+          1082.0,
+          596.0
+        ],
+        [
+          1124.0,
+          596.0
+        ],
+        [
+          1161.0,
+          596.0
+        ],
+        [
+          1250.0,
+          596.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-066"
+    },
+    {
+      "id": "central-local-097",
+      "points": [
+        [
+          941.0,
+          634.0
+        ],
+        [
+          974.0,
+          634.0
+        ],
+        [
+          1014.0,
+          634.0
+        ],
+        [
+          1059.0,
+          634.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-067"
+    },
+    {
+      "id": "central-local-098",
+      "points": [
+        [
+          941.0,
+          661.0
+        ],
+        [
+          974.0,
+          661.0
+        ],
+        [
+          1014.0,
+          661.0
+        ],
+        [
+          1031.0,
+          661.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-068"
+    },
+    {
+      "id": "central-local-099",
+      "points": [
+        [
+          919.0,
+          693.0
+        ],
+        [
+          941.0,
+          693.0
+        ],
+        [
+          973.96,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-069"
+    },
+    {
+      "id": "central-local-100",
+      "points": [
+        [
+          973.96,
+          693.0
+        ],
+        [
+          974.0,
+          693.0
+        ],
+        [
+          1013.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-069"
+    },
+    {
+      "id": "central-local-101",
+      "points": [
+        [
+          940.0,
+          590.0
+        ],
+        [
+          941.0,
+          596.0
+        ],
+        [
+          941.0,
+          634.0
+        ],
+        [
+          941.0,
+          648.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-070"
+    },
+    {
+      "id": "central-local-102",
+      "points": [
+        [
+          941.0,
+          648.0
+        ],
+        [
+          941.0,
+          661.0
+        ],
+        [
+          941.0,
+          693.0
+        ],
+        [
+          942.0,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-070"
+    },
+    {
+      "id": "central-local-103",
+      "points": [
+        [
+          1118.0,
+          562.0
+        ],
+        [
+          1124.0,
+          562.0
+        ],
+        [
+          1161.0,
+          562.0
+        ],
+        [
+          1218.0,
+          562.0
+        ],
+        [
+          1234.0,
+          558.0
+        ],
+        [
+          1250.0,
+          558.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-071"
+    },
+    {
+      "id": "central-local-104",
+      "points": [
+        [
+          1088.0,
+          634.0
+        ],
+        [
+          1122.0,
+          634.0
+        ],
+        [
+          1160.0,
+          634.0
+        ],
+        [
+          1189.0,
+          634.0
+        ],
+        [
+          1210.0,
+          653.0
+        ],
+        [
+          1226.0,
+          670.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-072"
+    },
+    {
+      "id": "central-local-105",
+      "points": [
+        [
+          1124.0,
+          562.0
+        ],
+        [
+          1124.0,
+          596.0
+        ],
+        [
+          1122.0,
+          634.0
+        ],
+        [
+          1123.0,
+          662.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-073"
+    },
+    {
+      "id": "central-local-106",
+      "points": [
+        [
+          1161.0,
+          562.0
+        ],
+        [
+          1161.0,
+          596.0
+        ],
+        [
+          1160.0,
+          634.0
+        ],
+        [
+          1161.0,
+          663.0
+        ],
+        [
+          1160.0,
+          684.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-074"
+    },
+    {
+      "id": "central-local-107",
+      "points": [
+        [
+          1123.0,
+          662.0
+        ],
+        [
+          1161.0,
+          663.0
+        ],
+        [
+          1184.0,
+          663.0
+        ],
+        [
+          1195.46,
+          666.44
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-075"
+    },
+    {
+      "id": "central-local-108",
+      "points": [
+        [
+          1195.46,
+          666.44
+        ],
+        [
+          1204.0,
+          669.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-075"
+    },
+    {
+      "id": "central-local-109",
+      "points": [
+        [
+          1242.0,
+          657.0
+        ],
+        [
+          1226.0,
+          670.0
+        ],
+        [
+          1222.78,
+          672.76
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-076"
+    },
+    {
+      "id": "central-local-110",
+      "points": [
+        [
+          1249.0,
+          699.0
+        ],
+        [
+          1238.0,
+          708.0
+        ],
+        [
+          1220.0,
+          711.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-077"
+    },
+    {
+      "id": "central-local-111",
+      "points": [
+        [
+          947.0,
+          555.0
+        ],
+        [
+          946.53,
+          562.18
+        ],
+        [
+          945.13,
+          569.24
+        ],
+        [
+          942.81,
+          576.05
+        ],
+        [
+          942.46,
+          576.77
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-078"
+    },
+    {
+      "id": "central-local-112",
+      "points": [
+        [
+          942.46,
+          576.77
+        ],
+        [
+          939.63,
+          582.5
+        ],
+        [
+          935.63,
+          588.48
+        ],
+        [
+          930.89,
+          593.89
+        ],
+        [
+          925.48,
+          598.63
+        ],
+        [
+          919.5,
+          602.63
+        ],
+        [
+          913.05,
+          605.81
+        ],
+        [
+          906.24,
+          608.13
+        ],
+        [
+          899.18,
+          609.53
+        ],
+        [
+          892.0,
+          610.0
+        ],
+        [
+          884.82,
+          609.53
+        ],
+        [
+          877.76,
+          608.13
+        ],
+        [
+          870.95,
+          605.81
+        ],
+        [
+          864.5,
+          602.63
+        ],
+        [
+          858.52,
+          598.63
+        ],
+        [
+          853.11,
+          593.89
+        ],
+        [
+          848.37,
+          588.48
+        ],
+        [
+          844.37,
+          582.5
+        ],
+        [
+          841.19,
+          576.05
+        ],
+        [
+          838.87,
+          569.24
+        ],
+        [
+          837.47,
+          562.18
+        ],
+        [
+          837.0,
+          555.0
+        ],
+        [
+          837.47,
+          547.82
+        ],
+        [
+          838.87,
+          540.76
+        ],
+        [
+          841.19,
+          533.95
+        ],
+        [
+          844.37,
+          527.5
+        ],
+        [
+          848.37,
+          521.52
+        ],
+        [
+          853.11,
+          516.11
+        ],
+        [
+          858.52,
+          511.37
+        ],
+        [
+          864.5,
+          507.37
+        ],
+        [
+          870.95,
+          504.19
+        ],
+        [
+          877.76,
+          501.87
+        ],
+        [
+          884.82,
+          500.47
+        ],
+        [
+          892.0,
+          500.0
+        ],
+        [
+          899.18,
+          500.47
+        ],
+        [
+          906.24,
+          501.87
+        ],
+        [
+          913.05,
+          504.19
+        ],
+        [
+          919.5,
+          507.37
+        ],
+        [
+          925.48,
+          511.37
+        ],
+        [
+          930.89,
+          516.11
+        ],
+        [
+          935.63,
+          521.52
+        ],
+        [
+          939.63,
+          527.5
+        ],
+        [
+          942.81,
+          533.95
+        ],
+        [
+          945.13,
+          540.76
+        ],
+        [
+          946.53,
+          547.82
+        ],
+        [
+          947.0,
+          555.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-078"
+    },
+    {
+      "id": "central-local-113",
+      "points": [
+        [
+          917.0,
+          555.0
+        ],
+        [
+          916.79,
+          558.26
+        ],
+        [
+          916.15,
+          561.47
+        ],
+        [
+          915.1,
+          564.57
+        ],
+        [
+          913.65,
+          567.5
+        ],
+        [
+          911.83,
+          570.22
+        ],
+        [
+          909.68,
+          572.68
+        ],
+        [
+          907.22,
+          574.83
+        ],
+        [
+          904.5,
+          576.65
+        ],
+        [
+          901.57,
+          578.1
+        ],
+        [
+          898.47,
+          579.15
+        ],
+        [
+          895.26,
+          579.79
+        ],
+        [
+          892.0,
+          580.0
+        ],
+        [
+          888.74,
+          579.79
+        ],
+        [
+          885.53,
+          579.15
+        ],
+        [
+          882.43,
+          578.1
+        ],
+        [
+          879.5,
+          576.65
+        ],
+        [
+          876.78,
+          574.83
+        ],
+        [
+          874.32,
+          572.68
+        ],
+        [
+          872.17,
+          570.22
+        ],
+        [
+          870.35,
+          567.5
+        ],
+        [
+          868.9,
+          564.57
+        ],
+        [
+          867.85,
+          561.47
+        ],
+        [
+          867.21,
+          558.26
+        ],
+        [
+          867.0,
+          555.0
+        ],
+        [
+          867.21,
+          551.74
+        ],
+        [
+          867.85,
+          548.53
+        ],
+        [
+          868.9,
+          545.43
+        ],
+        [
+          870.35,
+          542.5
+        ],
+        [
+          872.17,
+          539.78
+        ],
+        [
+          874.32,
+          537.32
+        ],
+        [
+          876.78,
+          535.17
+        ],
+        [
+          879.5,
+          533.35
+        ],
+        [
+          882.43,
+          531.9
+        ],
+        [
+          885.53,
+          530.85
+        ],
+        [
+          888.74,
+          530.21
+        ],
+        [
+          892.0,
+          530.0
+        ],
+        [
+          895.26,
+          530.21
+        ],
+        [
+          898.47,
+          530.85
+        ],
+        [
+          901.57,
+          531.9
+        ],
+        [
+          904.5,
+          533.35
+        ],
+        [
+          907.22,
+          535.17
+        ],
+        [
+          909.68,
+          537.32
+        ],
+        [
+          911.83,
+          539.78
+        ],
+        [
+          913.65,
+          542.5
+        ],
+        [
+          915.1,
+          545.43
+        ],
+        [
+          916.15,
+          548.53
+        ],
+        [
+          916.79,
+          551.74
+        ],
+        [
+          917.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-079"
+    },
+    {
+      "id": "central-local-114",
+      "points": [
+        [
+          892.0,
+          500.0
+        ],
+        [
+          892.0,
+          530.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-080"
+    },
+    {
+      "id": "central-local-115",
+      "points": [
+        [
+          930.89,
+          516.11
+        ],
+        [
+          910.0,
+          537.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-081"
+    },
+    {
+      "id": "central-local-116",
+      "points": [
+        [
+          947.0,
+          555.0
+        ],
+        [
+          917.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-082"
+    },
+    {
+      "id": "central-local-117",
+      "points": [
+        [
+          930.89,
+          593.89
+        ],
+        [
+          910.0,
+          573.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-083"
+    },
+    {
+      "id": "central-local-118",
+      "points": [
+        [
+          892.0,
+          610.0
+        ],
+        [
+          892.0,
+          580.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-084"
+    },
+    {
+      "id": "central-local-119",
+      "points": [
+        [
+          853.11,
+          593.89
+        ],
+        [
+          874.0,
+          573.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-085"
+    },
+    {
+      "id": "central-local-120",
+      "points": [
+        [
+          837.0,
+          555.0
+        ],
+        [
+          867.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-086"
+    },
+    {
+      "id": "central-local-121",
+      "points": [
+        [
+          853.11,
+          516.11
+        ],
+        [
+          874.0,
+          537.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-087"
+    },
+    {
+      "id": "central-local-122",
+      "points": [
+        [
+          1230.0,
+          690.0
+        ],
+        [
+          1229.78,
+          693.26
+        ],
+        [
+          1229.11,
+          696.47
+        ],
+        [
+          1228.02,
+          699.57
+        ],
+        [
+          1226.52,
+          702.5
+        ],
+        [
+          1224.63,
+          705.22
+        ],
+        [
+          1222.38,
+          707.68
+        ],
+        [
+          1219.83,
+          709.83
+        ],
+        [
+          1217.0,
+          711.65
+        ],
+        [
+          1213.95,
+          713.1
+        ],
+        [
+          1210.73,
+          714.15
+        ],
+        [
+          1207.39,
+          714.79
+        ],
+        [
+          1204.0,
+          715.0
+        ],
+        [
+          1200.61,
+          714.79
+        ],
+        [
+          1197.27,
+          714.15
+        ],
+        [
+          1194.05,
+          713.1
+        ],
+        [
+          1191.0,
+          711.65
+        ],
+        [
+          1188.17,
+          709.83
+        ],
+        [
+          1185.62,
+          707.68
+        ],
+        [
+          1183.37,
+          705.22
+        ],
+        [
+          1181.48,
+          702.5
+        ],
+        [
+          1179.98,
+          699.57
+        ],
+        [
+          1178.89,
+          696.47
+        ],
+        [
+          1178.22,
+          693.26
+        ],
+        [
+          1178.0,
+          690.0
+        ],
+        [
+          1178.22,
+          686.74
+        ],
+        [
+          1178.89,
+          683.53
+        ],
+        [
+          1179.98,
+          680.43
+        ],
+        [
+          1181.48,
+          677.5
+        ],
+        [
+          1183.37,
+          674.78
+        ],
+        [
+          1185.62,
+          672.32
+        ],
+        [
+          1188.17,
+          670.17
+        ],
+        [
+          1191.0,
+          668.35
+        ],
+        [
+          1194.05,
+          666.9
+        ],
+        [
+          1195.46,
+          666.44
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-088"
+    },
+    {
+      "id": "central-local-123",
+      "points": [
+        [
+          1195.46,
+          666.44
+        ],
+        [
+          1197.27,
+          665.85
+        ],
+        [
+          1200.61,
+          665.21
+        ],
+        [
+          1204.0,
+          665.0
+        ],
+        [
+          1207.39,
+          665.21
+        ],
+        [
+          1210.73,
+          665.85
+        ],
+        [
+          1213.95,
+          666.9
+        ],
+        [
+          1217.0,
+          668.35
+        ],
+        [
+          1219.83,
+          670.17
+        ],
+        [
+          1222.38,
+          672.32
+        ],
+        [
+          1222.78,
+          672.76
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-088"
+    },
+    {
+      "id": "central-local-124",
+      "points": [
+        [
+          1222.78,
+          672.76
+        ],
+        [
+          1224.63,
+          674.78
+        ],
+        [
+          1226.52,
+          677.5
+        ],
+        [
+          1228.02,
+          680.43
+        ],
+        [
+          1229.11,
+          683.53
+        ],
+        [
+          1229.78,
+          686.74
+        ],
+        [
+          1230.0,
+          690.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road",
+      "traceId": "central-trace-088"
+    }
+  ],
+  "corridors": [
+    {
+      "id": "central-trace-001",
+      "traceLabel": "North waterfront service road",
+      "points": [
+        [
+          781.0,
+          387.0
+        ],
+        [
+          922.0,
+          387.0
+        ],
+        [
+          936.0,
+          390.0
+        ],
+        [
+          955.0,
+          400.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-002",
+      "traceLabel": "Northern inner frontage",
+      "points": [
+        [
+          836.0,
+          402.0
+        ],
+        [
+          866.0,
+          402.0
+        ],
+        [
+          892.0,
+          403.0
+        ],
+        [
+          919.0,
+          408.0
+        ],
+        [
+          941.0,
+          414.0
+        ],
+        [
+          961.0,
+          424.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-003",
+      "traceLabel": "Northside north frontage",
+      "points": [
+        [
+          762.0,
+          421.0
+        ],
+        [
+          795.0,
+          418.0
+        ],
+        [
+          831.0,
+          417.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-004",
+      "traceLabel": "Northside central east-west corridor",
+      "points": [
+        [
+          735.0,
+          442.0
+        ],
+        [
+          763.0,
+          443.0
+        ],
+        [
+          795.0,
+          443.0
+        ],
+        [
+          831.0,
+          444.0
+        ],
+        [
+          868.0,
+          444.0
+        ],
+        [
+          898.0,
+          445.0
+        ],
+        [
+          934.0,
+          446.0
+        ],
+        [
+          947.0,
+          462.0
+        ],
+        [
+          973.0,
+          478.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-005",
+      "traceLabel": "Northside southern corridor",
+      "points": [
+        [
+          700.0,
+          482.0
+        ],
+        [
+          736.0,
+          482.0
+        ],
+        [
+          764.0,
+          483.0
+        ],
+        [
+          795.0,
+          483.0
+        ],
+        [
+          831.0,
+          483.0
+        ],
+        [
+          867.0,
+          483.0
+        ],
+        [
+          897.0,
+          483.0
+        ],
+        [
+          933.0,
+          484.0
+        ],
+        [
+          967.0,
+          484.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-006",
+      "traceLabel": "Little Europe bend",
+      "points": [
+        [
+          670.0,
+          517.0
+        ],
+        [
+          682.0,
+          517.0
+        ],
+        [
+          690.0,
+          521.0
+        ],
+        [
+          700.0,
+          533.0
+        ],
+        [
+          734.0,
+          534.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-007",
+      "traceLabel": "West Hill local bend",
+      "points": [
+        [
+          741.0,
+          514.0
+        ],
+        [
+          751.0,
+          516.0
+        ],
+        [
+          766.0,
+          516.0
+        ],
+        [
+          785.0,
+          508.0
+        ],
+        [
+          807.0,
+          500.0
+        ],
+        [
+          819.0,
+          496.0
+        ],
+        [
+          828.0,
+          498.0
+        ],
+        [
+          840.0,
+          507.0
+        ],
+        [
+          850.0,
+          512.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-008",
+      "traceLabel": "West Hill south frontage",
+      "points": [
+        [
+          700.0,
+          533.0
+        ],
+        [
+          734.0,
+          534.0
+        ],
+        [
+          752.0,
+          534.0
+        ],
+        [
+          793.0,
+          535.0
+        ],
+        [
+          821.0,
+          535.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-009",
+      "traceLabel": "Park north frontage",
+      "points": [
+        [
+          664.0,
+          550.0
+        ],
+        [
+          700.0,
+          550.0
+        ],
+        [
+          758.0,
+          552.0
+        ],
+        [
+          792.0,
+          552.0
+        ],
+        [
+          837.0,
+          555.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-010",
+      "traceLabel": "University north frontage",
+      "points": [
+        [
+          614.0,
+          577.0
+        ],
+        [
+          661.0,
+          577.0
+        ],
+        [
+          699.0,
+          579.0
+        ],
+        [
+          733.0,
+          580.0
+        ],
+        [
+          760.0,
+          582.0
+        ],
+        [
+          790.0,
+          583.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-011",
+      "traceLabel": "University main first cross street",
+      "points": [
+        [
+          614.0,
+          606.0
+        ],
+        [
+          662.0,
+          606.0
+        ],
+        [
+          699.0,
+          607.0
+        ],
+        [
+          733.0,
+          608.0
+        ],
+        [
+          759.0,
+          609.0
+        ],
+        [
+          790.0,
+          610.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-012",
+      "traceLabel": "University west short cross street",
+      "points": [
+        [
+          614.0,
+          627.0
+        ],
+        [
+          634.0,
+          627.0
+        ],
+        [
+          661.0,
+          627.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-013",
+      "traceLabel": "University middle cross street",
+      "points": [
+        [
+          615.0,
+          647.0
+        ],
+        [
+          633.0,
+          647.0
+        ],
+        [
+          661.0,
+          648.0
+        ],
+        [
+          700.0,
+          648.0
+        ],
+        [
+          733.0,
+          648.0
+        ],
+        [
+          758.0,
+          649.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-014",
+      "traceLabel": "University south cross street",
+      "points": [
+        [
+          615.0,
+          670.0
+        ],
+        [
+          632.0,
+          670.0
+        ],
+        [
+          659.0,
+          670.0
+        ],
+        [
+          700.0,
+          670.0
+        ],
+        [
+          732.0,
+          671.0
+        ],
+        [
+          758.0,
+          672.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-015",
+      "traceLabel": "South city northern cross street",
+      "points": [
+        [
+          618.0,
+          693.0
+        ],
+        [
+          659.0,
+          693.0
+        ],
+        [
+          700.0,
+          693.0
+        ],
+        [
+          732.0,
+          693.0
+        ],
+        [
+          757.0,
+          693.0
+        ],
+        [
+          786.0,
+          693.0
+        ],
+        [
+          822.0,
+          693.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-016",
+      "traceLabel": "South city west middle cross street",
+      "points": [
+        [
+          659.0,
+          717.0
+        ],
+        [
+          700.0,
+          717.0
+        ],
+        [
+          731.0,
+          717.0
+        ],
+        [
+          756.0,
+          718.0
+        ],
+        [
+          785.0,
+          718.0
+        ],
+        [
+          806.0,
+          718.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-017",
+      "traceLabel": "South city north blocks cross street",
+      "points": [
+        [
+          806.0,
+          718.0
+        ],
+        [
+          847.0,
+          719.0
+        ],
+        [
+          881.0,
+          719.0
+        ],
+        [
+          917.0,
+          719.0
+        ],
+        [
+          942.0,
+          719.0
+        ],
+        [
+          976.0,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-018",
+      "traceLabel": "South city north industrial frontage",
+      "points": [
+        [
+          657.0,
+          754.0
+        ],
+        [
+          701.0,
+          754.0
+        ],
+        [
+          730.0,
+          754.0
+        ],
+        [
+          755.0,
+          754.0
+        ],
+        [
+          784.0,
+          754.0
+        ],
+        [
+          819.0,
+          754.0
+        ],
+        [
+          847.0,
+          755.0
+        ],
+        [
+          882.0,
+          755.0
+        ],
+        [
+          917.0,
+          755.0
+        ],
+        [
+          934.0,
+          755.0
+        ],
+        [
+          972.0,
+          755.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-019",
+      "traceLabel": "South city inner cross street one",
+      "points": [
+        [
+          659.0,
+          779.0
+        ],
+        [
+          703.0,
+          779.0
+        ],
+        [
+          729.0,
+          779.0
+        ],
+        [
+          753.0,
+          779.0
+        ],
+        [
+          783.0,
+          779.0
+        ],
+        [
+          819.0,
+          780.0
+        ],
+        [
+          848.0,
+          780.0
+        ],
+        [
+          868.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-020",
+      "traceLabel": "South city inner cross street two",
+      "points": [
+        [
+          665.0,
+          803.0
+        ],
+        [
+          701.0,
+          803.0
+        ],
+        [
+          729.0,
+          804.0
+        ],
+        [
+          753.0,
+          804.0
+        ],
+        [
+          783.0,
+          804.0
+        ],
+        [
+          820.0,
+          804.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-021",
+      "traceLabel": "South city inner cross street three",
+      "points": [
+        [
+          670.0,
+          825.0
+        ],
+        [
+          703.0,
+          825.0
+        ],
+        [
+          730.0,
+          825.0
+        ],
+        [
+          752.0,
+          825.0
+        ],
+        [
+          781.0,
+          826.0
+        ],
+        [
+          818.0,
+          826.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-022",
+      "traceLabel": "South city south inner frontage",
+      "points": [
+        [
+          697.0,
+          854.0
+        ],
+        [
+          703.0,
+          854.0
+        ],
+        [
+          728.0,
+          855.0
+        ],
+        [
+          751.0,
+          855.0
+        ],
+        [
+          780.0,
+          855.0
+        ],
+        [
+          803.0,
+          856.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-023",
+      "traceLabel": "West Europe University edge",
+      "points": [
+        [
+          667.0,
+          517.0
+        ],
+        [
+          666.0,
+          550.0
+        ],
+        [
+          663.0,
+          577.0
+        ],
+        [
+          662.0,
+          606.0
+        ],
+        [
+          661.0,
+          627.0
+        ],
+        [
+          661.0,
+          648.0
+        ],
+        [
+          659.0,
+          670.0
+        ],
+        [
+          659.0,
+          693.0
+        ],
+        [
+          659.0,
+          717.0
+        ],
+        [
+          657.0,
+          754.0
+        ],
+        [
+          657.0,
+          779.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-024",
+      "traceLabel": "Europe University local spine",
+      "points": [
+        [
+          700.0,
+          517.0
+        ],
+        [
+          700.0,
+          533.0
+        ],
+        [
+          700.0,
+          550.0
+        ],
+        [
+          699.0,
+          579.0
+        ],
+        [
+          699.0,
+          607.0
+        ],
+        [
+          700.0,
+          648.0
+        ],
+        [
+          700.0,
+          670.0
+        ],
+        [
+          700.0,
+          693.0
+        ],
+        [
+          700.0,
+          717.0
+        ],
+        [
+          701.0,
+          754.0
+        ],
+        [
+          703.0,
+          779.0
+        ],
+        [
+          701.0,
+          803.0
+        ],
+        [
+          703.0,
+          825.0
+        ],
+        [
+          703.0,
+          854.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-025",
+      "traceLabel": "Northside West Hill curved spine",
+      "points": [
+        [
+          735.0,
+          442.0
+        ],
+        [
+          736.0,
+          482.0
+        ],
+        [
+          739.0,
+          500.0
+        ],
+        [
+          745.0,
+          519.0
+        ],
+        [
+          752.0,
+          534.0
+        ],
+        [
+          758.0,
+          552.0
+        ],
+        [
+          760.0,
+          582.0
+        ],
+        [
+          759.0,
+          609.0
+        ],
+        [
+          758.0,
+          649.0
+        ],
+        [
+          758.0,
+          672.0
+        ],
+        [
+          757.0,
+          693.0
+        ],
+        [
+          756.0,
+          718.0
+        ],
+        [
+          755.0,
+          754.0
+        ],
+        [
+          753.0,
+          779.0
+        ],
+        [
+          753.0,
+          804.0
+        ],
+        [
+          752.0,
+          825.0
+        ],
+        [
+          751.0,
+          855.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-026",
+      "traceLabel": "Northside northwest short spine",
+      "points": [
+        [
+          762.0,
+          421.0
+        ],
+        [
+          763.0,
+          443.0
+        ],
+        [
+          764.0,
+          483.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-027",
+      "traceLabel": "West Hill inner short spine",
+      "points": [
+        [
+          766.0,
+          497.0
+        ],
+        [
+          766.0,
+          516.0
+        ],
+        [
+          765.0,
+          535.0
+        ],
+        [
+          765.0,
+          552.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-028",
+      "traceLabel": "City core University eastern spine",
+      "points": [
+        [
+          795.0,
+          418.0
+        ],
+        [
+          795.0,
+          443.0
+        ],
+        [
+          795.0,
+          483.0
+        ],
+        [
+          794.0,
+          511.0
+        ],
+        [
+          792.0,
+          552.0
+        ],
+        [
+          790.0,
+          583.0
+        ],
+        [
+          790.0,
+          610.0
+        ],
+        [
+          789.0,
+          647.0
+        ],
+        [
+          787.0,
+          670.0
+        ],
+        [
+          786.0,
+          693.0
+        ],
+        [
+          785.0,
+          718.0
+        ],
+        [
+          784.0,
+          743.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-029",
+      "traceLabel": "Northside inner spine",
+      "points": [
+        [
+          831.0,
+          417.0
+        ],
+        [
+          831.0,
+          444.0
+        ],
+        [
+          831.0,
+          483.0
+        ],
+        [
+          831.0,
+          496.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-030",
+      "traceLabel": "City Center west inner spine",
+      "points": [
+        [
+          868.0,
+          403.0
+        ],
+        [
+          868.0,
+          444.0
+        ],
+        [
+          867.0,
+          483.0
+        ],
+        [
+          866.0,
+          499.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-031",
+      "traceLabel": "City Center east inner spine",
+      "points": [
+        [
+          899.0,
+          409.0
+        ],
+        [
+          898.0,
+          445.0
+        ],
+        [
+          897.0,
+          483.0
+        ],
+        [
+          897.0,
+          496.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-032",
+      "traceLabel": "Upper Eastside local spine",
+      "points": [
+        [
+          935.0,
+          422.0
+        ],
+        [
+          934.0,
+          446.0
+        ],
+        [
+          933.0,
+          484.0
+        ],
+        [
+          934.0,
+          506.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-033",
+      "traceLabel": "University narrow inner spine",
+      "points": [
+        [
+          733.0,
+          580.0
+        ],
+        [
+          733.0,
+          608.0
+        ],
+        [
+          733.0,
+          648.0
+        ],
+        [
+          732.0,
+          671.0
+        ],
+        [
+          732.0,
+          693.0
+        ],
+        [
+          731.0,
+          717.0
+        ],
+        [
+          730.0,
+          754.0
+        ],
+        [
+          729.0,
+          779.0
+        ],
+        [
+          729.0,
+          804.0
+        ],
+        [
+          730.0,
+          825.0
+        ],
+        [
+          728.0,
+          855.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-034",
+      "traceLabel": "University western service lane",
+      "points": [
+        [
+          635.0,
+          582.0
+        ],
+        [
+          634.0,
+          606.0
+        ],
+        [
+          634.0,
+          627.0
+        ],
+        [
+          633.0,
+          647.0
+        ],
+        [
+          632.0,
+          670.0
+        ],
+        [
+          632.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-035",
+      "traceLabel": "University highway frontage",
+      "points": [
+        [
+          614.0,
+          577.0
+        ],
+        [
+          614.0,
+          606.0
+        ],
+        [
+          614.0,
+          627.0
+        ],
+        [
+          615.0,
+          647.0
+        ],
+        [
+          615.0,
+          670.0
+        ],
+        [
+          618.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-036",
+      "traceLabel": "Park west and southwest edge",
+      "points": [
+        [
+          792.0,
+          552.0
+        ],
+        [
+          790.0,
+          610.0
+        ],
+        [
+          805.0,
+          620.0
+        ],
+        [
+          828.0,
+          636.0
+        ],
+        [
+          848.0,
+          651.0
+        ],
+        [
+          884.0,
+          652.0
+        ],
+        [
+          919.0,
+          652.0
+        ],
+        [
+          930.0,
+          653.0
+        ],
+        [
+          941.0,
+          661.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-037",
+      "traceLabel": "Park southeast diagonal",
+      "points": [
+        [
+          911.0,
+          609.0
+        ],
+        [
+          925.0,
+          625.0
+        ],
+        [
+          941.0,
+          648.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-038",
+      "traceLabel": "Park south west diagonal",
+      "points": [
+        [
+          784.0,
+          743.0
+        ],
+        [
+          806.0,
+          718.0
+        ],
+        [
+          822.0,
+          693.0
+        ],
+        [
+          836.0,
+          674.0
+        ],
+        [
+          848.0,
+          651.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-039",
+      "traceLabel": "South city northern curved boulevard",
+      "points": [
+        [
+          806.0,
+          718.0
+        ],
+        [
+          826.0,
+          703.0
+        ],
+        [
+          846.0,
+          694.0
+        ],
+        [
+          858.0,
+          690.0
+        ],
+        [
+          877.0,
+          693.0
+        ],
+        [
+          891.0,
+          701.0
+        ],
+        [
+          904.0,
+          719.0
+        ],
+        [
+          913.0,
+          736.0
+        ],
+        [
+          920.0,
+          748.0
+        ],
+        [
+          932.0,
+          755.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-040",
+      "traceLabel": "South city inner northern spine",
+      "points": [
+        [
+          819.0,
+          718.0
+        ],
+        [
+          819.0,
+          754.0
+        ],
+        [
+          819.0,
+          780.0
+        ],
+        [
+          820.0,
+          804.0
+        ],
+        [
+          818.0,
+          826.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-041",
+      "traceLabel": "South city north centre spine",
+      "points": [
+        [
+          847.0,
+          694.0
+        ],
+        [
+          847.0,
+          719.0
+        ],
+        [
+          847.0,
+          755.0
+        ],
+        [
+          848.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-042",
+      "traceLabel": "South city north east spine",
+      "points": [
+        [
+          881.0,
+          694.0
+        ],
+        [
+          881.0,
+          719.0
+        ],
+        [
+          882.0,
+          755.0
+        ],
+        [
+          883.0,
+          780.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-043",
+      "traceLabel": "Park to airport urban spine",
+      "points": [
+        [
+          919.0,
+          652.0
+        ],
+        [
+          918.0,
+          693.0
+        ],
+        [
+          917.0,
+          719.0
+        ],
+        [
+          917.0,
+          755.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-044",
+      "traceLabel": "Airport approach lane",
+      "points": [
+        [
+          932.0,
+          755.0
+        ],
+        [
+          952.0,
+          754.0
+        ],
+        [
+          971.0,
+          754.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-045",
+      "traceLabel": "Upper Marina inner diagonal",
+      "points": [
+        [
+          961.0,
+          424.0
+        ],
+        [
+          981.0,
+          441.0
+        ],
+        [
+          1005.0,
+          457.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-046",
+      "traceLabel": "East Marina west frontage curve",
+      "points": [
+        [
+          973.0,
+          478.0
+        ],
+        [
+          981.0,
+          476.0
+        ],
+        [
+          1005.0,
+          457.0
+        ],
+        [
+          1015.0,
+          442.0
+        ],
+        [
+          1028.0,
+          420.0
+        ],
+        [
+          1035.0,
+          416.0
+        ],
+        [
+          1042.0,
+          414.0
+        ],
+        [
+          1065.0,
+          418.0
+        ],
+        [
+          1091.0,
+          422.0
+        ],
+        [
+          1120.0,
+          423.0
+        ],
+        [
+          1136.0,
+          421.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-047",
+      "traceLabel": "East Marina central frontage",
+      "points": [
+        [
+          1020.0,
+          438.0
+        ],
+        [
+          1048.0,
+          438.0
+        ],
+        [
+          1074.0,
+          439.0
+        ],
+        [
+          1092.0,
+          438.0
+        ],
+        [
+          1127.0,
+          437.0
+        ],
+        [
+          1138.0,
+          437.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-048",
+      "traceLabel": "East Marina dock neck",
+      "points": [
+        [
+          1135.0,
+          404.0
+        ],
+        [
+          1137.0,
+          421.0
+        ],
+        [
+          1138.0,
+          437.0
+        ],
+        [
+          1140.0,
+          444.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-049",
+      "traceLabel": "East Marina west grid cross street",
+      "points": [
+        [
+          1008.0,
+          459.0
+        ],
+        [
+          1016.0,
+          459.0
+        ],
+        [
+          1035.0,
+          459.0
+        ],
+        [
+          1051.0,
+          459.0
+        ],
+        [
+          1074.0,
+          459.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-050",
+      "traceLabel": "East Marina grid lower west cross street",
+      "points": [
+        [
+          1016.0,
+          489.0
+        ],
+        [
+          1037.0,
+          489.0
+        ],
+        [
+          1040.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-051",
+      "traceLabel": "East Marina grid lower east cross street",
+      "points": [
+        [
+          1054.0,
+          478.0
+        ],
+        [
+          1085.0,
+          478.0
+        ],
+        [
+          1098.0,
+          478.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-052",
+      "traceLabel": "East Marina east local road",
+      "points": [
+        [
+          1098.0,
+          480.0
+        ],
+        [
+          1124.0,
+          474.0
+        ],
+        [
+          1141.0,
+          471.0
+        ],
+        [
+          1156.0,
+          472.0
+        ],
+        [
+          1168.0,
+          478.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-053",
+      "traceLabel": "East Marina east collector",
+      "points": [
+        [
+          1092.0,
+          438.0
+        ],
+        [
+          1094.0,
+          450.0
+        ],
+        [
+          1098.0,
+          478.0
+        ],
+        [
+          1103.0,
+          505.0
+        ],
+        [
+          1121.0,
+          520.0
+        ],
+        [
+          1141.0,
+          533.0
+        ],
+        [
+          1152.0,
+          536.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-054",
+      "traceLabel": "East Marina inner north south lane",
+      "points": [
+        [
+          1048.0,
+          421.0
+        ],
+        [
+          1048.0,
+          438.0
+        ],
+        [
+          1049.0,
+          459.0
+        ],
+        [
+          1049.0,
+          483.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-055",
+      "traceLabel": "East Marina west north south lane",
+      "points": [
+        [
+          1016.0,
+          442.0
+        ],
+        [
+          1016.0,
+          459.0
+        ],
+        [
+          1016.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-056",
+      "traceLabel": "East Marina middle north south lane",
+      "points": [
+        [
+          1035.0,
+          426.0
+        ],
+        [
+          1035.0,
+          459.0
+        ],
+        [
+          1037.0,
+          489.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-057",
+      "traceLabel": "Bank Medical northeast southwest diagonal",
+      "points": [
+        [
+          1090.0,
+          446.0
+        ],
+        [
+          1074.0,
+          459.0
+        ],
+        [
+          1054.0,
+          478.0
+        ],
+        [
+          1040.0,
+          489.0
+        ],
+        [
+          1023.0,
+          504.0
+        ],
+        [
+          990.0,
+          532.0
+        ],
+        [
+          966.0,
+          554.0
+        ],
+        [
+          951.0,
+          569.0
+        ],
+        [
+          940.0,
+          579.0
+        ],
+        [
+          930.0,
+          590.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-058",
+      "traceLabel": "Bank Medical northwest southeast diagonal",
+      "points": [
+        [
+          981.0,
+          478.0
+        ],
+        [
+          1016.0,
+          503.0
+        ],
+        [
+          1041.0,
+          523.0
+        ],
+        [
+          1072.0,
+          546.0
+        ],
+        [
+          1103.0,
+          566.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-059",
+      "traceLabel": "Bank Block northern ring connector",
+      "points": [
+        [
+          934.0,
+          510.0
+        ],
+        [
+          947.0,
+          516.0
+        ],
+        [
+          961.0,
+          516.0
+        ],
+        [
+          982.0,
+          516.0
+        ],
+        [
+          991.0,
+          516.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-060",
+      "traceLabel": "Medical east upper collector",
+      "points": [
+        [
+          1063.0,
+          480.0
+        ],
+        [
+          1063.0,
+          501.0
+        ],
+        [
+          1063.0,
+          520.0
+        ],
+        [
+          1063.0,
+          541.0
+        ],
+        [
+          1062.0,
+          565.0
+        ],
+        [
+          1062.0,
+          596.0
+        ],
+        [
+          1062.0,
+          632.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-061",
+      "traceLabel": "Medical east short grid lane",
+      "points": [
+        [
+          1093.0,
+          520.0
+        ],
+        [
+          1094.0,
+          541.0
+        ],
+        [
+          1094.0,
+          551.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-062",
+      "traceLabel": "Medical Japantown middle spine",
+      "points": [
+        [
+          974.0,
+          547.0
+        ],
+        [
+          974.0,
+          565.0
+        ],
+        [
+          974.0,
+          596.0
+        ],
+        [
+          974.0,
+          634.0
+        ],
+        [
+          974.0,
+          661.0
+        ],
+        [
+          974.0,
+          692.0
+        ],
+        [
+          973.0,
+          720.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-063",
+      "traceLabel": "Medical China middle spine",
+      "points": [
+        [
+          1018.0,
+          508.0
+        ],
+        [
+          1017.0,
+          532.0
+        ],
+        [
+          1016.0,
+          565.0
+        ],
+        [
+          1016.0,
+          596.0
+        ],
+        [
+          1014.0,
+          634.0
+        ],
+        [
+          1014.0,
+          661.0
+        ],
+        [
+          1013.0,
+          692.0
+        ],
+        [
+          1013.0,
+          700.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-064",
+      "traceLabel": "Medical horizontal collector",
+      "points": [
+        [
+          963.0,
+          565.0
+        ],
+        [
+          974.0,
+          565.0
+        ],
+        [
+          1016.0,
+          565.0
+        ],
+        [
+          1062.0,
+          565.0
+        ],
+        [
+          1103.0,
+          566.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-065",
+      "traceLabel": "Medical east service cross street",
+      "points": [
+        [
+          1063.0,
+          541.0
+        ],
+        [
+          1094.0,
+          541.0
+        ],
+        [
+          1121.0,
+          541.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-066",
+      "traceLabel": "Japan China Studio north collector",
+      "points": [
+        [
+          941.0,
+          596.0
+        ],
+        [
+          974.0,
+          596.0
+        ],
+        [
+          1016.0,
+          596.0
+        ],
+        [
+          1062.0,
+          596.0
+        ],
+        [
+          1082.0,
+          596.0
+        ],
+        [
+          1124.0,
+          596.0
+        ],
+        [
+          1161.0,
+          596.0
+        ],
+        [
+          1250.0,
+          596.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-067",
+      "traceLabel": "Japan China middle local cross street",
+      "points": [
+        [
+          941.0,
+          634.0
+        ],
+        [
+          974.0,
+          634.0
+        ],
+        [
+          1014.0,
+          634.0
+        ],
+        [
+          1059.0,
+          634.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-068",
+      "traceLabel": "Japan south local cross street",
+      "points": [
+        [
+          941.0,
+          661.0
+        ],
+        [
+          974.0,
+          661.0
+        ],
+        [
+          1014.0,
+          661.0
+        ],
+        [
+          1031.0,
+          661.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-069",
+      "traceLabel": "Japan south block cross street",
+      "points": [
+        [
+          919.0,
+          693.0
+        ],
+        [
+          941.0,
+          693.0
+        ],
+        [
+          974.0,
+          693.0
+        ],
+        [
+          1013.0,
+          693.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-070",
+      "traceLabel": "Japan west urban spine",
+      "points": [
+        [
+          940.0,
+          590.0
+        ],
+        [
+          941.0,
+          596.0
+        ],
+        [
+          941.0,
+          634.0
+        ],
+        [
+          941.0,
+          661.0
+        ],
+        [
+          941.0,
+          693.0
+        ],
+        [
+          942.0,
+          719.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-071",
+      "traceLabel": "Studio north frontage",
+      "points": [
+        [
+          1118.0,
+          562.0
+        ],
+        [
+          1124.0,
+          562.0
+        ],
+        [
+          1161.0,
+          562.0
+        ],
+        [
+          1218.0,
+          562.0
+        ],
+        [
+          1234.0,
+          558.0
+        ],
+        [
+          1250.0,
+          558.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-072",
+      "traceLabel": "Studio Charter Hill horizontal corridor",
+      "points": [
+        [
+          1088.0,
+          634.0
+        ],
+        [
+          1122.0,
+          634.0
+        ],
+        [
+          1160.0,
+          634.0
+        ],
+        [
+          1189.0,
+          634.0
+        ],
+        [
+          1210.0,
+          653.0
+        ],
+        [
+          1226.0,
+          670.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-073",
+      "traceLabel": "Studio Charter western spine",
+      "points": [
+        [
+          1124.0,
+          562.0
+        ],
+        [
+          1124.0,
+          596.0
+        ],
+        [
+          1122.0,
+          634.0
+        ],
+        [
+          1123.0,
+          662.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-074",
+      "traceLabel": "Studio Charter centre spine",
+      "points": [
+        [
+          1161.0,
+          562.0
+        ],
+        [
+          1161.0,
+          596.0
+        ],
+        [
+          1160.0,
+          634.0
+        ],
+        [
+          1161.0,
+          663.0
+        ],
+        [
+          1160.0,
+          684.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-075",
+      "traceLabel": "Charter Hill western frontage",
+      "points": [
+        [
+          1123.0,
+          662.0
+        ],
+        [
+          1161.0,
+          663.0
+        ],
+        [
+          1184.0,
+          663.0
+        ],
+        [
+          1204.0,
+          669.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-076",
+      "traceLabel": "Charter Hill northeast plaza approach",
+      "points": [
+        [
+          1242.0,
+          657.0
+        ],
+        [
+          1226.0,
+          670.0
+        ],
+        [
+          1219.0,
+          676.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-077",
+      "traceLabel": "Charter Hill southeast plaza approach",
+      "points": [
+        [
+          1249.0,
+          699.0
+        ],
+        [
+          1238.0,
+          708.0
+        ],
+        [
+          1220.0,
+          711.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-078",
+      "traceLabel": "Corporate outer circulation ring",
+      "points": [
+        [
+          947.0,
+          555.0
+        ],
+        [
+          946.53,
+          562.18
+        ],
+        [
+          945.13,
+          569.24
+        ],
+        [
+          942.81,
+          576.05
+        ],
+        [
+          939.63,
+          582.5
+        ],
+        [
+          935.63,
+          588.48
+        ],
+        [
+          930.89,
+          593.89
+        ],
+        [
+          925.48,
+          598.63
+        ],
+        [
+          919.5,
+          602.63
+        ],
+        [
+          913.05,
+          605.81
+        ],
+        [
+          906.24,
+          608.13
+        ],
+        [
+          899.18,
+          609.53
+        ],
+        [
+          892.0,
+          610.0
+        ],
+        [
+          884.82,
+          609.53
+        ],
+        [
+          877.76,
+          608.13
+        ],
+        [
+          870.95,
+          605.81
+        ],
+        [
+          864.5,
+          602.63
+        ],
+        [
+          858.52,
+          598.63
+        ],
+        [
+          853.11,
+          593.89
+        ],
+        [
+          848.37,
+          588.48
+        ],
+        [
+          844.37,
+          582.5
+        ],
+        [
+          841.19,
+          576.05
+        ],
+        [
+          838.87,
+          569.24
+        ],
+        [
+          837.47,
+          562.18
+        ],
+        [
+          837.0,
+          555.0
+        ],
+        [
+          837.47,
+          547.82
+        ],
+        [
+          838.87,
+          540.76
+        ],
+        [
+          841.19,
+          533.95
+        ],
+        [
+          844.37,
+          527.5
+        ],
+        [
+          848.37,
+          521.52
+        ],
+        [
+          853.11,
+          516.11
+        ],
+        [
+          858.52,
+          511.37
+        ],
+        [
+          864.5,
+          507.37
+        ],
+        [
+          870.95,
+          504.19
+        ],
+        [
+          877.76,
+          501.87
+        ],
+        [
+          884.82,
+          500.47
+        ],
+        [
+          892.0,
+          500.0
+        ],
+        [
+          899.18,
+          500.47
+        ],
+        [
+          906.24,
+          501.87
+        ],
+        [
+          913.05,
+          504.19
+        ],
+        [
+          919.5,
+          507.37
+        ],
+        [
+          925.48,
+          511.37
+        ],
+        [
+          930.89,
+          516.11
+        ],
+        [
+          935.63,
+          521.52
+        ],
+        [
+          939.63,
+          527.5
+        ],
+        [
+          942.81,
+          533.95
+        ],
+        [
+          945.13,
+          540.76
+        ],
+        [
+          946.53,
+          547.82
+        ],
+        [
+          947.0,
+          555.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-079",
+      "traceLabel": "Corporate inner circulation ring",
+      "points": [
+        [
+          917.0,
+          555.0
+        ],
+        [
+          916.79,
+          558.26
+        ],
+        [
+          916.15,
+          561.47
+        ],
+        [
+          915.1,
+          564.57
+        ],
+        [
+          913.65,
+          567.5
+        ],
+        [
+          911.83,
+          570.22
+        ],
+        [
+          909.68,
+          572.68
+        ],
+        [
+          907.22,
+          574.83
+        ],
+        [
+          904.5,
+          576.65
+        ],
+        [
+          901.57,
+          578.1
+        ],
+        [
+          898.47,
+          579.15
+        ],
+        [
+          895.26,
+          579.79
+        ],
+        [
+          892.0,
+          580.0
+        ],
+        [
+          888.74,
+          579.79
+        ],
+        [
+          885.53,
+          579.15
+        ],
+        [
+          882.43,
+          578.1
+        ],
+        [
+          879.5,
+          576.65
+        ],
+        [
+          876.78,
+          574.83
+        ],
+        [
+          874.32,
+          572.68
+        ],
+        [
+          872.17,
+          570.22
+        ],
+        [
+          870.35,
+          567.5
+        ],
+        [
+          868.9,
+          564.57
+        ],
+        [
+          867.85,
+          561.47
+        ],
+        [
+          867.21,
+          558.26
+        ],
+        [
+          867.0,
+          555.0
+        ],
+        [
+          867.21,
+          551.74
+        ],
+        [
+          867.85,
+          548.53
+        ],
+        [
+          868.9,
+          545.43
+        ],
+        [
+          870.35,
+          542.5
+        ],
+        [
+          872.17,
+          539.78
+        ],
+        [
+          874.32,
+          537.32
+        ],
+        [
+          876.78,
+          535.17
+        ],
+        [
+          879.5,
+          533.35
+        ],
+        [
+          882.43,
+          531.9
+        ],
+        [
+          885.53,
+          530.85
+        ],
+        [
+          888.74,
+          530.21
+        ],
+        [
+          892.0,
+          530.0
+        ],
+        [
+          895.26,
+          530.21
+        ],
+        [
+          898.47,
+          530.85
+        ],
+        [
+          901.57,
+          531.9
+        ],
+        [
+          904.5,
+          533.35
+        ],
+        [
+          907.22,
+          535.17
+        ],
+        [
+          909.68,
+          537.32
+        ],
+        [
+          911.83,
+          539.78
+        ],
+        [
+          913.65,
+          542.5
+        ],
+        [
+          915.1,
+          545.43
+        ],
+        [
+          916.15,
+          548.53
+        ],
+        [
+          916.79,
+          551.74
+        ],
+        [
+          917.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-080",
+      "traceLabel": "Corporate north radial",
+      "points": [
+        [
+          892.0,
+          500.0
+        ],
+        [
+          892.0,
+          530.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-081",
+      "traceLabel": "Corporate northeast radial",
+      "points": [
+        [
+          931.0,
+          516.0
+        ],
+        [
+          910.0,
+          537.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-082",
+      "traceLabel": "Corporate east radial",
+      "points": [
+        [
+          947.0,
+          555.0
+        ],
+        [
+          917.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-083",
+      "traceLabel": "Corporate southeast radial",
+      "points": [
+        [
+          931.0,
+          594.0
+        ],
+        [
+          910.0,
+          573.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-084",
+      "traceLabel": "Corporate south radial",
+      "points": [
+        [
+          892.0,
+          610.0
+        ],
+        [
+          892.0,
+          580.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-085",
+      "traceLabel": "Corporate southwest radial",
+      "points": [
+        [
+          853.0,
+          594.0
+        ],
+        [
+          874.0,
+          573.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-086",
+      "traceLabel": "Corporate west radial",
+      "points": [
+        [
+          837.0,
+          555.0
+        ],
+        [
+          867.0,
+          555.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-087",
+      "traceLabel": "Corporate northwest radial",
+      "points": [
+        [
+          853.0,
+          516.0
+        ],
+        [
+          874.0,
+          537.0
+        ]
+      ],
+      "kind": "local",
+      "basis": "traced-reference-road"
+    },
+    {
+      "id": "central-trace-088",
+      "traceLabel": "Charter Hill casino plaza circulation ring",
+      "points": [
+        [
+          1230.0,
+          690.0
+        ],
+        [
+          1229.78,
+          693.26
+        ],
+        [
+          1229.11,
+          696.47
+        ],
+        [
+          1228.02,
+          699.57
+        ],
+        [
+          1226.52,
+          702.5
+        ],
+        [
+          1224.63,
+          705.22
+        ],
+        [
+          1222.38,
+          707.68
+        ],
+        [
+          1219.83,
+          709.83
+        ],
+        [
+          1217.0,
+          711.65
+        ],
+        [
+          1213.95,
+          713.1
+        ],
+        [
+          1210.73,
+          714.15
+        ],
+        [
+          1207.39,
+          714.79
+        ],
+        [
+          1204.0,
+          715.0
+        ],
+        [
+          1200.61,
+          714.79
+        ],
+        [
+          1197.27,
+          714.15
+        ],
+        [
+          1194.05,
+          713.1
+        ],
+        [
+          1191.0,
+          711.65
+        ],
+        [
+          1188.17,
+          709.83
+        ],
+        [
+          1185.62,
+          707.68
+        ],
+        [
+          1183.37,
+          705.22
+        ],
+        [
+          1181.48,
+          702.5
+        ],
+        [
+          1179.98,
+          699.57
+        ],
+        [
+          1178.89,
+          696.47
+        ],
+        [
+          1178.22,
+          693.26
+        ],
+        [
+          1178.0,
+          690.0
+        ],
+        [
+          1178.22,
+          686.74
+        ],
+        [
+          1178.89,
+          683.53
+        ],
+        [
+          1179.98,
+          680.43
+        ],
+        [
+          1181.48,
+          677.5
+        ],
+        [
+          1183.37,
+          674.78
+        ],
+        [
+          1185.62,
+          672.32
+        ],
+        [
+          1188.17,
+          670.17
+        ],
+        [
+          1191.0,
+          668.35
+        ],
+        [
+          1194.05,
+          666.9
+        ],
+        [
+          1197.27,
+          665.85
+        ],
+        [
+          1200.61,
+          665.21
+        ],
+        [
+          1204.0,
+          665.0
+        ],
+        [
+          1207.39,
+          665.21
+        ],
+        [
+          1210.73,
+          665.85
+        ],
+        [
+          1213.95,
+          666.9
+        ],
+        [
+          1217.0,
+          668.35
+        ],
+        [
+          1219.83,
+          670.17
+        ],
+        [
+          1222.38,
+          672.32
+        ],
+        [
+          1224.63,
+          674.78
+        ],
+        [
+          1226.52,
+          677.5
+        ],
+        [
+          1228.02,
+          680.43
+        ],
+        [
+          1229.11,
+          683.53
+        ],
+        [
+          1229.78,
+          686.74
+        ],
+        [
+          1230.0,
+          690.0
+        ]
+      ],
+      "kind": "collector",
+      "basis": "traced-reference-road"
+    }
+  ],
+  "policy": "Visible reference street corridors traced from enlarged image crops. No canonical street names are claimed. Numbered traceLabels are review labels only. Exact traffic rules and public/private circulation access are not established. Short hidden sections beneath printed text or markers join visible corridor ends. Main geography/highways are unchanged.",
+  "method": "Manual source-image control points for visible corridors; intersection splitting; smooth interpolation through three visually checked circular circulation annuli.",
+  "counts": {
+    "corridors": 88,
+    "roadEdges": 124
+  },
+  "accuracyPixels": {
+    "typical": 3,
+    "occluded": 6
+  }
+}

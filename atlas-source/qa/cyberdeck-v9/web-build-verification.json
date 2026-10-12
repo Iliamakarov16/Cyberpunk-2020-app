@@ -1,0 +1,13 @@
+{
+  "entries": 212,
+  "apkBuilt": false,
+  "output": "qa176/atlas-cyberdeck-checkpoint/verified-web-payload.zip",
+  "sha256": "65d0b1db067c523ebdaf26fb1d38903ef0073ea17cd0243281127764711c911c",
+  "compiledChangedFiles": [
+    "offline.html",
+    "index.html",
+    "sw.js",
+    "app.js",
+    "city-atlas-transition.css"
+  ]
+}

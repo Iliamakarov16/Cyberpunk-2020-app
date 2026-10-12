@@ -1,0 +1,118 @@
+{
+  "policy": "Names matched, never numbers; primary plans win.",
+  "matched": 55,
+  "conflicts": [
+    {
+      "id": "core-36",
+      "name": "Short Circuit",
+      "referenceNumber": 79,
+      "policy": "primary-sector-retained",
+      "district": "B4"
+    },
+    {
+      "id": "core-48",
+      "name": "The Slammer",
+      "referenceNumber": 11,
+      "policy": "primary-sector-retained",
+      "district": "A4"
+    },
+    {
+      "id": "ncs-a1-6",
+      "name": "Franciscini’s Cafe",
+      "referenceNumber": 89,
+      "policy": "primary-sector-retained",
+      "district": "A1"
+    },
+    {
+      "id": "ncs-a5-12",
+      "name": "Harbormaster’s Office",
+      "referenceNumber": 31,
+      "policy": "primary-sector-retained",
+      "district": "A5"
+    },
+    {
+      "id": "ncs-a5-10",
+      "name": "24 Hour Cafe",
+      "referenceNumber": 90,
+      "policy": "primary-sector-retained",
+      "district": "A5"
+    },
+    {
+      "id": "ncs-b1-14",
+      "name": "NCU Fine Arts Campus",
+      "referenceNumber": 6,
+      "policy": "primary-sector-retained",
+      "district": "B1"
+    },
+    {
+      "id": "ncs-b1-7",
+      "name": "Serengeti Gallery",
+      "referenceNumber": 5,
+      "policy": "primary-sector-retained",
+      "district": "B1"
+    },
+    {
+      "id": "ncs-b2-9",
+      "name": "The Rainbow Nights Dance Club",
+      "referenceNumber": 10,
+      "policy": "primary-sector-retained",
+      "district": "B2"
+    },
+    {
+      "id": "ncs-b4-8",
+      "name": "The Afterlife",
+      "referenceNumber": 78,
+      "policy": "primary-sector-retained",
+      "district": "B4"
+    },
+    {
+      "id": "ncs-b4-15",
+      "name": "The Jellical Inn",
+      "referenceNumber": 70,
+      "policy": "primary-sector-retained",
+      "district": "B4"
+    },
+    {
+      "id": "ncs-b4-14",
+      "name": "Crisis Medical Center",
+      "referenceNumber": 40,
+      "policy": "primary-sector-retained",
+      "district": "B4"
+    },
+    {
+      "id": "ncs-b5-10",
+      "name": "Guevarra’s",
+      "referenceNumber": 87,
+      "policy": "primary-sector-retained",
+      "district": "B5"
+    },
+    {
+      "id": "ncs-b6-1",
+      "name": "McCartney Stadium",
+      "referenceNumber": 22,
+      "policy": "primary-sector-retained",
+      "district": "B6"
+    },
+    {
+      "id": "ncs-c2-4",
+      "name": "Night City Fire Station #2",
+      "referenceNumber": 35,
+      "policy": "primary-sector-retained",
+      "district": "C2"
+    },
+    {
+      "id": "ncs-c4-7",
+      "name": "Night City Transit Center",
+      "referenceNumber": 39,
+      "policy": "primary-sector-retained",
+      "district": "C4"
+    },
+    {
+      "id": "ncs-c6-14",
+      "name": "The Marina",
+      "referenceNumber": 88,
+      "policy": "primary-sector-retained",
+      "district": "C6"
+    }
+  ]
+}

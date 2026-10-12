@@ -1,0 +1,35 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> night-city-atlas@9.0.0 check
+> node checks/validate.mjs && node checks/map-ui.mjs && node checks/map-performance.mjs && node checks/cyberdeck.mjs && node checks/palette-overrides.mjs && node checks/campaign.mjs && node checks/dossier.mjs && node checks/theme-sync.mjs && node checks/crew-campaign.mjs && node checks/visibility.mjs && node checks/local-notes.mjs
+
+Validated 25 districts, 433 catalog records, 64 core points; all cards and integration contract.
+Catalog CSS contracts: short landscape has independent controls/results columns; short narrow view scrolls the whole catalog; embedded inset and 44px targets preserved. Physical layout requires browser verification.
+Real DOM: era switching, camera preservation, visible landmarks, detailed source base and label layers, unified search, single-drawer navigation, card expansion, NCART access and screen-sized marker halos passed at 640/390px.
+Map rendering contracts: one camera frame per 120-event burst, zero marker writes during gestures, settled/cancelled/pinch flows, source-density zoom limit, detailed-plan action, 25 district selectors and five filter-free palettes passed. This is DOM regression coverage, not measured device FPS.
+Cyberdeck: actual camera-delta ring, reversal/no-op/settle, relative-scale continuity, seven pause gates, standalone ready reveal, Crew no-double-play, early skip, timer cleanup and frameless control contracts passed. Browser CSS/pointer QA remains separate.
+Atlas palette overrides: 125 UI/map/base combinations, exact SVG/instrument token palette parity, one reused prebaked raster, redraw/source-print preservation, app-key isolation, malformed/legacy storage, reload/relink, live parent/storage/message security, repeated bfcache + visibility + effects-off inheritance, and failed-storage recovery passed. DOM/source checks only; no device-pixel or FPS claim.
+Campaign storage, role separation, reveal/hide, revocation and write authorization passed.
+DOM flow: create campaign, place/save/reveal marker, player link, secret omission and all 625 metro routes passed.
+Dossier: coordinates/assets byte-identical; catalog changed only in recorded provenance metadata; five palettes, texture/digital controls, settings preservation, storage sync and untrusted-theme rejection passed.
+Atlas theme sync: all five palettes, repeated standalone/embedded page restore, reconnected live parent observation, unchanged camera/selection and one filter-free raster passed. DOM coverage; no device pixel/FPS claim.
+Crew DOM: GM CRUD, exact coordinates, move/cancel, delete/cancel, escaped HTML and authenticated sharing passed.
+Crew DOM: server-owned roles and player secret/hidden-marker filtering passed.
+Crew DOM: 409 preserves drafts and uses explicit revision-aware retry passed.
+Crew DOM: timeout and invalid-JSON retries retain command IDs and do not duplicate writes passed.
+Crew DOM: Save/Discard/Cancel, Escape, native Back twice, drawer order and exact-source messaging passed.
+Crew DOM: visible-only polling, edit protection, role downgrade and write-time access revocation passed.
+Crew DOM: obsolete-load suppression and synchronous player-view secret clearing passed.
+Crew DOM: two accounts × two campaigns isolate local notes; missing viewer/player view hide notes and legacy keys never migrate.
+Crew DOM: JSON download origin/ack, immediate A/B local-note saves, full-storage exit guard and pagehide flush passed.
+Crew DOM: uncertain DELETE with empty title, refreshed/hidden/deleted player details and account-change write blocking passed.
+Crew DOM: removed-marker recovery, removed-campaign clearing, busy Back, loopback sharing and navigation guards passed.
+Crew live HTTP + real DOM: cookie sessions, /api/me CSRF, accepted-player roles, create/reveal/move/delete and secret separation passed.
+All Crew adapter and bridge checks passed.
+Lifecycle: zero-size hidden iframe ignored; resume keeps selected location, center and zoom; rapid per-location notes persist immediately.
+Local notes: verified account+campaign isolation, no legacy migration, idempotent scope, quota-safe multi-location drafts, copy/retry/discard recovery and stale-account guards passed.
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

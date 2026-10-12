@@ -1,0 +1,1 @@
+ALTER TABLE `campaigns` ADD `invite_token` text;

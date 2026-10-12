@@ -1,0 +1,35 @@
+/* A single readiness cue. The iframe is already interactive and never animated,
+   clipped, dimmed, hidden or moved. All color comes from the active Crew palette. */
+.nc-atlas-opening {
+  position:absolute;
+  inset:0;
+  z-index:1;
+  overflow:hidden;
+  pointer-events:none;
+  user-select:none;
+  contain:strict;
+  animation:nc-atlas-opening-finish var(--nc-atlas-opening-duration,560ms) linear both;
+}
+.nc-atlas-opening>i {position:absolute;display:block;pointer-events:none}
+.nc-atlas-opening-frame {
+  inset:12px;
+  border:1px solid color-mix(in srgb,var(--nc-red) 64%,transparent);
+
+}
+.nc-atlas-opening-raster {
+  inset:0;
+  background:repeating-linear-gradient(0deg,transparent 0 7px,color-mix(in srgb,var(--nc-register) 12%,transparent) 7px 8px);
+  animation:nc-atlas-opening-raster var(--nc-atlas-opening-duration,560ms) cubic-bezier(.2,.7,.2,1) both;
+}
+.nc-atlas-opening-line {
+  inset:0;
+  background:linear-gradient(transparent 8%,color-mix(in srgb,var(--nc-signal) 62%,transparent) 25% 75%,transparent 92%) left top/1px 100% no-repeat;
+  animation:nc-atlas-opening-line var(--nc-atlas-opening-duration,560ms) cubic-bezier(.2,.7,.2,1) both;
+}
+@keyframes nc-atlas-opening-finish {0%,62%{opacity:1}100%{opacity:0}}
+@keyframes nc-atlas-opening-raster {from{clip-path:inset(0)}to{clip-path:inset(0 0 0 100%)}}
+@keyframes nc-atlas-opening-line {from{transform:translateX(0)}to{transform:translateX(100%)}}
+:root[data-digital="off"] .nc-atlas-opening,
+:root[data-player-motion="off"] .nc-atlas-opening,
+.nc-city-atlas[hidden] .nc-atlas-opening {display:none!important}
+@media(prefers-reduced-motion:reduce) {.nc-atlas-opening{display:none!important;animation:none!important}}

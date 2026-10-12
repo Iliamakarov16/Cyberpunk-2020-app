@@ -1,0 +1,21 @@
+{
+  "fix": "short-landscape-catalog-columns",
+  "runtimeCopies": [
+    {
+      "destination": "web-source/public/atlas",
+      "changedFiles": [
+        "style.css"
+      ],
+      "all111FilesMatch": true
+    },
+    {
+      "destination": "payload/static/atlas",
+      "changedFiles": [
+        "style.css"
+      ],
+      "all111FilesMatch": true
+    }
+  ],
+  "runtimeManifestSha256": "9093e305a652287a9735b21e1abee3ceddef116abfa09977511a26111d217adb",
+  "styleSha256": "099f8d6b265705b3b1b0758d09f3c9881701f205f248c2849690ccbfdffe747b"
+}

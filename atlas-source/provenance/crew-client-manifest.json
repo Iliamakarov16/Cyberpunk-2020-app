@@ -1,0 +1,527 @@
+[
+  {
+    "path": "app.js",
+    "bytes": 75904,
+    "sha256": "49b5091190a72a0eda1ed1be5b330796aa49b4dfad2fafd8c8bba6bc6ca83adf"
+  },
+  {
+    "path": "assets/core-2020.webp",
+    "bytes": 547114,
+    "sha256": "8f168c9813355859e2a03dcf1a73a758937aecaa255cac8c12c9a2afdb5f91eb"
+  },
+  {
+    "path": "assets/geography-2020/blocks.svg",
+    "bytes": 363191,
+    "sha256": "ba414e0ea7bc79791808b95cb9ed94e58aadca76b1601fe080531101144abbc8"
+  },
+  {
+    "path": "assets/geography-2020/clean-basemap-v7.svg",
+    "bytes": 3440889,
+    "sha256": "0e9f7be3b9c23dee8de3cbdd84d2d11b592409774555c73d7f9cd9d69434a0cf"
+  },
+  {
+    "path": "assets/geography-2020/clean-basemap-v7.webp",
+    "bytes": 2534578,
+    "sha256": "9713f0c9b62a99bbf8dfd1fc0dd59d3353b747b8bcf8607c66daef096810ab4d"
+  },
+  {
+    "path": "assets/geography-2020/coast.svg",
+    "bytes": 3225,
+    "sha256": "0b549a05ca16e4b76468447630921b80e6dc5fe20635fb02eb7cbd9f591f9ca3"
+  },
+  {
+    "path": "assets/geography-2020/draken-cleaning-v7.png",
+    "bytes": 2022341,
+    "sha256": "f7845659bc26deb0109ae79438611ae5bc80c0149a9bafb3ff4a494db8d1c14e"
+  },
+  {
+    "path": "assets/geography-2020/draken-original-v7.jpg",
+    "bytes": 547446,
+    "sha256": "5f9c62a8508a69b67996f78cfd7dcd9a2ffbb9be74e438da4ea702b74059cbab"
+  },
+  {
+    "path": "assets/geography-2020/local-roads.svg",
+    "bytes": 53548,
+    "sha256": "034cd4cc7804eb5f05aae61df31184a86f32d9287533437a98dbe0e4c4855591"
+  },
+  {
+    "path": "assets/geography-2020/print-basemap-v7.svg",
+    "bytes": 730336,
+    "sha256": "64728f65cba09aa18611df784293bf83be04c812d34c1a39a87d5ffd3b91e8cf"
+  },
+  {
+    "path": "assets/geography-2020/print-basemap-v7.webp",
+    "bytes": 2597410,
+    "sha256": "22b6282b730a4be76d82c3ad09b0ff1aa5fb491ca59ba395d74f919130d65a38"
+  },
+  {
+    "path": "assets/geography-2020/roads.svg",
+    "bytes": 5038,
+    "sha256": "f16d001925b87a0e51a797bd399b3692607d6757474e91b496da84289711ad93"
+  },
+  {
+    "path": "assets/official-2045.webp",
+    "bytes": 714416,
+    "sha256": "2fbd4fd8d47c1d4f5c7f9715ca890a805ccd1159ed42eefe786b97d752f7b6bb"
+  },
+  {
+    "path": "assets/sectors/A1.webp",
+    "bytes": 239972,
+    "sha256": "8527a102b9fb7c89d43c4d45224efbe1dae008a050e03862a7261af11fc81384"
+  },
+  {
+    "path": "assets/sectors/A2.webp",
+    "bytes": 261300,
+    "sha256": "f51f501ff7cbcd7d3a138cf096b15759bdf0d8249aa914e51843f7b7e59b99f8"
+  },
+  {
+    "path": "assets/sectors/A3.webp",
+    "bytes": 325778,
+    "sha256": "63eef1bcc201e5951ac63b6f78f333ff17a2f442e48cf64ae13f28ead797ab6f"
+  },
+  {
+    "path": "assets/sectors/A4.webp",
+    "bytes": 290722,
+    "sha256": "ae4c8dd248162a08f9387ffa1680bc4e5d44530dcfc1319941e1f430dd4ff5e6"
+  },
+  {
+    "path": "assets/sectors/A5.webp",
+    "bytes": 216504,
+    "sha256": "c29ef12a42c1f6fe0d24ac1e97584737c9c32dcef62571f8682d3e07e9274ef9"
+  },
+  {
+    "path": "assets/sectors/A6.webp",
+    "bytes": 315608,
+    "sha256": "66848b9d72db7b84c9b6992caeb92ac954bf53afea463a573de8b06509db519a"
+  },
+  {
+    "path": "assets/sectors/B1.webp",
+    "bytes": 378546,
+    "sha256": "d4791b1c2c395fb5b70dc4b0550610404bff8117161428e066081682fe8bcd46"
+  },
+  {
+    "path": "assets/sectors/B2-plaza.webp",
+    "bytes": 325400,
+    "sha256": "4d38797633490a95f84c86b5fc5ed2b5bb548aa111f89906f85c8d75afcf70e4"
+  },
+  {
+    "path": "assets/sectors/B2.webp",
+    "bytes": 379596,
+    "sha256": "45e36dc674e2c89c8b56d6b0b3467005d260f5c2a01b163347e3cdf19d4f61a0"
+  },
+  {
+    "path": "assets/sectors/B3.webp",
+    "bytes": 415324,
+    "sha256": "8541884d0d3eee96bbf6392f7abf582d3af4baa35ad3cdaabfda03425544a028"
+  },
+  {
+    "path": "assets/sectors/B4.webp",
+    "bytes": 298700,
+    "sha256": "fd23d5392dfb4af0aa8bfb5ce93c735c7e16733a1c72ea72887a23a1751f58d9"
+  },
+  {
+    "path": "assets/sectors/B5.webp",
+    "bytes": 241570,
+    "sha256": "f3fe8d458144ada729b816568d886891846689c19a208ca24cb47133c3e9ed7b"
+  },
+  {
+    "path": "assets/sectors/B6.webp",
+    "bytes": 248414,
+    "sha256": "3c74070f9b9a0cd06a9c6fa3cf9d19e838359de79e79db8f410433d031a04a19"
+  },
+  {
+    "path": "assets/sectors/C1.webp",
+    "bytes": 336274,
+    "sha256": "849df6bf5bf564bfef37afafe2f4397e25928bd65e5dbc0ff40b9fa67716a536"
+  },
+  {
+    "path": "assets/sectors/C2.webp",
+    "bytes": 276898,
+    "sha256": "0a6c025e0258764598f10f9da9f29c1a2befabe04084ee53dbdd70a1e0ed8256"
+  },
+  {
+    "path": "assets/sectors/C3.webp",
+    "bytes": 276652,
+    "sha256": "eee097606ce45c531b9453a85a6c713dc596802de6b54d5151adde9251fca0d6"
+  },
+  {
+    "path": "assets/sectors/C4.webp",
+    "bytes": 233514,
+    "sha256": "a8f5c61a81520afd54674b0e0e92c1367cd2ef77f86d9a57154a3667a21c59ac"
+  },
+  {
+    "path": "assets/sectors/C5.webp",
+    "bytes": 236212,
+    "sha256": "b347508e51160e60ea3865433182f8ad878411c00a370971e097b6aaeae63118"
+  },
+  {
+    "path": "assets/sectors/C6.webp",
+    "bytes": 330502,
+    "sha256": "d4390094a79ef715c8bdc3486ce4d721eb6d95ea5b70a389ab29663319b154b6"
+  },
+  {
+    "path": "assets/sectors/E1.webp",
+    "bytes": 231628,
+    "sha256": "938f7d2ef22f9c109714255832fe25c992bbf9bcce28e77c9e82051c05b3d6bc"
+  },
+  {
+    "path": "assets/sectors/F1.webp",
+    "bytes": 132066,
+    "sha256": "378db6ac24ecab80adffadadbe7488c25f24d6801179319da394faf68c64650c"
+  },
+  {
+    "path": "assets/sectors/G1.webp",
+    "bytes": 77804,
+    "sha256": "14b4d53ce3a69ae147b48ec602538bc774a2886e3bdc6f2a31dca4f730d58bb8"
+  },
+  {
+    "path": "assets/sectors/H1.webp",
+    "bytes": 136856,
+    "sha256": "35bae931da349f60d293bbe10c6c1a22f4c82b18e98c84e8d600ed53d0e3840d"
+  },
+  {
+    "path": "assets/sectors/I1.webp",
+    "bytes": 174316,
+    "sha256": "501eafa715225daf0cf29929abb9a36e428411e22603d9ed4c78b82029b56551"
+  },
+  {
+    "path": "assets/sectors/J1.webp",
+    "bytes": 184282,
+    "sha256": "145bf95efe1f6926325c474f4a424a9de98986bb14a42fe186df5fd105e873ee"
+  },
+  {
+    "path": "assets/sectors/region.webp",
+    "bytes": 196492,
+    "sha256": "51c5136c3f08ff33593af971ad55bea80eb95c2f6f7f595034f6ad9e24a8cb0a"
+  },
+  {
+    "path": "assets/sourcebook-city.jpg",
+    "bytes": 759663,
+    "sha256": "564f0fa46b9f0afffaa90ff9c4df7be1466f24fefec42cc2458bc5a61092ad70"
+  },
+  {
+    "path": "assets/transit/central-2020.webp",
+    "bytes": 659616,
+    "sha256": "5a6c31c64e0ba03b3eddd9199dcd537d393c30cc1564ccce2c57055e22e738d2"
+  },
+  {
+    "path": "assets/transit/region-2020.webp",
+    "bytes": 177212,
+    "sha256": "02611c5ccb62e546f7348d688066559b02b7732e2627414a1a6d840cc01dbb31"
+  },
+  {
+    "path": "assets/world/buildings-2048.webp",
+    "bytes": 721430,
+    "sha256": "eb3dfdd21214b73010ff698c10f80bba1ea98be6e02394f1a9c2ff366979b409"
+  },
+  {
+    "path": "assets/world/buildings/0-5.webp",
+    "bytes": 1694,
+    "sha256": "00b5da45b317a389598533f263c8e314e4851c6efeab730fcd97c60b03d82eae"
+  },
+  {
+    "path": "assets/world/buildings/1-0.webp",
+    "bytes": 226,
+    "sha256": "d600e146fe6015fa934c76b9509419379c0c09b21a8e1c952b19800f3ca31d1b"
+  },
+  {
+    "path": "assets/world/buildings/1-4.webp",
+    "bytes": 3300,
+    "sha256": "73a7cc2f7c104fc7d94212ee32af9b924d17cd7651f216f411027521da623d4e"
+  },
+  {
+    "path": "assets/world/buildings/1-5.webp",
+    "bytes": 51596,
+    "sha256": "e74c55fe8534219d51b73623fffae93356ce9c7aafa75a4dff88eff3cd26f112"
+  },
+  {
+    "path": "assets/world/buildings/1-6.webp",
+    "bytes": 8678,
+    "sha256": "86cd52385f1e8df3713d379cdc031dbe22ee8702044eb1cb088f764099d2f045"
+  },
+  {
+    "path": "assets/world/buildings/1-7.webp",
+    "bytes": 1366,
+    "sha256": "77a353186dddcbedeb3ea4d6791888ee63d20616c5afc3ef579e3cfa19ba7b27"
+  },
+  {
+    "path": "assets/world/buildings/2-0.webp",
+    "bytes": 10008,
+    "sha256": "d35970bf42f00ba2c6d4ef6bdfd1e7c7d32b11d3551a5b73d2d540e5424148b6"
+  },
+  {
+    "path": "assets/world/buildings/2-1.webp",
+    "bytes": 47960,
+    "sha256": "712cf0ee6cb046e6ceaf47d5d760a3aa05163193875126b17d9e63e25b41886f"
+  },
+  {
+    "path": "assets/world/buildings/2-2.webp",
+    "bytes": 22724,
+    "sha256": "e0003aa13693d823138e923e77ae24b23e8c918c72b0b0470deda5e5a8aabca8"
+  },
+  {
+    "path": "assets/world/buildings/2-3.webp",
+    "bytes": 24616,
+    "sha256": "f59dafbea4f317ef41ec6e2ef3a99eb9d0dccc5fc267900ed5f43b8b66985153"
+  },
+  {
+    "path": "assets/world/buildings/2-4.webp",
+    "bytes": 53762,
+    "sha256": "d0741b07715f61330b42e79d3ae99c7912cd5830d10f5b5d59847c23bc2f1770"
+  },
+  {
+    "path": "assets/world/buildings/2-5.webp",
+    "bytes": 72768,
+    "sha256": "12f1a47340b343f11a42c4ca1bcf1256a7da52f5d01f454d9b16a244a794829f"
+  },
+  {
+    "path": "assets/world/buildings/2-6.webp",
+    "bytes": 17984,
+    "sha256": "f9ea308aeb122a646373d74210120ec2212acc6980a25256b2ec165f5dd48a67"
+  },
+  {
+    "path": "assets/world/buildings/2-7.webp",
+    "bytes": 486,
+    "sha256": "bb02bb698c6844f3358550c6b2e30864decb774a64a5d057b26eebae06d119e9"
+  },
+  {
+    "path": "assets/world/buildings/3-0.webp",
+    "bytes": 42450,
+    "sha256": "4aebacffd0d368d751c801e02a7817591f5a581d5ee333bc20f232b220df05cb"
+  },
+  {
+    "path": "assets/world/buildings/3-1.webp",
+    "bytes": 78404,
+    "sha256": "8911a58b5bbf2a81991ad654a031f597ce9dce28a95defd0a7a14b8c5e24c35c"
+  },
+  {
+    "path": "assets/world/buildings/3-2.webp",
+    "bytes": 78576,
+    "sha256": "f5c318f2eb1ce29c28aba197ac93c9e229b62055e987eec9dfe35fe53867f813"
+  },
+  {
+    "path": "assets/world/buildings/3-3.webp",
+    "bytes": 88792,
+    "sha256": "1d446771dee996f79240427f6ab71618d8aafb4a0fde38dec2b198e03ddb2720"
+  },
+  {
+    "path": "assets/world/buildings/3-4.webp",
+    "bytes": 47590,
+    "sha256": "2f9f8f866cafe28be636ae324506cc6ce1c931ebdcbffa1fbcdb1f1f8d6e97d1"
+  },
+  {
+    "path": "assets/world/buildings/3-5.webp",
+    "bytes": 21620,
+    "sha256": "f696732f98b289c622a2cd206a3512c5365e1a0c86adfc260a376064872d565b"
+  },
+  {
+    "path": "assets/world/buildings/3-6.webp",
+    "bytes": 2746,
+    "sha256": "9c627c0a3321bb0eabe196c2debf2da894acf7b6b7b4f1110d390cc1585f45f8"
+  },
+  {
+    "path": "assets/world/buildings/3-7.webp",
+    "bytes": 756,
+    "sha256": "8305d060781a07d12750d3e9c2a00fc71755763e27953f75f726cdaae2922119"
+  },
+  {
+    "path": "assets/world/buildings/4-0.webp",
+    "bytes": 284,
+    "sha256": "5f0d4bca80f2ab59ecc488a984029882bf63c7b631cc7c63f2097458e50e1e3d"
+  },
+  {
+    "path": "assets/world/buildings/4-1.webp",
+    "bytes": 6856,
+    "sha256": "01dbe599d9ae40136647fbb1ad6851873ef90f193bccdea565dd6b38059bb430"
+  },
+  {
+    "path": "assets/world/buildings/4-2.webp",
+    "bytes": 16438,
+    "sha256": "2db78508cd60ed71a461e1a0b98534417b43de940d9405cdb1bb374ee88e1642"
+  },
+  {
+    "path": "assets/world/buildings/4-3.webp",
+    "bytes": 60066,
+    "sha256": "c75e4a68fe547908fb643ac7bcf8e1d288005ef61d4a3a73a8ae6145aeadb345"
+  },
+  {
+    "path": "assets/world/buildings/4-4.webp",
+    "bytes": 26984,
+    "sha256": "8981522755f18629c2909d0946040bbb8d09071cc3c3586921d44d35b7d54bcf"
+  },
+  {
+    "path": "assets/world/buildings/4-5.webp",
+    "bytes": 17372,
+    "sha256": "ee6806e0a699be0961a2efba51834119fc73f36313eda9fac290eb7d719795dd"
+  },
+  {
+    "path": "assets/world/buildings/4-6.webp",
+    "bytes": 434,
+    "sha256": "fa9f3d85435c5cd4795ceefcdac05f13c803891a94c66becbcb8e6ef9df70c8c"
+  },
+  {
+    "path": "assets/world/buildings/5-2.webp",
+    "bytes": 3430,
+    "sha256": "ea34cf819c36acba361bfd3b6e4e2b3803c725de9d5852c594aa71a379af3852"
+  },
+  {
+    "path": "assets/world/buildings/5-3.webp",
+    "bytes": 2070,
+    "sha256": "7b6f5b771484f009b21ce12e51befbdc94c6d147b198a51fcfc8a7a1fc4c78fc"
+  },
+  {
+    "path": "assets/world/buildings/5-4.webp",
+    "bytes": 2806,
+    "sha256": "21fb6e28dd7cff10ff1467231c4dadc582e1aa282aa94c9141bfb7ad2291e44f"
+  },
+  {
+    "path": "assets/world/buildings/5-5.webp",
+    "bytes": 256,
+    "sha256": "05af5f8be1b4bc97e2d24cb3c48d415a36ee12010173aa0f46a02c909d7f31f0"
+  },
+  {
+    "path": "assets/world/buildings/6-2.webp",
+    "bytes": 1134,
+    "sha256": "049a6854bb424e115610b8740f201c0547b76c2713e9f3678b2d91b07601506a"
+  },
+  {
+    "path": "assets/world/buildings/6-3.webp",
+    "bytes": 2544,
+    "sha256": "7331909ec71304e58b6dd92c081380c784a2eaeab065960fa8aee9e4fd90442b"
+  },
+  {
+    "path": "assets/world/buildings/6-4.webp",
+    "bytes": 2768,
+    "sha256": "67beab58a26816c62a36a3a07f1c0ca32a930b70fca3d50eaf0caac3d98e99c1"
+  },
+  {
+    "path": "assets/world/buildings/7-3.webp",
+    "bytes": 2304,
+    "sha256": "304afdc76a8f5e68bcc9cd8c28327a38ec34e57391b6e1a524da67a02c21c3f3"
+  },
+  {
+    "path": "assets/world/buildings/7-4.webp",
+    "bytes": 560,
+    "sha256": "27ca20ca14d7281f90c1e3ef38aefc55e27fb6335796d9b6fd07119d701fb147"
+  },
+  {
+    "path": "assets/world/coast.svg",
+    "bytes": 190005,
+    "sha256": "96667bd2ef44050302c45f3f0a32f78c6184c4266ba9faf2721e4ea66988b2f9"
+  },
+  {
+    "path": "assets/world/geometry-provenance.json",
+    "bytes": 3475,
+    "sha256": "22bcdb1900d9b65979e716e7b87ff8acafb1e7147013bbc6c489bfef817a7aff"
+  },
+  {
+    "path": "assets/world/roads.svg",
+    "bytes": 1521123,
+    "sha256": "fecf0293daed8bd6e7130dad607e2e95088bbd4ffb91fce0f480ce731b47a5cd"
+  },
+  {
+    "path": "atlas-data.json",
+    "bytes": 277221,
+    "sha256": "e1ac8c87e8c44d2443ae4a241449a9eacbad68e811bf6251f1a29ad78158bac3"
+  },
+  {
+    "path": "cartography.js",
+    "bytes": 20761,
+    "sha256": "3f4cf5fb6b4b0760b246ad539b3e8ea47470b613c4130ae25844b1db13f76965"
+  },
+  {
+    "path": "crew-bridge.js",
+    "bytes": 4632,
+    "sha256": "d78bd2d7ad9a1263752252a2633ef0aff6c4b7c75fcea5b822b4b1d37007a946"
+  },
+  {
+    "path": "crew-campaign.js",
+    "bytes": 35781,
+    "sha256": "2ae6b7080f9ef64d0e5e0d2ca4167eca0d6518a20d4d4971ffc54b7532899a75"
+  },
+  {
+    "path": "data.js",
+    "bytes": 277244,
+    "sha256": "fccb2fa094426853e8a992dfc22005b2a0ee00978f3e86eaff45b9f9f7bc889d"
+  },
+  {
+    "path": "dossier.css",
+    "bytes": 13790,
+    "sha256": "b118cd3d128f3d62d71db1ecbad97d3caf2317e222391e24f3187853f5b18f1d"
+  },
+  {
+    "path": "fonts/Dossier-Bold.woff",
+    "bytes": 28392,
+    "sha256": "2106082f17bd554d44557617b0789f049fe8eb1dd6f84c9919cd0b80cf5cc9fe"
+  },
+  {
+    "path": "fonts/LICENSE.txt",
+    "bytes": 52517,
+    "sha256": "1315a62758a603a3e6e87a79b8389563789c59c1740b9db8bc2b20e2e2145458"
+  },
+  {
+    "path": "index.html",
+    "bytes": 13583,
+    "sha256": "109170760d6fb23addc6d4be8e19dcc8e7b5e5b4509221c6ff57692839f5399e"
+  },
+  {
+    "path": "map-graphics.css",
+    "bytes": 8801,
+    "sha256": "0831f28cfcf7f759517feb3beb75b1d87e3f56e701ac7963ebe22ca57f8442e9"
+  },
+  {
+    "path": "streets-data.js",
+    "bytes": 88936,
+    "sha256": "e7aa1e3971c23d4976d38f13890bd17193df0286cb1cd6e74836cce219e8ce5d"
+  },
+  {
+    "path": "streets-data.json",
+    "bytes": 88911,
+    "sha256": "38e82da47a24905639e7535f18e8b69b2888a6bccec07381dada9827e5af2965"
+  },
+  {
+    "path": "style-textures/dry-ink-v1.png",
+    "bytes": 305952,
+    "sha256": "3edd46eda410076e7f58c5597d2c6dda6df2913b961e2ca8e016dc939f8f384b"
+  },
+  {
+    "path": "style-textures/photocopy-grain-v1.png",
+    "bytes": 289208,
+    "sha256": "37a954ac5119a5bd918fdd9c5c6b1323efc915a110d27ad5458d0095cafd74f9"
+  },
+  {
+    "path": "style.css",
+    "bytes": 21532,
+    "sha256": "7ddbe23c019c1179299d54b4ed4c97cde5014031c282e07f1fa2a7e008eca13b"
+  },
+  {
+    "path": "theme.js",
+    "bytes": 4292,
+    "sha256": "1b7b73187a53e676b71d24e5bd5064b5eeabeb38595ffe73491b5a55517e63ad"
+  },
+  {
+    "path": "transit-data.js",
+    "bytes": 8677,
+    "sha256": "aa21e0c5b6a3a81cfd468209e48f03401cc64660cba31e0fd98e380135d63200"
+  },
+  {
+    "path": "transit-data.json",
+    "bytes": 8652,
+    "sha256": "49c1179276a01e0fccc8c547b8c4b387423db73f2703659a62715ab6b11297a4"
+  },
+  {
+    "path": "transit.js",
+    "bytes": 7135,
+    "sha256": "27828a905e1abaf78d3960298c7a39647ed701da0e04c233f9bcb53d84935b2a"
+  },
+  {
+    "path": "world-data.js",
+    "bytes": 165875,
+    "sha256": "677122c05c901bc6f9207d7bd64265a0a098355be116fcc04918024b8cfe0f20"
+  },
+  {
+    "path": "world-data.json",
+    "bytes": 165852,
+    "sha256": "9a4b8d7145a614a68d9f4a279f717cd799b01ca35771796b2838b3c89dceabe5"
+  }
+]

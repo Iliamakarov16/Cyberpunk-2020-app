@@ -1,0 +1,150 @@
+{
+  "version": "v5-research-summary",
+  "scope": "Research-only canon/geometry policy; does not alter Site checkout.",
+  "canonSources": [
+    {
+      "id": "ncs1991-freeways-p14",
+      "title": "Night City Sourcebook (1991): Night City Area Freeways",
+      "printedPage": 14,
+      "pdfPage": 15,
+      "localImage": "research/topology-book-015.png",
+      "supports": [
+        "Del Coronado Bridge",
+        "16 Loop",
+        "828",
+        "126",
+        "928",
+        "16–828 Interchange",
+        "828–928 North Interchange",
+        "126–828 Interchange",
+        "126–828 South Interchange",
+        "828 to I5",
+        "Del Coronado Bay",
+        "San Morro Bay",
+        "North Oak",
+        "Westbrook",
+        "South Night City",
+        "Pacifica",
+        "Rancho Coronado",
+        "Heywood"
+      ],
+      "precision": "Regional schematic; topology and names authoritative, exact lengths/angles/parcels not established."
+    },
+    {
+      "id": "ncs1991-ferry-p16",
+      "title": "Night City Sourcebook: Night City Ferry Building / Marina Area",
+      "printedPage": 16,
+      "pdfPage": 17,
+      "localImage": "research/topology-book-017.png",
+      "supports": [
+        "Night City Ferry Corp",
+        "Ferry Building",
+        "scheduled public water transport"
+      ],
+      "precision": "Venue/transport confirmation, not precise global ferry route geometry."
+    },
+    {
+      "id": "ncs1991-history-p33",
+      "title": "Night City Sourcebook: Vision & Fire / A Brief History of Night City",
+      "printedPage": 33,
+      "pdfPage": 34,
+      "localImage": "research/topology-book-034.png",
+      "supports": [
+        "Dredging of Del Coronado Bay before 2020",
+        "Dredged material used to fill old Morro Bay",
+        "Artificially created land for Old Downtown",
+        "City developed around engineered port"
+      ],
+      "precision": "Explains that shore engineering is canonical. Does not by itself prove a specific2023–2077 San Morro reclamation or bridge programme."
+    }
+  ],
+  "referenceSources": [
+    {
+      "id": "draken2020",
+      "title": "Draken RPG Maps: Night City2020",
+      "path": "upload/01-17915869177873961176432688589260.jpg",
+      "official": false,
+      "supports": [
+        "Approximate regional silhouette",
+        "Visual overview layout",
+        "Numbered positions1–96 as fan-reference coordinates"
+      ],
+      "doesNotEstablish": [
+        "Exact canonical district boundaries",
+        "Every venue’s canonical address",
+        "External freeway number1",
+        "Exact2020–2077 transformation"
+      ]
+    },
+    {
+      "id": "previous-fan2020",
+      "path": "upload/02-1000062998.jpg",
+      "official": false,
+      "note": "Similar overview geometry labels external road101; does not resolve Draken1 or primary928."
+    }
+  ],
+  "notes": [
+    {
+      "topic": "north-bridge",
+      "decision": "Use proper name Del Coronado Bridge. Draw a northern bridge on16between North Oak and the central peninsula; label placement may follow Draken, but location remains schematic."
+    },
+    {
+      "topic": "mainland-connection",
+      "decision": "Central old Night City is a peninsula, connected on its eastern side. Never turn it into an isolated rectangular island."
+    },
+    {
+      "topic": "south-bay",
+      "decision": "Keep wide San Morro Bay open westward. No direct north-to-south road bridge over its open water is shown in the supplied2020overview or primary regional freeway schematic; reach southern suburbs around east side or by canonical ferry transport."
+    },
+    {
+      "topic": "highway-16",
+      "decision": "Keep approximate Draken16 route / loop and proper Del Coronado Bridge; annotate regional route geometry as reference registration, not surveyed canonical coordinates."
+    },
+    {
+      "topic": "highway-828",
+      "decision": "Keep its approximate Draken corridor around the eastern city and through Heywood. Number 828 is confirmed by primary Sourcebook; exact bends, widths and interchanges on fan trace are schematic."
+    },
+    {
+      "topic": "highway-126",
+      "decision": "Keep its approximate Draken corridor through Pacifica/Rancho Coronado to the 828 system. Number 126 is confirmed by primary Sourcebook; exact fan line is approximate."
+    },
+    {
+      "topic": "highway-928",
+      "decision": "Do not silently relabel Draken external road as928. Primary Sourcebook confirms a parallel inland 928 route and828–928 North Interchange, but its registration onto the Draken trace is unresolved. Minimal honest map omits drawn 928 alignment and documents it in source/topology note until registered."
+    },
+    {
+      "topic": "outer-draken-road",
+      "decision": "Draw as muted unnamed external highway if needed for visual context. Suppress California 1 / 101 number shields; neither fan label is established by primary schematic. Do not imply 928 geometric correspondence."
+    },
+    {
+      "topic": "military-base",
+      "decision": "Primary freeway map showsNorCal Military Base near the easternDel Coronado Bay shore south of Westbrook; Draken anchors it far north. Keep a region-level mention unless a primary-plan registration resolves the location."
+    },
+    {
+      "topic": "building-positions",
+      "decision": "Use 96 Draken positions only as reference candidates matched byEnglish name/source. Prioritize primary Sourcebookdistrict for The Slammer (A4), Short Circuit (B4), 24 Hour Cafe (A5). Preserve canonical record IDs; Draken numbers cannot become source IDs."
+    }
+  ],
+  "minimumMainMapRoadDisplay": {
+    "visibleNumberedRoutes": [
+      "16",
+      "828",
+      "126"
+    ],
+    "bridgeNames": [
+      "Del Coronado Bridge"
+    ],
+    "unresolvedRoutesToAvoidDrawingAsCertain": [
+      "928"
+    ],
+    "externalRoadLabel": null,
+    "tooltip": "Региональная линия адаптирована по обзорной карте 2020; точные изгибы, масштабы и развязки схематичны.",
+    "canonBasis": "Names/topology: Night City Sourcebook p14; overview pixel registration: unofficialDraken 2020."
+  },
+  "outputs": {
+    "geometry": "research/v5-candidate-geometry.json",
+    "locations": "research/v5-overview-locations.json",
+    "geometryBuilder": "research/build-v5-candidate-geometry.py",
+    "locationsBuilder": "research/build-v5-overview-locations.py"
+  }
+}

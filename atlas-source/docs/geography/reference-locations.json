@@ -1,0 +1,2144 @@
+{
+  "version": "v5-Draken-overview-locations",
+  "source": {
+    "path": "upload/01-17915869177873961176432688589260.jpg",
+    "name": "Draken RPG Maps: Night City 2020",
+    "official": false,
+    "width": 1536,
+    "height": 1207,
+    "legendRight": 442,
+    "note": "Independent pixel trace from fan overview; positions/geometries are approximate and do not establish exact canonical parcel boundaries."
+  },
+  "sourceProjection": {
+    "type": "uniform-pixel-fit",
+    "crop": [
+      442,
+      0,
+      1536,
+      1207
+    ],
+    "output": [
+      1024,
+      1024
+    ],
+    "scale": 0.848384424192212,
+    "offsetX": 47.93371996686,
+    "offsetY": 0,
+    "formula": "x=(px-442)*1024/1207+47.9337199669; y=py*1024/1207",
+    "north": "up",
+    "ocean": "west/left",
+    "boundsNormalized": [
+      47.934,
+      0,
+      976.066,
+      1024
+    ],
+    "inverse": "px=(x-offsetX)/scale+442; py=y/scale"
+  },
+  "policy": "All96 numbers and approximate label-box centres were read visually from the supplied Draken overview. Numbers identify this illustration only; match canonical catalog records by English name+source/district, never by integer. These are fan-reference positions; primary Sourcebook district plans supersede disagreements. No extracted source-plan numeric ID is invented here.",
+  "locations": [
+    {
+      "number": 1,
+      "english": "Night City Museum",
+      "matchEnglish": [
+        "Night City Museum"
+      ],
+      "sourcePoint": [
+        919,
+        453
+      ],
+      "pointNormalized": [
+        452.613,
+        384.318
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 2,
+      "english": "Burroughs Municipal Library",
+      "matchEnglish": [
+        "Burroughs Municipal Library"
+      ],
+      "sourcePoint": [
+        919,
+        483
+      ],
+      "pointNormalized": [
+        452.613,
+        409.77
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 3,
+      "english": "NC Technical School",
+      "matchEnglish": [
+        "Night City Technical College",
+        "Night City Technical School"
+      ],
+      "sourcePoint": [
+        984,
+        554
+      ],
+      "pointNormalized": [
+        507.758,
+        470.005
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Draken calls this NC Technical School. The Sourcebook catalog uses Night City Technical College (B3#12). Confirm identity before conflating it with Technical Exchange (A2#18)."
+    },
+    {
+      "number": 4,
+      "english": "Night City University",
+      "matchEnglish": [
+        "Night City University",
+        "N.C.U."
+      ],
+      "sourcePoint": [
+        649,
+        647
+      ],
+      "pointNormalized": [
+        223.549,
+        548.905
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 5,
+      "english": "Serengeti Gallery",
+      "matchEnglish": [
+        "Serengeti Gallery"
+      ],
+      "sourcePoint": [
+        674,
+        588
+      ],
+      "pointNormalized": [
+        244.759,
+        498.85
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 6,
+      "english": "NCU Fine Arts Campus",
+      "matchEnglish": [
+        "NCU Fine Arts Campus"
+      ],
+      "sourcePoint": [
+        649,
+        589
+      ],
+      "pointNormalized": [
+        223.549,
+        499.698
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 7,
+      "english": "Matsuka Gallery",
+      "matchEnglish": [
+        "Matsuka Gallery"
+      ],
+      "sourcePoint": [
+        1243,
+        659
+      ],
+      "pointNormalized": [
+        727.49,
+        559.085
+      ],
+      "category": "culture",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 8,
+      "english": "The Atlantis",
+      "matchEnglish": [
+        "Atlantis",
+        "The Atlantis"
+      ],
+      "sourcePoint": [
+        921,
+        660
+      ],
+      "pointNormalized": [
+        454.31,
+        559.934
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 9,
+      "english": "L’Étranger",
+      "matchEnglish": [
+        "The International Cafe and L’Etranger",
+        "L’Etranger",
+        "L’Étranger"
+      ],
+      "sourcePoint": [
+        840,
+        476
+      ],
+      "pointNormalized": [
+        385.591,
+        403.831
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 10,
+      "english": "Rainbow Nights",
+      "matchEnglish": [
+        "The Rainbow Nights Dance Club",
+        "Rainbow Nights"
+      ],
+      "sourcePoint": [
+        858,
+        477
+      ],
+      "pointNormalized": [
+        400.862,
+        404.679
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 11,
+      "english": "The Slammer",
+      "matchEnglish": [
+        "The Slammer"
+      ],
+      "sourcePoint": [
+        733,
+        881
+      ],
+      "pointNormalized": [
+        294.814,
+        747.427
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "conflicts-with-primary-district",
+      "matchByNumber": false,
+      "note": "Draken places this near the south coast. Sourcebook The Slammer is A4#3 / Upper Eastside, and Core Rulebook position48 is also north/east of central plaza. This Draken coordinate must not override primary district evidence.",
+      "conflictWithPrimaryDistrict": {
+        "sourceId": "ncs-a4-3",
+        "districtId": "A4",
+        "district": "Upper Eastside"
+      }
+    },
+    {
+      "number": 12,
+      "english": "Maelstrom",
+      "matchEnglish": [
+        "Maelstrom",
+        "Maelstorm"
+      ],
+      "sourcePoint": [
+        938,
+        426
+      ],
+      "pointNormalized": [
+        468.732,
+        361.412
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 13,
+      "english": "Cafe Chrome",
+      "matchEnglish": [
+        "Cafe Chrome",
+        "Café Chrome"
+      ],
+      "sourcePoint": [
+        938,
+        438
+      ],
+      "pointNormalized": [
+        468.732,
+        371.592
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Legend has a nightclub Cafe Chrome at13 and a bar Café Chrome at86. Treat as distinct source entries until Sourcebook identity is resolved, not duplicate pins of one place."
+    },
+    {
+      "number": 14,
+      "english": "The Advocate",
+      "matchEnglish": [
+        "The Advocate"
+      ],
+      "sourcePoint": [
+        944,
+        459
+      ],
+      "pointNormalized": [
+        473.823,
+        389.408
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 15,
+      "english": "The Grand Illusion",
+      "matchEnglish": [
+        "The Grand Illusion"
+      ],
+      "sourcePoint": [
+        960,
+        481
+      ],
+      "pointNormalized": [
+        487.397,
+        408.073
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 16,
+      "english": "Pier 3 Paradise",
+      "matchEnglish": [
+        "Pier Three Paradise",
+        "Pier 3 Paradise"
+      ],
+      "sourcePoint": [
+        1042,
+        430
+      ],
+      "pointNormalized": [
+        556.964,
+        364.805
+      ],
+      "category": "nightlife",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 17,
+      "english": "The Mars Theater",
+      "matchEnglish": [
+        "The Mars Theater"
+      ],
+      "sourcePoint": [
+        1229,
+        681
+      ],
+      "pointNormalized": [
+        715.612,
+        577.75
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 18,
+      "english": "Pier Memorial Sports Arena",
+      "matchEnglish": [
+        "Pier Memorial Sports Arena"
+      ],
+      "sourcePoint": [
+        1007,
+        597
+      ],
+      "pointNormalized": [
+        527.271,
+        506.486
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 19,
+      "english": "Colonial Studios",
+      "matchEnglish": [
+        "Colonial Studios"
+      ],
+      "sourcePoint": [
+        1071,
+        599
+      ],
+      "pointNormalized": [
+        581.568,
+        508.182
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 20,
+      "english": "Biograph Theater",
+      "matchEnglish": [
+        "Biograph Theater"
+      ],
+      "sourcePoint": [
+        621,
+        645
+      ],
+      "pointNormalized": [
+        199.795,
+        547.208
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 21,
+      "english": "Cinemaxus",
+      "matchEnglish": [
+        "CiNEmaXUS",
+        "Cinemaxus"
+      ],
+      "sourcePoint": [
+        984,
+        455
+      ],
+      "pointNormalized": [
+        507.758,
+        386.015
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 22,
+      "english": "McCartney Stadium",
+      "matchEnglish": [
+        "McCartney Field Stadium",
+        "McCartney Stadium"
+      ],
+      "sourcePoint": [
+        1006,
+        435
+      ],
+      "pointNormalized": [
+        526.423,
+        369.047
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 23,
+      "english": "Reunification Hall",
+      "matchEnglish": [
+        "Reunification Hall and Social Club",
+        "Reunification Hall"
+      ],
+      "sourcePoint": [
+        1105,
+        408
+      ],
+      "pointNormalized": [
+        610.413,
+        346.141
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 24,
+      "english": "Bodakkan Performing Arts Center",
+      "matchEnglish": [
+        "Bodukkan Performance Center",
+        "Bodukkan",
+        "Bodakkan Performing Arts Center"
+      ],
+      "sourcePoint": [
+        952,
+        606
+      ],
+      "pointNormalized": [
+        480.61,
+        514.121
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Spelling in Draken differs: Bodakkan Performing Arts Center versus canonical catalog Bodukkan Performance Center."
+    },
+    {
+      "number": 25,
+      "english": "Yacht Club",
+      "matchEnglish": [
+        "Yacht Club"
+      ],
+      "sourcePoint": [
+        987,
+        369
+      ],
+      "pointNormalized": [
+        510.303,
+        313.054
+      ],
+      "category": "entertainment",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 26,
+      "english": "NCPD Precinct #1",
+      "matchEnglish": [
+        "City Police Precinct #1",
+        "NCPD Precinct #1"
+      ],
+      "sourcePoint": [
+        927,
+        494
+      ],
+      "pointNormalized": [
+        459.4,
+        419.102
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 27,
+      "english": "NCPD Precinct #2",
+      "matchEnglish": [
+        "City Police Precinct #2",
+        "NCPD Precinct #2"
+      ],
+      "sourcePoint": [
+        856,
+        394
+      ],
+      "pointNormalized": [
+        399.165,
+        334.263
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 28,
+      "english": "NCPD Precinct #3",
+      "matchEnglish": [
+        "City Police Precinct #3",
+        "NCPD Precinct #3"
+      ],
+      "sourcePoint": [
+        965,
+        655
+      ],
+      "pointNormalized": [
+        491.639,
+        555.692
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 29,
+      "english": "North Oak Precinct",
+      "matchEnglish": [
+        "North Oak Precinct"
+      ],
+      "sourcePoint": [
+        845,
+        195
+      ],
+      "pointNormalized": [
+        389.833,
+        165.435
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 30,
+      "english": "Rancho Coronado Precinct",
+      "matchEnglish": [
+        "Rancho Coronado Precinct"
+      ],
+      "sourcePoint": [
+        1005,
+        1030
+      ],
+      "pointNormalized": [
+        525.574,
+        873.836
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 31,
+      "english": "Harbormaster’s Office",
+      "matchEnglish": [
+        "Harbormaster’s Office"
+      ],
+      "sourcePoint": [
+        1100,
+        453
+      ],
+      "pointNormalized": [
+        606.171,
+        384.318
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 32,
+      "english": "NC Court of Justice",
+      "matchEnglish": [
+        "Hall of Justice",
+        "NC Court of Justice"
+      ],
+      "sourcePoint": [
+        899,
+        465
+      ],
+      "pointNormalized": [
+        435.645,
+        394.499
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 33,
+      "english": "Night City Hall",
+      "matchEnglish": [
+        "City Hall",
+        "Night City Hall"
+      ],
+      "sourcePoint": [
+        899,
+        483
+      ],
+      "pointNormalized": [
+        435.645,
+        409.77
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 34,
+      "english": "Night City Fire Station",
+      "matchEnglish": [
+        "Night City Fire Station #1",
+        "Night City Fire Station"
+      ],
+      "sourcePoint": [
+        984,
+        471
+      ],
+      "pointNormalized": [
+        507.758,
+        399.589
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 35,
+      "english": "Heywood Fire Station",
+      "matchEnglish": [
+        "Night City Fire Station #2",
+        "Heywood Fire Station"
+      ],
+      "sourcePoint": [
+        1334,
+        615
+      ],
+      "pointNormalized": [
+        804.693,
+        521.756
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 36,
+      "english": "Stuart Hospital",
+      "matchEnglish": [
+        "Stuart Hospital"
+      ],
+      "sourcePoint": [
+        623,
+        591
+      ],
+      "pointNormalized": [
+        201.491,
+        501.395
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 37,
+      "english": "West Hill Library",
+      "matchEnglish": [
+        "West Hill Library"
+      ],
+      "sourcePoint": [
+        781,
+        526
+      ],
+      "pointNormalized": [
+        335.536,
+        446.25
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 38,
+      "english": "City Medical Center",
+      "matchEnglish": [
+        "City Medical Center"
+      ],
+      "sourcePoint": [
+        1036,
+        538
+      ],
+      "pointNormalized": [
+        551.874,
+        456.431
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 39,
+      "english": "Night City Transit Center",
+      "matchEnglish": [
+        "Transit Center",
+        "Night City Transit Center"
+      ],
+      "sourcePoint": [
+        963,
+        564
+      ],
+      "pointNormalized": [
+        489.942,
+        478.489
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 40,
+      "english": "Crisis Medical Center",
+      "matchEnglish": [
+        "Crisis Medical Center"
+      ],
+      "sourcePoint": [
+        964,
+        627
+      ],
+      "pointNormalized": [
+        490.79,
+        531.937
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 41,
+      "english": "Night City Postal Service",
+      "matchEnglish": [
+        "Night City Postal Service"
+      ],
+      "sourcePoint": [
+        1019,
+        449
+      ],
+      "pointNormalized": [
+        537.452,
+        380.925
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 42,
+      "english": "Ferry Building",
+      "matchEnglish": [
+        "Ferry Building"
+      ],
+      "sourcePoint": [
+        944,
+        371
+      ],
+      "pointNormalized": [
+        473.823,
+        314.751
+      ],
+      "category": "public-service",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 43,
+      "english": "Arasaka",
+      "matchEnglish": [
+        "Arasaka Tower",
+        "Arasaka"
+      ],
+      "sourcePoint": [
+        906,
+        518
+      ],
+      "pointNormalized": [
+        441.584,
+        439.463
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 44,
+      "english": "Microtech",
+      "matchEnglish": [
+        "Microtech"
+      ],
+      "sourcePoint": [
+        877,
+        518
+      ],
+      "pointNormalized": [
+        416.981,
+        439.463
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 45,
+      "english": "Raven Microcyb",
+      "matchEnglish": [
+        "Raven Microcyb"
+      ],
+      "sourcePoint": [
+        857,
+        533
+      ],
+      "pointNormalized": [
+        400.013,
+        452.189
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 46,
+      "english": "EBM",
+      "matchEnglish": [
+        "Eurobusiness Machines",
+        "EBM"
+      ],
+      "sourcePoint": [
+        854,
+        575
+      ],
+      "pointNormalized": [
+        397.468,
+        487.821
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 47,
+      "english": "Petrochem",
+      "matchEnglish": [
+        "Petrochem"
+      ],
+      "sourcePoint": [
+        875,
+        542
+      ],
+      "pointNormalized": [
+        415.284,
+        459.824
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 48,
+      "english": "Plaza Tower",
+      "matchEnglish": [
+        "Plaza Business Tower",
+        "Plaza Tower"
+      ],
+      "sourcePoint": [
+        889,
+        568
+      ],
+      "pointNormalized": [
+        427.162,
+        481.882
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 49,
+      "english": "World Sat",
+      "matchEnglish": [
+        "WorldSat Communications",
+        "World Sat"
+      ],
+      "sourcePoint": [
+        929,
+        538
+      ],
+      "pointNormalized": [
+        461.097,
+        456.431
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 50,
+      "english": "Net 54",
+      "matchEnglish": [
+        "Network 54 Offices",
+        "Net 54"
+      ],
+      "sourcePoint": [
+        876,
+        591
+      ],
+      "pointNormalized": [
+        416.133,
+        501.395
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 51,
+      "english": "Merrill, Asukaga & Finch",
+      "matchEnglish": [
+        "Merrill, Asukaga & Finch"
+      ],
+      "sourcePoint": [
+        908,
+        590
+      ],
+      "pointNormalized": [
+        443.281,
+        500.547
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 52,
+      "english": "Orbital Air",
+      "matchEnglish": [
+        "Orbital Air Offices",
+        "Orbital Air"
+      ],
+      "sourcePoint": [
+        929,
+        571
+      ],
+      "pointNormalized": [
+        461.097,
+        484.428
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 53,
+      "english": "Infocomp",
+      "matchEnglish": [
+        "InfoComp",
+        "Infocomp"
+      ],
+      "sourcePoint": [
+        879,
+        554
+      ],
+      "pointNormalized": [
+        418.678,
+        470.005
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 54,
+      "english": "West City Tower",
+      "matchEnglish": [
+        "West City Tower"
+      ],
+      "sourcePoint": [
+        899,
+        553
+      ],
+      "pointNormalized": [
+        435.645,
+        469.157
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 55,
+      "english": "Arasaka Weapon Assembly",
+      "matchEnglish": [
+        "Arasaka Weapon Assembly"
+      ],
+      "sourcePoint": [
+        1299,
+        850
+      ],
+      "pointNormalized": [
+        774.999,
+        721.127
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 56,
+      "english": "Biotechnica Research Station",
+      "matchEnglish": [
+        "Biotechnica Research Station"
+      ],
+      "sourcePoint": [
+        1232,
+        990
+      ],
+      "pointNormalized": [
+        718.157,
+        839.901
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 57,
+      "english": "EBM Assembly",
+      "matchEnglish": [
+        "EBM Assembly"
+      ],
+      "sourcePoint": [
+        1066,
+        1036
+      ],
+      "pointNormalized": [
+        577.326,
+        878.926
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 58,
+      "english": "Militech Training",
+      "matchEnglish": [
+        "Militech Training"
+      ],
+      "sourcePoint": [
+        1105,
+        1110
+      ],
+      "pointNormalized": [
+        610.413,
+        941.707
+      ],
+      "category": "corporation",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 59,
+      "english": "Chen’s Oriental Garden",
+      "matchEnglish": [
+        "Chen’s Oriental Garden"
+      ],
+      "sourcePoint": [
+        1026,
+        643
+      ],
+      "pointNormalized": [
+        543.39,
+        545.511
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 60,
+      "english": "The Silver Dragon",
+      "matchEnglish": [
+        "The Silver Dragon"
+      ],
+      "sourcePoint": [
+        1026,
+        669
+      ],
+      "pointNormalized": [
+        543.39,
+        567.569
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 61,
+      "english": "The Hacienda",
+      "matchEnglish": [
+        "The Hacienda"
+      ],
+      "sourcePoint": [
+        1203,
+        691
+      ],
+      "pointNormalized": [
+        693.554,
+        586.234
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 62,
+      "english": "Night City Hilton",
+      "matchEnglish": [
+        "Night City Hilton"
+      ],
+      "sourcePoint": [
+        1216,
+        656
+      ],
+      "pointNormalized": [
+        704.583,
+        556.54
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 63,
+      "english": "Highcourt Plaza Hotel",
+      "matchEnglish": [
+        "Highcourt Plaza Hotel"
+      ],
+      "sourcePoint": [
+        1043,
+        589
+      ],
+      "pointNormalized": [
+        557.813,
+        499.698
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 64,
+      "english": "Red Door Inn",
+      "matchEnglish": [
+        "Red Door Inn"
+      ],
+      "sourcePoint": [
+        1042,
+        602
+      ],
+      "pointNormalized": [
+        556.964,
+        510.727
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 65,
+      "english": "Knight-Marriot Hotel",
+      "matchEnglish": [
+        "Knight-Marriott Hotel",
+        "Knight-Marriot Hotel"
+      ],
+      "sourcePoint": [
+        750,
+        477
+      ],
+      "pointNormalized": [
+        309.236,
+        404.679
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 66,
+      "english": "Regal Hotel",
+      "matchEnglish": [
+        "The Regal Hotel",
+        "Regal Hotel"
+      ],
+      "sourcePoint": [
+        807,
+        491
+      ],
+      "pointNormalized": [
+        357.594,
+        416.557
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 67,
+      "english": "Kuroshita Hotel",
+      "matchEnglish": [
+        "The Kuroshita Hotel and Convention Center",
+        "Kuroshita Hotel"
+      ],
+      "sourcePoint": [
+        785,
+        508
+      ],
+      "pointNormalized": [
+        338.93,
+        430.979
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 68,
+      "english": "The Ashcroft",
+      "matchEnglish": [
+        "The Ashcroft Hotel",
+        "The Ashcroft"
+      ],
+      "sourcePoint": [
+        957,
+        548
+      ],
+      "pointNormalized": [
+        484.852,
+        464.915
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 69,
+      "english": "The Havenfort",
+      "matchEnglish": [
+        "The Havenford Hotel",
+        "The Havenfort"
+      ],
+      "sourcePoint": [
+        953,
+        468
+      ],
+      "pointNormalized": [
+        481.458,
+        397.044
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Draken legend spells The Havenfort; Sourcebook A4#22 is The Havenford Hotel."
+    },
+    {
+      "number": 70,
+      "english": "The Jellical Inn",
+      "matchEnglish": [
+        "The Jellical Inn"
+      ],
+      "sourcePoint": [
+        1091,
+        557
+      ],
+      "pointNormalized": [
+        598.535,
+        472.55
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 71,
+      "english": "The Good Night Coffins",
+      "matchEnglish": [
+        "Good Night Rooms and Coffins",
+        "The Good Night Coffins"
+      ],
+      "sourcePoint": [
+        1123,
+        432
+      ],
+      "pointNormalized": [
+        625.684,
+        366.502
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 72,
+      "english": "Burleson Tower",
+      "matchEnglish": [
+        "Burleson Tower (and associated structures)",
+        "Burleson Tower"
+      ],
+      "sourcePoint": [
+        875,
+        466
+      ],
+      "pointNormalized": [
+        415.284,
+        395.347
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 73,
+      "english": "Hotel Hamilton",
+      "matchEnglish": [
+        "Hotel Hamilton"
+      ],
+      "sourcePoint": [
+        1007,
+        535
+      ],
+      "pointNormalized": [
+        527.271,
+        453.886
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 74,
+      "english": "Hotel Yamagumi",
+      "matchEnglish": [
+        "Hotel Yamagumi"
+      ],
+      "sourcePoint": [
+        950,
+        589
+      ],
+      "pointNormalized": [
+        478.913,
+        499.698
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 75,
+      "english": "The Paragon",
+      "matchEnglish": [
+        "Newgate Prison/ Paragon",
+        "The Paragon"
+      ],
+      "sourcePoint": [
+        626,
+        682
+      ],
+      "pointNormalized": [
+        204.036,
+        578.598
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 76,
+      "english": "Manhattan’s Bar",
+      "matchEnglish": [
+        "Manhattan’s Bar"
+      ],
+      "sourcePoint": [
+        825,
+        491
+      ],
+      "pointNormalized": [
+        372.865,
+        416.557
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 77,
+      "english": "The Night Owl",
+      "matchEnglish": [
+        "The Night Owl"
+      ],
+      "sourcePoint": [
+        1067,
+        476
+      ],
+      "pointNormalized": [
+        578.174,
+        403.831
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 78,
+      "english": "The Afterlife",
+      "matchEnglish": [
+        "The Afterlife"
+      ],
+      "sourcePoint": [
+        1007,
+        470
+      ],
+      "pointNormalized": [
+        527.271,
+        398.741
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 79,
+      "english": "Short Circuit",
+      "matchEnglish": [
+        "Short Circuit"
+      ],
+      "sourcePoint": [
+        783,
+        516
+      ],
+      "pointNormalized": [
+        337.233,
+        437.766
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "conflicts-with-primary-district",
+      "matchByNumber": false,
+      "note": "Draken places Short Circuit in the West Hill vicinity. The existing primary catalog locates the named venue in B4 / Medical Center. Correct by primary district evidence before publishing canonical coordinate.",
+      "conflictWithPrimaryDistrict": {
+        "sourceId": "named-short-circuit",
+        "districtId": "B4",
+        "district": "Medical Center"
+      }
+    },
+    {
+      "number": 80,
+      "english": "Totentanz",
+      "matchEnglish": [
+        "Totentanz"
+      ],
+      "sourcePoint": [
+        885,
+        453
+      ],
+      "pointNormalized": [
+        423.768,
+        384.318
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 81,
+      "english": "The Forlorn Hope",
+      "matchEnglish": [
+        "The Forlorn Hope"
+      ],
+      "sourcePoint": [
+        1149,
+        571
+      ],
+      "pointNormalized": [
+        647.742,
+        484.428
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 82,
+      "english": "Jesse James’ Kosher Deli",
+      "matchEnglish": [
+        "Jesse James’ Non-Kosher Deli",
+        "Jesse James’ Kosher Deli"
+      ],
+      "sourcePoint": [
+        853,
+        820
+      ],
+      "pointNormalized": [
+        396.62,
+        695.675
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Draken legend says Kosher Deli; the Core Rulebook canonical name is Jesse James’ Non-Kosher Deli. Do not lose Non-."
+    },
+    {
+      "number": 83,
+      "english": "Metalstorm",
+      "matchEnglish": [
+        "Metalstorm"
+      ],
+      "sourcePoint": [
+        853,
+        1016
+      ],
+      "pointNormalized": [
+        396.62,
+        861.959
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 84,
+      "english": "Joe’s Diner",
+      "matchEnglish": [
+        "Joe’s Diner"
+      ],
+      "sourcePoint": [
+        1063,
+        409
+      ],
+      "pointNormalized": [
+        574.78,
+        346.989
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 85,
+      "english": "Metro Cafe",
+      "matchEnglish": [
+        "Metro Cafe"
+      ],
+      "sourcePoint": [
+        624,
+        631
+      ],
+      "pointNormalized": [
+        202.34,
+        535.331
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 86,
+      "english": "Café Chrome",
+      "matchEnglish": [
+        "Café Chrome",
+        "Cafe Chrome"
+      ],
+      "sourcePoint": [
+        937,
+        468
+      ],
+      "pointNormalized": [
+        467.884,
+        397.044
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 87,
+      "english": "Guevarra’s",
+      "matchEnglish": [
+        "Guevarra’s"
+      ],
+      "sourcePoint": [
+        1047,
+        498
+      ],
+      "pointNormalized": [
+        561.206,
+        422.495
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 88,
+      "english": "The Marina",
+      "matchEnglish": [
+        "The Marina"
+      ],
+      "sourcePoint": [
+        1142,
+        431
+      ],
+      "pointNormalized": [
+        641.803,
+        365.654
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 89,
+      "english": "Franciscini’s Cafe",
+      "matchEnglish": [
+        "Franciscini’s Cafe"
+      ],
+      "sourcePoint": [
+        725,
+        490
+      ],
+      "pointNormalized": [
+        288.027,
+        415.708
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 90,
+      "english": "24 Hour Cafe",
+      "matchEnglish": [
+        "24 Hour Cafe"
+      ],
+      "sourcePoint": [
+        1147,
+        530
+      ],
+      "pointNormalized": [
+        646.045,
+        449.644
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "conflicts-with-primary-district",
+      "matchByNumber": false,
+      "note": "Draken puts24HourCafe near the eastern road junction; Sourcebook A5#10 places24HourCafe in Upper Marina. Exact location needs reconciliation with primary district plan.",
+      "conflictWithPrimaryDistrict": {
+        "sourceId": "ncs-a5-10",
+        "districtId": "A5",
+        "district": "Upper Marina"
+      }
+    },
+    {
+      "number": 91,
+      "english": "American Bar",
+      "matchEnglish": [
+        "American Bar"
+      ],
+      "sourcePoint": [
+        1033,
+        439
+      ],
+      "pointNormalized": [
+        549.329,
+        372.441
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 92,
+      "english": "Metropolitan Barbecue & Grill",
+      "matchEnglish": [
+        "Metropolitan Barbecue & Grill"
+      ],
+      "sourcePoint": [
+        882,
+        412
+      ],
+      "pointNormalized": [
+        421.223,
+        349.534
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 93,
+      "english": "McDonnell’s",
+      "matchEnglish": [
+        "McDonnell’s"
+      ],
+      "sourcePoint": [
+        649,
+        682
+      ],
+      "pointNormalized": [
+        223.549,
+        578.598
+      ],
+      "category": "hospitality",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 94,
+      "english": "NORPAC Headquarters",
+      "matchEnglish": [
+        "Headquarters, CINC-NORPAC",
+        "NORPAC Headquarters"
+      ],
+      "sourcePoint": [
+        879,
+        90
+      ],
+      "pointNormalized": [
+        418.678,
+        76.355
+      ],
+      "category": "other",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    },
+    {
+      "number": 95,
+      "english": "Night City Metro Airport",
+      "matchEnglish": [
+        "Night City Metro Airport",
+        "Nice City Metro Airport"
+      ],
+      "sourcePoint": [
+        978,
+        765
+      ],
+      "pointNormalized": [
+        502.668,
+        649.014
+      ],
+      "category": "other",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false,
+      "note": "Draken legend typo Nice City Metro Airport was normalized to Night City Metro Airport; this small city metro airport is not the modern international airport.",
+      "legendTranscription": "Nice City Metro Airport"
+    },
+    {
+      "number": 96,
+      "english": "Playland by the Sea",
+      "matchEnglish": [
+        "Playland by the Sea"
+      ],
+      "sourcePoint": [
+        704,
+        1046
+      ],
+      "pointNormalized": [
+        270.21,
+        887.41
+      ],
+      "category": "other",
+      "positionBasis": "visually-read-Draken-number-box",
+      "coordinateConfidence": "medium",
+      "coordinateAccuracyPixels": 6,
+      "canonicalPositionConfidence": "unofficial-reference",
+      "matchByNumber": false
+    }
+  ],
+  "criticalConflicts": [
+    {
+      "number": 11,
+      "sourceId": "ncs-a4-3",
+      "districtId": "A4",
+      "district": "Upper Eastside"
+    },
+    {
+      "number": 79,
+      "sourceId": "named-short-circuit",
+      "districtId": "B4",
+      "district": "Medical Center"
+    },
+    {
+      "number": 90,
+      "sourceId": "ncs-a5-10",
+      "districtId": "A5",
+      "district": "Upper Marina"
+    }
+  ],
+  "count": 96
+}

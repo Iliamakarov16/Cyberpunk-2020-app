@@ -1,0 +1,14 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {JSDOM} from 'jsdom';
+const root=new URL('../',import.meta.url),read=p=>fs.readFileSync(new URL(p,root),'utf8');
+const dom=new JSDOM(read('public/index.html'),{url:'https://atlas.example/?mode=gm',runScripts:'outside-only'}),w=dom.window,d=w.document;
+let width=390,height=850;
+w.matchMedia=()=>({matches:true});w.HTMLElement.prototype.getBoundingClientRect=w.SVGElement.prototype.getBoundingClientRect=()=>({width,height,left:0,top:0});
+for(const name of ['data.js','streets-data.js','world-data.js','transit-data.js','cartography.js','app.js','transit.js'])w.eval(read('public/'+name));
+const api=w.NightCityAtlas;api.selectLocation('core-39');d.getElementById('zoom-in').click();const before=Array.from(api.getContext().view),selected=api.getSelection().id;
+width=0;height=0;w.dispatchEvent(new w.Event('resize'));assert.equal(api.resizeMap(),false);assert.deepEqual(Array.from(api.getContext().view),before,'Hidden iframe never rewrites its camera to fallback dimensions');
+width=390;height=850;assert(api.resizeMap());const resumed=Array.from(api.getContext().view);for(let i=0;i<4;i++)assert(Math.abs(resumed[i]-before[i])<1e-9);assert.equal(api.getSelection().id,selected);
+width=700;height=850;api.resizeMap();const wider=Array.from(api.getContext().view);assert(Math.abs(wider[0]+wider[2]/2-(before[0]+before[2]/2))<1e-9);assert.equal(wider[1],before[1]);assert.equal(wider[3],before[3]);
+api.selectLocation('core-01');let field=d.getElementById('local-notes');field.value='First quick note';field.dispatchEvent(new w.Event('input',{bubbles:true}));api.selectLocation('core-39');field=d.getElementById('local-notes');field.value='Second quick note';field.dispatchEvent(new w.Event('input',{bubbles:true}));assert.equal(w.localStorage.getItem('nc-atlas:note:core-01'),'First quick note');assert.equal(w.localStorage.getItem('nc-atlas:note:core-39'),'Second quick note');
+dom.window.close();console.log('Lifecycle: zero-size hidden iframe ignored; resume keeps selected location, center and zoom; rapid per-location notes persist immediately.');

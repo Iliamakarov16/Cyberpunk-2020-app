@@ -1,0 +1,11 @@
+{
+  "site": "https://night-city-mobile-test.adamantispolaris.chatgpt.site/atlas/",
+  "access": "owner-private",
+  "commit": "892f712feb33ccfdfc326d18b3c61e0e5745c0b4",
+  "version": "appgprj_6acae70644f081919cca210aad3ca357~appgver_66661e59f2188191baca70f5096423ae",
+  "deployment": "appgdep_6acb814106708191948277378e66a246",
+  "succeededAt": "2026-10-11T12:30:01.705382+00:00",
+  "readOnlyManifestSHA256": "404b39dc7b7d1f6f25cf1d3876c8bb4a90de0f92805e44e93f02e1368b78a690",
+  "canonicalManifestSHA256": "123838dabf70a6804076e81563f2eb1984cf50406f1ef221bd0a79ba233f3a23",
+  "apkBuilt": false
+}

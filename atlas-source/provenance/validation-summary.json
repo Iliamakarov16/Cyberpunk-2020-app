@@ -1,0 +1,71 @@
+{
+  "scope": "Atlas 2020 Crew integration source freeze",
+  "validatedAtUtc": "2026-10-10T09:41:25.075573+00:00",
+  "runtimeFiles": 105,
+  "runtimeBytes": 27141042,
+  "manifestSha256": "1e5a773942139e375187281829380a6c3474123a66acdac4fc14be4cba8a9599",
+  "checks": [
+    {
+      "command": "CREW_ATLAS_SOURCE=<Crew source> npm run check",
+      "result": "passed",
+      "coverage": [
+        "25 districts",
+        "433 catalog records + 64 core points",
+        "625 NCART routes",
+        "standalone campaign editor",
+        "five palettes and parent theme sync",
+        "real Crew HTTP + real adapter DOM",
+        "GM CRUD and exact coordinates",
+        "player secret/reveal projection",
+        "CAS conflict and deduplicated timeout retries",
+        "uncertain empty-title DELETE",
+        "changed/hidden/deleted open player details",
+        "identity-bound CSRF",
+        "two accounts × two campaigns local notes",
+        "Back/save/discard/cancel and exact-origin messaging",
+        "zero-size hidden iframe/resume",
+        "storage-failed per-location note buffers",
+        "scope-bound retry/copy/discard including delayed clipboard failures"
+      ]
+    },
+    {
+      "command": "python checks/run-crew-live-http.py <Crew source>",
+      "result": "passed",
+      "coverage": [
+        "independent actual JavaScript adapter against real ephemeral Crew HTTP server",
+        "CSRF",
+        "canonical create",
+        "exact-coordinate move/reveal",
+        "player secret omission",
+        "forged-role rejection",
+        "delete"
+      ]
+    },
+    {
+      "command": "node --check public/app.js; node --check public/crew-campaign.js; node --check public/crew-bridge.js",
+      "result": "passed"
+    },
+    {
+      "command": "independent read-only review",
+      "result": "no unresolved source blocker",
+      "coverage": [
+        "three UI defect reproductions rechecked",
+        "Blob export CSP correction verified",
+        "17 real backend SQLite/HTTP tests reported passing"
+      ]
+    }
+  ],
+  "sourceIntegrity": "8 original fixture files byte-identical; atlas-data.json/data.js differ only in recorded coverage.geographicBase string. Reversing that exact metadata correction reproduces original byte hashes. Coordinates, geometry and source imagery unchanged.",
+  "visualEvidence": "Five qa/*-overview.png and qa/carmine-detail.png are static cartographic exports of actual map SVG; not browser screenshots.",
+  "unverified": [
+    "Native WebView visual layout",
+    "Android SVG-filter rendering/performance",
+    "Physical touch/keyboard/Back behavior",
+    "Device file-export completion"
+  ],
+  "limits": [
+    "Loopback host URLs are not offered as player share links; players use existing Crew host connection and accepted campaign membership.",
+    "Local per-place notes remain unencrypted, unsynchronized device storage; server-private synchronized GM notes are campaign marker fields.",
+    "Catalogue JSON download does not export campaign markers; campaign transfer/backup does."
+  ]
+}

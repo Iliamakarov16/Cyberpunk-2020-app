@@ -1,0 +1,104 @@
+{
+  "projection": "North-up CET to normalized1024",
+  "extentCET": [
+    -6298.0,
+    5815.0,
+    -7684.0,
+    4427.0
+  ],
+  "normalizedSize": 1024,
+  "formulaX": "(cetX+6298)/12113*1024",
+  "formulaY": "(4427-cetY)/12111*1024",
+  "roadGLBtoCET": [
+    "-GLB_X",
+    "+GLB_Z",
+    "+GLB_Y"
+  ],
+  "terrainGLBtoCET": [
+    "+GLB_X",
+    "-GLB_Z",
+    "+GLB_Y"
+  ],
+  "source": "https://github.com/nczoning/nc-zoning-board",
+  "game": "Cyberpunk 2077 game 3D map assets exported using WolvenKit",
+  "buildingFootprints": 254969,
+  "districtCounts": {
+    "westbrook": 38544,
+    "city_center": 41291,
+    "heywood": 41683,
+    "pacifica": 22771,
+    "santo_domingo": 38006,
+    "watson": 42062,
+    "ep1_dogtown": 21882,
+    "ep1_spaceport": 8730
+  },
+  "buildingInstanceBinary": "Little-endian float32 rows: [cetX, cetY, cetZ, hx, hy, hz, qx, qy, qz, qw, districtIndex].",
+  "districtIndexOrder": [
+    "westbrook",
+    "city_center",
+    "heywood",
+    "pacifica",
+    "santo_domingo",
+    "watson",
+    "ep1_dogtown",
+    "ep1_spaceport"
+  ],
+  "attribution": "Cyberpunk 2077 game map geometry \u00a9 CD PROJEKT RED. Exported assets and decode parameters from NC Zoning Board and its contributors. This is an unofficial fan work and is not approved/endorsed by CD PROJEKT RED.",
+  "license": "Game assets are not MIT; CD PROJEKT RED fan-content guidelines apply. NC Zoning Board original software is MIT.",
+  "notes": [
+    "Roads and building shapes are independent game exports, not satellite imagery.",
+    "Terrain coastline follows the minimap terrain mesh at CET elevation -1, matching water mesh sea level.",
+    "Buildings use raw base-game DDS data, normalized full quaternion rotations, and convex hulls of all eight box corners. They are schematic minimap building primitives, not detailed architectural footprints.",
+    "SVGs have separate terrain, water, roads, road borders, and building groups; road fill paths retain mesh triangles without internal strokes."
+  ],
+  "roadOptimization": {
+    "borders": {
+      "inputTriangles": 93040,
+      "mergedPolygons": 294,
+      "outputPolygons": 294,
+      "inputBoundaryVertices": 91489,
+      "outputBoundaryVertices": 64352,
+      "areaBefore": 14769.635015305177,
+      "areaAfter": 14766.141572588334,
+      "relativeAreaChange": -0.0002365287099662687,
+      "symmetricalDifferenceArea": 299.5483362004343,
+      "svgBytes": 1029750,
+      "seconds": 4.48
+    },
+    "roads": {
+      "inputTriangles": 56379,
+      "mergedPolygons": 17,
+      "outputPolygons": 17,
+      "inputBoundaryVertices": 46897,
+      "outputBoundaryVertices": 30703,
+      "areaBefore": 35995.85932089046,
+      "areaAfter": 35992.12591016563,
+      "relativeAreaChange": -0.00010371778296893278,
+      "symmetricalDifferenceArea": 160.68998260577234,
+      "svgBytes": 491276,
+      "seconds": 1.91
+    }
+  },
+  "simplifyToleranceNormalized": 0.02,
+  "colors": {
+    "sea": "#0a1c2a",
+    "land": "#142b35",
+    "roads": "#8db4bd",
+    "borders": "#355261",
+    "buildings": "#284551",
+    "outlines": "#4c6a75"
+  },
+  "buildingRasterFootprints": 246239,
+  "buildingRasterOmittedDistricts": [
+    "ep1_spaceport"
+  ],
+  "layerOrder": [
+    "water",
+    "terrain",
+    "buildings",
+    "road-borders",
+    "roads"
+  ],
+  "buildingRasterOutline": "1px at8192px withmutedcolor; approximatelysubpixelweightat1024display",
+  "terrainLimitation": "Sea-level intersection of minimap terrain; elevated reservoirs may not appear as water."
+}

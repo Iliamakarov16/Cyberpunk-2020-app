@@ -1,0 +1,3151 @@
+{
+  "version": "v7-Draken-label-cleanup-windows",
+  "source": {
+    "path": "public/assets/geography-2020/draken-original-v7.jpg",
+    "width": 1536,
+    "height": 1207,
+    "sha256": "5f9c62a8508a69b67996f78cfd7dcd9a2ffbb9be74e438da4ea702b74059cbab"
+  },
+  "referenceLocationsPath": "docs/geography/reference-locations.json",
+  "bboxFormat": "[left,top,right,bottom]; source pixels; right and bottom exclusive",
+  "crop": [
+    442,
+    0,
+    1536,
+    1207
+  ],
+  "policy": "Source JPEG remains unchanged. Only registered cleaned-image pixels inside these rectangles are overlaid. These rectangles identify printed illustration labels, not canonical location coordinates.",
+  "regions": [
+    {
+      "number": 1,
+      "english": "Night City Museum",
+      "category": "culture",
+      "sourcePoint": [
+        919,
+        453
+      ],
+      "bbox": [
+        912,
+        447,
+        928,
+        460
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-01",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9092
+      }
+    },
+    {
+      "number": 2,
+      "english": "Burroughs Municipal Library",
+      "category": "culture",
+      "sourcePoint": [
+        919,
+        483
+      ],
+      "bbox": [
+        912,
+        476,
+        928,
+        490
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-02",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8699
+      }
+    },
+    {
+      "number": 3,
+      "english": "NC Technical School",
+      "category": "culture",
+      "sourcePoint": [
+        984,
+        554
+      ],
+      "bbox": [
+        976,
+        548,
+        992,
+        562
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-03",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.876
+      }
+    },
+    {
+      "number": 4,
+      "english": "Night City University",
+      "category": "culture",
+      "sourcePoint": [
+        649,
+        647
+      ],
+      "bbox": [
+        638,
+        640,
+        656,
+        654
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-04",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8568
+      }
+    },
+    {
+      "number": 5,
+      "english": "Serengeti Gallery",
+      "category": "culture",
+      "sourcePoint": [
+        674,
+        588
+      ],
+      "bbox": [
+        666,
+        582,
+        683,
+        595
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-05",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8615
+      }
+    },
+    {
+      "number": 6,
+      "english": "NCU Fine Arts Campus",
+      "category": "culture",
+      "sourcePoint": [
+        649,
+        589
+      ],
+      "bbox": [
+        642,
+        584,
+        658,
+        597
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-06",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8403
+      }
+    },
+    {
+      "number": 7,
+      "english": "Matsuka Gallery",
+      "category": "culture",
+      "sourcePoint": [
+        1243,
+        659
+      ],
+      "bbox": [
+        1239,
+        654,
+        1256,
+        668
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-07",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8704
+      }
+    },
+    {
+      "number": 8,
+      "english": "The Atlantis",
+      "category": "nightlife",
+      "sourcePoint": [
+        921,
+        660
+      ],
+      "bbox": [
+        915,
+        654,
+        932,
+        668
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-08",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8531
+      }
+    },
+    {
+      "number": 9,
+      "english": "L’Étranger",
+      "category": "nightlife",
+      "sourcePoint": [
+        840,
+        476
+      ],
+      "bbox": [
+        832,
+        469,
+        849,
+        482
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-09",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8587
+      }
+    },
+    {
+      "number": 10,
+      "english": "Rainbow Nights",
+      "category": "nightlife",
+      "sourcePoint": [
+        858,
+        477
+      ],
+      "bbox": [
+        852,
+        473,
+        868,
+        486
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-10",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8441
+      }
+    },
+    {
+      "number": 11,
+      "english": "The Slammer",
+      "category": "nightlife",
+      "sourcePoint": [
+        733,
+        881
+      ],
+      "bbox": [
+        725,
+        876,
+        741,
+        888
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-11",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8876
+      }
+    },
+    {
+      "number": 12,
+      "english": "Maelstrom",
+      "category": "nightlife",
+      "sourcePoint": [
+        938,
+        426
+      ],
+      "bbox": [
+        928,
+        419,
+        944,
+        432
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-12",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9358
+      }
+    },
+    {
+      "number": 13,
+      "english": "Cafe Chrome",
+      "category": "nightlife",
+      "sourcePoint": [
+        938,
+        438
+      ],
+      "bbox": [
+        928,
+        432,
+        945,
+        446
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-13",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8982
+      }
+    },
+    {
+      "number": 14,
+      "english": "The Advocate",
+      "category": "nightlife",
+      "sourcePoint": [
+        944,
+        459
+      ],
+      "bbox": [
+        938,
+        452,
+        954,
+        465
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-14",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8905
+      }
+    },
+    {
+      "number": 15,
+      "english": "The Grand Illusion",
+      "category": "nightlife",
+      "sourcePoint": [
+        960,
+        481
+      ],
+      "bbox": [
+        952,
+        474,
+        968,
+        488
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-15",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8835
+      }
+    },
+    {
+      "number": 16,
+      "english": "Pier 3 Paradise",
+      "category": "nightlife",
+      "sourcePoint": [
+        1042,
+        430
+      ],
+      "bbox": [
+        1034,
+        422,
+        1050,
+        436
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-16",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9031
+      }
+    },
+    {
+      "number": 17,
+      "english": "The Mars Theater",
+      "category": "entertainment",
+      "sourcePoint": [
+        1229,
+        681
+      ],
+      "bbox": [
+        1221,
+        671,
+        1238,
+        684
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-17",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8635
+      }
+    },
+    {
+      "number": 18,
+      "english": "Pier Memorial Sports Arena",
+      "category": "entertainment",
+      "sourcePoint": [
+        1007,
+        597
+      ],
+      "bbox": [
+        995,
+        598,
+        1010,
+        610
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-18",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9088
+      }
+    },
+    {
+      "number": 19,
+      "english": "Colonial Studios",
+      "category": "entertainment",
+      "sourcePoint": [
+        1071,
+        599
+      ],
+      "bbox": [
+        1069,
+        598,
+        1086,
+        610
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-19",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9205
+      }
+    },
+    {
+      "number": 20,
+      "english": "Biograph Theater",
+      "category": "entertainment",
+      "sourcePoint": [
+        621,
+        645
+      ],
+      "bbox": [
+        615,
+        636,
+        631,
+        649
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-20",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8306
+      }
+    },
+    {
+      "number": 21,
+      "english": "Cinemaxus",
+      "category": "entertainment",
+      "sourcePoint": [
+        984,
+        455
+      ],
+      "bbox": [
+        982,
+        450,
+        998,
+        464
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-21",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9128
+      }
+    },
+    {
+      "number": 22,
+      "english": "McCartney Stadium",
+      "category": "entertainment",
+      "sourcePoint": [
+        1006,
+        435
+      ],
+      "bbox": [
+        996,
+        425,
+        1013,
+        438
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-22",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9231
+      }
+    },
+    {
+      "number": 23,
+      "english": "Reunification Hall",
+      "category": "entertainment",
+      "sourcePoint": [
+        1105,
+        408
+      ],
+      "bbox": [
+        1095,
+        404,
+        1111,
+        416
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-23",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8881
+      }
+    },
+    {
+      "number": 24,
+      "english": "Bodakkan Performing Arts Center",
+      "category": "entertainment",
+      "sourcePoint": [
+        952,
+        606
+      ],
+      "bbox": [
+        940,
+        598,
+        956,
+        610
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-24",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9015
+      }
+    },
+    {
+      "number": 25,
+      "english": "Yacht Club",
+      "category": "entertainment",
+      "sourcePoint": [
+        987,
+        369
+      ],
+      "bbox": [
+        978,
+        363,
+        995,
+        376
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-25",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8742
+      }
+    },
+    {
+      "number": 26,
+      "english": "NCPD Precinct #1",
+      "category": "public-service",
+      "sourcePoint": [
+        927,
+        494
+      ],
+      "bbox": [
+        916,
+        489,
+        931,
+        502
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-26",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8601
+      }
+    },
+    {
+      "number": 27,
+      "english": "NCPD Precinct #2",
+      "category": "public-service",
+      "sourcePoint": [
+        856,
+        394
+      ],
+      "bbox": [
+        848,
+        389,
+        863,
+        402
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-27",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8884
+      }
+    },
+    {
+      "number": 28,
+      "english": "NCPD Precinct #3",
+      "category": "public-service",
+      "sourcePoint": [
+        965,
+        655
+      ],
+      "bbox": [
+        955,
+        650,
+        971,
+        661
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-28",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8706
+      }
+    },
+    {
+      "number": 29,
+      "english": "North Oak Precinct",
+      "category": "public-service",
+      "sourcePoint": [
+        845,
+        195
+      ],
+      "bbox": [
+        839,
+        191,
+        854,
+        202
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-29",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8984
+      }
+    },
+    {
+      "number": 30,
+      "english": "Rancho Coronado Precinct",
+      "category": "public-service",
+      "sourcePoint": [
+        1005,
+        1030
+      ],
+      "bbox": [
+        995,
+        1026,
+        1010,
+        1038
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-30",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8727
+      }
+    },
+    {
+      "number": 31,
+      "english": "Harbormaster’s Office",
+      "category": "public-service",
+      "sourcePoint": [
+        1100,
+        453
+      ],
+      "bbox": [
+        1101,
+        449,
+        1116,
+        460
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-31",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9044
+      }
+    },
+    {
+      "number": 32,
+      "english": "NC Court of Justice",
+      "category": "public-service",
+      "sourcePoint": [
+        899,
+        465
+      ],
+      "bbox": [
+        892,
+        459,
+        907,
+        470
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-32",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9329
+      }
+    },
+    {
+      "number": 33,
+      "english": "Night City Hall",
+      "category": "public-service",
+      "sourcePoint": [
+        899,
+        483
+      ],
+      "bbox": [
+        893,
+        474,
+        907,
+        486
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-33",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8604
+      }
+    },
+    {
+      "number": 34,
+      "english": "Night City Fire Station",
+      "category": "public-service",
+      "sourcePoint": [
+        984,
+        471
+      ],
+      "bbox": [
+        975,
+        464,
+        989,
+        477
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-34",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9146
+      }
+    },
+    {
+      "number": 35,
+      "english": "Heywood Fire Station",
+      "category": "public-service",
+      "sourcePoint": [
+        1334,
+        615
+      ],
+      "bbox": [
+        1328,
+        611,
+        1343,
+        623
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-35",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          -1
+        ],
+        "gradientContextCorrelation": 0.9124
+      }
+    },
+    {
+      "number": 36,
+      "english": "Stuart Hospital",
+      "category": "public-service",
+      "sourcePoint": [
+        623,
+        591
+      ],
+      "bbox": [
+        616,
+        585,
+        631,
+        596
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-36",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8598
+      }
+    },
+    {
+      "number": 37,
+      "english": "West Hill Library",
+      "category": "public-service",
+      "sourcePoint": [
+        781,
+        526
+      ],
+      "bbox": [
+        775,
+        524,
+        789,
+        533
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-37",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8978
+      }
+    },
+    {
+      "number": 38,
+      "english": "City Medical Center",
+      "category": "public-service",
+      "sourcePoint": [
+        1036,
+        538
+      ],
+      "bbox": [
+        1029,
+        532,
+        1044,
+        545
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-38",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9
+      }
+    },
+    {
+      "number": 39,
+      "english": "Night City Transit Center",
+      "category": "public-service",
+      "sourcePoint": [
+        963,
+        564
+      ],
+      "bbox": [
+        958,
+        560,
+        973,
+        573
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-39",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8822
+      }
+    },
+    {
+      "number": 40,
+      "english": "Crisis Medical Center",
+      "category": "public-service",
+      "sourcePoint": [
+        964,
+        627
+      ],
+      "bbox": [
+        956,
+        620,
+        972,
+        634
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-40",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8957
+      }
+    },
+    {
+      "number": 41,
+      "english": "Night City Postal Service",
+      "category": "public-service",
+      "sourcePoint": [
+        1019,
+        449
+      ],
+      "bbox": [
+        1008,
+        447,
+        1023,
+        460
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-41",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9139
+      }
+    },
+    {
+      "number": 42,
+      "english": "Ferry Building",
+      "category": "public-service",
+      "sourcePoint": [
+        944,
+        371
+      ],
+      "bbox": [
+        937,
+        364,
+        951,
+        375
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-42",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.918
+      }
+    },
+    {
+      "number": 43,
+      "english": "Arasaka",
+      "category": "corporation",
+      "sourcePoint": [
+        906,
+        518
+      ],
+      "bbox": [
+        898,
+        512,
+        914,
+        525
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-43",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8343
+      }
+    },
+    {
+      "number": 44,
+      "english": "Microtech",
+      "category": "corporation",
+      "sourcePoint": [
+        877,
+        518
+      ],
+      "bbox": [
+        870,
+        512,
+        886,
+        525
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-44",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8123
+      }
+    },
+    {
+      "number": 45,
+      "english": "Raven Microcyb",
+      "category": "corporation",
+      "sourcePoint": [
+        857,
+        533
+      ],
+      "bbox": [
+        848,
+        527,
+        865,
+        540
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-45",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.831
+      }
+    },
+    {
+      "number": 46,
+      "english": "EBM",
+      "category": "corporation",
+      "sourcePoint": [
+        854,
+        575
+      ],
+      "bbox": [
+        848,
+        570,
+        864,
+        584
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-46",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9284
+      }
+    },
+    {
+      "number": 47,
+      "english": "Petrochem",
+      "category": "corporation",
+      "sourcePoint": [
+        875,
+        542
+      ],
+      "bbox": [
+        881,
+        534,
+        897,
+        548
+      ],
+      "method": "manual-visual-correction-of-source-point",
+      "id": "poi-number-47",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          1
+        ],
+        "gradientContextCorrelation": 0.7929
+      }
+    },
+    {
+      "number": 48,
+      "english": "Plaza Tower",
+      "category": "corporation",
+      "sourcePoint": [
+        889,
+        568
+      ],
+      "bbox": [
+        882,
+        561,
+        898,
+        574
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-48",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8378
+      }
+    },
+    {
+      "number": 49,
+      "english": "World Sat",
+      "category": "corporation",
+      "sourcePoint": [
+        929,
+        538
+      ],
+      "bbox": [
+        920,
+        532,
+        938,
+        546
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-49",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          1
+        ],
+        "gradientContextCorrelation": 0.8043
+      }
+    },
+    {
+      "number": 50,
+      "english": "Net 54",
+      "category": "corporation",
+      "sourcePoint": [
+        876,
+        591
+      ],
+      "bbox": [
+        867,
+        585,
+        884,
+        598
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-50",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.913
+      }
+    },
+    {
+      "number": 51,
+      "english": "Merrill, Asukaga & Finch",
+      "category": "corporation",
+      "sourcePoint": [
+        908,
+        590
+      ],
+      "bbox": [
+        901,
+        584,
+        918,
+        598
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-51",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8555
+      }
+    },
+    {
+      "number": 52,
+      "english": "Orbital Air",
+      "category": "corporation",
+      "sourcePoint": [
+        929,
+        571
+      ],
+      "bbox": [
+        920,
+        565,
+        937,
+        578
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-52",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8335
+      }
+    },
+    {
+      "number": 53,
+      "english": "Infocomp",
+      "category": "corporation",
+      "sourcePoint": [
+        879,
+        554
+      ],
+      "bbox": [
+        869,
+        548,
+        886,
+        561
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-53",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8343
+      }
+    },
+    {
+      "number": 54,
+      "english": "West City Tower",
+      "category": "corporation",
+      "sourcePoint": [
+        899,
+        553
+      ],
+      "bbox": [
+        894,
+        549,
+        910,
+        561
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-54",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8146
+      }
+    },
+    {
+      "number": 55,
+      "english": "Arasaka Weapon Assembly",
+      "category": "corporation",
+      "sourcePoint": [
+        1299,
+        850
+      ],
+      "bbox": [
+        1290,
+        842,
+        1307,
+        855
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-55",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8912
+      }
+    },
+    {
+      "number": 56,
+      "english": "Biotechnica Research Station",
+      "category": "corporation",
+      "sourcePoint": [
+        1232,
+        990
+      ],
+      "bbox": [
+        1224,
+        983,
+        1241,
+        996
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-56",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.9117
+      }
+    },
+    {
+      "number": 57,
+      "english": "EBM Assembly",
+      "category": "corporation",
+      "sourcePoint": [
+        1066,
+        1036
+      ],
+      "bbox": [
+        1056,
+        1031,
+        1074,
+        1044
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-57",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8469
+      }
+    },
+    {
+      "number": 58,
+      "english": "Militech Training",
+      "category": "corporation",
+      "sourcePoint": [
+        1105,
+        1110
+      ],
+      "bbox": [
+        1094,
+        1105,
+        1111,
+        1118
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-58",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8563
+      }
+    },
+    {
+      "number": 59,
+      "english": "Chen’s Oriental Garden",
+      "category": "hospitality",
+      "sourcePoint": [
+        1026,
+        643
+      ],
+      "bbox": [
+        1015,
+        636,
+        1032,
+        650
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-59",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9012
+      }
+    },
+    {
+      "number": 60,
+      "english": "The Silver Dragon",
+      "category": "hospitality",
+      "sourcePoint": [
+        1026,
+        669
+      ],
+      "bbox": [
+        1015,
+        664,
+        1030,
+        676
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-60",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8749
+      }
+    },
+    {
+      "number": 61,
+      "english": "The Hacienda",
+      "category": "hospitality",
+      "sourcePoint": [
+        1203,
+        691
+      ],
+      "bbox": [
+        1196,
+        687,
+        1212,
+        699
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-61",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8708
+      }
+    },
+    {
+      "number": 62,
+      "english": "Night City Hilton",
+      "category": "hospitality",
+      "sourcePoint": [
+        1216,
+        656
+      ],
+      "bbox": [
+        1208,
+        650,
+        1224,
+        663
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-62",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8755
+      }
+    },
+    {
+      "number": 63,
+      "english": "Highcourt Plaza Hotel",
+      "category": "hospitality",
+      "sourcePoint": [
+        1043,
+        589
+      ],
+      "bbox": [
+        1034,
+        582,
+        1049,
+        595
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-63",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8983
+      }
+    },
+    {
+      "number": 64,
+      "english": "Red Door Inn",
+      "category": "hospitality",
+      "sourcePoint": [
+        1042,
+        602
+      ],
+      "bbox": [
+        1043,
+        597,
+        1059,
+        609
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-64",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9101
+      }
+    },
+    {
+      "number": 65,
+      "english": "Knight-Marriot Hotel",
+      "category": "hospitality",
+      "sourcePoint": [
+        750,
+        477
+      ],
+      "bbox": [
+        742,
+        470,
+        758,
+        483
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-65",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8978
+      }
+    },
+    {
+      "number": 66,
+      "english": "Regal Hotel",
+      "category": "hospitality",
+      "sourcePoint": [
+        807,
+        491
+      ],
+      "bbox": [
+        799,
+        486,
+        815,
+        498
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-66",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8433
+      }
+    },
+    {
+      "number": 67,
+      "english": "Kuroshita Hotel",
+      "category": "hospitality",
+      "sourcePoint": [
+        785,
+        508
+      ],
+      "bbox": [
+        819,
+        500,
+        837,
+        514
+      ],
+      "method": "manual-visual-correction-of-source-point",
+      "id": "poi-number-67",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8601
+      }
+    },
+    {
+      "number": 68,
+      "english": "The Ashcroft",
+      "category": "hospitality",
+      "sourcePoint": [
+        957,
+        548
+      ],
+      "bbox": [
+        948,
+        541,
+        964,
+        554
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-68",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          1
+        ],
+        "gradientContextCorrelation": 0.8365
+      }
+    },
+    {
+      "number": 69,
+      "english": "The Havenfort",
+      "category": "hospitality",
+      "sourcePoint": [
+        953,
+        468
+      ],
+      "bbox": [
+        945,
+        463,
+        961,
+        476
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-69",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8859
+      }
+    },
+    {
+      "number": 70,
+      "english": "The Jellical Inn",
+      "category": "hospitality",
+      "sourcePoint": [
+        1091,
+        557
+      ],
+      "bbox": [
+        1035,
+        552,
+        1051,
+        565
+      ],
+      "method": "manual-visual-correction-of-source-point",
+      "id": "poi-number-70",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8962
+      }
+    },
+    {
+      "number": 71,
+      "english": "The Good Night Coffins",
+      "category": "hospitality",
+      "sourcePoint": [
+        1123,
+        432
+      ],
+      "bbox": [
+        1111,
+        428,
+        1128,
+        440
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-71",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8767
+      }
+    },
+    {
+      "number": 72,
+      "english": "Burleson Tower",
+      "category": "hospitality",
+      "sourcePoint": [
+        875,
+        466
+      ],
+      "bbox": [
+        868,
+        460,
+        883,
+        472
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-72",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9061
+      }
+    },
+    {
+      "number": 73,
+      "english": "Hotel Hamilton",
+      "category": "hospitality",
+      "sourcePoint": [
+        1007,
+        535
+      ],
+      "bbox": [
+        994,
+        531,
+        1010,
+        544
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-73",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8954
+      }
+    },
+    {
+      "number": 74,
+      "english": "Hotel Yamagumi",
+      "category": "hospitality",
+      "sourcePoint": [
+        950,
+        589
+      ],
+      "bbox": [
+        942,
+        583,
+        959,
+        596
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-74",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8914
+      }
+    },
+    {
+      "number": 75,
+      "english": "The Paragon",
+      "category": "hospitality",
+      "sourcePoint": [
+        626,
+        682
+      ],
+      "bbox": [
+        618,
+        675,
+        633,
+        687
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-75",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8683
+      }
+    },
+    {
+      "number": 76,
+      "english": "Manhattan’s Bar",
+      "category": "hospitality",
+      "sourcePoint": [
+        825,
+        491
+      ],
+      "bbox": [
+        817,
+        485,
+        833,
+        498
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-76",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8386
+      }
+    },
+    {
+      "number": 77,
+      "english": "The Night Owl",
+      "category": "hospitality",
+      "sourcePoint": [
+        1067,
+        476
+      ],
+      "bbox": [
+        1061,
+        469,
+        1077,
+        482
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-77",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9111
+      }
+    },
+    {
+      "number": 78,
+      "english": "The Afterlife",
+      "category": "hospitality",
+      "sourcePoint": [
+        1007,
+        470
+      ],
+      "bbox": [
+        1000,
+        462,
+        1016,
+        475
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-78",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9282
+      }
+    },
+    {
+      "number": 79,
+      "english": "Short Circuit",
+      "category": "hospitality",
+      "sourcePoint": [
+        783,
+        516
+      ],
+      "bbox": [
+        775,
+        508,
+        793,
+        523
+      ],
+      "method": "manual-visual-correction-of-source-point",
+      "id": "poi-number-79",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9078
+      }
+    },
+    {
+      "number": 80,
+      "english": "Totentanz",
+      "category": "hospitality",
+      "sourcePoint": [
+        885,
+        453
+      ],
+      "bbox": [
+        877,
+        447,
+        893,
+        460
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-80",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9104
+      }
+    },
+    {
+      "number": 81,
+      "english": "The Forlorn Hope",
+      "category": "hospitality",
+      "sourcePoint": [
+        1149,
+        571
+      ],
+      "bbox": [
+        1141,
+        564,
+        1157,
+        577
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-81",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9264
+      }
+    },
+    {
+      "number": 82,
+      "english": "Jesse James’ Kosher Deli",
+      "category": "hospitality",
+      "sourcePoint": [
+        853,
+        820
+      ],
+      "bbox": [
+        845,
+        813,
+        861,
+        826
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-82",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8914
+      }
+    },
+    {
+      "number": 83,
+      "english": "Metalstorm",
+      "category": "hospitality",
+      "sourcePoint": [
+        853,
+        1016
+      ],
+      "bbox": [
+        848,
+        1012,
+        864,
+        1024
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-83",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8833
+      }
+    },
+    {
+      "number": 84,
+      "english": "Joe’s Diner",
+      "category": "hospitality",
+      "sourcePoint": [
+        1063,
+        409
+      ],
+      "bbox": [
+        1053,
+        404,
+        1068,
+        416
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-84",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.873
+      }
+    },
+    {
+      "number": 85,
+      "english": "Metro Cafe",
+      "category": "hospitality",
+      "sourcePoint": [
+        624,
+        631
+      ],
+      "bbox": [
+        616,
+        626,
+        632,
+        638
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-85",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8344
+      }
+    },
+    {
+      "number": 86,
+      "english": "Café Chrome",
+      "category": "hospitality",
+      "sourcePoint": [
+        937,
+        468
+      ],
+      "bbox": [
+        929,
+        461,
+        945,
+        473
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-86",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8763
+      }
+    },
+    {
+      "number": 87,
+      "english": "Guevarra’s",
+      "category": "hospitality",
+      "sourcePoint": [
+        1047,
+        498
+      ],
+      "bbox": [
+        1034,
+        497,
+        1050,
+        510
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-87",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9131
+      }
+    },
+    {
+      "number": 88,
+      "english": "The Marina",
+      "category": "hospitality",
+      "sourcePoint": [
+        1142,
+        431
+      ],
+      "bbox": [
+        1134,
+        425,
+        1149,
+        437
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-88",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8539
+      }
+    },
+    {
+      "number": 89,
+      "english": "Franciscini’s Cafe",
+      "category": "hospitality",
+      "sourcePoint": [
+        725,
+        490
+      ],
+      "bbox": [
+        716,
+        484,
+        733,
+        496
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-89",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9155
+      }
+    },
+    {
+      "number": 90,
+      "english": "24 Hour Cafe",
+      "category": "hospitality",
+      "sourcePoint": [
+        1147,
+        530
+      ],
+      "bbox": [
+        1140,
+        520,
+        1157,
+        533
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-90",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9356
+      }
+    },
+    {
+      "number": 91,
+      "english": "American Bar",
+      "category": "hospitality",
+      "sourcePoint": [
+        1033,
+        439
+      ],
+      "bbox": [
+        1025,
+        432,
+        1041,
+        445
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-91",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9147
+      }
+    },
+    {
+      "number": 92,
+      "english": "Metropolitan Barbecue & Grill",
+      "category": "hospitality",
+      "sourcePoint": [
+        882,
+        412
+      ],
+      "bbox": [
+        870,
+        407,
+        886,
+        420
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-92",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9218
+      }
+    },
+    {
+      "number": 93,
+      "english": "McDonnell’s",
+      "category": "hospitality",
+      "sourcePoint": [
+        649,
+        682
+      ],
+      "bbox": [
+        638,
+        675,
+        654,
+        687
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-93",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8533
+      }
+    },
+    {
+      "number": 94,
+      "english": "NORPAC Headquarters",
+      "category": "other",
+      "sourcePoint": [
+        879,
+        90
+      ],
+      "bbox": [
+        870,
+        86,
+        886,
+        98
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-94",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8789
+      }
+    },
+    {
+      "number": 95,
+      "english": "Night City Metro Airport",
+      "category": "other",
+      "sourcePoint": [
+        978,
+        765
+      ],
+      "bbox": [
+        971,
+        761,
+        986,
+        773
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-95",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8419
+      }
+    },
+    {
+      "number": 96,
+      "english": "Playland by the Sea",
+      "category": "other",
+      "sourcePoint": [
+        704,
+        1046
+      ],
+      "bbox": [
+        696,
+        1039,
+        712,
+        1051
+      ],
+      "method": "read-only-category-color-component-plus-1px-margin",
+      "id": "poi-number-96",
+      "kind": "poi-number",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8503
+      }
+    },
+    {
+      "id": "norcal-military-base",
+      "kind": "district",
+      "text": "NORCAL MILITARY BASE",
+      "bbox": [
+        880,
+        3,
+        995,
+        35
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.7819
+      }
+    },
+    {
+      "id": "north-oak",
+      "kind": "district",
+      "text": "NORTH OAK",
+      "bbox": [
+        811,
+        115,
+        861,
+        146
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8679
+      }
+    },
+    {
+      "id": "westbrook",
+      "kind": "district",
+      "text": "WESTBROOK",
+      "bbox": [
+        1227,
+        141,
+        1310,
+        160
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8995
+      }
+    },
+    {
+      "id": "upper-marina",
+      "kind": "district",
+      "text": "UPPER MARINA",
+      "bbox": [
+        948,
+        382,
+        996,
+        411
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9055
+      }
+    },
+    {
+      "id": "east-marina",
+      "kind": "district",
+      "text": "EAST MARINA",
+      "bbox": [
+        1067,
+        417,
+        1115,
+        444
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8749
+      }
+    },
+    {
+      "id": "city-center",
+      "kind": "district",
+      "text": "CITY CENTER",
+      "bbox": [
+        880,
+        422,
+        928,
+        450
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.9249
+      }
+    },
+    {
+      "id": "northside",
+      "kind": "district",
+      "text": "NORTHSIDE",
+      "bbox": [
+        781,
+        447,
+        847,
+        465
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8882
+      }
+    },
+    {
+      "id": "westhill",
+      "kind": "district",
+      "text": "WESTHILL",
+      "bbox": [
+        746,
+        496,
+        804,
+        515
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8669
+      }
+    },
+    {
+      "id": "little-europe",
+      "kind": "district",
+      "text": "LITTLE EUROPE",
+      "bbox": [
+        684,
+        522,
+        738,
+        551
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8981
+      }
+    },
+    {
+      "id": "corp-center",
+      "kind": "district",
+      "text": "CORP CENTER",
+      "bbox": [
+        827,
+        539,
+        875,
+        570
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8658
+      }
+    },
+    {
+      "id": "bank-block",
+      "kind": "district",
+      "text": "BANK BLOCK",
+      "bbox": [
+        957,
+        504,
+        995,
+        534
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8873
+      }
+    },
+    {
+      "id": "medical-center",
+      "kind": "district",
+      "text": "MED CENTER",
+      "bbox": [
+        995,
+        556,
+        1034,
+        586
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8822
+      }
+    },
+    {
+      "id": "lake-park",
+      "kind": "district",
+      "text": "LAKE PARK",
+      "bbox": [
+        839,
+        612,
+        879,
+        641
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9294
+      }
+    },
+    {
+      "id": "university-district",
+      "kind": "district",
+      "text": "UNIVERSITY DISTRICT",
+      "bbox": [
+        664,
+        623,
+        739,
+        652
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8504
+      }
+    },
+    {
+      "id": "japan-town",
+      "kind": "district",
+      "text": "JAPAN TOWN",
+      "bbox": [
+        974,
+        630,
+        1013,
+        660
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.8819
+      }
+    },
+    {
+      "id": "little-china",
+      "kind": "district",
+      "text": "LITTLE CHINA",
+      "bbox": [
+        1014,
+        607,
+        1057,
+        635
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8815
+      }
+    },
+    {
+      "id": "studio-city",
+      "kind": "district",
+      "text": "STUDIO CITY",
+      "bbox": [
+        1090,
+        599,
+        1142,
+        630
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8929
+      }
+    },
+    {
+      "id": "charter-hill",
+      "kind": "district",
+      "text": "CHARTER HILL",
+      "bbox": [
+        1158,
+        631,
+        1213,
+        660
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8902
+      }
+    },
+    {
+      "id": "south-night-city",
+      "kind": "district",
+      "text": "SOUTH NIGHT CITY",
+      "bbox": [
+        754,
+        744,
+        821,
+        775
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.8538
+      }
+    },
+    {
+      "id": "heywood",
+      "kind": "district",
+      "text": "HEYWOOD",
+      "bbox": [
+        1195,
+        940,
+        1262,
+        960
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          1
+        ],
+        "gradientContextCorrelation": 0.9018
+      }
+    },
+    {
+      "id": "pacifica",
+      "kind": "district",
+      "text": "PACIFICA",
+      "bbox": [
+        679,
+        1076,
+        741,
+        1098
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8634
+      }
+    },
+    {
+      "id": "rancho-coronado",
+      "kind": "district",
+      "text": "RANCHO CORONADO",
+      "bbox": [
+        905,
+        1057,
+        980,
+        1091
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.853
+      }
+    },
+    {
+      "id": "del-coronado-bay",
+      "kind": "water",
+      "text": "DEL CORONADO BAY",
+      "bbox": [
+        686,
+        311,
+        766,
+        339
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8341
+      }
+    },
+    {
+      "id": "san-morro-bay",
+      "kind": "water",
+      "text": "SAN MORRO BAY",
+      "bbox": [
+        948,
+        922,
+        1012,
+        951
+      ],
+      "method": "manual-visual-tight-box-with-small-outline-margin",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.855
+      }
+    },
+    {
+      "id": "us16-north",
+      "kind": "road-shield",
+      "text": "US16",
+      "bbox": [
+        1168,
+        24,
+        1210,
+        66
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8844
+      }
+    },
+    {
+      "id": "us828-westbrook",
+      "kind": "road-shield",
+      "text": "US828",
+      "bbox": [
+        1177,
+        202,
+        1219,
+        244
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8839
+      }
+    },
+    {
+      "id": "california1-north",
+      "kind": "road-shield",
+      "text": "California1",
+      "bbox": [
+        1422,
+        201,
+        1468,
+        249
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9316
+      }
+    },
+    {
+      "id": "us16-bay-bridge",
+      "kind": "road-shield",
+      "text": "US16",
+      "bbox": [
+        824,
+        303,
+        867,
+        344
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9043
+      }
+    },
+    {
+      "id": "us16-west",
+      "kind": "road-shield",
+      "text": "US16",
+      "bbox": [
+        575,
+        620,
+        617,
+        662
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8345
+      }
+    },
+    {
+      "id": "us828-east",
+      "kind": "road-shield",
+      "text": "US828",
+      "bbox": [
+        1326,
+        556,
+        1368,
+        598
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9258
+      }
+    },
+    {
+      "id": "us16-south-city",
+      "kind": "road-shield",
+      "text": "US16",
+      "bbox": [
+        985,
+        694,
+        1027,
+        736
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8407
+      }
+    },
+    {
+      "id": "us126-heywood",
+      "kind": "road-shield",
+      "text": "US126",
+      "bbox": [
+        1192,
+        872,
+        1234,
+        914
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8885
+      }
+    },
+    {
+      "id": "us828-heywood",
+      "kind": "road-shield",
+      "text": "US828",
+      "bbox": [
+        1218,
+        1016,
+        1260,
+        1058
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.8845
+      }
+    },
+    {
+      "id": "california1-south",
+      "kind": "road-shield",
+      "text": "California1",
+      "bbox": [
+        1473,
+        1029,
+        1519,
+        1077
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.9557
+      }
+    },
+    {
+      "id": "us126-pacifica",
+      "kind": "road-shield",
+      "text": "US126",
+      "bbox": [
+        716,
+        1134,
+        758,
+        1176
+      ],
+      "method": "Complete printed shield plus drop-shadow margin; road registration uses surrounding street geometry",
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          1,
+          0
+        ],
+        "gradientContextCorrelation": 0.892
+      }
+    },
+    {
+      "id": "military-label-banner",
+      "kind": "label-banner",
+      "bbox": [
+        833,
+        0,
+        1067,
+        45
+      ],
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ],
+        "gradientContextCorrelation": 0.88
+      },
+      "method": "read-only red banner bounds; remove the printed label background along with its text"
+    },
+    {
+      "id": "complete-combat-legend",
+      "kind": "legend",
+      "bbox": [
+        1293,
+        1153,
+        1466,
+        1192
+      ],
+      "generatedRegistration": {
+        "sourceFrameShift": [
+          0,
+          0
+        ]
+      },
+      "method": "Entire printed legend including swatch and outline"
+    }
+  ],
+  "stats": {
+    "poiNumberCount": 96,
+    "districtLabelCount": 22,
+    "waterLabelCount": 2,
+    "roadShieldCount": 11,
+    "legendRegionCount": 1,
+    "regionCount": 133,
+    "unionWindowAreaPx": 91798,
+    "cropAreaPx": 1320458,
+    "windowCoveragePercent": 6.952,
+    "originalGeometryRetainedOutsideWindowsPercent": 93.048
+  },
+  "auditNotes": [
+    "The reference-locations file contains96 sourcePoint centres, not bbox. Windows were derived by read-only pixel inspection and category-color component bounds, then checked visually.",
+    "Source-point hints for numbers47,67,70,79 differ from the visible numbered boxes and were corrected for cleanup only; canonical data was not edited.",
+    "Generated image must be registered to the original source pixel frame before overlay. The source is1536x1207; generation1415x1111 is a different pixel frame.",
+    "No source raster was edited; no checkout file was modified.",
+    "Final revision uses full small multi-line text windows with outline margins, prioritizing complete label removal over the5percent target. POI and road-shield windows remain precise."
+  ],
+  "compositeProposal": {
+    "viewBox": "442 0 1094 1207",
+    "layerOrder": [
+      "unchanged-source-jpg",
+      "registered-cleaned-image-clipped-to-regions",
+      "canonical-svg-labels"
+    ],
+    "clipPathUnits": "userSpaceOnUse",
+    "registration": "Each cleaned patch uses its measured local registration transform, and is clipped by its original source-space bbox. Unmatched patches should remain original.",
+    "validation": "Pixel differences outside union of all windows must be exactly zero by composition."
+  },
+  "svgCompositeTemplate": "<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"442 0 1094 1207\"><defs><clipPath id=\"cleanup\" clipPathUnits=\"userSpaceOnUse\">{{SOURCE_SPACE_RECTS_FROM_REGIONS}}</clipPath></defs><image href=\"{{UNCHANGED_SOURCE_JPG}}\" x=\"0\" y=\"0\" width=\"1536\" height=\"1207\"/><image href=\"{{REGISTERED_CLEANED_IMAGE}}\" x=\"0\" y=\"0\" width=\"1536\" height=\"1207\" clip-path=\"url(#cleanup)\"/><g id=\"canonical-labels\">{{CANONICAL_SVG_LABELS}}</g></svg>"
+}

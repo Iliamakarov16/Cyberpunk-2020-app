@@ -1,0 +1,44 @@
+/* Exact dossier palette tokens, isolated to the map. UI chrome continues to
+   inherit data-palette; neither override changes source geometry or assets. */
+:root[data-map-palette="carmine"] {
+  --atlas-map-ink:#080406; --atlas-map-surface:#130a0e; --atlas-map-raised:#211117; --atlas-map-deep:#050305;
+  --atlas-map-text:#f3e4cc; --atlas-map-muted:#b9a79d; --atlas-map-red:#ff285c; --atlas-map-signal:#edc88c;
+  --atlas-map-register:#795d66; --atlas-map-soft-line:#463039; --atlas-map-error:#ff91ad;
+}
+:root[data-map-palette="ultraviolet"] {
+  --atlas-map-ink:#07060a; --atlas-map-surface:#121016; --atlas-map-raised:#1d1725; --atlas-map-deep:#040307;
+  --atlas-map-text:#f2ebf7; --atlas-map-muted:#b6adbe; --atlas-map-red:#c86bf0; --atlas-map-signal:#d8ff45;
+  --atlas-map-register:#716278; --atlas-map-soft-line:#382d40; --atlas-map-error:#ff9cb9;
+}
+:root[data-map-palette="amber"] {
+  --atlas-map-ink:#080a08; --atlas-map-surface:#111510; --atlas-map-raised:#1e2119; --atlas-map-deep:#040604;
+  --atlas-map-text:#eeead5; --atlas-map-muted:#b4b7a4; --atlas-map-red:#ffc663; --atlas-map-signal:#b9d2b3;
+  --atlas-map-register:#6c7060; --atlas-map-soft-line:#373d2f; --atlas-map-error:#ffa793;
+}
+:root[data-map-palette="maelstrom"] {
+  --atlas-map-ink:#080909; --atlas-map-surface:#141515; --atlas-map-raised:#222323; --atlas-map-deep:#030404;
+  --atlas-map-text:#eeefe9; --atlas-map-muted:#b0b2ad; --atlas-map-red:#ff3948; --atlas-map-signal:#e4e6df;
+  --atlas-map-register:#72756f; --atlas-map-soft-line:#393d39; --atlas-map-error:#ff9b9f;
+}
+:root[data-map-palette="original"] {
+  --atlas-map-ink:#03080c; --atlas-map-surface:#081017; --atlas-map-raised:#17242a; --atlas-map-deep:#02070b;
+  --atlas-map-text:#d7e8e1; --atlas-map-muted:#9cafac; --atlas-map-red:#f2154e; --atlas-map-signal:#c6ddd2;
+  --atlas-map-register:#61706f; --atlas-map-soft-line:#34464a; --atlas-map-error:#ff829f;
+}
+:root {
+  --map-signal:var(--atlas-map-signal);
+  --map-background:var(--atlas-map-deep);
+}
+/* Scope these to the SVG, not its viewport: controls and placement messages
+   remain interface chrome. Sibling map instruments opt in through --map-*. */
+#map {
+  --nc-ink:var(--atlas-map-ink); --nc-surface:var(--atlas-map-surface); --nc-raised:var(--atlas-map-raised); --nc-deep:var(--atlas-map-deep);
+  --nc-text:var(--atlas-map-text); --nc-muted:var(--atlas-map-muted); --nc-red:var(--atlas-map-red); --nc-signal:var(--atlas-map-signal);
+  --nc-register:var(--atlas-map-register); --nc-soft-line:var(--atlas-map-soft-line); --nc-error:var(--atlas-map-error);
+  --map-water:var(--nc-deep); --map-land:var(--nc-raised); --map-line:var(--nc-muted); --map-route:var(--nc-red); --map-coast:var(--nc-register); --map-grid:var(--nc-register);
+  --gold:var(--nc-signal); --cyan:var(--nc-signal); --red:var(--nc-error); --text:var(--nc-text); --muted:var(--nc-muted);
+}
+#map-viewport[data-basemap="dossier"] {background:var(--atlas-map-deep)}
+#atlas-palette-overrides {display:grid;gap:8px;border-left:2px solid var(--nc-register);padding-left:12px}
+.atlas-theme-controls #atlas-palette-status {margin:0;overflow-wrap:anywhere}
+.atlas-theme-controls #atlas-palette-reset {width:100%;text-align:left;min-height:44px}

@@ -1,0 +1,50 @@
+{
+  "runtimeCopies": [
+    {
+      "destination": "web-source/public/atlas",
+      "fileCount": 111,
+      "byteIdenticalToCrewBuild": true,
+      "changedFiles": [
+        "app.js",
+        "assets/geography-2020/dossier-v8/amber.webp",
+        "assets/geography-2020/dossier-v8/carmine.webp",
+        "assets/geography-2020/dossier-v8/maelstrom.webp",
+        "assets/geography-2020/dossier-v8/original.webp",
+        "assets/geography-2020/dossier-v8/ultraviolet.webp",
+        "assets/geography-2020/print-basemap-v8.webp",
+        "cartography.js",
+        "dossier.css",
+        "index.html",
+        "map-graphics.css"
+      ]
+    },
+    {
+      "destination": "payload/static/atlas",
+      "fileCount": 111,
+      "byteIdenticalToCrewBuild": true,
+      "changedFiles": [
+        "app.js",
+        "assets/geography-2020/dossier-v8/amber.webp",
+        "assets/geography-2020/dossier-v8/carmine.webp",
+        "assets/geography-2020/dossier-v8/maelstrom.webp",
+        "assets/geography-2020/dossier-v8/original.webp",
+        "assets/geography-2020/dossier-v8/ultraviolet.webp",
+        "assets/geography-2020/print-basemap-v8.webp",
+        "cartography.js",
+        "dossier.css",
+        "index.html",
+        "map-graphics.css"
+      ]
+    }
+  ],
+  "runtimeManifestSha256": "765f354be99c774e7b991fc75f62bbf4d84b35e205fcc47c16814314e9075bef",
+  "sourceDimensions": [
+    2560,
+    2012
+  ],
+  "effectiveCrop": [
+    1823,
+    2012
+  ],
+  "coordinateDataUnchanged": true
+}

@@ -1,0 +1,857 @@
+{
+  "version": 6,
+  "epoch": 2020,
+  "purpose": "Curated named, useful canonical landmarks for an overview layer. This is a display selection, not a claim of exhaustive canon or surveyed coordinates.",
+  "landmarks": [
+    {
+      "id": "ncs-a3-1",
+      "english": "Night City City Hall",
+      "label": "Мэрия",
+      "category": "government",
+      "priority": 95,
+      "point": [
+        433.134,
+        388.854
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A3",
+      "source": "ncs",
+      "sourceCode": "A3#1",
+      "page": 68,
+      "purpose": "Деревянный фасад стилизован под исторические государственные здания Восточного побережья. Внутри работают муниципальные служащие и лоббисты.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a3-2",
+      "english": "Night City Justice Court",
+      "label": "Суд",
+      "category": "government",
+      "priority": 78,
+      "point": [
+        434.814,
+        380.962
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A3",
+      "source": "ncs",
+      "sourceCode": "A3#2",
+      "page": 68,
+      "purpose": "Бруталистское здание с огромными дверями и колоннами. Публичное гражданское обслуживание и криминальная часть устроены по-разному.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a3-3",
+      "english": "Night City Museum",
+      "label": "Городской музей",
+      "category": "culture",
+      "priority": 80,
+      "point": [
+        452.613,
+        384.318
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "A3",
+      "source": "ncs",
+      "sourceCode": "A3#3",
+      "page": 68,
+      "purpose": "Современный музей с коллекциями искусства и древностей. Наиболее ценные экспонаты находятся на более защищённых нижних уровнях.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "named-night-city-metropolitan-airport",
+      "english": "Night City Metropolitan Airport",
+      "label": "Аэропорт Найт-Сити",
+      "category": "transport",
+      "priority": 98,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "E1",
+      "source": "ncs",
+      "sourceCode": "Именованное место",
+      "page": 7,
+      "purpose": "Местный аэропорт с международными и внутренними рейсами. Географически — в южной части городской агломерации.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "core-08",
+      "english": "Arasaka Tower",
+      "label": "Arasaka Tower",
+      "category": "corporate",
+      "priority": 100,
+      "point": [
+        441.584,
+        439.463
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "B2",
+      "source": "core",
+      "sourceCode": "Правила №8",
+      "page": 220,
+      "purpose": "Место входит в номерной перечень основной книги Cyberpunk 2020. Название и расположение на этой карте подтверждены; индивидуальный интерьер в перечне не описан.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b3-4",
+      "english": "The Militech Corporation",
+      "label": "Militech",
+      "category": "corporate",
+      "priority": 89,
+      "point": [
+        497.927,
+        431.328
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B3",
+      "source": "ncs",
+      "sourceCode": "B3#4",
+      "page": 110,
+      "purpose": "Представительство Militech в Bank Block.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-j1-3",
+      "english": "EBM Remote Assembly Facility",
+      "label": "EBM · сборочный завод",
+      "category": "industrial",
+      "priority": 82,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "J1",
+      "source": "ncs",
+      "sourceCode": "J1#3",
+      "page": 180,
+      "purpose": "Автоматизированное производство крупных компьютеров со складской и транспортной частью.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-j1-1",
+      "english": "Arasaka Weapon Assembly Facility A-452",
+      "label": "Arasaka · завод A-452",
+      "category": "industrial",
+      "priority": 92,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "J1",
+      "source": "ncs",
+      "sourceCode": "J1#1",
+      "page": 180,
+      "purpose": "Автоматизированная сборка оружия, склад и стрельбище.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-j1-2",
+      "english": "Biotechnica Mono-clonal Research Station",
+      "label": "Biotechnica · лаборатория",
+      "category": "industrial",
+      "priority": 89,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "J1",
+      "source": "ncs",
+      "sourceCode": "J1#2",
+      "page": 180,
+      "purpose": "Лабораторный комплекс клональных исследований.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-b4-8",
+      "english": "The Afterlife",
+      "label": "Afterlife",
+      "category": "club",
+      "priority": 99,
+      "point": [
+        539.331,
+        464.128
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B4",
+      "source": "ncs",
+      "sourceCode": "B4#8",
+      "page": 116,
+      "purpose": "Бар в бывшем морге, с помещениями Ante-Chamber, Crypt и Hades. Место встреч соло, которые ищут работу и нанимателей.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "core-22",
+      "english": "Totentanz",
+      "label": "Totentanz",
+      "category": "club",
+      "priority": 89,
+      "point": [
+        423.768,
+        384.318
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "A3",
+      "source": "core",
+      "sourceCode": "Правила №22",
+      "page": 220,
+      "purpose": "Опасный танцевальный бар на верхнем этаже старой высотки; здесь собираются бустерские банды.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "core-30",
+      "english": "Atlantis",
+      "label": "Atlantis",
+      "category": "club",
+      "priority": 86,
+      "point": [
+        454.31,
+        559.934
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "C3",
+      "source": "core",
+      "sourceCode": "Правила №30",
+      "page": 220,
+      "purpose": "Бар, где встречаются корпоративные сотрудники и соло, ищущие работу.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "core-64",
+      "english": "Forlorn Hope",
+      "label": "Forlorn Hope",
+      "category": "club",
+      "priority": 78,
+      "point": [
+        647.742,
+        484.428
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "B5",
+      "source": "core",
+      "sourceCode": "Правила №64",
+      "page": 220,
+      "purpose": "Бар ветеранов Центральноамериканских войн; отдельные сведения раскрыты в Tales from the Forlorn Hope.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative.",
+      "registrationCaution": "The Core catalog lacks contextDistrict; current world location follows unofficial Draken, not an independently registered Sourcebook district."
+    },
+    {
+      "id": "core-48",
+      "english": "The Slammer",
+      "label": "The Slammer",
+      "category": "club",
+      "priority": 85,
+      "point": [
+        491.017,
+        396.122
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A4",
+      "source": "core",
+      "sourceCode": "Правила №48",
+      "page": 220,
+      "purpose": "Бар и арена Suds Joliet, используемые для разрешения споров между бандами.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a4-12",
+      "english": "Café Chrome",
+      "label": "Кафе «Хром»",
+      "category": "club",
+      "priority": 84,
+      "point": [
+        477.715,
+        398.692
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A4",
+      "source": "ncs",
+      "sourceCode": "A4#12",
+      "page": 78,
+      "purpose": "Место встречи рокеров с ретро-обстановкой 1950-х и музыкальным автоматом.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-j1-4",
+      "english": "Militech Armored Assault Group Training & Live Fire Range",
+      "label": "Полигон Militech",
+      "category": "industrial",
+      "priority": 88,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "J1",
+      "source": "ncs",
+      "sourceCode": "J1#4",
+      "page": 180,
+      "purpose": "Учебный полигон для техники и городских штурмовых упражнений.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-b4-12",
+      "english": "Trauma Team Tower",
+      "label": "Trauma Team",
+      "category": "medical",
+      "priority": 89,
+      "point": [
+        536.952,
+        478.376
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B4",
+      "source": "ncs",
+      "sourceCode": "B4#12",
+      "page": 117,
+      "purpose": "Штаб и медицинская инфраструктура Trauma Team в Medical Center.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b4-14",
+      "english": "Crisis Medical Center",
+      "label": "Crisis Medical",
+      "category": "medical",
+      "priority": 79,
+      "point": [
+        536.653,
+        486.495
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B4",
+      "source": "ncs",
+      "sourceCode": "B4#14",
+      "page": 117,
+      "purpose": "Медицинская помощь для срочного лечения без лишних вопросов.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-e1-2",
+      "english": "San Morro Bay Cargo & Container Port",
+      "label": "Контейнерный порт",
+      "category": "industrial",
+      "priority": 97,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "E1",
+      "source": "ncs",
+      "sourceCode": "E1#2",
+      "page": 176,
+      "purpose": "Основной контейнерный терминал с таможней и портовой охраной.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-a1-7",
+      "english": "The Clinic",
+      "label": "The Clinic",
+      "category": "medical",
+      "priority": 75,
+      "point": [
+        232.915,
+        476.815
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A1",
+      "source": "ncs",
+      "sourceCode": "A1#7",
+      "page": 59,
+      "purpose": "Клиника пластических и кибернетических операций высокого уровня. Это каноническое заведение; оно не является клиникой Мары Вейл.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a2-4",
+      "english": "Holy Angels Church",
+      "label": "Церковь Святых Ангелов",
+      "category": "culture",
+      "priority": 87,
+      "point": [
+        332.442,
+        371.008
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A2",
+      "source": "ncs",
+      "sourceCode": "A2#4",
+      "page": 62,
+      "purpose": "Католическая церковь и известное место нейтральной встречи. Местная репутация важнее внешнего вида обычного здания.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-c1-1",
+      "english": "NCU Administration",
+      "label": "NCU · администрация",
+      "category": "culture",
+      "priority": 96,
+      "point": [
+        268.713,
+        557.777
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C1",
+      "source": "ncs",
+      "sourceCode": "C1#1",
+      "page": 136,
+      "purpose": "Главный административный корпус университета.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "core-37",
+      "english": "City College",
+      "label": "Городской колледж",
+      "category": "culture",
+      "priority": 79,
+      "point": [
+        234.092,
+        538.806
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C1",
+      "source": "core",
+      "sourceCode": "Правила №37",
+      "page": 220,
+      "purpose": "Место входит в номерной перечень основной книги Cyberpunk 2020. Название и расположение на этой карте подтверждены; индивидуальный интерьер в перечне не описан.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b6-1",
+      "english": "McCartney Stadium",
+      "label": "Стадион Маккартни",
+      "category": "culture",
+      "priority": 96,
+      "point": [
+        631.522,
+        368.579
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B6",
+      "source": "ncs",
+      "sourceCode": "B6#1",
+      "page": 125,
+      "purpose": "Стадион и площадка крупных концертов, связанная с футбольной командой Night City Rangers.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b6-2",
+      "english": "New Harbor Mallplex",
+      "label": "New Harbor Mallplex",
+      "category": "shop",
+      "priority": 89,
+      "point": [
+        644.065,
+        390.945
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B6",
+      "source": "ncs",
+      "sourceCode": "B6#2",
+      "page": 127,
+      "purpose": "Огромный торгово-жилой комплекс со школами, медицинской и служебной инфраструктурой. Обитатели имеют собственную внутреннюю городскую жизнь.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b1-13",
+      "english": "Petrochem Fine Arts Museum",
+      "label": "Музей Petrochem",
+      "category": "culture",
+      "priority": 88,
+      "point": [
+        291.287,
+        424.513
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B1",
+      "source": "ncs",
+      "sourceCode": "B1#13",
+      "page": 93,
+      "purpose": "Художественный музей под корпоративным именем Petrochem.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-c6-4",
+      "english": "The Richard Night Memorial Aquarium",
+      "label": "Аквариум Ричарда Найта",
+      "category": "culture",
+      "priority": 89,
+      "point": [
+        692.689,
+        545.999
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C6",
+      "source": "ncs",
+      "sourceCode": "C6#4",
+      "page": 166,
+      "purpose": "Общественный аквариум, названный в честь основателя города.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-c2-1",
+      "english": "The Lake",
+      "label": "Лейк-Парк · озеро",
+      "category": "culture",
+      "priority": 89,
+      "point": [
+        387.637,
+        527.023
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C2",
+      "source": "ncs",
+      "sourceCode": "C2#1",
+      "page": 142,
+      "purpose": "Городское озеро внутри парка.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a1-5",
+      "english": "NCPD Precinct #2 Headquarters",
+      "label": "NCPD · участок №2",
+      "category": "services",
+      "priority": 89,
+      "point": [
+        267.116,
+        448.85
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A1",
+      "source": "ncs",
+      "sourceCode": "A1#5",
+      "page": 57,
+      "purpose": "Место указано в Маленькая Италия. Функция: услуги.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative.",
+      "suggestedDisplayCategory": "government",
+      "displayCategoryBasis": "Explicit NCPD/fire-station title; catalog category is retained."
+    },
+    {
+      "id": "ncs-c4-1",
+      "english": "NCPD Southside Central · Precinct #3",
+      "label": "NCPD · участок №3",
+      "category": "government",
+      "priority": 89,
+      "point": [
+        548.256,
+        531.096
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C4",
+      "source": "ncs",
+      "sourceCode": "C4#1",
+      "page": 151,
+      "purpose": "Крупная полицейская структура в Little China, известная как Precinct #3.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-g1-3",
+      "english": "Playland By the Sea",
+      "label": "Playland By the Sea",
+      "category": "culture",
+      "priority": 95,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "G1",
+      "source": "ncs",
+      "sourceCode": "G1#3",
+      "page": 179,
+      "purpose": "Парк развлечений, использующий брейнданс, интерфейсные технологии и современные аттракционы.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-c4-7",
+      "english": "Night City Transit Center",
+      "label": "Транспортный центр",
+      "category": "transport",
+      "priority": 92,
+      "point": [
+        544.75,
+        507.342
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C4",
+      "source": "ncs",
+      "sourceCode": "C4#7",
+      "page": 156,
+      "purpose": "Транспортный узел с автобусной инфраструктурой, пересадкой NCART и другими маглев-линиями.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a5-1",
+      "english": "C. Donut Express Co",
+      "label": "C. Donut · перевозки",
+      "category": "transport",
+      "priority": 89,
+      "point": [
+        517.888,
+        323.09
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A5",
+      "source": "ncs",
+      "sourceCode": "A5#1",
+      "page": 82,
+      "purpose": "Перевозчик с грузовиками, местными фургонами и бронированным транспортом. Двор используется для перегрузки и найма сопровождения.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-a6-7",
+      "english": "Stallion Slough Shipyard",
+      "label": "Верфь Stallion Slough",
+      "category": "industrial",
+      "priority": 89,
+      "point": [
+        591.183,
+        366.542
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "A6",
+      "source": "ncs",
+      "sourceCode": "A6#7",
+      "page": 86,
+      "purpose": "Местный офис судоверфи с небольшими доками и местами стоянки судов.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "core-25",
+      "english": "Highcourt Plaza Hotel",
+      "label": "Highcourt Plaza Hotel",
+      "category": "hotel",
+      "priority": 80,
+      "point": [
+        557.813,
+        499.698
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "C4",
+      "source": "core",
+      "sourceCode": "Правила №25",
+      "page": 220,
+      "purpose": "Дорогой отель со стеклянными лифтами и оформлением в духе 1920-х.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-f1-1",
+      "english": "Executive Estates",
+      "label": "Executive Estates",
+      "category": "housing",
+      "priority": 85,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "F1",
+      "source": "ncs",
+      "sourceCode": "F1#1",
+      "page": 179,
+      "purpose": "Особенно эксклюзивная корпоративная жилая территория с отдельным транспортным допуском.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    },
+    {
+      "id": "ncs-c6-5",
+      "english": "The Hacienda",
+      "label": "Hacienda",
+      "category": "club",
+      "priority": 89,
+      "point": [
+        693.554,
+        586.234
+      ],
+      "coordinateBasis": "matched-overview-name",
+      "district": "C6",
+      "source": "ncs",
+      "sourceCode": "C6#5",
+      "page": 168,
+      "purpose": "Известный развлекательный комплекс в Charter Hill с собственной охраной.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-c5-10",
+      "english": "Malorian Firearms, Inc",
+      "label": "Malorian Firearms",
+      "category": "corporate",
+      "priority": 88,
+      "point": [
+        638.076,
+        516.322
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "C5",
+      "source": "ncs",
+      "sourceCode": "C5#10",
+      "page": 163,
+      "purpose": "Оружейная фирма Eran Malour в Studio City.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-b5-3",
+      "english": "REO Meatwagon",
+      "label": "REO Meatwagon",
+      "category": "medical",
+      "priority": 89,
+      "point": [
+        618.032,
+        456.237
+      ],
+      "coordinateBasis": "approximate-sector-registration",
+      "district": "B5",
+      "source": "ncs",
+      "sourceCode": "B5#3",
+      "page": 120,
+      "purpose": "Частная медицинская служба, конкурирующая с Trauma Team.",
+      "coordinatePolicy": "Existing world.points unchanged. Overview coordinates are approximate; source-plan addresses remain authoritative."
+    },
+    {
+      "id": "ncs-g1-2",
+      "english": "Coastview",
+      "label": "Coastview · 2020",
+      "category": "housing",
+      "priority": 79,
+      "point": null,
+      "coordinateBasis": "awaiting-source-anchor-registration",
+      "district": "G1",
+      "source": "ncs",
+      "sourceCode": "G1#2",
+      "page": 179,
+      "purpose": "Дорогие прибрежные дома и зоны отдыха с серьёзной частной охраной.",
+      "coordinatePolicy": "Keep published source-plan address. Any new overview registration is approximate, not a surveyed address."
+    }
+  ],
+  "catalogPolicy": {
+    "searchIncludes": [
+      "data.places",
+      "data.corePlaces",
+      "transit.stations"
+    ],
+    "searchPlaceCount": 497,
+    "overviewPointCount": 312,
+    "placesWithoutOverviewPoint": 185,
+    "retainIdentity": [
+      "id",
+      "source",
+      "sourceCode",
+      "page",
+      "district/contextDistrict",
+      "source-plan coordinates"
+    ],
+    "sameNamePolicy": "Never merge addresses solely by normalized name. Prefer Sourcebook entry as the overview representative when it has a reliable source-plan district. List Core alternatives in search with their own source badge.",
+    "missingOverviewPointPolicy": "Open its original source plan or district; say there is no registered overview coordinate. Do not silently scatter it at the district center.",
+    "coverageCaution": "All outer-district NCS POIs currently lack overview coordinates, including the airport and container port. They still belong in search and district lists."
+  },
+  "visibilityPolicy": {
+    "start": "Show named high-priority landmarks immediately, with category icon and short label; never gate all canonical pins behind zoom.",
+    "crowding": "At a whole-city fit, the central city is small. Use label collision handling and useful cluster click behavior rather than 40 overlapping names. Preserve high-priority icons even when their labels must collapse.",
+    "zoom": "At district zoom, expose lower-priority canonical points and names. A result click should zoom/focus its point and keep a readable selected label.",
+    "selection": "Use the POI card to explain what it is and why a player might go there, retaining page/source and approximate overview warning.",
+    "displayIcons": {
+      "government": "municipal building or shield",
+      "medical": "medical cross",
+      "corporate": "tower",
+      "club": "glass or music note",
+      "culture": "book or museum",
+      "transport": "train or arrows",
+      "industrial": "factory",
+      "shop": "bag",
+      "hotel": "bed",
+      "services": "office"
+    }
+  },
+  "missingAnchors": [
+    {
+      "id": "ncs-e1-2",
+      "plan": "E1",
+      "sourcePoint": [
+        598,
+        508
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-j1-1",
+      "plan": "J1",
+      "sourcePoint": [
+        291,
+        378
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-j1-2",
+      "plan": "J1",
+      "sourcePoint": [
+        412,
+        663
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-j1-3",
+      "plan": "J1",
+      "sourcePoint": [
+        100,
+        934
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-j1-4",
+      "plan": "J1",
+      "sourcePoint": [
+        291,
+        1095
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-g1-1",
+      "plan": "G1",
+      "sourcePoint": [
+        405,
+        241
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    },
+    {
+      "id": "ncs-g1-2",
+      "plan": "G1",
+      "sourcePoint": [
+        483,
+        92
+      ],
+      "basis": "sourcebook-number-visually-checked",
+      "accuracyPixels": 4
+    }
+  ],
+  "overviewReferenceProposals": [
+    {
+      "id": "ncs-g1-3",
+      "district": "G1",
+      "referenceNumber": 96,
+      "point": [
+        270.21,
+        887.41
+      ],
+      "basis": "matched-overview-name",
+      "source": "Draken unofficial overview",
+      "validation": "Name matches Playland By the Sea exactly; proposed point lies in G1. The G1 source-plan image has no number 3 marker, so retain approximate-reference wording."
+    },
+    {
+      "id": "named-night-city-metropolitan-airport",
+      "district": "E1",
+      "referenceNumber": 95,
+      "point": [
+        502.668,
+        649.014
+      ],
+      "basis": "matched-overview-name",
+      "source": "Draken unofficial overview + Sourcebook regional Airport symbol",
+      "validation": "Sourcebook region plan has Airport on the north shore of San Morro Bay in South Night City. Draken 95 is the city airport there; no 2077 airport identity or coordinates. Exact spelling alias is a deliberate editorial normalization."
+    }
+  ],
+  "registrationNotes": [
+    "All 312 existing world points stay unchanged in v6. These proposals add missing sources only.",
+    "Use nine already recorded unregistered plan markers: four B2-plaza; E1#1/#3; F1#1; H1#1/#4.",
+    "H1#2 and H1#3 each appear twice on the plan. No new single-point anchor is supplied because one point would conceal the second site.",
+    "Draken Militech Training #58 lies in I1 while primary Militech training facility is J1. Do not use that Draken point: register the J1#4 source marker approximately within J1.",
+    "The 59 Mallplex interior entries share canonical parent ncs-b6-2; they can focus the parent overview point with basis parent-location, but must not be 59 separate overlapping map pins.",
+    "Named Totentanz has parent ncs-a3-7; Marksman/UrbanRanger have parent ncs-a1-5; MetropolitanBarbecue has parent ncs-a3-12. Use parent focus with an explicit interior-of-parent note.",
+    "Named ShortCircuit parent ncs-b4-13 lacks a world/source marker. Do not invent a new parent overview point.",
+    "Other unmapped central records have no current source marker. Keep searchable and open their source plans, rather than inventing positions."
+  ],
+  "summary": {
+    "landmarks": 40,
+    "priority90OrHigher": 10,
+    "newPlanAnchors": 7,
+    "safeOverviewReferenceProposals": 2,
+    "existingCoordinatesUnchanged": true
+  }
+}

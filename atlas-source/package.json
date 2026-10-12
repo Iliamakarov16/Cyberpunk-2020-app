@@ -1,0 +1,17 @@
+{
+  "name": "night-city-atlas",
+  "version": "9.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build-server.mjs",
+    "check": "node checks/validate.mjs && node checks/map-ui.mjs && node checks/map-performance.mjs && node checks/cyberdeck.mjs && node checks/raster-refinement.mjs && node checks/palette-overrides.mjs && node checks/campaign.mjs && node checks/dossier.mjs && node checks/theme-sync.mjs && node checks/crew-campaign.mjs && node checks/visibility.mjs && node checks/local-notes.mjs",
+    "build:crew": "node scripts/build-crew-client.mjs",
+    "check:crew": "node checks/crew-campaign.mjs"
+  },
+  "devDependencies": {
+    "drizzle-kit": "0.31.11",
+    "drizzle-orm": "0.44.7",
+    "jsdom": "^26.1.0"
+  }
+}

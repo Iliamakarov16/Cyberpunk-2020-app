@@ -1,0 +1,14 @@
+{
+  "atlas-data.json": {
+    "field": "coverage.geographicBase",
+    "before": "Cyberpunk2077 extracted game 3D map",
+    "after": "Night City 2020 cleaned Draken RPG Maps reference; source-plan coordinate links preserved",
+    "sha256": "e1ac8c87e8c44d2443ae4a241449a9eacbad68e811bf6251f1a29ad78158bac3"
+  },
+  "data.js": {
+    "field": "coverage.geographicBase",
+    "before": "Cyberpunk2077 extracted game 3D map",
+    "after": "Night City 2020 cleaned Draken RPG Maps reference; source-plan coordinate links preserved",
+    "sha256": "fccb2fa094426853e8a992dfc22005b2a0ee00978f3e86eaff45b9f9f7bc889d"
+  }
+}

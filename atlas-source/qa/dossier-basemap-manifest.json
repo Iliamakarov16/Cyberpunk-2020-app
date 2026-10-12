@@ -1,0 +1,42 @@
+{
+  "source": "assets/geography-2020/clean-basemap-v8.webp",
+  "sourceSha256": "f4d6e81e554de7713a872ed97895cc8a0c35dfb9ac5dd4227e3737b9b5eda377",
+  "operation": "precomputed-sRGB-palette-no-new-geometry",
+  "outputs": [
+    {
+      "path": "assets/geography-2020/dossier-v8/carmine.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1382558,
+      "sha256": "7f962d75d87addcec348ce7d1bc4745ba763658f87143ab81ce257817be80397"
+    },
+    {
+      "path": "assets/geography-2020/dossier-v8/ultraviolet.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1242554,
+      "sha256": "c46ff9bea57ab98a7cf43e368bd123286673e21b61a64d5c511d5dfdeca1dc93"
+    },
+    {
+      "path": "assets/geography-2020/dossier-v8/amber.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1154828,
+      "sha256": "83f81cbf36cd57a61c1d74ba0a7180a42718d71343b03090f8f85da6b5e36854"
+    },
+    {
+      "path": "assets/geography-2020/dossier-v8/maelstrom.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1299602,
+      "sha256": "875b60e244bdc3058eb963dc9df33afd9f871c9bc3a37e7a121ac3fb2cd5653e"
+    },
+    {
+      "path": "assets/geography-2020/dossier-v8/original.webp",
+      "width": 2048,
+      "height": 2048,
+      "bytes": 1416482,
+      "sha256": "ea95fbcf656f697edb065a00db77566c9d558b7fde45bacbe51a021972f8efb7"
+    }
+  ]
+}

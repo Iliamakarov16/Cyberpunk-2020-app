@@ -1,0 +1,52 @@
+{
+  "source": "assets/geography-2020/draken-original-v8.jpg",
+  "sourceUrl": "https://pd57k0blcbk.preview.infomaniak.website/wp-content/uploads/2024/09/NIGHT-CITY-WCBK-2020-scaled.jpg",
+  "sourceSha256": "d2292baa77d2d7b46c8b41ab311ddc6e858dc91dd2c817fef506e996ec040991",
+  "sourceDimensions": [
+    2560,
+    2012
+  ],
+  "sourceFramePreserved": [
+    1536,
+    1207
+  ],
+  "cropPreserved": [
+    442,
+    0,
+    1536,
+    1207
+  ],
+  "projectionPreserved": {
+    "type": "uniform-pixel-fit",
+    "crop": [
+      442,
+      0,
+      1536,
+      1207
+    ],
+    "output": [
+      1024,
+      1024
+    ],
+    "scale": 0.848384424192212,
+    "offsetX": 47.93371996686,
+    "offsetY": 0,
+    "formula": "x=(px-442)*1024/1207+47.9337199669; y=py*1024/1207",
+    "north": "up",
+    "ocean": "west/left",
+    "boundsNormalized": [
+      47.934,
+      0,
+      976.066,
+      1024
+    ],
+    "inverse": "px=(x-offsetX)/scale+442; py=y/scale"
+  },
+  "effectiveSourceCrop": [
+    1823,
+    2012
+  ],
+  "worldUnitsPerSourcePixel": 0.5089463220675944,
+  "annotationWindowsReused": 133,
+  "limitation": "Existing cleanup windows retain their previous lower-resolution detail. This source has 1.667x more pixels per axis; no new streets or district boundaries were generated."
+}

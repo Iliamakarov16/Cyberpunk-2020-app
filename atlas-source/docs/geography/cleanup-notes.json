@@ -1,0 +1,19 @@
+{
+  "mode": "built-in image_gen, annotation cleanup only",
+  "prompt": "Remove printed labels, POI number boxes, route shields and legend; preserve every visible road, building contour, coastline and source palette. Composite only annotation windows onto the unchanged original image.",
+  "originalImage": "assets/geography-2020/draken-original-v7.jpg",
+  "cleanedImage": "assets/geography-2020/draken-cleaning-v7.png",
+  "registration": "Original1536x1207; generated1415x1111 normalized to source frame; original pixels outside annotation windows are retained.",
+  "limitation": "Drawing hidden under source text is reconstructed locally; it is not an independently verified canonical address.",
+  "compositeImage": "assets/geography-2020/clean-basemap-v7.svg",
+  "sourceRetainedOutsideAnnotationWindowsPercent": 93.048,
+  "runtimeImage": "assets/geography-2020/clean-basemap-v7.webp",
+  "runtimeImageResolution": [
+    2048,
+    2048
+  ],
+  "originalImageResolution": [
+    1536,
+    1207
+  ]
+}

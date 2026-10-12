@@ -1,0 +1,8 @@
+vite v8.0.13 building client environment for production...
+[2Ktransforming...✓ 1978 modules transformed.
+rendering chunks...
+computing gzip size...
+qa176/atlas-cyberdeck-checkpoint/compiled-app/battle-ui.css     73.08 kB │ gzip:  11.96 kB
+qa176/atlas-cyberdeck-checkpoint/compiled-app/app.js         1,756.43 kB │ gzip: 423.02 kB
+
+✓ built in 588ms

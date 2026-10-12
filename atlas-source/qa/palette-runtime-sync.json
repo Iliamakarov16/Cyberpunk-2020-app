@@ -1,0 +1,8 @@
+{
+  "web-source/public/atlas": [
+    "theme.js"
+  ],
+  "payload/static/atlas": [
+    "theme.js"
+  ]
+}

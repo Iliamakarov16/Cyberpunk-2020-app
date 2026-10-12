@@ -1,0 +1,107 @@
+/* Source plans, canonical markers, campaign and transit SVG. */
+.zone{stroke:#85aeb76b;stroke-width:1.4;fill-opacity:.72;cursor:pointer;vector-effect:non-scaling-stroke}
+.zone:hover,.zone.selected{stroke:var(--gold);stroke-width:2.5;fill-opacity:1}
+.zone:focus{stroke:var(--gold);stroke-width:3}
+.zone-label{fill:#d9e6ea;paint-order:stroke;stroke:#13232c;stroke-width:5px;stroke-linejoin:round;font-size:17px;text-anchor:middle;pointer-events:none;font-weight:600}
+.macro-label{font-size:22px;letter-spacing:2px}
+.sector-label{font-size:11px;letter-spacing:.3px}
+.water-label{fill:#6b9cab;font-size:16px;letter-spacing:3px;text-anchor:middle;pointer-events:none}
+.street{pointer-events:none;fill:none;stroke:#6e91986b;stroke-width:1.4;vector-effect:non-scaling-stroke}
+.artery{pointer-events:none;fill:none;stroke:#d0b979;stroke-width:4;vector-effect:non-scaling-stroke;opacity:.8}
+.route-line{stroke:var(--red);stroke-width:4;stroke-dasharray:10 7;fill:none;vector-effect:non-scaling-stroke}
+.pin{cursor:pointer}
+.pin circle{fill:var(--gold);stroke:#182934;stroke-width:2;vector-effect:non-scaling-stroke}
+.pin text{fill:#14222a;text-anchor:middle;dominant-baseline:central;font-size:12px;font-weight:700;pointer-events:none}
+.pin.selected circle{fill:white;stroke:var(--red);stroke-width:3}
+.city-block{stroke:#b4b6a9;stroke-width:.75;stroke-linejoin:round;pointer-events:none}
+.city-zone{fill:#ceb36a;fill-opacity:0;stroke:#967323;stroke-opacity:0;stroke-width:1.5;vector-effect:non-scaling-stroke;cursor:pointer}
+.city-zone:hover{fill-opacity:.13;stroke-opacity:.55}
+.city-zone.selected{fill-opacity:.10;stroke-opacity:.9;stroke-dasharray:6 4}
+.street-name{font-family:Arial,"Segoe UI",sans-serif;font-size:10px;fill:#526269;text-anchor:middle;dominant-baseline:middle;paint-order:stroke;stroke:#faf9f2;stroke-width:3px;stroke-linejoin:round;pointer-events:none;letter-spacing:.2px}
+.street-major{fill:#725627;font-weight:600}
+.carto-place{font:600 14px Arial,sans-serif;fill:#5f7165;text-anchor:middle;letter-spacing:1px;paint-order:stroke;stroke:#f2f0e8;stroke-width:3px;pointer-events:none}
+.carto-water{font:14px Arial,sans-serif;fill:#5d818d;text-anchor:middle;letter-spacing:2px;pointer-events:none}
+.selected-district-label{font:600 16px Arial,sans-serif;fill:#604d24;text-anchor:middle;paint-order:stroke;stroke:#faf9f2;stroke-width:4px;pointer-events:none}
+.city-pin{cursor:pointer}
+.city-pin circle{fill:#fffef6;stroke:#586e72;stroke-width:1.5;vector-effect:non-scaling-stroke}
+.city-pin text{font:600 10px Arial,sans-serif;fill:#344f55;text-anchor:middle;dominant-baseline:central;pointer-events:none}
+.city-pin:hover circle,.city-pin.selected circle{fill:#f3cb6c;stroke:#976225;stroke-width:2.5}
+.city-pin.selected text{fill:#493016}
+.plan-marker{cursor:pointer}
+.plan-marker circle{fill:transparent;stroke:#058c95;stroke-width:2;stroke-opacity:0;vector-effect:non-scaling-stroke}
+.plan-marker:hover circle,.plan-marker:focus circle{stroke-opacity:1;fill:#10adb52b}
+.plan-marker.selected circle{stroke-opacity:1;stroke-width:3;fill:#10adb52b}
+.region-pin{cursor:pointer}
+.region-pin circle{fill:#f2cb71;stroke:#69521a;stroke-width:2;vector-effect:non-scaling-stroke}
+.region-pin text{fill:#3e3318;font:600 15px Arial,sans-serif;pointer-events:none}
+.region-pin.selected circle{fill:#ffedb2;stroke:#b14532;stroke-width:3}
+.north-mark{pointer-events:none}
+.building-zone{fill:#f1ca60;fill-opacity:0;stroke:#f1ca60;stroke-width:2;stroke-opacity:0;vector-effect:non-scaling-stroke;cursor:pointer}
+.building-zone:hover{fill-opacity:.10;stroke-opacity:.9}
+.building-zone.selected{fill-opacity:.05;stroke-opacity:1;stroke-dasharray:6 4}
+.world-zone{fill-opacity:.08;stroke-opacity:.45;stroke-width:1.1;vector-effect:non-scaling-stroke;cursor:pointer;transition:fill-opacity .15s,stroke-opacity .15s}
+.world-zone:hover{fill-opacity:.2;stroke-opacity:1}
+.world-zone.selected{fill-opacity:.14;stroke-opacity:1;stroke-width:2}
+.world-boundary{fill:none;stroke:#fff3b2;stroke-opacity:.65;stroke-width:1.2;stroke-dasharray:7 5;vector-effect:non-scaling-stroke;pointer-events:none}
+.world-label{fill:#dfedf2;stroke:#091623;stroke-width:3.2;paint-order:stroke;stroke-linejoin:round;text-anchor:middle;font-weight:650;letter-spacing:.09em;pointer-events:none;font-size:15px}
+.world-sector-label{fill:#bdcbd5;stroke:#091623;stroke-width:3;paint-order:stroke;text-anchor:middle;font-weight:550;pointer-events:none}
+.world-water-label{fill:#5d8f9f;letter-spacing:.18em;pointer-events:none;font-weight:500;text-anchor:middle}
+.world-place-pin{cursor:pointer}
+.world-place-pin .pin-halo{fill:#081520;stroke:#efbf65;stroke-width:1.4;vector-effect:non-scaling-stroke}
+.world-place-pin .pin-dot{fill:#efbf65;stroke:#08202c;stroke-width:1.5;vector-effect:non-scaling-stroke}
+.world-place-pin.selected .pin-halo{fill:#152936;stroke:#ffda8d;stroke-width:2.5}
+.world-place-pin.selected .pin-dot{fill:#fff1c5}
+.world-pin-label{fill:#f5dfa9;stroke:#07111c;stroke-width:3;paint-order:stroke;font-weight:650;pointer-events:none}
+.world-cluster{cursor:pointer}
+.world-cluster circle{fill:#0b1b28;stroke:#85bbc6;stroke-width:1.2;vector-effect:non-scaling-stroke}
+.world-cluster text{fill:#d8e7ec;text-anchor:middle;dominant-baseline:central;pointer-events:none;font-weight:600}
+.selected-area{fill:#efbf651d;stroke:#efbf65;stroke-width:2;stroke-dasharray:7 5;vector-effect:non-scaling-stroke;pointer-events:none}
+.world-extent-grid{pointer-events:none;opacity:.12}
+.world-basemap{pointer-events:none}
+.world-cluster.selected circle{stroke:#efbf65;stroke-width:2}
+.world-sector:not(.selected){fill-opacity:0;stroke-opacity:.2}
+.world-sector.selected{fill-opacity:.1}
+.world-macro-label{letter-spacing:.06em}
+.world-place-pin:focus-visible,.world-cluster:focus-visible{outline:none}
+.world-place-pin:focus-visible .pin-halo,.world-cluster:focus-visible circle{stroke:#fff;stroke-width:3}
+.historical-basemap{pointer-events:none;opacity:.9}
+.metro-line{fill:none;stroke-width:3;vector-effect:non-scaling-stroke;stroke-linejoin:round;opacity:.8;pointer-events:none}
+.metro-route{fill:none;stroke:#faf5b2;stroke-width:6;vector-effect:non-scaling-stroke;stroke-linejoin:round;pointer-events:none}
+.metro-station,.campaign-marker{cursor:pointer}
+.metro-hit,.campaign-hit{fill:transparent}
+.metro-dot{fill:#10202c;stroke:#d9ecf2;stroke-width:2;vector-effect:non-scaling-stroke}
+.metro-station text,.campaign-marker text{fill:#e4eff3;paint-order:stroke;stroke:#0a1622;stroke-width:3px;stroke-linejoin:round;pointer-events:none}
+.campaign-symbol{fill:var(--marker-color);stroke:#0c1823;stroke-width:2;vector-effect:non-scaling-stroke}
+.hidden-marker .campaign-symbol{fill:#152331;stroke:var(--marker-color);stroke-dasharray:3 2}
+.campaign-marker-list{display:grid;gap:5px;margin:15px 0}
+.campaign-marker-list>button{display:flex;gap:12px;align-items:center;text-align:left;padding:12px;min-height:56px}
+.campaign-marker-list i{display:block;width:12px;height:12px;flex:none;transform:rotate(45deg)}
+.campaign-marker-list small{display:block;font-size:13px;color:var(--muted);margin-top:3px}
+.world-road-label{fill:#c9bea4;stroke:#182e35;stroke-width:2.8;paint-order:stroke;stroke-linejoin:round;text-anchor:middle;font-weight:600;pointer-events:none}
+#map text{font-family:Inter,"Segoe UI",Arial,sans-serif}
+.world-place-pin .pin-halo{fill:#102530;stroke:var(--poi-color,#b4c2cc);stroke-width:1.5;vector-effect:non-scaling-stroke}
+.world-place-pin .pin-dot{fill:var(--poi-color,#b4c2cc);stroke:none}
+.world-place-pin.landmark .pin-dot,.world-place-pin.selected .pin-dot{display:none}
+.world-place-pin .pin-category{pointer-events:none}
+.world-place-pin .pin-category path{fill:none;stroke:var(--poi-color,#b4c2cc);stroke-width:1.4;stroke-linecap:round;stroke-linejoin:round}
+.world-place-pin.selected .pin-halo{fill:#173842;stroke:#fff;stroke-width:2.5}
+.world-place-pin .world-pin-label{fill:#dfe8e9;text-anchor:start;font-weight:600;pointer-events:none;paint-order:stroke;stroke:#10232d}
+#map-viewport[data-basemap=source] .world-label,
+#map-viewport[data-basemap=source] .world-sector-label,
+#map-viewport[data-basemap=source] .world-road-label,
+#map-viewport[data-basemap=source] .world-place-pin .world-pin-label,
+#map-viewport[data-basemap=source] .campaign-marker text,
+#map-viewport[data-basemap=source] .metro-station text{fill:#172b33;stroke:#faf6e7;stroke-linejoin:round;paint-order:stroke}
+#map-viewport[data-basemap=source] .world-water-label{fill:#e4eff3;stroke:#173c4e;stroke-width:2;paint-order:stroke}
+#map-viewport[data-basemap=source] .world-zone{fill-opacity:.025;stroke-opacity:.55}
+#map-viewport[data-basemap=source] .world-zone:hover{fill-opacity:.1}
+#map-viewport[data-basemap=source] .world-zone.selected{fill-opacity:.06;stroke-opacity:.9}
+#map [tabindex]{outline:none}
+#map .pin-hit{fill:transparent}
+
+/* District masks are editorial areas, not surveyed/canonical boundaries. */
+.world-district-marker{cursor:pointer}
+.world-district-marker circle{fill:var(--nc-deep,#07111c);stroke:var(--nc-muted,#b4c2cc);stroke-width:1;stroke-dasharray:3 3;vector-effect:non-scaling-stroke}
+.world-district-marker text{fill:var(--nc-text,#e4eff3);font-weight:600;pointer-events:none}
+.world-district-marker.selected circle,.world-district-marker:focus-visible circle{stroke:var(--nc-red,#ff285c);stroke-width:2}
+.world-basemap{image-rendering:auto}

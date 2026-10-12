@@ -1,0 +1,2218 @@
+[
+  {
+    "plan": "A1",
+    "number": "20",
+    "x": 686.0,
+    "y": 159.5,
+    "placeId": "ncs-a1-20",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "24",
+    "x": 1036.5,
+    "y": 296.0,
+    "placeId": "ncs-a1-24",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "5",
+    "x": 1318.5,
+    "y": 307.5,
+    "placeId": "ncs-a1-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "27",
+    "x": 674.5,
+    "y": 338.5,
+    "placeId": "ncs-a1-27",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "21",
+    "x": 289.0,
+    "y": 356.0,
+    "placeId": "ncs-a1-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "5",
+    "x": 1234.5,
+    "y": 497.5,
+    "placeId": "ncs-a1-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "16",
+    "x": 961.5,
+    "y": 729.5,
+    "placeId": "ncs-a1-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "19",
+    "x": 702.0,
+    "y": 739.5,
+    "placeId": "ncs-a1-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "25",
+    "x": 1494.0,
+    "y": 758.5,
+    "placeId": "ncs-a1-25",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "6",
+    "x": 156.0,
+    "y": 768.0,
+    "placeId": "ncs-a1-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "22",
+    "x": 1553.0,
+    "y": 884.0,
+    "placeId": "ncs-a1-22",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "3",
+    "x": 818.5,
+    "y": 959.0,
+    "placeId": "ncs-a1-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "2",
+    "x": 391.5,
+    "y": 1013.0,
+    "placeId": "ncs-a1-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "18",
+    "x": 581.5,
+    "y": 1400.0,
+    "placeId": "ncs-a1-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "7",
+    "x": 282.5,
+    "y": 1408.5,
+    "placeId": "ncs-a1-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "13",
+    "x": 1295.5,
+    "y": 1419.0,
+    "placeId": "ncs-a1-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "8",
+    "x": 750.5,
+    "y": 1498.5,
+    "placeId": "ncs-a1-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "23",
+    "x": 232.0,
+    "y": 1566.5,
+    "placeId": "ncs-a1-23",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "9",
+    "x": 928.5,
+    "y": 1627.5,
+    "placeId": "ncs-a1-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "14",
+    "x": 1325.0,
+    "y": 1740.0,
+    "placeId": "ncs-a1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "10",
+    "x": 1544.5,
+    "y": 1749.5,
+    "placeId": "ncs-a1-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "11",
+    "x": 325.5,
+    "y": 1859.5,
+    "placeId": "ncs-a1-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A1",
+    "number": "12",
+    "x": 896.5,
+    "y": 1884.0,
+    "placeId": "ncs-a1-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "3",
+    "x": 442.5,
+    "y": 196.0,
+    "placeId": "ncs-a2-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "2",
+    "x": 185.0,
+    "y": 353.0,
+    "placeId": "ncs-a2-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "6",
+    "x": 1256.5,
+    "y": 387.0,
+    "placeId": "ncs-a2-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "7",
+    "x": 1165.5,
+    "y": 445.5,
+    "placeId": "ncs-a2-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "3",
+    "x": 350.5,
+    "y": 453.5,
+    "placeId": "ncs-a2-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "10",
+    "x": 1440.0,
+    "y": 467.5,
+    "placeId": "ncs-a2-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "4",
+    "x": 696.0,
+    "y": 479.5,
+    "placeId": "ncs-a2-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "15",
+    "x": 1269.5,
+    "y": 838.0,
+    "placeId": "ncs-a2-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "16",
+    "x": 1181.0,
+    "y": 1059.0,
+    "placeId": "ncs-a2-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "25",
+    "x": 1241.5,
+    "y": 1315.5,
+    "placeId": "ncs-a2-25",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "23",
+    "x": 1374.5,
+    "y": 1562.5,
+    "placeId": "ncs-a2-23",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "21",
+    "x": 743.5,
+    "y": 1744.5,
+    "placeId": "ncs-a2-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "22",
+    "x": 987.0,
+    "y": 1810.0,
+    "placeId": "ncs-a2-22",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A2",
+    "number": "19",
+    "x": 248.0,
+    "y": 1865.5,
+    "placeId": "ncs-a2-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "14",
+    "x": 634.5,
+    "y": 156.0,
+    "placeId": "ncs-a3-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "16",
+    "x": 1111.5,
+    "y": 169.5,
+    "placeId": "ncs-a3-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "12",
+    "x": 498.5,
+    "y": 228.0,
+    "placeId": "ncs-a3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "8",
+    "x": 252.5,
+    "y": 262.0,
+    "placeId": "ncs-a3-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "13",
+    "x": 758.5,
+    "y": 280.5,
+    "placeId": "ncs-a3-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "17",
+    "x": 134.0,
+    "y": 598.0,
+    "placeId": "ncs-a3-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "9",
+    "x": 494.5,
+    "y": 692.0,
+    "placeId": "ncs-a3-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "18",
+    "x": 56.5,
+    "y": 789.5,
+    "placeId": "ncs-a3-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "10",
+    "x": 695.5,
+    "y": 832.0,
+    "placeId": "ncs-a3-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "21",
+    "x": 151.5,
+    "y": 1011.5,
+    "placeId": "ncs-a3-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "11",
+    "x": 729.0,
+    "y": 1093.5,
+    "placeId": "ncs-a3-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "21",
+    "x": 365.0,
+    "y": 1149.5,
+    "placeId": "ncs-a3-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "21",
+    "x": 150.5,
+    "y": 1345.5,
+    "placeId": "ncs-a3-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "2",
+    "x": 738.5,
+    "y": 1513.5,
+    "placeId": "ncs-a3-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "7",
+    "x": 151.5,
+    "y": 1514.5,
+    "placeId": "ncs-a3-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "3",
+    "x": 1150.0,
+    "y": 1515.5,
+    "placeId": "ncs-a3-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "1",
+    "x": 688.0,
+    "y": 1826.5,
+    "placeId": "ncs-a3-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "6",
+    "x": 1116.0,
+    "y": 1998.5,
+    "placeId": "ncs-a3-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A3",
+    "number": "5",
+    "x": 671.0,
+    "y": 2014.5,
+    "placeId": "ncs-a3-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "1",
+    "x": 348.0,
+    "y": 125.5,
+    "placeId": "ncs-a4-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "2",
+    "x": 850.5,
+    "y": 158.0,
+    "placeId": "ncs-a4-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "8",
+    "x": 209.5,
+    "y": 537.5,
+    "placeId": "ncs-a4-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "9",
+    "x": 882.0,
+    "y": 578.0,
+    "placeId": "ncs-a4-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "6",
+    "x": 402.5,
+    "y": 653.0,
+    "placeId": "ncs-a4-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "10",
+    "x": 1327.5,
+    "y": 758.5,
+    "placeId": "ncs-a4-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "5",
+    "x": 232.5,
+    "y": 831.5,
+    "placeId": "ncs-a4-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "16",
+    "x": 842.0,
+    "y": 1079.0,
+    "placeId": "ncs-a4-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "14",
+    "x": 172.5,
+    "y": 1125.0,
+    "placeId": "ncs-a4-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "18",
+    "x": 1342.5,
+    "y": 1232.5,
+    "placeId": "ncs-a4-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "15",
+    "x": 1152.5,
+    "y": 1234.0,
+    "placeId": "ncs-a4-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "17",
+    "x": 757.0,
+    "y": 1335.5,
+    "placeId": "ncs-a4-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "12",
+    "x": 268.5,
+    "y": 1340.0,
+    "placeId": "ncs-a4-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "21",
+    "x": 807.5,
+    "y": 1577.5,
+    "placeId": "ncs-a4-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "23",
+    "x": 1385.5,
+    "y": 1612.0,
+    "placeId": "ncs-a4-23",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "22",
+    "x": 1076.5,
+    "y": 1649.0,
+    "placeId": "ncs-a4-22",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "25",
+    "x": 1495.0,
+    "y": 1784.5,
+    "placeId": "ncs-a4-25",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A4",
+    "number": "24",
+    "x": 1342.5,
+    "y": 1838.5,
+    "placeId": "ncs-a4-24",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "1",
+    "x": 1476.0,
+    "y": 822.5,
+    "placeId": "ncs-a5-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "12",
+    "x": 833.5,
+    "y": 872.0,
+    "placeId": "ncs-a5-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "11",
+    "x": 1132.5,
+    "y": 1032.5,
+    "placeId": "ncs-a5-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "10",
+    "x": 1129.5,
+    "y": 1185.0,
+    "placeId": "ncs-a5-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "9",
+    "x": 988.5,
+    "y": 1266.0,
+    "placeId": "ncs-a5-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "14",
+    "x": 313.0,
+    "y": 1302.5,
+    "placeId": "ncs-a5-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "3",
+    "x": 1454.0,
+    "y": 1337.5,
+    "placeId": "ncs-a5-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "7",
+    "x": 1159.5,
+    "y": 1396.0,
+    "placeId": "ncs-a5-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "5",
+    "x": 806.5,
+    "y": 1489.5,
+    "placeId": "ncs-a5-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "6",
+    "x": 962.0,
+    "y": 1532.5,
+    "placeId": "ncs-a5-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "4",
+    "x": 1450.5,
+    "y": 1563.0,
+    "placeId": "ncs-a5-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "8",
+    "x": 1195.0,
+    "y": 1608.0,
+    "placeId": "ncs-a5-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A5",
+    "number": "15",
+    "x": 365.0,
+    "y": 1921.5,
+    "placeId": "ncs-a5-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "1",
+    "x": 206.0,
+    "y": 562.5,
+    "placeId": "ncs-a6-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "2",
+    "x": 305.0,
+    "y": 659.5,
+    "placeId": "ncs-a6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "3",
+    "x": 396.0,
+    "y": 755.0,
+    "placeId": "ncs-a6-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "4",
+    "x": 490.0,
+    "y": 856.0,
+    "placeId": "ncs-a6-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "6",
+    "x": 698.5,
+    "y": 1049.5,
+    "placeId": "ncs-a6-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "7",
+    "x": 797.5,
+    "y": 1143.5,
+    "placeId": "ncs-a6-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "8",
+    "x": 891.5,
+    "y": 1246.0,
+    "placeId": "ncs-a6-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "11",
+    "x": 1021.0,
+    "y": 1330.5,
+    "placeId": "ncs-a6-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "13",
+    "x": 915.5,
+    "y": 1799.0,
+    "placeId": "ncs-a6-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "10",
+    "x": 1306.5,
+    "y": 1850.5,
+    "placeId": "ncs-a6-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "14",
+    "x": 923.5,
+    "y": 1927.0,
+    "placeId": "ncs-a6-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "A6",
+    "number": "15",
+    "x": 786.0,
+    "y": 1944.0,
+    "placeId": "ncs-a6-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "16",
+    "x": 819.5,
+    "y": 217.0,
+    "placeId": "ncs-b1-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "20",
+    "x": 1343.5,
+    "y": 314.0,
+    "placeId": "ncs-b1-20",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "17",
+    "x": 584.5,
+    "y": 373.5,
+    "placeId": "ncs-b1-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "1",
+    "x": 1397.5,
+    "y": 675.0,
+    "placeId": "ncs-b1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "13",
+    "x": 122.0,
+    "y": 885.5,
+    "placeId": "ncs-b1-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "1",
+    "x": 528.5,
+    "y": 1156.0,
+    "placeId": "ncs-b1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "14",
+    "x": 88.5,
+    "y": 1303.5,
+    "placeId": "ncs-b1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "10",
+    "x": 413.5,
+    "y": 1669.0,
+    "placeId": "ncs-b1-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "7",
+    "x": 67.0,
+    "y": 1680.5,
+    "placeId": "ncs-b1-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "8",
+    "x": 1065.0,
+    "y": 1705.0,
+    "placeId": "ncs-b1-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "9",
+    "x": 417.5,
+    "y": 1807.5,
+    "placeId": "ncs-b1-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "10",
+    "x": 931.5,
+    "y": 1895.5,
+    "placeId": "ncs-b1-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B1",
+    "number": "10",
+    "x": 641.5,
+    "y": 1921.5,
+    "placeId": "ncs-b1-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "2",
+    "x": 189.5,
+    "y": 186.5,
+    "placeId": "ncs-b2-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "3",
+    "x": 422.5,
+    "y": 193.0,
+    "placeId": "ncs-b2-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "10",
+    "x": 832.5,
+    "y": 227.5,
+    "placeId": "ncs-b2-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "16",
+    "x": 1233.5,
+    "y": 306.0,
+    "placeId": "ncs-b3-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "5",
+    "x": 330.5,
+    "y": 364.5,
+    "placeId": "ncs-b2-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "6",
+    "x": 489.5,
+    "y": 394.5,
+    "placeId": "ncs-b2-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "4",
+    "x": 164.0,
+    "y": 417.5,
+    "placeId": "ncs-b2-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "9",
+    "x": 1001.5,
+    "y": 454.5,
+    "placeId": "ncs-b2-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "32",
+    "x": 1489.5,
+    "y": 704.5,
+    "placeId": "ncs-b2-32",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "17",
+    "x": 722.5,
+    "y": 901.5,
+    "placeId": "ncs-b3-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "18",
+    "x": 481.5,
+    "y": 1054.0,
+    "placeId": "ncs-b3-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "37",
+    "x": 178.5,
+    "y": 1057.5,
+    "placeId": "ncs-b2-37",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "19",
+    "x": 651.5,
+    "y": 1153.0,
+    "placeId": "ncs-b3-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "31",
+    "x": 1082.5,
+    "y": 1161.5,
+    "placeId": "ncs-b2-31",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "24",
+    "x": 257.5,
+    "y": 1389.0,
+    "placeId": "ncs-b2-24",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "35",
+    "x": 1333.0,
+    "y": 1565.5,
+    "placeId": "ncs-b2-35",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B2",
+    "number": "34",
+    "x": 1401.0,
+    "y": 1927.5,
+    "placeId": "ncs-b2-34",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "2",
+    "x": 379.0,
+    "y": 102.0,
+    "placeId": "ncs-b3-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "3",
+    "x": 770.5,
+    "y": 562.5,
+    "placeId": "ncs-b3-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "6",
+    "x": 1170.0,
+    "y": 619.5,
+    "placeId": "ncs-b3-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "4",
+    "x": 774.0,
+    "y": 752.0,
+    "placeId": "ncs-b3-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "5",
+    "x": 832.0,
+    "y": 848.5,
+    "placeId": "ncs-b3-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "7",
+    "x": 1154.5,
+    "y": 933.5,
+    "placeId": "ncs-b3-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "8",
+    "x": 1261.5,
+    "y": 1259.0,
+    "placeId": "ncs-b3-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "8",
+    "x": 1068.0,
+    "y": 1328.5,
+    "placeId": "ncs-b3-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "10",
+    "x": 1236.5,
+    "y": 1347.5,
+    "placeId": "ncs-b3-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "11",
+    "x": 1252.5,
+    "y": 1691.5,
+    "placeId": "ncs-b3-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "11",
+    "x": 1169.5,
+    "y": 1878.5,
+    "placeId": "ncs-b3-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B3",
+    "number": "12",
+    "x": 1047.5,
+    "y": 1974.5,
+    "placeId": "ncs-b3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "1",
+    "x": 359.5,
+    "y": 71.5,
+    "placeId": "ncs-b4-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "7",
+    "x": 1392.5,
+    "y": 145.0,
+    "placeId": "ncs-b4-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "4",
+    "x": 801.0,
+    "y": 215.5,
+    "placeId": "ncs-b4-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "2",
+    "x": 298.5,
+    "y": 331.0,
+    "placeId": "ncs-b4-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "8",
+    "x": 1075.0,
+    "y": 471.5,
+    "placeId": "ncs-b4-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "3",
+    "x": 537.5,
+    "y": 538.0,
+    "placeId": "ncs-b4-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "9",
+    "x": 1309.0,
+    "y": 621.5,
+    "placeId": "ncs-b4-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "11",
+    "x": 1031.5,
+    "y": 717.5,
+    "placeId": "ncs-b4-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "10",
+    "x": 1297.5,
+    "y": 794.0,
+    "placeId": "ncs-b4-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "12",
+    "x": 1003.5,
+    "y": 1036.5,
+    "placeId": "ncs-b4-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "19",
+    "x": 258.5,
+    "y": 1351.5,
+    "placeId": "ncs-b4-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "15",
+    "x": 1419.0,
+    "y": 1357.5,
+    "placeId": "ncs-b4-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "14",
+    "x": 994.5,
+    "y": 1358.5,
+    "placeId": "ncs-b4-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "21",
+    "x": 566.5,
+    "y": 1392.0,
+    "placeId": "ncs-b4-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "16",
+    "x": 1310.5,
+    "y": 1619.5,
+    "placeId": "ncs-b4-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "17",
+    "x": 691.0,
+    "y": 1651.5,
+    "placeId": "ncs-b4-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B4",
+    "number": "18",
+    "x": 253.5,
+    "y": 1687.5,
+    "placeId": "ncs-b4-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "2",
+    "x": 372.0,
+    "y": 86.5,
+    "placeId": "ncs-b5-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "1",
+    "x": 63.0,
+    "y": 153.5,
+    "placeId": "ncs-b5-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "4",
+    "x": 228.5,
+    "y": 375.5,
+    "placeId": "ncs-b5-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "5",
+    "x": 358.0,
+    "y": 488.5,
+    "placeId": "ncs-b5-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "3",
+    "x": 74.5,
+    "y": 495.0,
+    "placeId": "ncs-b5-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "6",
+    "x": 356.0,
+    "y": 741.5,
+    "placeId": "ncs-b5-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "3",
+    "x": 55.0,
+    "y": 764.5,
+    "placeId": "ncs-b5-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "8",
+    "x": 588.5,
+    "y": 1084.0,
+    "placeId": "ncs-b5-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "11",
+    "x": 1044.0,
+    "y": 1110.5,
+    "placeId": "ncs-b5-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "12",
+    "x": 1268.5,
+    "y": 1112.5,
+    "placeId": "ncs-b5-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "7",
+    "x": 114.5,
+    "y": 1226.0,
+    "placeId": "ncs-b5-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "10",
+    "x": 747.0,
+    "y": 1335.5,
+    "placeId": "ncs-b5-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "13",
+    "x": 961.0,
+    "y": 1364.5,
+    "placeId": "ncs-b5-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "17",
+    "x": 1236.5,
+    "y": 1636.5,
+    "placeId": "ncs-b5-17",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "16",
+    "x": 917.5,
+    "y": 1643.5,
+    "placeId": "ncs-b5-16",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "15",
+    "x": 490.5,
+    "y": 1688.0,
+    "placeId": "ncs-b5-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "18",
+    "x": 1225.5,
+    "y": 1728.5,
+    "placeId": "ncs-b5-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "23",
+    "x": 1092.5,
+    "y": 1785.5,
+    "placeId": "ncs-b5-23",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "19",
+    "x": 358.5,
+    "y": 1796.0,
+    "placeId": "ncs-b5-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "22",
+    "x": 511.5,
+    "y": 1921.5,
+    "placeId": "ncs-b5-22",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "20",
+    "x": 125.5,
+    "y": 1985.5,
+    "placeId": "ncs-b5-20",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B5",
+    "number": "21",
+    "x": 468.0,
+    "y": 2040.5,
+    "placeId": "ncs-b5-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "1",
+    "x": 532.5,
+    "y": 115.0,
+    "placeId": "ncs-b6-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "2",
+    "x": 906.0,
+    "y": 999.5,
+    "placeId": "ncs-b6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "2",
+    "x": 437.5,
+    "y": 1256.5,
+    "placeId": "ncs-b6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "2",
+    "x": 844.5,
+    "y": 1299.5,
+    "placeId": "ncs-b6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "2",
+    "x": 1418.5,
+    "y": 1459.5,
+    "placeId": "ncs-b6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "B6",
+    "number": "2",
+    "x": 920.5,
+    "y": 1828.0,
+    "placeId": "ncs-b6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "27",
+    "x": 527.5,
+    "y": 81.0,
+    "placeId": "ncs-c1-27",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "13",
+    "x": 1221.0,
+    "y": 244.5,
+    "placeId": "ncs-c1-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "12",
+    "x": 1058.5,
+    "y": 312.0,
+    "placeId": "ncs-c1-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "11",
+    "x": 1049.5,
+    "y": 408.0,
+    "placeId": "ncs-c1-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "10",
+    "x": 1008.5,
+    "y": 528.5,
+    "placeId": "ncs-c1-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "15",
+    "x": 398.5,
+    "y": 624.0,
+    "placeId": "ncs-c1-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 684.5,
+    "y": 796.5,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "25",
+    "x": 67.0,
+    "y": 877.5,
+    "placeId": "ncs-c1-25",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 724.0,
+    "y": 908.5,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "5",
+    "x": 1191.5,
+    "y": 923.5,
+    "placeId": "ncs-c1-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "4",
+    "x": 1092.0,
+    "y": 967.5,
+    "placeId": "ncs-c1-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "22",
+    "x": 139.5,
+    "y": 1115.5,
+    "placeId": "ncs-c1-22",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 718.5,
+    "y": 1116.0,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "21",
+    "x": 45.0,
+    "y": 1174.5,
+    "placeId": "ncs-c1-21",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "3",
+    "x": 1057.5,
+    "y": 1227.5,
+    "placeId": "ncs-c1-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 695.0,
+    "y": 1231.5,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "2",
+    "x": 1281.5,
+    "y": 1238.5,
+    "placeId": "ncs-c1-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "20",
+    "x": 135.5,
+    "y": 1249.5,
+    "placeId": "ncs-c1-20",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "1",
+    "x": 1152.0,
+    "y": 1426.5,
+    "placeId": "ncs-c1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 725.0,
+    "y": 1442.5,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "18",
+    "x": 207.0,
+    "y": 1530.0,
+    "placeId": "ncs-c1-18",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C1",
+    "number": "14",
+    "x": 692.0,
+    "y": 1558.5,
+    "placeId": "ncs-c1-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "1",
+    "x": 595.5,
+    "y": 710.0,
+    "placeId": "ncs-c2-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "2",
+    "x": 679.5,
+    "y": 992.5,
+    "placeId": "ncs-c2-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "3",
+    "x": 1359.0,
+    "y": 1115.5,
+    "placeId": "ncs-c2-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "6",
+    "x": 1463.5,
+    "y": 1842.5,
+    "placeId": "ncs-c2-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "4",
+    "x": 342.5,
+    "y": 1978.0,
+    "placeId": "ncs-c2-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C2",
+    "number": "5",
+    "x": 970.5,
+    "y": 2000.5,
+    "placeId": "ncs-c2-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "4",
+    "x": 1340.5,
+    "y": 401.0,
+    "placeId": "ncs-c3-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "3",
+    "x": 491.5,
+    "y": 474.5,
+    "placeId": "ncs-c3-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "5",
+    "x": 1189.5,
+    "y": 937.5,
+    "placeId": "ncs-c3-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "6",
+    "x": 1139.0,
+    "y": 1208.5,
+    "placeId": "ncs-c3-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "9",
+    "x": 1357.5,
+    "y": 1270.5,
+    "placeId": "ncs-c3-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "10",
+    "x": 1451.5,
+    "y": 1271.0,
+    "placeId": "ncs-c3-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "2",
+    "x": 601.5,
+    "y": 1330.0,
+    "placeId": "ncs-c3-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "8",
+    "x": 1424.5,
+    "y": 1403.5,
+    "placeId": "ncs-c3-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "1",
+    "x": 352.5,
+    "y": 1412.5,
+    "placeId": "ncs-c3-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "7",
+    "x": 1102.5,
+    "y": 1448.0,
+    "placeId": "ncs-c3-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "12",
+    "x": 1065.5,
+    "y": 1787.0,
+    "placeId": "ncs-c3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "12",
+    "x": 733.0,
+    "y": 1817.5,
+    "placeId": "ncs-c3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "12",
+    "x": 389.5,
+    "y": 1883.5,
+    "placeId": "ncs-c3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C3",
+    "number": "12",
+    "x": 720.5,
+    "y": 1949.5,
+    "placeId": "ncs-c3-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "8",
+    "x": 1372.5,
+    "y": 112.5,
+    "placeId": "ncs-c4-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "7",
+    "x": 296.5,
+    "y": 267.5,
+    "placeId": "ncs-c4-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "2",
+    "x": 997.5,
+    "y": 286.5,
+    "placeId": "ncs-c4-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "3",
+    "x": 1508.5,
+    "y": 370.5,
+    "placeId": "ncs-c4-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "3",
+    "x": 306.0,
+    "y": 822.5,
+    "placeId": "ncs-c4-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "6",
+    "x": 134.0,
+    "y": 866.0,
+    "placeId": "ncs-c4-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "12",
+    "x": 1129.0,
+    "y": 1138.0,
+    "placeId": "ncs-c4-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "1",
+    "x": 413.5,
+    "y": 1209.5,
+    "placeId": "ncs-c4-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "9",
+    "x": 691.5,
+    "y": 1285.0,
+    "placeId": "ncs-c4-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "1",
+    "x": 1325.0,
+    "y": 1540.5,
+    "placeId": "ncs-c4-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "19",
+    "x": 846.5,
+    "y": 1553.5,
+    "placeId": "ncs-c4-19",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "10",
+    "x": 1100.5,
+    "y": 1758.5,
+    "placeId": "ncs-c4-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "13",
+    "x": 141.0,
+    "y": 1896.5,
+    "placeId": "ncs-c4-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C4",
+    "number": "15",
+    "x": 680.0,
+    "y": 1927.5,
+    "placeId": "ncs-c4-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "12",
+    "x": 1328.0,
+    "y": 110.5,
+    "placeId": "ncs-c5-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "11",
+    "x": 1471.5,
+    "y": 244.5,
+    "placeId": "ncs-c5-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "3",
+    "x": 216.5,
+    "y": 304.0,
+    "placeId": "ncs-c5-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "5",
+    "x": 669.5,
+    "y": 367.0,
+    "placeId": "ncs-c5-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "6",
+    "x": 916.0,
+    "y": 367.5,
+    "placeId": "ncs-c5-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "1",
+    "x": 257.5,
+    "y": 784.0,
+    "placeId": "ncs-c5-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "1",
+    "x": 32.5,
+    "y": 817.5,
+    "placeId": "ncs-c5-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "10",
+    "x": 1187.0,
+    "y": 825.5,
+    "placeId": "ncs-c5-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "7",
+    "x": 774.5,
+    "y": 847.5,
+    "placeId": "ncs-c5-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "1",
+    "x": 261.0,
+    "y": 952.5,
+    "placeId": "ncs-c5-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "9",
+    "x": 1262.5,
+    "y": 1283.5,
+    "placeId": "ncs-c5-9",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "2",
+    "x": 212.5,
+    "y": 1308.5,
+    "placeId": "ncs-c5-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C5",
+    "number": "4",
+    "x": 802.5,
+    "y": 1322.5,
+    "placeId": "ncs-c5-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "11",
+    "x": 475.5,
+    "y": 96.5,
+    "placeId": "ncs-c6-11",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "14",
+    "x": 917.5,
+    "y": 98.0,
+    "placeId": "ncs-c6-14",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "13",
+    "x": 600.5,
+    "y": 133.5,
+    "placeId": "ncs-c6-13",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "15",
+    "x": 781.0,
+    "y": 145.0,
+    "placeId": "ncs-c6-15",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "10",
+    "x": 224.5,
+    "y": 183.5,
+    "placeId": "ncs-c6-10",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "12",
+    "x": 482.5,
+    "y": 359.5,
+    "placeId": "ncs-c6-12",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "4",
+    "x": 1349.5,
+    "y": 858.5,
+    "placeId": "ncs-c6-4",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "6",
+    "x": 1049.5,
+    "y": 916.5,
+    "placeId": "ncs-c6-6",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "7",
+    "x": 1125.5,
+    "y": 1009.5,
+    "placeId": "ncs-c6-7",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "2",
+    "x": 1477.0,
+    "y": 1050.0,
+    "placeId": "ncs-c6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "8",
+    "x": 913.5,
+    "y": 1135.5,
+    "placeId": "ncs-c6-8",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "5",
+    "x": 305.5,
+    "y": 1176.5,
+    "placeId": "ncs-c6-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "2",
+    "x": 1406.5,
+    "y": 1196.0,
+    "placeId": "ncs-c6-2",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "5",
+    "x": 446.5,
+    "y": 1345.5,
+    "placeId": "ncs-c6-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "5",
+    "x": 266.5,
+    "y": 1394.5,
+    "placeId": "ncs-c6-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "5",
+    "x": 514.0,
+    "y": 1469.5,
+    "placeId": "ncs-c6-5",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "C6",
+    "number": "1",
+    "x": 1002.5,
+    "y": 1485.0,
+    "placeId": "ncs-c6-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "E1",
+    "number": "1",
+    "x": 120.5,
+    "y": 643.5,
+    "placeId": "ncs-e1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "E1",
+    "number": "3",
+    "x": 676.0,
+    "y": 695.0,
+    "placeId": "ncs-e1-3",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "F1",
+    "number": "1",
+    "x": 617.0,
+    "y": 311.0,
+    "placeId": "ncs-f1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "H1",
+    "number": "1",
+    "x": 398.0,
+    "y": 167.5,
+    "placeId": "ncs-h1-1",
+    "basis": "sourcebook-number-visually-checked"
+  },
+  {
+    "plan": "H1",
+    "number": "4",
+    "x": 801.5,
+    "y": 286.0,
+    "placeId": "ncs-h1-4",
+    "basis": "sourcebook-number-visually-checked"
+  }
+]
