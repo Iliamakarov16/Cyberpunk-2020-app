@@ -1,0 +1,37 @@
+{
+  "version": "0.3.0",
+  "schemaVersion": 1,
+  "runtime_files": {
+    "index.html": {
+      "bytes": 992,
+      "sha256": "8d5b402ef9bbcd1c1f83b5c95f9d08982202f60cc04d80f5159a229d29b5d050"
+    },
+    "style.css": {
+      "bytes": 19433,
+      "sha256": "c96a4e2d9beeac11ded0e7c869073cb060737c05790ea4da23187dcabc3c04dc"
+    },
+    "app.mjs": {
+      "bytes": 62196,
+      "sha256": "bc308c064cd769656a15db58d4456204e20649775e2c826bcb8a5b33ed01a2c6"
+    },
+    "model.mjs": {
+      "bytes": 39321,
+      "sha256": "aa972f79d561ff2fd41e63abe9c20a6ca6896babde8103d760b0ec72786c17dc"
+    },
+    "data.mjs": {
+      "bytes": 31212,
+      "sha256": "5adfea907e917aa33600ca2549e93b58957b499fa8dca17fb80ad31b533f8f20"
+    },
+    "qa.html": {
+      "bytes": 1280,
+      "sha256": "4cc38fcc0179848e9cbc80ce2f7fd4dd326ccd8fd42fa7bdd557e1ff8511a2f2"
+    },
+    "qa.mjs": {
+      "bytes": 315,
+      "sha256": "412eab95658480ea8767de2b70f372185a6689a01b811fadbed0d9d965504776"
+    }
+  },
+  "tests_passed": 95,
+  "publication": "not performed",
+  "browser_qa": "pending independent parent review"
+}

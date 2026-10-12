@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "previewVersion": "0.3.0",
+  "scope": "Isolated synthetic browser-local onboarding preview; not production authentication or multiplayer.",
+  "runtimeManifest": "qa/runtime-manifest-030.json",
+  "runtimeManifestSHA256": "56449384472aae055b702a49e9d7df6a847323d0909f2d91fd449d9560bb4bca",
+  "sourceBaseline": "Night City Crew 0.17.7 creation rules/catalogue",
+  "publishedPreviewURL": "https://nc-crew-onboarding.adamantispolaris.chatgpt.site/",
+  "publishedSourceCommit": "c3e50994895f5e1c8731b3bc89fc40ca22e41d1f",
+  "publicationUTC": "2026-10-12T03:07:30Z",
+  "publisherVerification": {
+    "sourceModelDOMTests": 95,
+    "independentCashCombinations": 3960,
+    "independentFlowComparisons": 19,
+    "browser": "Supported desktop browser, mobile-sized viewports; role selection and layout verified.",
+    "physicalIPhoneTest": false
+  },
+  "repositoryPackagingChanges": [
+    "Portable jsdom imports in tests/ui.test.mjs and tests/roles.test.mjs; no assertion changes.",
+    "README cleaned of local paths and stale unpublished status.",
+    "Added scoped .gitignore and this source provenance."
+  ],
+  "excluded": [
+    "Browser screenshots",
+    "Internal browser reports and build logs",
+    "Temporary inspector scripts",
+    "Private hosting identity/configuration",
+    "Archives",
+    "Real user or campaign data",
+    "Credentials",
+    "Signing material"
+  ],
+  "productionFilesModified": false,
+  "authenticationChanged": false,
+  "designReviewStatus": {
+    "checkpointOnly": true,
+    "tutorialVisualTreatment": "Not approved: the inline Henri call is awaiting revision toward an in-world 2020 mobile-game-style tutorial.",
+    "roleCards": "Not rejected by the latest feedback; no blanket final-design approval claimed.",
+    "furtherTutorialPublication": "This inline design remains unapproved; subsequent separate call experiments are not included in this checkpoint."
+  },
+  "repositoryBaseCommit": "8ec5d06f115495516593e354f6927677934250f3",
+  "repositoryIntegration": "Separate preview/onboarding-0.3-checkpoint branch; preserves the repository owner's Mac-host and login changes."
+}

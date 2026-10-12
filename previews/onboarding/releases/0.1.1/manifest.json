@@ -1,0 +1,30 @@
+{
+  "index.html": {
+    "bytes": 992,
+    "sha256": "84cacbb24722d7c68f2275c4a3db3b10b5ef88d3e732d1497a9bf9a3536de0ee"
+  },
+  "style.css": {
+    "bytes": 11033,
+    "sha256": "e2c45f44a400260b60e097d3193e521459590a67986ce0f548e77328382b7934"
+  },
+  "app.mjs": {
+    "bytes": 36689,
+    "sha256": "a624930f7bb8e48f7e35e7e5d72426b60b64e8fa1e5357f0d65a72c834c00577"
+  },
+  "model.mjs": {
+    "bytes": 31541,
+    "sha256": "44da941c23eefc41b865e7c6460da84dbd5243e08110512dfb4f03b6c0a4edb1"
+  },
+  "data.mjs": {
+    "bytes": 31212,
+    "sha256": "5adfea907e917aa33600ca2549e93b58957b499fa8dca17fb80ad31b533f8f20"
+  },
+  "qa.html": {
+    "bytes": 1280,
+    "sha256": "4cc38fcc0179848e9cbc80ce2f7fd4dd326ccd8fd42fa7bdd557e1ff8511a2f2"
+  },
+  "qa.mjs": {
+    "bytes": 315,
+    "sha256": "412eab95658480ea8767de2b70f372185a6689a01b811fadbed0d9d965504776"
+  }
+}
